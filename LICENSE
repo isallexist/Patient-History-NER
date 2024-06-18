@@ -1,13 +1,14 @@
-MIT License
+Copyright (c) 2024 Zhuqi Miao
 
-Copyright (c) 2024 isallexist
+This set of code implements the models presented in the research article "Extracting
+Patient History from Clinical Text: A Comparative Study of Transformer-Based 
+Clinical Language Models" and pertinent to the following U.S. patent application: 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+"Chen, S., Miao, Z., Thieu, T., Gin, A. and Paiva, W., Board of Regents for Oklahoma
+Agricultural and Mechanical Colleges, 2024. Method and system for medical coding and 
+billing. U.S. Patent Application 18/481,822."
+
+All rights reserved. Commercial use is not permitted. 
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
