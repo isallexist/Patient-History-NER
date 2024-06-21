@@ -1,0 +1,800 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+5	O	O	O
+description	O	O	O
+:	O	O	O
+patient	O	O	O
+with	O	O	O
+swelling	O	B-problem	O
+of	O	I-problem	O
+lips	O	I-problem	O
+and	O	O	O
+dysphagia	O	B-problem	O
+and	O	O	O
+arthritis	O	B-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+swelling	B-cc	B-problem	O
+of	I-cc	I-problem	O
+lips	I-cc	I-problem	O
+causing	O	O	O
+difficulty	B-hpi.assocSignsAndSymptoms	B-problem	O
+swallowing	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+57	O	O	B-temporal
+-	O	O	I-temporal
+year	O	O	I-temporal
+old	O	O	O
+white	O	O	O
+cuban	O	O	O
+woman	O	O	O
+with	O	O	O
+a	O	O	O
+long	O	O	O
+history	O	O	O
+of	O	O	O
+rheumatoid	B-pastHistory	B-problem	O
+arthritis	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+received	O	O	O
+methotrexate	B-pastHistory	B-drug	O
+on	O	O	O
+a	O	O	O
+weekly	O	O	O
+basis	O	O	O
+as	O	O	O
+an	O	O	O
+outpatient	O	O	O
+for	O	O	O
+many	O	O	B-temporal
+years	O	O	O
+.	O	O	O
+
+
+approximately	O	O	O
+two	O	O	B-temporal
+weeks	O	O	I-temporal
+ago	O	O	O
+,	O	O	O
+she	O	O	O
+developed	B-hpi.context	O	O
+a	I-hpi.context	O	O
+respiratory	I-hpi.context	B-problem	B-bodyloc
+infection	I-hpi.context	I-problem	O
+for	I-hpi.context	O	O
+which	I-hpi.context	O	O
+she	I-hpi.context	O	O
+received	I-hpi.context	O	O
+antibiotics	I-hpi.context	B-drug	O
+.	O	O	O
+
+
+she	O	O	O
+developed	O	O	O
+some	O	O	O
+ulcerations	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+mouth	O	I-problem	B-bodyloc
+and	O	O	O
+was	O	O	O
+instructed	O	O	O
+to	O	O	O
+discontinue	B-pastHistory	O	O
+the	I-pastHistory	O	O
+methotrexate	I-pastHistory	B-drug	O
+approximately	O	O	O
+ten	B-hpi.duration	O	O
+days	I-hpi.duration	O	B-temporal
+ago	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+she	O	O	O
+showed	O	O	O
+some	O	O	O
+initial	B-hpi.quality	O	O
+improvement	I-hpi.quality	O	O
+,	O	O	O
+but	O	O	O
+over	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+3	I-hpi.duration	O	B-temporal
+-	I-hpi.duration	O	I-temporal
+5	I-hpi.duration	O	I-temporal
+days	I-hpi.duration	O	I-temporal
+has	O	O	O
+had	O	O	O
+malaise	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+a	B-hpi.assocSignsAndSymptoms	O	O
+low	I-hpi.assocSignsAndSymptoms	B-problem	O
+-	I-hpi.assocSignsAndSymptoms	I-problem	O
+grade	I-hpi.assocSignsAndSymptoms	I-problem	O
+fever	I-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+and	O	O	O
+severe	O	B-problem	B-severity
+oral	B-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+ulcerations	I-hpi.assocSignsAndSymptoms	I-problem	O
+with	I-hpi.assocSignsAndSymptoms	O	O
+difficulty	I-hpi.assocSignsAndSymptoms	B-problem	O
+in	I-hpi.assocSignsAndSymptoms	I-problem	O
+swallowing	I-hpi.assocSignsAndSymptoms	I-problem	O
+although	O	O	O
+she	O	O	O
+can	O	O	O
+drink	B-hpi.assocSignsAndSymptoms	O	O
+liquids	I-hpi.assocSignsAndSymptoms	O	O
+with	I-hpi.assocSignsAndSymptoms	O	O
+less	I-hpi.assocSignsAndSymptoms	O	O
+difficulty	I-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+other	O	B-problem	O
+problems	O	I-problem	O
+at	O	O	O
+this	O	O	B-temporal
+point	O	O	O
+except	O	O	O
+for	O	O	O
+a	B-hpi.assocSignsAndSymptoms	O	O
+flare	I-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+arthritis	I-hpi.assocSignsAndSymptoms	I-problem	O
+since	O	O	O
+discontinuing	O	O	O
+the	O	O	O
+methotrexate	O	B-drug	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+rather	O	O	O
+diffuse	B-hpi.quality	B-problem	O
+pain	I-hpi.quality	I-problem	O
+involving	O	O	O
+both	O	O	O
+large	O	O	O
+and	O	O	O
+small	O	O	O
+joints	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+prednisone	B-pastHistory	B-drug	O
+7	O	O	O
+.	O	O	O
+5	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+q	O	O	B-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+,	O	O	O
+premarin	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+125	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+q	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+and	O	O	O
+dolobid	B-pastHistory	B-drug	O
+1000	O	O	B-temporal
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+q	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+recently	O	O	O
+discontinued	O	O	O
+because	O	O	O
+of	O	O	O
+questionable	O	O	O
+allergic	O	B-problem	O
+reaction	O	I-problem	O
+.	O	O	O
+
+
+hctz	B-pastHistory	B-drug	O
+25	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+q	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+oral	B-pastHistory	O	O
+calcium	I-pastHistory	B-drug	O
+supplements	I-pastHistory	I-drug	O
+.	O	O	O
+
+
+in	O	O	O
+the	O	O	O
+past	O	O	O
+she	O	O	O
+has	O	O	O
+been	O	O	O
+on	O	O	O
+penicillin	B-pastHistory	B-drug	O
+,	O	O	O
+azathioprine	B-pastHistory	B-drug	O
+,	O	O	O
+and	O	O	O
+hydroxychloroquine	B-pastHistory	B-drug	O
+,	O	O	O
+but	O	O	O
+she	O	O	O
+has	O	O	O
+not	O	O	O
+had	O	O	O
+azulfidine	O	B-drug	O
+,	O	O	O
+cyclophosphamide	O	B-drug	O
+,	O	O	O
+or	O	O	O
+chlorambucil	O	B-drug	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+none	O	O	O
+by	O	O	O
+history	O	O	O
+.	O	O	O
+
+
+family	O	O	O
+/	O	O	O
+social	O	O	O
+history	O	O	O
+:	O	O	O
+noncontributory	O	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+chronically	O	B-problem	O
+ill	O	O	O
+appearing	O	O	O
+female	O	O	O
+,	O	O	O
+alert	O	O	O
+,	O	O	O
+oriented	O	O	O
+,	O	O	O
+and	O	O	O
+cooperative	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+moves	O	O	O
+with	O	O	O
+great	O	O	O
+difficulty	O	B-problem	O
+because	O	O	O
+of	O	O	O
+fatigue	O	B-problem	O
+and	O	O	O
+malaise	O	B-problem	O
+.	O	O	O
+
+
+vital	O	B-test	O
+signs	O	I-test	O
+:	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+107	O	O	O
+/	O	O	O
+80	O	O	O
+,	O	O	O
+heart	O	B-test	O
+rate	O	I-test	O
+:	O	O	O
+100	O	O	O
+and	O	O	O
+regular	O	O	O
+,	O	O	O
+respirations	O	B-test	O
+22	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+normocephalic	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+scalp	O	B-problem	B-bodyloc
+lesions	O	I-problem	O
+.	O	O	O
+
+
+dry	O	B-problem	O
+eyes	O	I-problem	B-bodyloc
+with	O	O	O
+conjuctival	O	B-treatment	O
+injections	O	O	O
+.	O	O	O
+
+
+mild	O	B-problem	B-severity
+exophthalmos	O	I-problem	O
+.	O	O	O
+
+
+dry	O	B-problem	O
+nasal	O	I-problem	B-bodyloc
+mucosa	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+marked	O	B-problem	B-severity
+cracking	O	O	O
+and	O	O	O
+bleeding	O	B-problem	O
+of	O	I-problem	O
+her	O	I-problem	O
+lips	O	I-problem	O
+with	O	O	O
+erosion	O	B-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+mucosa	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+a	O	O	O
+large	O	B-problem	O
+ulceration	O	I-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+mucosa	O	I-problem	O
+at	O	O	O
+the	O	O	O
+bite	O	O	O
+margin	O	O	O
+on	O	O	O
+the	O	O	O
+left	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+some	O	O	O
+scattered	O	O	O
+ulcerations	O	B-problem	O
+on	O	I-problem	O
+her	O	I-problem	O
+hard	O	I-problem	O
+and	O	O	O
+soft	O	O	O
+palette	O	O	O
+.	O	O	O
+
+
+tonsils	O	O	O
+not	O	O	O
+enlarged	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+visible	O	B-problem	O
+exudate	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+difficulty	O	B-problem	O
+opening	O	I-problem	O
+her	O	I-problem	O
+mouth	O	I-problem	B-bodyloc
+because	O	O	O
+of	O	O	O
+pain	O	B-problem	O
+.	O	O	O
+
+
+skin	O	O	B-bodyloc
+:	O	O	O
+she	O	O	O
+has	O	O	O
+some	O	B-problem	O
+mild	O	I-problem	B-severity
+ecchymoses	O	I-problem	O
+on	O	I-problem	O
+her	O	O	O
+skin	O	O	B-bodyloc
+and	O	O	O
+some	O	B-problem	O
+erythema	O	I-problem	O
+;	O	O	O
+she	O	O	O
+has	O	O	O
+patches	O	B-problem	O
+but	O	O	O
+no	O	O	O
+obvious	O	O	O
+skin	O	B-problem	B-bodyloc
+breakdown	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+some	O	B-treatment	O
+fissuring	O	I-treatment	O
+in	O	I-treatment	O
+the	O	I-treatment	O
+buttocks	O	I-treatment	B-bodyloc
+crease	O	I-treatment	O
+.	O	O	O
+
+
+pulmonary	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+percussion	O	B-test	O
+in	O	O	O
+auscultation	O	B-test	O
+.	O	O	O
+
+
+cardiovascular	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+murmurs	O	B-problem	O
+or	O	O	O
+gallops	O	B-problem	O
+noted	O	O	O
+.	O	O	O
+
+
+abdomen	O	O	B-bodyloc
+:	O	O	O
+protuberant	O	B-problem	O
+no	O	O	O
+organomegaly	O	B-problem	O
+and	O	O	O
+positive	O	O	O
+bowel	O	O	O
+sounds	O	O	O
+.	O	O	O
+
+
+neurologic	O	B-test	O
+exam	O	I-test	O
+:	O	O	O
+cranial	O	O	O
+nerves	O	O	O
+ii	O	O	O
+through	O	O	O
+xii	O	O	O
+are	O	O	O
+grossly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+diffuse	O	B-problem	O
+hyporeflexia	O	I-problem	O
+.	O	O	O
+
+
+musculoskelatal	O	O	B-bodyloc
+:	O	O	O
+erosive	O	B-problem	O
+,	O	O	O
+destructive	O	B-problem	O
+changes	O	I-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+elbows	O	I-problem	O
+,	O	I-problem	O
+wrist	O	I-problem	O
+and	O	I-problem	O
+hands	O	I-problem	B-bodyloc
+consistent	O	O	O
+with	O	O	O
+rheumatoid	O	B-problem	O
+arthritis	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+has	O	O	O
+bilateral	O	B-problem	O
+total	O	I-problem	O
+knee	O	I-problem	B-bodyloc
+replacements	O	I-problem	O
+with	O	O	O
+stovepipe	O	O	O
+legs	O	B-treatment	O
+and	O	O	O
+parimalleolar	O	O	O
+pitting	O	O	O
+adema	O	B-problem	O
+1	O	O	O
++	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+feel	O	O	O
+no	O	O	O
+pulse	O	B-test	O
+distally	O	O	O
+in	O	O	O
+either	O	O	O
+leg	O	O	O
+.	O	O	O
+
+
+problems	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+swelling	O	B-problem	O
+of	O	I-problem	O
+lips	O	I-problem	O
+and	O	O	O
+dysphagia	O	B-problem	O
+with	O	O	O
+questionable	O	O	O
+early	O	O	O
+stevens	O	B-problem	O
+-	O	I-problem	O
+johnson	O	I-problem	O
+syndrome	O	I-problem	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+rheumatoid	O	B-problem	O
+arthritis	O	I-problem	O
+class	O	O	O
+3	O	O	O
+,	O	O	O
+stage	O	O	O
+4	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+flare	O	B-problem	O
+of	O	I-problem	O
+arthritis	O	I-problem	O
+after	O	O	O
+discontinuing	O	O	O
+methotrexate	O	B-drug	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+osteoporosis	O	B-problem	O
+with	O	O	O
+compression	O	B-problem	O
+fracture	O	I-problem	O
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+
+
+mild	O	B-problem	B-severity
+dehydration	O	I-problem	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+nephrolithiasis	O	B-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+patient	O	O	O
+is	O	O	O
+admitted	O	O	O
+for	O	O	O
+iv	O	B-treatment	O
+hydration	O	I-treatment	O
+and	O	O	O
+treatment	O	B-treatment	O
+of	O	O	O
+oral	O	B-problem	B-bodyloc
+ulcerations	O	I-problem	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+obtain	O	O	O
+a	O	O	O
+dermatology	O	O	O
+consult	O	O	O
+.	O	O	O
+
+
+iv	O	O	O
+leucovorin	O	B-drug	O
+will	O	O	O
+be	O	O	O
+started	O	O	O
+,	O	O	O
+and	O	O	O
+the	O	O	O
+patient	O	O	O
+will	O	O	O
+be	O	O	O
+put	O	O	O
+on	O	O	O
+high	O	B-treatment	O
+-	O	I-treatment	O
+dose	O	I-treatment	O
+corticosteroids	O	I-treatment	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+swelling	O	B-problem	O
+,	O	O	O
+iv	O	B-treatment	O
+hydration	O	I-treatment	O
+,	O	O	O
+osteoporosis	O	B-problem	O
+,	O	O	O
+swelling	O	B-problem	O
+of	O	I-problem	O
+lips	O	I-problem	O
+,	O	O	O
+allergic	O	B-problem	O
+reaction	O	I-problem	O
+,	O	O	O
+arthritis	O	B-problem	O
+,	O	O	O
+difficulty	O	B-problem	O
+swallowing	O	I-problem	O
+,	O	O	O
+leucovorin	O	B-drug	O
+,	O	O	O
+low	O	B-problem	O
+-	O	I-problem	O
+grade	O	I-problem	O
+fever	O	I-problem	O
+,	O	O	O
+methotrexate	O	B-drug	O
+,	O	O	O
+respiratory	O	B-problem	B-bodyloc
+infection	O	I-problem	O
+,	O	O	O
+rheumatoid	O	B-problem	O
+arthritis	O	I-problem	O
+,	O	O	O
+flare	O	B-problem	O
+of	O	I-problem	O
+arthritis	O	I-problem	O
+,	O	O	O
+rheumatoid	O	B-problem	O
+,	O	O	O
+mucosa	O	O	O
+,	O	O	O
+dysphagia	O	B-problem	O
+,	O	O	O
+
+

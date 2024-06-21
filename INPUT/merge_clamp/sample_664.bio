@@ -1,0 +1,947 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+h	O	O	O
+&	O	O	O
+p	O	O	O
+-	O	O	O
+gen	O	O	O
+med	O	O	O
+-	O	O	O
+1	O	O	O
+description	O	O	O
+:	O	O	O
+an	O	O	O
+85	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+with	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+vomiting	O	B-problem	O
+,	O	O	O
+and	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+diarrhea	B-cc	B-problem	O
+,	O	O	O
+vomiting	B-cc	B-problem	O
+,	O	O	O
+and	O	O	O
+abdominal	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+an	O	O	O
+85	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+who	O	O	O
+presents	O	O	O
+with	O	O	O
+a	O	O	O
+chief	O	B-problem	O
+complaint	O	I-problem	O
+as	O	O	O
+described	O	O	O
+above	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+very	O	O	O
+poor	B-hpi.assocSignsAndSymptoms	O	O
+historian	I-hpi.assocSignsAndSymptoms	O	O
+and	O	O	O
+is	O	O	O
+extremely	O	O	O
+hard	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+hearing	I-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+and	O	O	O
+therefore	O	O	O
+,	O	O	O
+very	O	O	O
+little	O	O	O
+history	O	O	O
+is	O	O	O
+available	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+found	O	O	O
+by	O	O	O
+ems	O	O	O
+sitting	O	O	O
+on	O	O	O
+the	O	O	O
+toilet	O	O	O
+having	O	O	O
+diarrhea	B-cc	B-problem	O
+,	O	O	O
+and	O	O	O
+apparently	O	O	O
+had	O	O	O
+also	O	O	O
+just	O	O	O
+vomited	B-cc	O	O
+.	O	O	O
+
+
+upon	O	O	O
+my	O	O	O
+questioning	O	O	O
+of	O	O	O
+the	O	O	O
+patient	O	O	O
+,	O	O	O
+she	O	O	O
+can	O	O	O
+confirm	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+been	O	O	O
+sick	B-hpi.assocSignsAndSymptoms	B-problem	O
+to	I-hpi.assocSignsAndSymptoms	I-problem	O
+her	I-hpi.assocSignsAndSymptoms	I-problem	O
+stomach	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+and	O	O	O
+has	O	O	O
+vomited	B-cc	O	O
+.	O	O	O
+she	O	O	O
+cannot	O	O	O
+tell	O	O	O
+me	O	O	O
+how	O	O	O
+many	O	O	B-temporal
+times	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+also	O	O	O
+unable	O	O	O
+to	O	O	O
+describe	O	O	O
+the	O	O	O
+vomitus	O	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+tells	O	O	O
+me	O	O	O
+that	O	O	O
+her	O	O	O
+belly	B-hpi.assocSignsAndSymptoms	O	O
+has	I-hpi.assocSignsAndSymptoms	B-problem	O
+been	I-hpi.assocSignsAndSymptoms	I-problem	O
+hurting	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+i	O	O	O
+am	O	O	B-temporal
+unable	O	O	O
+to	O	O	O
+get	O	O	O
+any	O	O	O
+further	O	O	O
+history	O	O	O
+from	O	O	O
+the	O	O	O
+patient	O	O	O
+because	O	O	O
+,	O	O	O
+again	O	O	O
+,	O	O	O
+she	O	O	O
+is	O	O	O
+an	O	O	O
+extremely	O	O	O
+poor	O	O	O
+historian	O	O	O
+and	O	O	O
+very	O	B-problem	O
+hard	O	I-problem	O
+of	O	O	O
+hearing	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+per	O	O	O
+the	O	O	O
+er	O	O	O
+documentation	O	O	O
+is	O	O	O
+hypertension	B-pastHistory	B-problem	O
+,	O	O	O
+diverticulosis	B-pastHistory	B-problem	O
+,	O	O	O
+blindness	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+sciatica	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+lorazepam	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+5	O	O	O
+mg	O	O	O
+,	O	O	O
+dosing	O	O	O
+interval	O	O	O
+is	O	O	O
+not	O	O	O
+noted	O	O	O
+;	O	O	O
+tylenol	B-pastHistory	B-treatment	O
+pm	O	I-treatment	O
+;	O	O	O
+klor	O	B-treatment	O
+-	O	I-treatment	O
+con	O	I-treatment	O
+10	O	O	O
+meq	O	O	O
+;	O	O	O
+lexapro	B-pastHistory	B-drug	O
+;	O	O	O
+calcium	B-pastHistory	B-treatment	O
+with	I-pastHistory	B-drug	O
+vitamin	I-pastHistory	I-treatment	O
+d	I-pastHistory	I-treatment	O
+.	O	O	O
+allergies	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+allergic	O	B-problem	O
+to	O	O	O
+penicillin	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+unknown	O	O	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+also	O	O	O
+unknown	O	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+unobtainable	O	O	O
+secondary	O	O	O
+to	O	O	O
+the	O	B-problem	O
+patient	O	I-problem	O
+'	O	I-problem	O
+s	O	I-problem	O
+condition	O	I-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+pulse	O	B-test	O
+80	O	O	O
+.	O	O	O
+
+
+respiratory	O	B-test	O
+rate	O	I-test	O
+18	O	O	O
+.	O	O	O
+
+
+blood	O	B-test	O
+pressure	O	I-test	O
+130	O	O	O
+/	O	O	O
+80	O	O	O
+.	O	O	O
+
+
+temperature	O	B-test	O
+97	O	O	O
+.	O	O	O
+6	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+elderly	O	O	O
+black	O	O	O
+female	O	O	O
+who	O	O	O
+is	O	O	O
+initially	O	O	O
+sleeping	O	O	O
+upon	O	O	O
+my	O	O	O
+evaluation	O	B-test	O
+,	O	O	O
+but	O	O	O
+is	O	O	O
+easily	O	O	O
+arousable	O	O	O
+.	O	O	O
+neck	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+jvd	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+thyromegaly	O	B-problem	O
+.	O	O	O
+
+
+ears	O	O	O
+,	O	O	O
+nose	O	O	O
+,	O	O	O
+and	O	O	O
+throat	O	O	O
+:	O	O	O
+her	O	O	O
+oropharynx	O	O	O
+is	O	O	O
+dry	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+hearing	O	O	O
+is	O	O	O
+very	O	O	O
+diminished	O	B-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+no	O	O	O
+lower	O	B-problem	B-bodyloc
+extremity	O	I-problem	I-bodyloc
+edema	O	I-problem	O
+.	O	O	O
+
+
+gi	O	O	B-bodyloc
+:	O	O	O
+mild	O	O	B-severity
+epigastric	O	B-problem	B-bodyloc
+tenderness	O	I-problem	O
+to	O	O	O
+palpation	O	B-test	O
+without	O	O	O
+guarding	O	B-problem	O
+or	O	O	O
+rebound	O	B-problem	O
+.	O	O	O
+
+
+bowel	O	O	O
+sounds	O	O	O
+are	O	O	O
+normoactive	O	O	O
+.	O	O	O
+
+
+respiratory	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+bilaterally	O	O	O
+with	O	O	O
+a	O	O	O
+normal	O	O	O
+effort	O	O	O
+.	O	O	O
+
+
+skin	O	O	B-bodyloc
+:	O	O	O
+warm	O	O	O
+,	O	O	O
+dry	O	O	O
+,	O	O	O
+no	O	O	O
+erythema	O	B-problem	O
+.	O	O	O
+
+
+neurological	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+attempts	O	O	O
+to	O	O	O
+answer	O	O	O
+questions	O	O	O
+when	O	O	O
+asked	O	O	O
+,	O	O	O
+but	O	O	O
+is	O	O	O
+very	O	O	O
+hard	O	O	O
+of	O	O	O
+hearing	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+seen	O	O	O
+to	O	O	O
+move	O	O	O
+all	O	O	O
+extremities	O	O	O
+spontaneously	O	O	O
+.	O	O	O
+
+
+diagnostic	O	O	O
+data	O	O	O
+:	O	O	O
+white	O	B-test	O
+count	O	I-test	O
+9	O	O	O
+.	O	O	O
+6	O	O	O
+,	O	O	O
+hemoglobin	O	B-test	O
+15	O	O	O
+.	O	O	O
+9	O	O	O
+,	O	O	O
+hematocrit	O	B-test	O
+48	O	O	O
+.	O	O	O
+2	O	O	O
+,	O	O	O
+platelet	O	B-test	O
+count	O	I-test	O
+345	O	O	O
+,	O	O	O
+ptt	O	B-test	O
+24	O	O	O
+,	O	O	O
+pt	O	B-test	O
+13	O	O	O
+.	O	O	O
+3	O	O	O
+,	O	O	O
+inr	O	B-test	O
+0	O	O	O
+.	O	O	O
+99	O	O	O
+,	O	O	O
+sodium	O	B-test	O
+135	O	O	O
+,	O	O	O
+potassium	O	B-test	O
+3	O	O	O
+.	O	O	O
+3	O	O	O
+,	O	O	O
+chloride	O	B-test	O
+95	O	O	O
+,	O	O	O
+bicarb	O	B-test	O
+20	O	O	O
+,	O	O	O
+bun	O	B-test	O
+54	O	O	O
+,	O	O	O
+creatinine	O	B-test	O
+2	O	O	O
+.	O	O	O
+2	O	O	O
+,	O	O	O
+glucose	O	B-test	O
+165	O	O	O
+,	O	O	O
+calcium	O	B-test	O
+10	O	O	O
+.	O	O	O
+3	O	O	O
+,	O	O	O
+magnesium	O	B-test	O
+2	O	O	O
+.	O	O	O
+5	O	O	O
+,	O	O	O
+total	O	B-test	O
+protein	O	I-test	O
+8	O	O	O
+.	O	O	O
+2	O	O	O
+,	O	O	O
+albumin	O	B-test	O
+3	O	O	O
+.	O	O	O
+8	O	O	O
+,	O	O	O
+ast	O	B-test	O
+33	O	O	O
+,	O	O	O
+alt	O	B-test	O
+26	O	O	O
+,	O	O	O
+alkaline	O	B-test	O
+phosphatase	O	I-test	O
+92	O	O	O
+.	O	O	O
+
+
+cardiac	O	B-test	O
+isoenzymes	O	I-test	O
+negative	O	O	O
+x1	O	O	B-temporal
+.	O	O	O
+
+
+ekg	O	B-test	O
+shows	O	O	O
+sinus	O	O	O
+rhythm	O	O	O
+with	O	O	O
+a	O	B-test	O
+rate	O	I-test	O
+of	O	O	O
+96	O	O	O
+and	O	O	O
+a	O	O	O
+prolonged	O	B-problem	O
+qt	O	I-problem	O
+interval	O	I-problem	O
+.	O	O	O
+
+
+assessment	O	O	O
+and	O	O	O
+plan	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+pancreatitis	O	B-problem	O
+.	O	O	O
+will	O	O	O
+treat	O	O	O
+symptomatically	O	O	O
+with	O	O	O
+morphine	O	B-drug	O
+and	O	O	O
+zofran	O	B-drug	O
+,	O	O	O
+and	O	O	O
+also	O	O	O
+iv	O	B-treatment	O
+fluids	O	I-treatment	O
+.	O	O	O
+will	O	O	O
+keep	O	O	O
+npo	O	B-treatment	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+diarrhea	O	B-problem	O
+.	O	O	O
+will	O	O	O
+check	O	O	O
+stool	O	B-test	O
+studies	O	I-test	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+volume	O	B-problem	O
+depletion	O	I-problem	O
+.	O	O	O
+
+
+iv	O	B-treatment	O
+fluids	O	I-treatment	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+hyperglycemia	O	B-problem	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+unknown	O	O	O
+whether	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+diabetic	O	B-problem	O
+.	O	O	O
+
+
+i	O	O	O
+will	O	O	O
+treat	O	O	O
+her	O	O	O
+with	O	O	O
+sliding	O	B-treatment	O
+scale	O	I-treatment	O
+insulin	O	I-treatment	O
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+.	O	O	O
+
+
+if	O	O	O
+the	O	O	O
+patient	O	O	O
+takes	O	O	O
+blood	O	B-treatment	O
+pressure	O	I-treatment	O
+medications	O	O	O
+,	O	O	O
+it	O	O	O
+is	O	O	O
+not	O	O	O
+listed	O	O	O
+on	O	O	O
+the	O	O	O
+only	O	O	O
+medication	O	B-treatment	O
+listing	O	O	O
+that	O	O	O
+is	O	O	O
+available	O	O	O
+.	O	O	O
+i	O	O	O
+will	O	O	O
+prescribe	O	O	O
+clonidine	O	B-drug	O
+as	O	O	O
+needed	O	O	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+renal	O	B-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+her	O	O	O
+baseline	O	O	O
+is	O	O	O
+unknown	O	O	O
+.	O	O	O
+
+
+this	O	O	O
+is	O	O	O
+at	O	O	O
+least	O	O	O
+partly	O	O	O
+prerenal	O	O	O
+.	O	O	O
+will	O	O	O
+replace	O	O	O
+volume	O	O	O
+with	O	O	O
+iv	O	B-treatment	O
+fluids	O	I-treatment	O
+and	O	O	O
+monitor	O	O	O
+her	O	O	O
+renal	O	B-test	O
+function	O	I-test	O
+.	O	O	O
+
+
+7	O	O	O
+.	O	O	O
+
+
+hypokalemia	O	B-problem	O
+.	O	O	O
+will	O	O	O
+replace	O	O	O
+per	O	O	O
+protocol	O	O	O
+.	O	O	O
+
+
+8	O	O	O
+.	O	O	O
+
+
+hypercalcemia	O	B-problem	O
+.	O	O	O
+
+
+this	O	O	O
+is	O	O	O
+actually	O	O	O
+rather	O	O	O
+severe	O	O	O
+when	O	O	O
+adjusted	O	O	O
+for	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+low	O	B-problem	O
+albumin	O	I-problem	O
+.	O	O	O
+
+
+her	O	O	O
+true	O	B-test	O
+calcium	O	I-test	O
+level	O	I-test	O
+comes	O	O	O
+out	O	O	O
+to	O	O	O
+somewhere	O	O	O
+around	O	O	O
+12	O	O	O
+.	O	O	O
+
+
+for	O	O	O
+now	O	O	O
+,	O	O	O
+i	O	O	O
+will	O	O	O
+just	O	O	O
+treat	O	O	O
+her	O	O	O
+with	O	O	O
+iv	O	B-treatment	O
+fluids	O	I-treatment	O
+and	O	O	O
+lasix	O	B-drug	O
+,	O	O	O
+and	O	O	O
+monitor	O	O	O
+her	O	O	O
+calcium	O	B-drug	O
+level	O	B-test	O
+.	O	O	O
+
+
+9	O	O	O
+.	O	O	O
+
+
+protein	O	B-test	O
+gap	O	I-test	O
+.	O	O	O
+
+
+this	O	O	O
+,	O	O	O
+in	O	O	O
+combination	O	O	O
+with	O	O	O
+the	O	B-test	O
+calcium	O	I-test	O
+,	O	O	O
+may	O	O	O
+be	O	O	O
+suggestive	O	O	O
+of	O	O	O
+multiple	O	B-problem	O
+myeloma	O	I-problem	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+my	O	O	O
+understanding	O	O	O
+that	O	O	O
+the	O	O	O
+family	O	O	O
+is	O	O	O
+seeking	O	O	O
+hospice	O	O	O
+placement	O	O	O
+for	O	O	O
+the	O	O	O
+patient	O	O	O
+right	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+i	O	O	O
+would	O	O	O
+have	O	O	O
+to	O	O	O
+discuss	O	O	O
+with	O	O	O
+the	O	O	O
+family	O	O	O
+before	O	O	O
+undertaking	O	O	O
+any	O	O	O
+workup	O	B-test	O
+for	O	O	O
+multiple	O	B-problem	O
+myeloma	O	I-problem	O
+or	O	O	O
+other	O	B-problem	O
+malignancy	O	I-problem	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+vomiting	O	B-problem	O
+,	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+h	O	O	O
+&	O	O	O
+p	O	O	O
+,	O	O	O
+pancreatitis	O	B-problem	O
+,	O	O	O
+volume	O	B-problem	O
+depletion	O	I-problem	O
+,	O	O	O
+hyperglycemia	O	B-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+hypokalemia	O	B-problem	O
+,	O	O	O
+hypercalcemia	O	B-problem	O
+,	O	O	O
+protein	O	B-test	O
+gap	O	I-test	O
+,	O	O	O
+hard	O	B-problem	O
+of	O	I-problem	O
+hearing	O	I-problem	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+,	O	O	O
+multiple	O	B-problem	O
+myeloma	O	I-problem	O
+,	O	O	O
+iv	O	B-treatment	O
+fluids	O	I-treatment	O
+,	O	O	O
+myeloma	O	B-problem	O
+,	O	O	O
+calcium	O	B-drug	O
+,	O	O	O
+illness	O	O	O
+,	O	O	O
+
+

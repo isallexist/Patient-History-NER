@@ -1,0 +1,601 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+1	O	O	O
+description	O	O	O
+:	O	O	O
+return	O	O	O
+to	O	O	O
+work	O	O	O
+&	O	O	O
+fit	O	O	O
+for	O	O	O
+duty	O	B-test	O
+evaluation	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+the	O	O	O
+initial	O	O	O
+clinic	O	O	O
+visit	O	O	O
+for	O	O	O
+a	O	O	O
+29	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+man	O	O	O
+who	O	O	O
+is	O	O	O
+seen	O	O	O
+for	O	O	O
+new	O	B-problem	O
+onset	O	I-problem	O
+of	O	I-problem	O
+right	B-cc	I-problem	B-bodyloc
+shoulder	I-cc	I-problem	I-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+states	O	O	O
+that	O	O	O
+this	O	O	O
+began	O	O	O
+approximately	O	O	O
+one	B-hpi.duration	O	O
+week	I-hpi.duration	O	B-temporal
+ago	I-hpi.duration	O	I-temporal
+when	O	O	O
+he	O	O	O
+was	O	O	O
+lifting	B-hpi.context	O	O
+stacks	I-hpi.context	O	O
+of	I-hpi.context	O	O
+cardboard	I-hpi.context	O	O
+.	O	O	O
+
+
+the	O	O	O
+motion	O	O	O
+that	O	O	O
+he	O	O	O
+describes	O	O	O
+is	O	O	O
+essentially	O	O	O
+picking	O	O	O
+up	O	O	O
+a	O	O	O
+stack	O	O	O
+of	O	O	O
+cardboard	O	O	O
+at	O	O	O
+his	O	O	O
+waist	O	O	O
+level	O	O	O
+,	O	O	O
+twisting	O	O	O
+to	O	O	O
+the	O	O	O
+right	O	O	O
+and	O	O	O
+delivering	O	O	O
+it	O	O	O
+at	O	O	O
+approximately	O	O	O
+waist	O	O	O
+level	O	O	O
+.	O	O	O
+
+
+sometimes	O	O	O
+he	O	O	O
+has	O	O	O
+to	O	O	O
+throw	O	O	O
+the	O	O	O
+stacks	O	O	O
+a	O	O	O
+little	O	O	O
+bit	O	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+states	O	O	O
+he	O	O	O
+felt	O	O	O
+a	O	O	O
+popping	B-hpi.assocSignsAndSymptoms	B-problem	O
+sensation	I-hpi.assocSignsAndSymptoms	I-problem	O
+on	O	O	O
+06	B-hpi.duration	O	B-temporal
+/	I-hpi.duration	O	I-temporal
+30	I-hpi.duration	O	I-temporal
+/	I-hpi.duration	O	I-temporal
+04	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+since	O	O	O
+that	O	O	O
+time	O	O	O
+,	O	O	O
+he	O	O	O
+has	O	O	O
+had	O	O	O
+persistent	B-hpi.timing	B-problem	O
+shoulder	O	I-problem	B-bodyloc
+pain	O	I-problem	O
+with	B-hpi.timing	O	O
+lifting	I-hpi.timing	O	O
+activities	I-hpi.timing	O	O
+.	O	O	O
+
+
+he	O	O	O
+localizes	O	O	O
+the	O	B-problem	O
+pain	O	I-problem	O
+to	O	O	O
+the	O	O	O
+posterior	B-hpi.location	O	O
+and	I-hpi.location	O	O
+to	I-hpi.location	O	O
+a	I-hpi.location	O	O
+lesser	I-hpi.location	O	O
+extent	I-hpi.location	O	O
+the	I-hpi.location	O	O
+lateral	I-hpi.location	O	O
+aspect	I-hpi.location	O	O
+of	I-hpi.location	O	O
+the	I-hpi.location	O	O
+shoulder	I-hpi.location	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+no	B-pastHistory	O	O
+upper	I-pastHistory	O	O
+extremity	I-pastHistory	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+focal	O	B-problem	O
+lateral	O	I-problem	O
+and	O	I-problem	O
+posterior	O	I-problem	B-bodyloc
+shoulder	O	I-problem	I-bodyloc
+pain	O	O	O
+without	O	O	O
+a	O	O	O
+suggestion	O	O	O
+of	O	O	O
+any	O	O	O
+cervical	O	B-problem	B-bodyloc
+radiculopathies	O	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+denies	O	O	O
+any	O	O	O
+chronic	O	B-problem	O
+cardiac	O	I-problem	O
+,	O	I-problem	O
+pulmonary	O	I-problem	O
+,	O	O	O
+gi	O	O	O
+,	O	O	O
+gu	O	O	O
+,	O	O	O
+neurologic	O	O	O
+,	O	O	O
+musculoskeletal	O	O	O
+,	O	O	O
+endocrine	O	B-problem	O
+abnormalities	O	I-problem	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+claritin	B-pastHistory	B-drug	O
+for	O	O	O
+allergic	B-pastHistory	B-problem	O
+rhinitis	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+none	O	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+120	O	O	O
+/	O	O	O
+90	O	O	O
+,	O	O	O
+respirations	O	B-test	O
+10	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+72	O	O	O
+,	O	O	O
+temperature	O	B-test	O
+97	O	O	O
+.	O	O	O
+2	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+sitting	O	O	O
+upright	O	O	O
+,	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+,	O	O	O
+and	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+skin	O	O	O
+is	O	O	O
+warm	O	O	O
+and	O	O	O
+dry	O	O	O
+.	O	O	O
+
+
+gross	O	O	O
+neurologic	O	B-test	O
+examination	O	I-test	O
+is	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+ent	O	B-test	O
+examination	O	I-test	O
+reveals	O	O	O
+normal	O	O	O
+oropharynx	O	O	O
+,	O	O	O
+nasopharynx	O	O	O
+,	O	O	O
+and	O	O	O
+tympanic	O	O	O
+membranes	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+full	O	O	O
+range	O	O	O
+of	O	O	O
+motion	O	O	O
+with	O	O	O
+no	O	O	O
+adenopathy	O	B-problem	O
+or	O	O	O
+thyromegaly	O	B-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+.	O	O	O
+abdomen	O	O	O
+:	O	O	O
+soft	O	O	O
+.	O	O	O
+
+
+on	O	O	O
+examination	O	B-test	O
+of	O	I-test	O
+the	O	I-test	O
+shoulder	O	I-test	O
+,	O	O	O
+he	O	O	O
+is	O	O	O
+mild	O	O	O
+to	O	O	O
+moderately	O	B-problem	O
+tender	O	O	O
+in	O	O	O
+the	O	O	O
+posterolateral	O	O	O
+aspect	O	O	O
+of	O	B-problem	O
+the	O	I-problem	O
+subacromial	O	I-problem	B-bodyloc
+space	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+his	O	O	O
+range	O	B-test	O
+of	O	I-test	O
+motion	O	I-test	O
+is	O	O	O
+abduction	O	O	O
+to	O	O	O
+90	O	O	O
+degrees	O	O	O
+,	O	O	O
+before	O	O	O
+experiencing	O	O	O
+pain	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+can	O	O	O
+push	O	O	O
+this	O	O	O
+to	O	O	O
+120	O	O	O
+degrees	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+also	O	O	O
+has	O	O	O
+flexion	O	O	O
+of	O	O	O
+120	O	O	O
+degrees	O	O	O
+but	O	O	O
+it	O	O	O
+reluctant	O	O	O
+to	O	O	O
+move	O	O	O
+it	O	O	O
+past	O	O	O
+this	O	O	O
+.	O	O	O
+he	O	O	O
+has	O	O	O
+a	O	O	O
+very	O	O	O
+mild	O	O	O
+response	O	O	O
+to	O	O	O
+both	O	O	O
+neer	O	B-test	O
+'	O	O	O
+s	O	O	O
+and	O	O	O
+hawkins	O	B-test	O
+impingement	O	I-test	O
+testing	O	I-test	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+negative	O	O	O
+sulcus	O	B-test	O
+,	O	O	O
+apprehension	O	O	O
+,	O	O	O
+speed	O	B-test	O
+'	O	I-test	O
+s	O	I-test	O
+and	O	O	O
+yergason	O	B-test	O
+'	O	I-test	O
+s	O	I-test	O
+testing	O	I-test	O
+.	O	O	O
+
+
+diagnostic	O	O	O
+imaging	O	O	O
+:	O	O	O
+two	O	B-test	O
+view	O	I-test	O
+x	O	I-test	O
+-	O	I-test	O
+rays	O	I-test	O
+were	O	O	O
+taken	O	O	O
+of	O	O	O
+the	O	O	O
+shoulder	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+are	O	O	O
+no	O	O	O
+osseous	O	B-problem	B-bodyloc
+abnormalities	O	I-problem	O
+or	O	O	O
+significant	O	O	O
+degenerative	O	B-problem	O
+changes	O	I-problem	O
+.	O	O	O
+
+
+impression	O	O	O
+:	O	O	O
+right	O	B-problem	B-bodyloc
+shoulder	O	I-problem	I-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+most	O	O	O
+likely	O	O	O
+secondary	O	O	O
+to	O	O	O
+muscular	O	B-problem	B-bodyloc
+strain	O	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+does	O	O	O
+have	O	O	O
+a	O	O	O
+very	O	O	O
+mild	O	O	B-severity
+evidence	O	O	O
+of	O	O	O
+impingement	O	B-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+cleared	O	O	O
+for	O	O	O
+work	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+the	O	O	O
+next	O	O	O
+three	O	O	B-temporal
+days	O	O	I-temporal
+off	O	O	O
+due	O	O	O
+to	O	O	O
+a	O	O	O
+plant	O	O	O
+shutdown	O	O	O
+.	O	O	O
+
+
+should	O	O	O
+he	O	O	O
+have	O	O	O
+any	O	O	O
+persistent	O	B-problem	O
+pain	O	I-problem	O
+next	O	O	O
+week	O	O	O
+,	O	O	O
+i	O	O	O
+would	O	O	O
+considering	O	O	O
+obtaining	O	O	O
+an	O	B-test	O
+mri	O	I-test	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+return	O	O	O
+to	O	O	O
+work	O	O	O
+,	O	O	O
+consult	O	O	O
+,	O	O	O
+fit	O	O	O
+for	O	O	O
+duty	O	O	O
+,	O	O	O
+cleared	O	O	O
+for	O	O	O
+work	O	O	O
+,	O	O	O
+muscular	O	O	O
+,	O	O	O
+paresthesias	O	B-problem	O
+,	O	O	O
+shoulder	O	O	O
+,	O	O	O
+shoulder	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+strain	O	B-problem	O
+,	O	O	O
+waist	O	O	O
+,	O	O	O
+x	O	B-test	O
+-	O	I-test	O
+rays	O	I-test	O
+,	O	O	O
+waist	O	O	O
+level	O	O	O
+,	O	O	O
+neurologic	O	O	O
+,	O	O	O
+abnormalities	O	B-problem	O
+,	O	O	O
+impingement	O	B-problem	O
+,	O	O	O
+examination	O	B-test	O
+,	O	O	O
+
+

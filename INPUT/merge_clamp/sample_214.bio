@@ -1,0 +1,634 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+soap	O	O	O
+-	O	O	O
+5	O	O	O
+description	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+soap	O	O	O
+note	O	O	O
+.	O	O	O
+
+
+patient	O	O	O
+with	O	O	O
+shoulder	O	B-problem	B-bodyloc
+bursitis	O	I-problem	O
+,	O	O	O
+pharyngitis	O	B-problem	O
+,	O	O	O
+attention	O	B-problem	O
+deficit	O	I-problem	O
+disorder	O	I-problem	O
+,	O	O	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+s	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+here	O	O	O
+today	O	O	B-temporal
+with	O	O	O
+his	O	O	O
+mom	O	O	O
+for	O	O	O
+several	O	O	O
+complaints	O	O	O
+.	O	O	O
+
+
+number	O	O	O
+one	O	O	O
+,	O	O	O
+he	O	O	O
+has	O	O	O
+been	O	O	O
+having	O	O	O
+issues	B-cc	B-problem	O
+with	I-cc	I-problem	O
+his	I-cc	O	O
+right	I-cc	O	B-bodyloc
+shoulder	I-cc	O	I-bodyloc
+.	O	O	O
+
+
+approximately	O	O	O
+10	B-hpi.duration	O	B-temporal
+days	I-hpi.duration	O	I-temporal
+ago	I-hpi.duration	O	O
+he	B-hpi.context	O	O
+fell	I-hpi.context	O	O
+,	I-hpi.context	O	O
+slipping	I-hpi.context	O	O
+on	I-hpi.context	O	O
+ice	I-hpi.context	O	O
+,	O	O	O
+did	O	O	O
+not	O	O	O
+hit	O	O	O
+his	O	O	O
+head	O	O	O
+but	O	O	O
+fell	O	O	O
+straight	O	O	O
+on	O	O	O
+his	O	O	O
+shoulder	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+been	O	O	O
+having	O	O	O
+issues	O	O	O
+ever	O	O	O
+since	O	O	O
+.	O	O	O
+he	O	O	O
+is	O	O	O
+having	O	O	O
+difficulties	B-hpi.assocSignsAndSymptoms	B-problem	O
+raising	I-hpi.assocSignsAndSymptoms	I-problem	O
+his	I-hpi.assocSignsAndSymptoms	I-problem	O
+arm	I-hpi.assocSignsAndSymptoms	I-problem	O
+over	I-hpi.assocSignsAndSymptoms	O	O
+his	I-hpi.assocSignsAndSymptoms	O	O
+head	I-hpi.assocSignsAndSymptoms	O	B-bodyloc
+.	O	O	O
+he	O	O	O
+does	O	O	O
+have	O	O	O
+some	O	O	O
+intermittent	B-hpi.timing	B-problem	O
+numbness	B-hpi.assocSignsAndSymptoms	I-problem	O
+in	I-hpi.assocSignsAndSymptoms	O	O
+his	I-hpi.assocSignsAndSymptoms	O	O
+fingers	I-hpi.assocSignsAndSymptoms	O	O
+at	B-hpi.timing	O	B-temporal
+night	I-hpi.timing	O	I-temporal
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+taking	I-hpi.assocSignsAndSymptoms	O	O
+any	I-hpi.assocSignsAndSymptoms	O	O
+anti	I-hpi.assocSignsAndSymptoms	B-treatment	O
+-	I-hpi.assocSignsAndSymptoms	I-treatment	O
+inflammatories	I-hpi.assocSignsAndSymptoms	I-treatment	O
+or	I-hpi.assocSignsAndSymptoms	O	O
+pain	I-hpi.assocSignsAndSymptoms	B-problem	O
+relievers	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+also	O	O	O
+complaining	O	O	O
+of	O	O	O
+a	O	B-problem	O
+sore	B-cc	I-problem	O
+throat	I-cc	I-problem	B-bodyloc
+.	O	O	O
+
+
+he	O	O	O
+did	O	O	O
+have	O	O	O
+some	O	O	O
+exposure	O	O	O
+to	O	O	O
+strep	O	B-problem	O
+and	O	O	O
+he	O	O	O
+has	O	O	O
+a	O	O	O
+long	B-pastHistory	O	O
+history	I-pastHistory	O	O
+of	I-pastHistory	O	O
+strep	I-pastHistory	B-problem	O
+throat	I-pastHistory	I-problem	B-bodyloc
+.	O	O	O
+
+
+denies	O	O	O
+any	O	B-problem	O
+fevers	O	I-problem	O
+,	O	O	O
+rashes	O	B-problem	O
+,	O	O	O
+nausea	O	B-problem	O
+,	O	O	O
+vomiting	O	B-problem	O
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+and	O	O	O
+constipation	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+also	O	O	O
+being	O	O	O
+seen	O	O	O
+for	O	O	O
+adhd	B-pastHistory	B-problem	O
+by	O	O	O
+dr	O	O	O
+.	O	O	O
+b	O	O	O
+.	O	O	O
+adderall	B-pastHistory	B-drug	O
+and	O	O	O
+zoloft	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+he	O	O	O
+takes	O	O	O
+these	O	O	O
+once	O	O	B-temporal
+a	O	O	I-temporal
+day	O	O	I-temporal
+.	O	O	O
+
+
+he	O	O	O
+does	O	O	O
+notice	O	O	O
+when	O	O	O
+he	O	O	O
+does	O	O	O
+not	O	O	O
+take	O	O	O
+his	O	B-treatment	O
+medication	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+doing	O	O	O
+well	O	O	O
+in	O	O	O
+school	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+socializing	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+maintaining	O	O	O
+his	O	B-test	O
+weight	O	O	O
+and	O	O	O
+tolerating	O	O	O
+the	O	B-treatment	O
+medications	O	I-treatment	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+he	O	O	O
+is	O	O	O
+having	O	O	O
+issues	B-cc	O	O
+with	I-cc	O	O
+anger	I-cc	B-treatment	O
+control	I-cc	I-treatment	O
+.	O	O	O
+
+
+he	O	O	O
+realizes	O	O	O
+when	O	O	O
+he	O	O	O
+has	O	O	O
+anger	O	B-problem	O
+outbursts	O	I-problem	O
+that	O	O	O
+it	O	O	O
+is	O	O	O
+a	O	B-problem	O
+problem	O	I-problem	O
+.	O	O	O
+
+
+his	O	O	O
+mom	O	O	O
+is	O	O	O
+concerned	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+actually	O	O	O
+was	O	O	O
+willing	O	O	O
+to	O	O	O
+go	O	O	O
+to	O	O	O
+counseling	O	O	O
+and	O	O	O
+was	O	O	O
+wondering	O	O	O
+if	O	O	O
+there	O	O	O
+was	O	O	O
+anything	O	O	O
+available	O	O	O
+for	O	O	O
+him	O	O	O
+at	O	O	O
+this	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+/	O	O	O
+surgical	O	O	O
+/	O	O	O
+social	O	O	O
+history	O	O	O
+:	O	O	O
+reviewed	O	O	O
+and	O	O	O
+unchanged	O	O	O
+.	O	O	O
+
+
+o	O	O	O
+:	O	O	O
+vss	O	O	O
+.	O	O	O
+
+
+in	O	O	O
+general	O	O	O
+,	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+&	O	O	O
+ox3	O	O	O
+.	O	O	O
+
+
+nad	O	B-problem	O
+.	O	O	O
+heart	O	O	O
+:	O	O	O
+rrr	O	O	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+cta	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+does	O	O	O
+have	O	O	O
+2	O	O	O
++	O	O	O
+tonsils	O	O	O
+,	O	O	O
+no	O	O	O
+erythema	O	B-problem	O
+or	O	O	O
+exudate	O	B-problem	O
+noted	O	O	O
+except	O	O	O
+for	O	O	O
+some	O	O	O
+postnasal	O	B-treatment	O
+drip	O	I-treatment	O
+.	O	O	O
+
+
+musculoskeletal	O	O	O
+:	O	O	O
+limited	O	B-problem	O
+in	O	I-problem	O
+range	O	I-problem	O
+of	O	I-problem	O
+motion	O	I-problem	O
+,	O	O	O
+active	O	O	O
+on	O	O	O
+the	O	O	O
+right	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+stops	O	O	O
+at	O	O	O
+about	O	O	O
+95	O	O	O
+degrees	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+muscle	O	B-problem	B-bodyloc
+weakness	O	I-problem	O
+.	O	O	O
+
+
+neurovascularly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+negative	O	O	O
+biceps	O	B-problem	O
+tenderness	O	I-problem	O
+.	O	O	O
+
+
+psych	O	O	O
+:	O	O	O
+no	O	O	O
+suicidal	O	B-problem	O
+,	O	I-problem	O
+homicidal	O	I-problem	O
+ideations	O	I-problem	O
+.	O	O	O
+
+
+answering	O	O	O
+questions	O	O	O
+appropriately	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+hallucinations	O	B-problem	O
+.	O	O	O
+
+
+a	O	O	O
+/	O	O	O
+p	O	B-test	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+right	O	B-problem	B-bodyloc
+shoulder	O	I-problem	I-bodyloc
+bursitis	O	I-problem	O
+.	O	O	O
+
+
+check	O	O	O
+x	O	B-test	O
+-	O	I-test	O
+ray	O	I-test	O
+.	O	O	O
+
+
+rule	O	O	O
+out	O	O	O
+fracture	O	B-problem	O
+,	O	O	O
+and	O	O	O
+physical	O	B-treatment	O
+therapy	O	I-treatment	O
+if	O	O	O
+negative	O	O	O
+.	O	O	O
+
+
+continue	O	O	O
+anti	O	B-treatment	O
+-	O	I-treatment	O
+inflammatories	O	I-treatment	O
+.	O	O	O
+
+
+suggested	O	O	O
+joint	O	B-treatment	O
+injections	O	I-treatment	O
+but	O	O	O
+he	O	O	O
+denied	O	O	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+pharyngitis	O	B-problem	O
+.	O	O	O
+
+
+at	O	O	O
+moms	O	O	O
+insistence	O	O	O
+,	O	O	O
+we	O	O	O
+will	O	O	O
+refer	O	O	O
+to	O	O	O
+ent	O	O	O
+for	O	O	O
+possible	O	O	O
+tonsillectomy	O	B-treatment	O
+.	O	O	O
+
+
+dr	O	O	O
+.	O	O	O
+a	O	O	O
+name	O	O	O
+was	O	O	O
+given	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+attention	O	B-problem	O
+deficit	O	I-problem	O
+disorder	O	I-problem	O
+and	O	O	O
+anger	O	B-treatment	O
+control	O	I-treatment	O
+.	O	O	O
+
+
+continue	O	O	O
+present	O	O	O
+management	O	O	O
+.	O	O	O
+
+
+prescriptions	O	B-treatment	O
+x	O	O	O
+3	O	O	B-temporal
+months	O	O	I-temporal
+were	O	O	O
+given	O	O	O
+,	O	O	O
+also	O	O	O
+names	O	O	O
+for	O	O	O
+counseling	O	O	O
+for	O	O	O
+his	O	O	O
+anger	O	B-problem	O
+issues	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+to	O	O	O
+rtc	O	O	O
+in	O	O	O
+3	O	O	B-temporal
+months	O	O	I-temporal
+or	O	O	O
+as	O	O	O
+needed	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+adhd	O	B-problem	O
+,	O	O	O
+attention	O	B-problem	O
+deficit	O	I-problem	O
+disorde	O	I-problem	O
+,	O	O	O
+pharyngitis	O	B-problem	O
+,	O	O	O
+anger	O	O	O
+control	O	O	O
+,	O	O	O
+anti	O	B-treatment	O
+-	O	I-treatment	O
+inflammatories	O	I-treatment	O
+,	O	O	O
+bursitis	O	B-problem	O
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+fevers	O	B-problem	O
+,	O	O	O
+nausea	O	B-problem	O
+,	O	O	O
+numbness	O	B-problem	O
+,	O	O	O
+rashes	O	B-problem	O
+,	O	O	O
+shoulder	O	O	O
+,	O	O	O
+strep	O	B-problem	O
+throat	O	I-problem	B-bodyloc
+,	O	O	O
+vomiting	O	B-problem	O
+,	O	O	O
+attention	O	B-problem	O
+deficit	O	I-problem	O
+,	O	O	O
+deficit	O	B-problem	O
+disorder	O	I-problem	O
+,	O	O	O
+anti	O	B-treatment	O
+inflammatories	O	I-treatment	O
+,	O	O	O
+soap	O	O	O
+,	O	O	O
+anger	O	O	O
+,	O	O	O
+intermittent	O	O	O
+,	O	O	O
+
+

@@ -1,0 +1,1534 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+consult	O	O	O
+-	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+description	O	O	O
+:	O	O	O
+patient	O	O	O
+with	O	O	O
+multiple	O	B-problem	O
+problems	O	I-problem	O
+,	O	O	O
+main	O	O	O
+one	O	O	O
+is	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+at	O	I-problem	B-temporal
+night	O	I-problem	I-temporal
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+multiple	O	B-problem	O
+problems	O	I-problem	O
+,	O	O	O
+main	O	O	O
+one	O	O	O
+is	O	O	O
+chest	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+at	B-hpi.timing	I-problem	B-temporal
+night	I-hpi.timing	I-problem	I-temporal
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+60	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+with	O	O	O
+multiple	O	B-problem	O
+problems	O	I-problem	O
+as	O	O	O
+numbered	O	O	O
+below	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+reports	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+chest	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+at	B-hpi.timing	I-problem	B-temporal
+night	I-hpi.timing	I-problem	I-temporal
+.	O	O	O
+
+
+this	O	O	O
+happened	O	O	O
+last	B-hpi.duration	O	O
+year	I-hpi.duration	O	O
+exactly	O	O	O
+the	O	O	O
+same	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+went	O	O	O
+to	O	O	O
+see	O	O	O
+dr	O	O	O
+.	O	O	O
+murphy	O	O	O
+,	O	O	O
+and	O	O	O
+he	O	O	O
+did	O	O	O
+a	O	B-test	O
+treadmill	O	I-test	O
+and	O	O	O
+an	O	B-test	O
+echocardiogram	O	I-test	O
+,	O	O	O
+no	B-hpi.assocSignsAndSymptoms	O	O
+concerns	I-hpi.assocSignsAndSymptoms	O	O
+for	I-hpi.assocSignsAndSymptoms	O	O
+cardiovascular	I-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+disease	I-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+and	O	O	O
+her	O	B-problem	O
+symptoms	B-hpi.quality	I-problem	O
+resolved	I-hpi.quality	O	O
+now	O	O	B-temporal
+over	O	O	O
+the	O	O	O
+last	O	O	O
+month	O	O	O
+.	O	O	O
+she	O	O	O
+wakes	O	O	O
+in	O	O	O
+the	O	O	O
+middle	O	O	O
+of	O	O	O
+the	O	O	B-temporal
+night	O	O	I-temporal
+and	O	O	O
+reports	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+a	O	B-problem	O
+pressure	B-hpi.quality	I-problem	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+mild	B-hpi.severity	O	O
+-	I-hpi.severity	O	O
+to	I-hpi.severity	O	O
+-	I-hpi.severity	O	O
+moderate	I-hpi.severity	O	O
+in	O	O	O
+the	O	O	O
+middle	B-hpi.location	O	O
+of	I-hpi.location	O	O
+her	I-hpi.location	O	O
+chest	I-hpi.location	O	O
+and	O	O	O
+will	O	O	O
+stay	B-hpi.modifyingFactors	O	O
+there	I-hpi.modifyingFactors	O	O
+as	I-hpi.modifyingFactors	O	O
+long	I-hpi.modifyingFactors	O	O
+she	I-hpi.modifyingFactors	O	O
+lies	I-hpi.modifyingFactors	O	O
+down	I-hpi.modifyingFactors	O	O
+.	O	O	O
+
+
+if	O	O	O
+she	O	O	O
+gets	B-hpi.modifyingFactors	O	O
+up	I-hpi.modifyingFactors	O	O
+,	I-hpi.modifyingFactors	O	O
+it	I-hpi.modifyingFactors	O	O
+goes	I-hpi.modifyingFactors	O	O
+away	I-hpi.modifyingFactors	O	O
+within	I-hpi.modifyingFactors	O	O
+15	I-hpi.modifyingFactors	O	B-temporal
+minutes	I-hpi.modifyingFactors	O	I-temporal
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+currently	O	O	B-temporal
+been	O	O	O
+gone	O	O	O
+on	O	O	O
+for	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+week	I-hpi.duration	O	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+any	O	O	O
+fast	O	B-problem	O
+heartbeats	O	I-problem	O
+or	O	O	O
+irregular	O	B-problem	O
+heartbeats	O	I-problem	O
+at	O	O	O
+this	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+been	O	O	O
+having	O	O	O
+stomach	B-cc	B-problem	B-bodyloc
+pains	I-cc	I-problem	O
+that	O	O	O
+started	O	O	O
+about	O	O	O
+a	B-hpi.duration	O	O
+month	I-hpi.duration	O	O
+ago	I-hpi.duration	O	O
+.	O	O	O
+
+
+this	O	O	O
+occurs	O	O	O
+during	O	O	O
+the	O	O	O
+daytime	B-hpi.timing	O	O
+.	O	O	O
+
+
+it	O	O	O
+has	O	O	O
+no	O	O	O
+relationship	O	O	O
+to	O	O	O
+foods	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+mild	B-hpi.severity	O	O
+in	O	O	O
+nature	O	O	O
+,	O	O	O
+located	O	O	O
+in	O	O	O
+the	O	O	O
+mid	B-hpi.location	O	O
+epigastric	I-hpi.location	O	O
+area	I-hpi.location	O	O
+.	O	O	O
+
+
+it	O	O	O
+has	O	O	O
+been	O	O	O
+better	B-hpi.quality	O	O
+for	O	O	O
+one	O	O	B-temporal
+week	O	O	I-temporal
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+continues	O	O	O
+to	O	O	O
+have	O	O	O
+reflux	B-cc	B-problem	O
+,	O	O	O
+has	O	O	O
+noticed	O	O	O
+that	O	O	O
+if	O	O	O
+she	O	O	O
+stops	O	O	O
+taking	O	O	O
+aciphex	B-hpi.modifyingFactors	B-drug	O
+,	O	O	O
+then	O	O	O
+she	O	O	O
+has	O	O	O
+symptoms	O	B-problem	O
+.	O	O	O
+
+
+if	O	O	O
+she	O	O	O
+takes	O	O	O
+her	O	O	O
+aciphex	O	B-drug	O
+,	O	O	O
+she	O	O	O
+seems	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+the	O	O	O
+reflux	O	B-problem	O
+belching	O	B-problem	O
+,	O	O	O
+burping	O	B-problem	O
+,	O	O	O
+and	O	O	O
+heartburn	O	B-problem	O
+under	O	O	O
+control	O	O	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+right	B-cc	B-problem	B-bodyloc
+flank	I-cc	I-problem	I-bodyloc
+pain	I-cc	I-problem	O
+when	B-hpi.context	O	O
+she	I-hpi.context	O	O
+lies	I-hpi.context	O	O
+down	I-hpi.context	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+this	O	O	O
+off	B-hpi.timing	O	O
+and	I-hpi.timing	O	O
+on	I-hpi.timing	O	O
+for	O	O	O
+four	B-hpi.duration	O	B-temporal
+months	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+a	O	O	O
+dull	B-hpi.quality	B-problem	O
+achy	I-hpi.quality	I-problem	O
+pain	I-hpi.quality	I-problem	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+mild	B-hpi.severity	O	O
+in	O	O	O
+nature	O	O	O
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+some	O	O	O
+spots	B-cc	B-problem	O
+on	O	I-problem	O
+her	O	I-problem	O
+shoulder	B-hpi.location	O	B-bodyloc
+that	O	O	O
+have	O	O	O
+been	O	O	O
+present	O	O	O
+for	O	O	O
+a	O	O	O
+long	O	O	O
+time	O	O	O
+,	O	O	O
+but	O	O	O
+over	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+month	I-hpi.duration	O	O
+have	O	O	O
+been	O	O	O
+getting	O	O	O
+bigger	B-hpi.quality	O	O
+in	I-hpi.quality	O	O
+size	I-hpi.quality	O	O
+and	O	O	O
+is	O	O	O
+elevated	B-hpi.quality	B-problem	O
+whereas	O	O	O
+they	O	O	O
+had	O	O	O
+not	O	O	O
+been	O	O	O
+elevated	O	B-problem	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+painful	I-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+spots	B-cc	B-problem	O
+in	O	I-problem	O
+her	O	I-problem	O
+armpits	B-hpi.location	O	O
+initially	O	O	O
+on	O	O	O
+the	O	O	O
+right	B-hpi.location	O	O
+side	I-hpi.location	O	O
+and	O	O	O
+then	O	O	O
+going	O	O	O
+to	O	O	O
+the	O	O	O
+left	B-hpi.location	O	O
+side	I-hpi.location	O	O
+.	O	O	O
+
+
+they	O	O	O
+are	O	O	O
+not	O	O	O
+itchy	O	B-problem	O
+.	O	O	O
+
+
+7	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+having	O	O	O
+problems	O	B-problem	O
+with	O	O	O
+urgency	B-cc	B-problem	O
+of	I-cc	I-problem	O
+urine	I-cc	I-problem	B-bodyloc
+.	O	O	O
+
+
+when	O	O	O
+she	O	O	O
+has	O	O	O
+her	O	O	O
+bladder	O	O	O
+full	O	O	O
+,	O	O	O
+she	O	O	O
+suddenly	O	O	O
+has	O	O	O
+an	O	O	O
+urge	O	B-problem	O
+to	O	O	O
+use	O	O	O
+the	O	O	O
+restroom	O	O	O
+,	O	O	O
+and	O	O	O
+sometimes	O	O	O
+does	O	O	O
+not	O	O	O
+make	O	O	O
+it	O	O	O
+before	O	O	O
+she	O	O	O
+begins	O	O	O
+leaking	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+wearing	O	O	O
+a	O	O	O
+pad	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+
+
+8	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+requesting	O	O	O
+a	O	B-test	O
+colonoscopy	O	I-test	O
+for	O	O	O
+screening	O	B-test	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+wanting	O	O	O
+routine	O	B-test	O
+labs	O	I-test	O
+for	O	O	O
+following	O	O	O
+her	O	O	O
+chronic	B-pastHistory	B-problem	O
+leukopenia	I-pastHistory	I-problem	O
+,	O	O	O
+also	O	O	O
+is	O	O	O
+desiring	O	O	O
+a	O	O	O
+hepatitis	O	B-test	O
+titer	O	I-test	O
+.	O	O	O
+
+
+9	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+pain	B-cc	B-problem	O
+in	I-cc	I-problem	O
+her	I-cc	I-problem	O
+thumbs	I-cc	I-problem	O
+when	O	O	O
+she	B-hpi.modifyingFactors	O	O
+is	I-hpi.modifyingFactors	O	O
+trying	I-hpi.modifyingFactors	O	O
+to	I-hpi.modifyingFactors	O	O
+do	I-hpi.modifyingFactors	O	O
+fine	I-hpi.modifyingFactors	O	O
+motor	I-hpi.modifyingFactors	O	O
+skills	I-hpi.modifyingFactors	O	O
+,	O	O	O
+has	O	O	O
+noticed	O	O	O
+this	O	O	O
+for	O	O	O
+the	O	O	O
+last	O	O	O
+several	B-hpi.duration	O	O
+months	I-hpi.duration	O	O
+.	O	O	O
+
+
+there	O	O	O
+has	O	O	O
+been	O	O	O
+no	B-hpi.assocSignsAndSymptoms	O	O
+swelling	I-hpi.assocSignsAndSymptoms	B-problem	O
+or	I-hpi.assocSignsAndSymptoms	O	O
+redness	I-hpi.assocSignsAndSymptoms	B-problem	O
+or	I-hpi.assocSignsAndSymptoms	O	O
+trauma	I-hpi.assocSignsAndSymptoms	B-problem	O
+to	O	O	O
+these	O	B-problem	O
+areas	O	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+recently	O	O	O
+been	O	O	O
+to	O	O	O
+the	O	O	O
+eye	O	O	O
+doctor	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+noticed	O	O	O
+some	O	B-problem	O
+hearing	O	I-problem	O
+loss	O	I-problem	O
+gradually	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+problems	O	I-problem	O
+with	O	I-problem	O
+swallowing	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+episodes	O	O	O
+of	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+,	O	O	O
+although	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+a	O	O	O
+little	O	O	O
+bit	O	O	O
+of	O	O	O
+chronic	O	B-problem	O
+cough	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+normal	O	O	O
+bowel	O	O	O
+movements	O	O	O
+.	O	O	O
+
+
+denies	O	O	O
+any	O	O	O
+black	O	O	O
+or	O	O	O
+bloody	O	B-problem	O
+stools	O	I-problem	B-bodyloc
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+or	O	O	O
+constipation	O	B-problem	O
+.	O	O	O
+
+
+denies	O	O	O
+seeing	O	O	O
+blood	O	B-problem	O
+in	O	I-problem	O
+her	O	I-problem	O
+urine	O	I-problem	B-bodyloc
+and	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+urinary	O	B-problem	B-bodyloc
+problems	O	I-problem	O
+other	O	O	O
+than	O	O	O
+what	O	O	O
+is	O	O	O
+stated	O	O	O
+above	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+problems	O	B-problem	O
+with	O	O	O
+edema	O	B-problem	O
+or	O	O	O
+lower	O	B-treatment	B-bodyloc
+extremity	O	I-treatment	I-bodyloc
+numbness	O	I-treatment	O
+or	O	O	O
+tingling	O	B-problem	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+she	B-socialHistory	O	O
+works	I-socialHistory	O	O
+at	I-socialHistory	O	O
+nursing	I-socialHistory	O	O
+home	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+a	O	O	O
+nonsmoker	B-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+currently	B-socialHistory	O	B-temporal
+trying	I-socialHistory	O	O
+to	I-socialHistory	O	O
+lose	I-socialHistory	O	O
+weight	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+on	B-socialHistory	O	O
+the	I-socialHistory	O	O
+diet	I-socialHistory	O	O
+and	I-socialHistory	O	O
+has	I-socialHistory	O	O
+lost	I-socialHistory	O	O
+several	I-socialHistory	O	O
+pounds	I-socialHistory	O	O
+in	I-socialHistory	O	O
+the	I-socialHistory	O	O
+last	I-socialHistory	O	O
+several	I-socialHistory	O	O
+months	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+quit	B-socialHistory	O	O
+smoking	I-socialHistory	O	O
+in	O	O	B-temporal
+1972	O	O	I-temporal
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+her	O	O	O
+father	O	O	O
+has	O	O	O
+type	B-familyHistory	B-problem	O
+i	I-familyHistory	I-problem	O
+diabetes	I-familyHistory	I-problem	O
+and	O	O	O
+heart	B-familyHistory	B-problem	B-bodyloc
+disease	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+a	O	O	O
+brother	O	O	O
+who	O	O	O
+had	O	O	O
+heart	B-familyHistory	B-problem	B-bodyloc
+attack	I-familyHistory	I-problem	O
+at	O	O	O
+the	O	O	O
+age	O	O	O
+of	O	O	O
+52	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+a	O	O	O
+smoker	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+episodic	B-pastHistory	O	O
+leukopenia	I-pastHistory	B-problem	O
+and	O	O	O
+mild	B-pastHistory	O	B-severity
+irritable	I-pastHistory	B-problem	O
+bowel	I-pastHistory	I-problem	B-bodyloc
+syndrome	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+current	O	O	B-temporal
+medications	O	O	O
+:	O	O	O
+aciphex	B-pastHistory	B-drug	O
+20	O	O	O
+mg	O	O	O
+q	O	O	B-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+and	O	O	O
+aspirin	B-pastHistory	B-drug	O
+81	O	O	O
+mg	O	O	O
+q	O	O	B-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+no	O	O	O
+known	O	B-problem	O
+medical	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+objective	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+weight	O	B-test	O
+:	O	O	O
+142	O	O	O
+pounds	O	O	O
+.	O	O	O
+
+
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+132	O	O	O
+/	O	O	O
+78	O	O	O
+.	O	O	O
+
+
+pulse	O	B-test	O
+:	O	O	O
+72	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+well	O	O	O
+-	O	O	O
+developed	O	O	O
+adult	O	O	O
+female	O	O	O
+who	O	O	O
+is	O	O	O
+awake	O	O	O
+,	O	O	O
+alert	O	O	O
+,	O	O	O
+and	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+her	O	O	O
+pupils	O	O	O
+are	O	O	O
+equally	O	O	O
+round	O	O	O
+and	O	O	O
+reactive	O	O	O
+to	O	O	O
+light	O	O	O
+.	O	O	O
+
+
+conjunctivae	O	O	O
+are	O	O	O
+white	O	O	O
+.	O	O	O
+
+
+tms	O	O	O
+look	O	O	O
+normal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+oropharynx	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+dentition	O	O	O
+is	O	O	O
+excellent	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+supple	O	O	O
+without	O	O	O
+lymphadenopathy	O	B-problem	O
+or	O	O	O
+thyromegaly	O	B-problem	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+with	O	O	O
+normal	O	O	O
+respiratory	O	O	O
+effort	O	O	O
+.	O	O	O
+
+
+heart	O	O	B-bodyloc
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+and	O	O	O
+rate	O	B-test	O
+without	O	O	O
+murmur	O	B-problem	O
+.	O	O	O
+
+
+radial	O	B-test	O
+pulses	O	I-test	O
+are	O	O	O
+normal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+abdomen	O	O	B-bodyloc
+:	O	O	O
+soft	O	O	O
+,	O	O	O
+nontender	O	B-problem	O
+,	O	O	O
+and	O	O	O
+nondistended	O	O	O
+without	O	O	O
+organomegaly	O	B-problem	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+examination	O	B-test	O
+of	O	I-test	O
+the	O	I-test	O
+hands	O	I-test	O
+reveals	O	O	O
+some	O	O	O
+tenderness	O	O	O
+at	O	B-problem	O
+the	O	I-problem	O
+base	O	I-problem	O
+of	O	I-problem	O
+her	O	I-problem	O
+thumbs	O	I-problem	O
+bilaterally	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+at	O	O	O
+the	O	O	O
+pip	O	O	O
+joint	O	O	O
+and	O	O	O
+dip	O	O	O
+joint	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+armpits	O	O	O
+are	O	O	O
+examined	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+what	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+a	O	O	O
+tinea	O	B-problem	O
+versicolor	O	I-problem	O
+rash	O	O	O
+present	O	O	O
+in	O	O	O
+the	O	O	O
+armpits	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+a	O	O	O
+lesion	O	B-problem	O
+on	O	I-problem	O
+her	O	I-problem	O
+left	O	I-problem	B-bodyloc
+shoulder	O	I-problem	I-bodyloc
+,	O	O	O
+which	O	O	O
+is	O	O	O
+6	O	O	O
+mm	O	O	O
+in	O	O	O
+diameter	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+has	O	O	O
+diffuse	O	O	O
+borders	O	B-problem	O
+and	O	O	O
+is	O	O	O
+slightly	O	B-problem	O
+red	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+has	O	O	O
+two	O	O	O
+brown	O	B-problem	O
+spots	O	I-problem	O
+in	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+in	O	O	O
+her	O	O	O
+lower	O	O	B-bodyloc
+extremities	O	O	I-bodyloc
+,	O	O	O
+there	O	O	O
+is	O	O	O
+no	O	O	O
+cyanosis	O	B-problem	O
+or	O	O	O
+edema	O	B-problem	O
+.	O	O	O
+
+
+pulses	O	B-test	O
+at	O	I-test	O
+the	O	I-test	O
+radial	O	I-test	O
+and	O	I-test	O
+posterior	O	I-test	O
+tibial	O	I-test	O
+pulses	O	I-test	O
+are	O	O	O
+normal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+gait	O	O	O
+is	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+psychiatric	O	O	O
+:	O	O	O
+her	O	B-test	O
+affect	O	O	O
+is	O	O	O
+pleasant	O	O	O
+and	O	O	O
+positive	O	O	O
+.	O	O	O
+
+
+neurological	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+grossly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+her	O	B-test	O
+speech	O	O	O
+seems	O	O	O
+to	O	O	O
+be	O	O	O
+clear	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+coordination	O	B-test	O
+of	O	I-test	O
+upper	O	I-test	O
+and	O	I-test	O
+lower	O	I-test	O
+extremities	O	I-test	O
+is	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+assessment	O	O	O
+/	O	O	O
+plan	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+at	O	O	O
+this	O	O	O
+point	O	O	O
+,	O	O	O
+because	O	O	O
+of	O	O	O
+dr	O	O	O
+.	O	O	O
+murphys	O	B-test	O
+evaluation	O	B-test	O
+last	O	O	O
+year	O	O	O
+and	O	O	O
+the	O	B-problem	O
+symptoms	O	I-problem	O
+exactly	O	O	O
+the	O	O	O
+same	O	O	O
+,	O	O	O
+i	O	O	O
+think	O	O	O
+this	O	O	O
+is	O	O	O
+noncardiac	O	O	O
+.	O	O	O
+
+
+my	O	O	O
+intonation	O	O	O
+is	O	O	O
+that	O	O	O
+this	O	O	O
+is	O	O	O
+reflux	O	B-problem	O
+.	O	O	O
+
+
+i	O	O	O
+am	O	O	B-temporal
+going	O	O	O
+have	O	O	O
+her	O	O	O
+double	O	O	O
+her	O	O	O
+aciphex	O	B-drug	O
+or	O	O	O
+increase	O	O	O
+it	O	O	O
+to	O	O	O
+b	O	O	O
+.	O	O	O
+i	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+and	O	O	O
+i	O	O	O
+am	O	O	B-temporal
+going	O	O	O
+to	O	O	O
+have	O	O	O
+her	O	O	O
+see	O	O	O
+dr	O	O	O
+.	O	O	O
+xyz	O	O	O
+for	O	O	O
+possible	O	O	O
+egd	O	B-test	O
+if	O	O	O
+he	O	O	O
+thinks	O	O	O
+that	O	O	O
+would	O	O	O
+be	O	O	O
+appropriate	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+to	O	O	O
+let	O	O	O
+me	O	O	O
+know	O	O	O
+if	O	O	O
+her	O	B-problem	O
+symptoms	O	I-problem	O
+are	O	O	O
+getting	O	O	O
+worse	O	O	O
+or	O	O	O
+if	O	O	O
+she	O	O	O
+is	O	O	O
+having	O	O	O
+any	O	O	O
+severe	O	B-problem	B-severity
+episodes	O	I-problem	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+stomach	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+uncertain	O	O	O
+at	O	O	O
+this	O	O	O
+point	O	O	O
+,	O	O	O
+but	O	O	O
+i	O	O	O
+feel	O	O	O
+like	O	O	O
+this	O	O	O
+is	O	O	O
+probably	O	O	O
+related	O	O	O
+as	O	O	O
+well	O	O	O
+to	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+suspicious	O	O	O
+lesions	O	B-problem	O
+on	O	I-problem	O
+the	O	I-problem	O
+left	O	I-problem	B-bodyloc
+shoulder	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+do	O	O	O
+a	O	O	O
+punch	O	B-test	O
+biopsy	O	I-test	O
+and	O	O	O
+set	O	O	O
+her	O	O	O
+up	O	O	O
+for	O	O	O
+an	O	O	O
+appointment	O	O	O
+for	O	O	O
+that	O	O	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+tinea	O	B-problem	O
+versicolor	O	I-problem	O
+in	O	O	O
+the	O	O	O
+axillary	O	O	B-bodyloc
+area	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+have	O	O	O
+prescribed	O	O	O
+selenium	O	B-treatment	O
+sulfide	O	I-treatment	O
+lotion	O	I-treatment	O
+to	O	O	O
+apply	O	O	O
+10	O	O	B-temporal
+minutes	O	O	I-temporal
+a	O	O	O
+day	O	O	O
+for	O	O	O
+seven	O	O	B-temporal
+days	O	O	I-temporal
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+cystocele	O	B-problem	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+have	O	O	O
+her	O	O	O
+see	O	O	O
+dr	O	O	O
+.	O	O	O
+xyz	O	O	O
+for	O	O	O
+further	O	O	O
+discussion	O	O	O
+of	O	O	O
+repair	O	B-treatment	O
+due	O	O	O
+to	O	O	O
+her	O	O	O
+urinary	O	B-problem	B-bodyloc
+incontinence	O	I-problem	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+leukopenia	O	B-problem	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+check	O	O	O
+a	O	O	O
+cbc	O	B-test	O
+.	O	O	O
+
+
+7	O	O	O
+.	O	O	O
+
+
+pain	O	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+thumbs	O	I-problem	O
+,	O	O	O
+probably	O	O	O
+arthritic	O	O	O
+in	O	O	O
+nature	O	O	O
+,	O	O	O
+observe	O	O	O
+for	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+
+
+8	O	O	O
+.	O	O	O
+
+
+screening	O	B-test	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+have	O	O	O
+her	O	O	O
+see	O	O	O
+dr	O	O	O
+.	O	O	O
+xyz	O	O	O
+for	O	O	O
+discussion	O	O	O
+of	O	O	O
+colon	O	B-test	O
+cancer	O	I-test	O
+screening	O	I-test	O
+.	O	O	O
+
+
+9	O	O	O
+.	O	O	O
+
+
+gastroesophageal	O	B-problem	B-bodyloc
+reflux	O	I-problem	O
+disease	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+have	O	O	O
+increased	O	O	O
+aciphex	O	B-drug	O
+to	O	O	O
+b	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+
+
+for	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+cystocele	O	B-problem	O
+,	O	O	O
+gastroesophageal	O	B-problem	B-bodyloc
+reflux	O	I-problem	O
+disease	O	I-problem	O
+,	O	O	O
+stomach	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+tinea	O	B-problem	O
+versicolor	O	I-problem	O
+,	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+leukopenia	O	B-problem	O
+,	O	O	O
+multiple	O	B-problem	O
+problems	O	I-problem	O
+,	O	O	O
+pulses	O	B-test	O
+are	O	O	O
+normal	O	O	O
+bilaterally	O	O	O
+,	O	O	O
+lower	O	O	O
+extremities	O	O	O
+,	O	O	O
+tinea	O	O	O
+,	O	O	O
+versicolor	O	O	O
+,	O	O	O
+pulses	O	B-test	O
+,	O	O	O
+extremities	O	O	O
+,	O	O	O
+reflux	O	B-problem	O
+,	O	O	O
+aciphex	O	B-drug	O
+,	O	O	O
+chest	O	O	O
+,	O	O	O
+
+

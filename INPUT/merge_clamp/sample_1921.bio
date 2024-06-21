@@ -1,0 +1,833 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+-	O	O	O
+consult	O	O	O
+description	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+presented	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+last	O	O	O
+evening	O	O	B-temporal
+with	O	O	O
+approximately	O	O	O
+7	O	O	O
+-	O	O	O
+to	O	O	O
+8	O	O	B-temporal
+-	O	O	I-temporal
+day	O	O	I-temporal
+history	O	O	O
+of	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+which	O	O	O
+has	O	O	O
+been	O	O	O
+persistent	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+abdominal	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+71	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+patient	O	O	O
+of	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+.	O	O	O
+the	O	O	O
+patient	O	O	O
+presented	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+last	O	O	O
+evening	O	O	B-temporal
+with	O	O	O
+approximately	O	O	O
+7	B-hpi.duration	O	O
+-	I-hpi.duration	O	O
+to	I-hpi.duration	O	O
+8	I-hpi.duration	O	B-temporal
+-	I-hpi.duration	O	I-temporal
+day	I-hpi.duration	O	I-temporal
+history	O	O	O
+of	O	O	O
+abdominal	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+which	O	O	O
+has	O	O	O
+been	O	O	O
+persistent	B-hpi.timing	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+seen	O	O	O
+3	O	O	O
+to	O	O	O
+4	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+at	O	O	O
+abc	O	O	O
+er	O	O	O
+and	O	O	O
+underwent	O	O	O
+evaluation	O	B-test	O
+and	O	O	O
+discharged	O	O	O
+and	O	O	O
+had	O	O	O
+a	O	O	O
+ct	O	B-test	O
+scan	O	I-test	O
+at	O	O	O
+that	O	O	O
+time	O	O	O
+and	O	O	O
+she	O	O	O
+was	O	O	O
+told	O	O	O
+it	O	O	O
+was	O	O	O
+&	O	O	O
+quot	O	O	O
+;	O	O	O
+normal	B-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+&	O	O	O
+quot	O	O	O
+;	O	O	O
+she	O	O	O
+was	O	O	O
+given	O	O	O
+oral	O	B-treatment	O
+antibiotics	O	I-treatment	O
+of	O	O	O
+cipro	B-hpi.modifyingFactors	B-drug	O
+and	O	O	O
+flagyl	B-hpi.modifyingFactors	B-drug	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+nausea	O	B-problem	O
+and	O	O	O
+vomiting	O	B-problem	O
+,	O	O	O
+but	O	O	O
+has	O	O	O
+had	O	O	O
+persistent	B-hpi.timing	O	O
+associated	O	O	O
+anorexia	B-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+passing	O	O	O
+flatus	O	B-problem	O
+,	O	O	O
+but	O	O	O
+had	O	O	O
+some	O	O	O
+obstipation	B-hpi.assocSignsAndSymptoms	B-problem	O
+symptoms	O	I-problem	O
+with	O	O	O
+the	O	O	O
+last	O	O	O
+bowel	O	O	O
+movement	O	O	O
+two	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+any	O	O	O
+bright	O	B-problem	O
+red	O	I-problem	O
+blood	O	I-problem	O
+per	O	I-problem	O
+rectum	O	I-problem	B-bodyloc
+and	O	O	O
+no	O	O	O
+history	O	O	O
+of	O	O	O
+recent	O	O	O
+melena	O	B-problem	O
+.	O	O	O
+
+
+her	O	O	O
+last	B-pastHistory	B-test	O
+colonoscopy	I-pastHistory	I-test	O
+was	I-pastHistory	O	O
+approximately	I-pastHistory	O	B-temporal
+5	I-pastHistory	O	I-temporal
+years	I-pastHistory	O	I-temporal
+ago	I-pastHistory	O	O
+with	O	O	O
+dr	O	O	O
+.	O	O	O
+y	O	O	O
+.	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+definite	O	B-problem	O
+fevers	O	O	O
+or	O	O	O
+chills	O	B-problem	O
+and	O	O	O
+no	B-pastHistory	O	O
+history	I-pastHistory	O	O
+of	I-pastHistory	O	O
+jaundice	I-pastHistory	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+significant	O	O	O
+recent	O	B-problem	O
+weight	O	I-problem	O
+loss	O	I-problem	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+significant	O	O	O
+for	O	O	O
+history	O	O	O
+of	O	O	O
+atrial	B-pastHistory	B-problem	B-bodyloc
+fibrillation	I-pastHistory	I-problem	O
+,	O	O	O
+under	O	O	O
+good	O	O	O
+control	O	O	O
+and	O	O	O
+now	O	O	B-temporal
+in	O	O	O
+normal	O	O	O
+sinus	O	O	O
+rhythm	O	O	O
+and	O	O	O
+on	O	O	O
+metoprolol	B-pastHistory	B-drug	O
+and	O	O	O
+also	O	O	O
+on	O	O	O
+premarin	B-pastHistory	B-drug	O
+hormone	O	O	O
+replacement	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+significant	O	O	O
+for	O	O	O
+cholecystectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+appendectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+and	O	O	O
+hysterectomy	B-pastHistory	B-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+a	O	O	O
+long	O	O	O
+history	O	O	O
+of	O	O	O
+known	O	O	O
+grade	B-pastHistory	B-problem	O
+4	I-pastHistory	I-problem	O
+bladder	I-pastHistory	I-problem	B-bodyloc
+prolapse	I-pastHistory	I-problem	O
+and	O	O	O
+she	O	O	O
+has	O	O	O
+been	O	O	O
+seen	O	O	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+by	O	O	O
+dr	O	O	O
+.	O	O	O
+chip	O	O	O
+winkel	O	O	O
+,	O	O	O
+i	O	O	O
+believe	O	O	O
+that	O	O	O
+he	O	O	O
+has	O	O	O
+not	O	O	O
+been	O	O	O
+re	O	O	O
+-	O	O	O
+consulted	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+allergic	O	B-problem	O
+or	O	O	O
+sensitive	O	O	O
+to	O	O	O
+macrodantin	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+she	O	O	O
+does	B-socialHistory	O	O
+not	I-socialHistory	O	O
+drink	I-socialHistory	O	O
+or	I-socialHistory	O	O
+smoke	I-socialHistory	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+otherwise	O	O	O
+negative	O	O	O
+for	O	O	O
+any	O	O	O
+recent	O	O	O
+febrile	O	B-problem	O
+illnesses	O	I-problem	O
+,	O	O	O
+chest	O	B-problem	B-bodyloc
+pains	O	I-problem	O
+or	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+an	O	O	O
+elderly	O	O	O
+thin	O	O	O
+white	O	O	O
+female	O	O	O
+,	O	O	O
+very	O	O	O
+pleasant	O	O	O
+,	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+her	O	B-test	O
+temperature	O	O	O
+is	O	O	O
+98	O	O	O
+.	O	O	O
+8	O	O	O
+and	O	O	O
+vital	O	B-test	O
+signs	O	I-test	O
+are	O	O	O
+all	O	O	O
+stable	O	O	O
+,	O	O	O
+within	O	O	O
+normal	O	O	O
+limits	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+head	O	O	O
+is	O	O	O
+grossly	O	O	O
+atraumatic	O	O	O
+and	O	O	O
+normocephalic	O	O	O
+.	O	O	O
+
+
+sclerae	O	O	B-bodyloc
+are	O	O	O
+anicteric	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+conjunctivae	O	O	O
+are	O	O	O
+non	O	O	O
+-	O	O	O
+injected	O	O	O
+.	O	O	O
+
+
+neck	O	O	O
+:	O	O	O
+supple	O	O	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+clear	O	O	O
+.	O	O	O
+
+
+heart	O	O	O
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+generally	O	O	O
+nondistended	O	O	O
+and	O	O	O
+soft	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+focally	O	O	O
+tender	O	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+left	O	I-problem	B-bodyloc
+lower	O	I-problem	I-bodyloc
+quadrant	O	I-problem	I-bodyloc
+to	O	O	O
+deep	O	B-test	O
+palpation	O	I-test	O
+with	O	O	O
+a	O	O	O
+palpable	O	B-problem	O
+fullness	O	O	O
+or	O	O	O
+mass	O	B-problem	O
+and	O	O	O
+focally	O	B-problem	O
+tender	O	I-problem	O
+,	O	O	O
+but	O	O	O
+no	O	O	O
+rebound	O	B-problem	O
+tenderness	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+cva	O	B-problem	O
+or	O	O	O
+flank	O	B-problem	B-bodyloc
+tenderness	O	I-problem	O
+,	O	O	O
+although	O	O	O
+some	O	O	O
+very	O	O	O
+minimal	O	O	B-severity
+left	O	O	B-bodyloc
+flank	O	B-problem	I-bodyloc
+tenderness	O	I-problem	O
+.	O	O	O
+
+
+pelvic	O	O	O
+:	O	O	O
+currently	O	O	B-temporal
+deferred	O	O	O
+,	O	O	O
+but	O	O	O
+has	O	O	O
+history	O	O	O
+of	O	O	O
+grade	O	O	O
+4	O	O	O
+urinary	O	B-problem	B-bodyloc
+bladder	O	I-problem	I-bodyloc
+prolapse	O	I-problem	O
+.	O	O	O
+
+
+extremities	O	O	O
+:	O	O	O
+grossly	O	O	O
+and	O	O	O
+neurovascularly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+laboratory	O	O	O
+values	O	O	O
+:	O	O	O
+white	O	B-test	O
+blood	O	I-test	O
+cell	O	I-test	O
+count	O	I-test	O
+is	O	O	O
+5	O	O	O
+.	O	O	O
+3	O	O	O
+,	O	O	O
+hemoglobin	O	B-test	O
+12	O	O	O
+.	O	O	O
+8	O	O	O
+,	O	O	O
+and	O	O	O
+platelet	O	B-test	O
+count	O	I-test	O
+normal	O	O	O
+.	O	O	O
+
+
+alkaline	O	B-problem	O
+phosphatase	O	I-problem	O
+elevated	O	I-problem	O
+at	O	O	O
+184	O	O	O
+.	O	O	O
+
+
+liver	O	B-test	O
+function	O	I-test	O
+tests	O	I-test	O
+otherwise	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+electrolytes	O	B-test	O
+normal	O	O	O
+.	O	O	O
+
+
+glucose	O	B-test	O
+134	O	O	O
+,	O	O	O
+bun	O	B-test	O
+4	O	O	O
+,	O	O	O
+and	O	O	O
+creatinine	O	B-test	O
+0	O	O	O
+.	O	O	O
+7	O	O	O
+.	O	O	O
+
+
+diagnostic	O	O	O
+studies	O	O	O
+:	O	O	O
+ekg	O	B-test	O
+shows	O	O	O
+normal	O	O	O
+sinus	O	O	O
+rhythm	O	O	O
+.	O	O	O
+
+
+impression	O	O	O
+and	O	O	O
+plan	O	O	O
+:	O	O	O
+a	O	O	O
+71	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+with	O	O	O
+greater	O	O	O
+than	O	O	B-temporal
+one	O	O	I-temporal
+-	O	O	I-temporal
+week	O	O	I-temporal
+history	O	O	O
+of	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+now	O	O	B-temporal
+more	O	O	O
+localized	O	O	O
+to	O	O	O
+the	O	O	O
+left	O	O	B-bodyloc
+lower	O	O	I-bodyloc
+quadrant	O	O	I-bodyloc
+.	O	O	O
+
+
+currently	O	O	B-temporal
+is	O	O	O
+a	O	O	O
+nonacute	O	O	O
+abdomen	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+working	O	O	O
+diagnosis	O	O	O
+would	O	O	O
+be	O	O	O
+sigmoid	O	B-problem	B-bodyloc
+diverticulitis	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+does	O	O	O
+have	O	O	O
+a	O	O	O
+history	O	O	O
+in	O	O	O
+the	O	O	O
+distant	O	O	O
+past	O	O	O
+of	O	O	O
+sigmoid	O	B-problem	B-bodyloc
+diverticulitis	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+would	O	O	O
+recommend	O	O	O
+a	O	O	O
+repeat	O	O	O
+stat	O	O	O
+ct	O	B-test	O
+scan	O	I-test	O
+of	O	I-test	O
+the	O	I-test	O
+abdomen	O	I-test	O
+and	O	I-test	O
+pelvis	O	I-test	O
+and	O	O	O
+keep	O	O	O
+the	O	O	O
+patient	O	O	O
+nothing	O	O	O
+by	O	O	O
+mouth	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+seen	O	O	O
+5	O	O	B-temporal
+years	O	O	I-temporal
+ago	O	O	I-temporal
+by	O	O	O
+dr	O	O	O
+.	O	O	O
+y	O	O	O
+in	O	O	O
+colorectal	O	O	O
+surgery	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+consult	O	O	O
+her	O	O	O
+also	O	O	O
+for	O	O	O
+evaluation	O	B-test	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+will	O	O	O
+need	O	O	O
+repeat	O	O	O
+colonoscopy	O	B-problem	O
+in	O	O	O
+the	O	O	O
+near	O	O	O
+future	O	O	O
+and	O	O	O
+be	O	O	O
+kept	O	O	O
+nothing	O	O	O
+by	O	O	O
+mouth	O	O	O
+now	O	O	B-temporal
+empirically	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+case	O	O	O
+was	O	O	O
+discussed	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+,	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+.	O	O	O
+again	O	O	O
+,	O	O	O
+currently	O	O	B-temporal
+there	O	O	O
+is	O	O	O
+no	O	O	O
+indication	O	O	O
+for	O	O	O
+acute	O	O	O
+surgical	O	B-treatment	O
+intervention	O	I-treatment	O
+on	O	O	O
+today	O	O	O
+'	O	O	O
+s	O	O	O
+date	O	O	O
+,	O	O	O
+although	O	O	O
+the	O	O	O
+patient	O	O	O
+will	O	O	O
+need	O	O	O
+close	O	B-test	O
+observation	O	I-test	O
+and	O	O	O
+further	O	O	O
+diagnostic	O	O	O
+workup	O	B-test	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+lower	O	B-problem	B-bodyloc
+quadrant	O	I-problem	I-bodyloc
+,	O	O	O
+abdominal	O	O	O
+,	O	O	O
+sigmoid	O	O	O
+,	O	O	O
+diverticulitis	O	B-problem	O
+,	O	O	O
+tenderness	O	B-problem	O
+,	O	O	O
+
+

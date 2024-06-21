@@ -1,0 +1,812 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+52	O	O	O
+description	O	O	O
+:	O	O	O
+anxiety	O	B-problem	O
+,	O	O	O
+alcohol	O	B-problem	O
+abuse	O	I-problem	O
+,	O	O	O
+and	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+this	O	O	O
+is	O	O	O
+a	O	O	O
+40	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+with	O	O	O
+digoxin	O	B-problem	O
+toxicity	O	I-problem	O
+secondary	O	O	O
+to	O	O	O
+likely	O	O	O
+intentional	O	B-problem	O
+digoxin	O	I-drug	O
+overuse	O	O	O
+.	O	O	O
+
+
+now	O	O	O
+,	O	O	O
+he	O	O	O
+has	O	O	O
+had	O	O	O
+significant	O	B-problem	O
+block	O	O	O
+with	O	O	O
+ekg	O	B-problem	O
+changes	O	I-problem	O
+as	O	O	O
+stated	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+anxiety	B-cc	B-problem	O
+,	O	O	O
+alcohol	B-cc	B-problem	O
+abuse	I-cc	I-problem	O
+,	O	O	O
+and	O	O	O
+chest	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+pleasant	O	O	O
+40	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+with	O	O	O
+multiple	O	B-problem	O
+medical	O	I-problem	O
+problems	O	I-problem	O
+,	O	O	O
+basically	O	O	O
+came	O	O	O
+to	O	O	O
+the	O	O	O
+hospital	O	O	O
+yesterday	O	O	B-temporal
+complaining	O	O	O
+of	O	O	O
+chest	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+states	O	O	O
+that	O	O	O
+he	O	O	O
+complained	O	O	O
+of	O	O	O
+this	O	O	O
+chest	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+,	O	O	O
+which	O	O	O
+is	O	O	O
+reproducible	B-hpi.timing	O	O
+,	O	O	O
+pleuritic	B-hpi.assocSignsAndSymptoms	B-problem	O
+in	O	I-problem	O
+both	B-hpi.location	I-problem	O
+chest	I-hpi.location	I-problem	B-bodyloc
+radiating	I-hpi.location	O	O
+to	I-hpi.location	O	O
+the	I-hpi.location	O	O
+left	I-hpi.location	O	B-bodyloc
+back	I-hpi.location	O	I-bodyloc
+and	I-hpi.location	O	O
+the	I-hpi.location	O	O
+jaw	I-hpi.location	O	O
+,	O	O	O
+complaining	O	O	O
+of	O	O	O
+some	O	B-problem	O
+cough	B-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+nausea	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+questionable	B-hpi.assocSignsAndSymptoms	O	O
+shortness	I-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+breath	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+describes	O	O	O
+the	O	B-problem	O
+pain	O	I-problem	O
+as	O	O	O
+aching	B-hpi.quality	O	O
+,	O	O	O
+sharp	B-hpi.quality	O	O
+and	O	O	O
+alleviated	O	O	O
+with	O	O	O
+pain	B-hpi.modifyingFactors	B-drug	O
+medications	I-hpi.modifyingFactors	I-drug	O
+,	O	O	O
+not	O	O	O
+alleviated	O	O	O
+with	O	O	O
+any	O	O	O
+nitrates	B-hpi.modifyingFactors	B-treatment	O
+.	O	O	O
+
+
+aggravated	O	O	O
+by	O	O	O
+breathing	B-hpi.modifyingFactors	O	O
+,	O	O	O
+coughing	B-hpi.modifyingFactors	B-problem	O
+,	O	O	O
+and	O	O	O
+palpation	B-hpi.modifyingFactors	B-test	O
+over	O	O	O
+the	O	O	O
+area	O	O	O
+.	O	O	O
+
+
+the	O	B-problem	O
+pain	O	I-problem	O
+was	O	O	O
+9	B-hpi.severity	O	B-temporal
+/	I-hpi.severity	O	I-temporal
+10	I-hpi.severity	O	I-temporal
+in	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+and	O	O	O
+he	O	O	O
+was	O	O	O
+given	O	O	O
+some	O	B-treatment	O
+pain	B-hpi.modifyingFactors	I-drug	O
+medications	I-hpi.modifyingFactors	I-drug	O
+in	O	O	O
+the	O	O	O
+er	O	O	O
+and	O	O	O
+was	O	O	O
+basically	O	O	O
+admitted	O	O	O
+.	O	O	O
+
+
+labs	O	B-test	O
+were	O	O	O
+drawn	O	O	O
+,	O	O	O
+which	O	O	O
+were	O	O	O
+essentially	O	O	O
+,	O	O	O
+potassium	B-hpi.assocSignsAndSymptoms	B-test	O
+was	I-hpi.assocSignsAndSymptoms	O	O
+about	I-hpi.assocSignsAndSymptoms	O	O
+5	I-hpi.assocSignsAndSymptoms	O	O
+.	I-hpi.assocSignsAndSymptoms	O	O
+7	I-hpi.assocSignsAndSymptoms	O	O
+and	O	O	O
+digoxin	B-hpi.assocSignsAndSymptoms	B-test	O
+level	I-hpi.assocSignsAndSymptoms	I-test	O
+was	I-hpi.assocSignsAndSymptoms	O	O
+drawn	I-hpi.assocSignsAndSymptoms	O	O
+,	I-hpi.assocSignsAndSymptoms	O	O
+which	I-hpi.assocSignsAndSymptoms	O	O
+was	I-hpi.assocSignsAndSymptoms	O	O
+about	I-hpi.assocSignsAndSymptoms	O	O
+greater	I-hpi.assocSignsAndSymptoms	O	O
+than	I-hpi.assocSignsAndSymptoms	O	O
+5	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+said	O	O	O
+that	O	O	O
+he	O	O	O
+missed	B-hpi.context	O	O
+3	I-hpi.context	O	O
+doses	I-hpi.context	B-treatment	O
+of	I-hpi.context	I-treatment	O
+digoxin	I-hpi.context	I-treatment	O
+in	I-hpi.context	O	O
+the	I-hpi.context	O	O
+last	I-hpi.context	O	O
+3	I-hpi.context	O	B-temporal
+days	I-hpi.context	O	I-temporal
+after	I-hpi.context	O	O
+being	I-hpi.context	O	O
+discharged	I-hpi.context	O	O
+from	I-hpi.context	O	O
+anaheim	I-hpi.context	B-drug	O
+memorial	I-hpi.context	O	O
+and	I-hpi.context	O	O
+then	I-hpi.context	O	O
+took	I-hpi.context	O	O
+3	I-hpi.context	O	O
+tablets	I-hpi.context	O	O
+together	I-hpi.context	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+a	O	O	O
+history	B-pastHistory	O	O
+prior	I-pastHistory	O	O
+digoxin	I-pastHistory	B-drug	O
+overdose	I-pastHistory	B-problem	O
+of	O	O	O
+the	O	O	O
+same	O	O	O
+nature	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+digoxin	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+25	O	O	O
+mg	O	O	O
+,	O	O	O
+metoprolol	B-pastHistory	B-drug	O
+50	O	O	O
+mg	O	O	O
+,	O	O	O
+naprosyn	B-pastHistory	B-drug	O
+500	O	O	O
+mg	O	O	O
+,	O	O	O
+metformin	B-pastHistory	B-drug	O
+500	O	O	O
+mg	O	O	O
+,	O	O	O
+lovastatin	B-pastHistory	B-drug	O
+40	O	O	O
+mg	O	O	O
+,	O	O	O
+klor	B-pastHistory	B-drug	O
+-	I-pastHistory	I-drug	O
+con	I-pastHistory	I-drug	O
+20	O	O	O
+meq	O	O	O
+,	O	O	O
+advair	B-pastHistory	B-treatment	O
+diskus	I-pastHistory	I-treatment	O
+,	O	O	O
+questionable	B-pastHistory	O	O
+coreg	I-pastHistory	B-drug	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+mi	B-pastHistory	B-problem	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+and	O	O	O
+atrial	B-pastHistory	B-problem	B-bodyloc
+fibrillation	I-pastHistory	I-problem	O
+,	O	O	O
+he	O	O	O
+said	O	O	O
+that	O	O	O
+he	O	O	O
+has	O	O	O
+had	O	O	O
+one	O	B-treatment	O
+stent	O	I-treatment	O
+put	O	O	O
+in	O	O	O
+,	O	O	O
+but	O	O	O
+he	O	O	O
+is	O	O	O
+not	O	O	O
+sure	O	O	O
+.	O	O	O
+the	O	O	O
+last	O	O	O
+cardiologist	O	O	O
+he	O	O	O
+saw	O	O	O
+was	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+and	O	O	O
+his	O	O	O
+primary	O	O	O
+doctor	O	O	O
+is	O	O	O
+dr	O	O	O
+.	O	O	O
+y	O	O	O
+.	O	O	O
+social	O	O	O
+history	O	O	O
+:	O	O	O
+history	B-socialHistory	O	O
+of	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+use	I-socialHistory	O	O
+in	I-socialHistory	O	O
+the	I-socialHistory	O	O
+past	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+basically	O	O	O
+requesting	O	O	O
+for	O	O	O
+more	O	O	O
+and	O	O	O
+more	O	B-treatment	O
+pain	O	I-treatment	O
+medications	O	I-treatment	O
+.	O	O	O
+
+
+he	O	O	O
+states	O	O	O
+that	O	O	O
+he	O	O	O
+likes	O	O	O
+dilaudid	O	B-drug	O
+and	O	O	O
+would	O	O	O
+like	O	O	O
+to	O	O	O
+get	O	O	O
+the	O	O	O
+morphine	O	B-drug	O
+changed	O	O	O
+to	O	O	O
+dilaudid	O	B-drug	O
+.	O	O	O
+
+
+his	O	B-problem	O
+pain	O	O	O
+is	O	O	O
+tolerable	O	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+stable	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+x3	O	O	O
+,	O	O	O
+no	O	O	O
+apparent	O	B-problem	O
+distress	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+extraocular	O	O	O
+muscles	O	O	O
+are	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+cvs	O	O	O
+:	O	O	O
+s1	O	O	O
+,	O	O	O
+s2	O	O	O
+heard	O	O	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+soft	O	O	O
+and	O	O	O
+nontender	O	O	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+edema	O	B-problem	O
+or	O	O	O
+clubbing	O	B-problem	O
+.	O	O	O
+
+
+neuro	O	O	O
+:	O	O	O
+grossly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+tender	O	B-problem	O
+to	O	I-problem	O
+palpate	O	I-problem	O
+over	O	O	O
+the	O	O	O
+left	O	O	B-bodyloc
+chest	O	O	I-bodyloc
+,	O	O	O
+no	O	O	O
+obvious	O	B-problem	O
+erythema	O	O	O
+or	O	O	O
+redness	O	B-problem	O
+,	O	O	O
+or	O	O	O
+abnormal	O	B-test	O
+exam	O	I-test	O
+is	O	O	O
+found	O	O	O
+.	O	O	O
+
+
+ekg	O	B-test	O
+basically	O	O	O
+shows	O	O	O
+atrial	O	B-problem	B-bodyloc
+fibrillation	O	I-problem	O
+,	O	O	O
+rate	O	B-test	O
+controlled	O	O	O
+,	O	O	O
+nonspecific	O	B-problem	O
+st	O	I-problem	O
+changes	O	I-problem	O
+.	O	O	O
+
+
+assessment	O	O	O
+and	O	O	O
+plan	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+this	O	O	O
+is	O	O	O
+a	O	O	O
+40	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+with	O	O	O
+digoxin	O	B-problem	O
+toxicity	O	I-problem	O
+secondary	O	O	O
+to	O	O	O
+likely	O	O	O
+intentional	O	B-problem	O
+digoxin	O	I-drug	O
+overuse	O	O	O
+.	O	O	O
+
+
+now	O	O	O
+,	O	O	O
+he	O	O	O
+has	O	O	O
+had	O	O	O
+significant	O	B-problem	O
+block	O	O	O
+with	O	O	O
+ekg	O	B-problem	O
+changes	O	I-problem	O
+as	O	O	O
+stated	O	O	O
+.	O	O	O
+
+
+continue	O	O	O
+to	O	O	O
+follow	O	O	O
+the	O	O	O
+patient	O	O	O
+clinically	O	O	O
+at	O	O	O
+this	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+been	O	O	O
+admitted	O	O	O
+to	O	O	O
+icu	O	O	O
+and	O	O	O
+will	O	O	O
+be	O	O	O
+changed	O	O	O
+to	O	O	O
+dou	O	O	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+chronic	O	B-problem	O
+chest	O	I-problem	B-bodyloc
+pain	O	I-problem	O
+with	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+myocardial	O	B-problem	B-bodyloc
+infarction	O	I-problem	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+,	O	O	O
+has	O	O	O
+been	O	O	O
+ruled	O	O	O
+out	O	O	O
+with	O	O	O
+negative	O	O	O
+cardiac	O	B-test	O
+enzymes	O	I-test	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+likely	O	O	O
+has	O	O	O
+opioid	O	B-problem	O
+dependence	O	I-problem	O
+and	O	O	O
+requesting	O	O	O
+more	O	O	O
+and	O	O	O
+more	O	B-treatment	O
+pain	O	I-treatment	O
+medications	O	I-treatment	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+also	O	O	O
+bargaining	O	O	O
+for	O	O	O
+pain	O	B-drug	O
+medications	O	I-drug	O
+with	O	O	O
+me	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+advised	O	O	O
+that	O	O	O
+he	O	O	O
+will	O	O	O
+develop	O	O	O
+more	O	O	O
+opioid	O	B-drug	O
+dependence	O	B-problem	O
+and	O	O	O
+i	O	O	O
+will	O	O	O
+stop	O	O	O
+the	O	B-treatment	O
+pain	O	I-treatment	O
+medications	O	I-treatment	O
+for	O	O	O
+now	O	O	B-temporal
+and	O	O	O
+give	O	O	O
+him	O	O	O
+only	O	B-treatment	O
+oral	O	I-treatment	O
+pain	O	I-drug	O
+medications	O	I-drug	O
+in	O	O	O
+the	O	O	O
+anticipation	O	O	O
+of	O	O	O
+the	O	O	O
+discharge	O	O	O
+in	O	O	O
+the	O	O	O
+next	O	O	O
+1	O	O	O
+or	O	O	O
+2	O	O	B-temporal
+days	O	O	I-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+likely	O	O	O
+advised	O	O	O
+to	O	O	O
+also	O	O	O
+be	O	O	O
+seen	O	O	O
+by	O	O	O
+a	O	O	O
+pain	O	O	O
+specialist	O	O	O
+as	O	O	O
+an	O	O	O
+outpatient	O	O	O
+after	O	O	O
+being	O	O	O
+referred	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+try	O	O	O
+to	O	O	O
+verify	O	O	O
+his	O	B-treatment	O
+pain	O	O	O
+medications	O	O	O
+from	O	O	O
+his	O	O	O
+primary	O	O	O
+doctor	O	O	O
+and	O	O	O
+his	O	O	O
+pharmacy	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+said	O	O	O
+that	O	O	O
+he	O	O	O
+has	O	O	O
+been	O	O	O
+on	O	O	O
+dilaudid	O	B-drug	O
+and	O	O	O
+vicodin	O	B-treatment	O
+es	O	I-treatment	O
+and	O	O	O
+norco	O	B-drug	O
+and	O	O	O
+all	O	O	O
+these	O	B-treatment	O
+medications	O	O	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+anxiety	O	B-problem	O
+,	O	O	O
+alcohol	O	B-problem	O
+abuse	O	I-problem	O
+,	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+digoxin	O	B-problem	O
+toxicity	O	I-problem	O
+,	O	O	O
+digoxin	O	B-drug	O
+overuse	O	B-problem	O
+,	O	O	O
+atrial	O	B-problem	B-bodyloc
+fibrillation	O	I-problem	O
+,	O	O	O
+opioid	O	B-problem	O
+dependence	O	I-problem	O
+,	O	O	O
+toxicity	O	B-problem	O
+,	O	O	O
+dilaudid	O	B-drug	O
+,	O	O	O
+
+

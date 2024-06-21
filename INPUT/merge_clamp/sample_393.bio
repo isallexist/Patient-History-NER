@@ -1,0 +1,1659 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+10	O	O	O
+description	O	O	O
+:	O	O	O
+checkup	O	B-test	O
+-	O	O	O
+joints	O	O	O
+hurting	O	O	O
+all	O	O	O
+over	O	O	O
+-	O	O	O
+arthralgias	O	B-problem	O
+that	O	O	O
+are	O	O	O
+suspicious	O	O	O
+for	O	O	O
+inflammatory	O	B-problem	O
+arthritis	O	I-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+joints	B-cc	O	O
+are	I-cc	O	O
+hurting	I-cc	O	O
+all	I-cc	O	O
+over	I-cc	O	O
+and	O	O	O
+checkup	O	B-test	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+a	O	O	O
+77	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+white	O	O	O
+female	O	O	O
+who	O	O	O
+is	O	O	O
+having	O	O	O
+more	O	B-problem	O
+problems	O	I-problem	O
+with	O	O	O
+joint	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+.	O	O	O
+
+
+it	O	O	O
+seems	O	O	O
+to	O	O	O
+be	O	O	O
+all	O	O	O
+over	O	O	O
+decreasing	O	O	O
+her	O	B-test	O
+mobility	O	O	O
+,	O	O	O
+hands	O	O	O
+and	O	O	O
+wrists	O	O	O
+.	O	O	O
+
+
+no	B-hpi.assocSignsAndSymptoms	O	O
+real	I-hpi.assocSignsAndSymptoms	B-problem	O
+swelling	I-hpi.assocSignsAndSymptoms	O	O
+but	O	O	O
+maybe	O	O	O
+just	O	O	O
+a	O	O	O
+little	O	O	O
+more	O	O	O
+uncomfortable	O	O	O
+than	O	O	O
+they	O	O	O
+have	O	O	O
+been	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+daypro	B-hpi.modifyingFactors	B-treatment	O
+generic	I-hpi.modifyingFactors	O	O
+does	O	O	O
+not	O	O	O
+seem	O	O	O
+to	O	O	O
+be	O	O	O
+helping	O	O	O
+at	O	O	O
+all	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+fever	O	B-problem	O
+or	O	O	O
+chills	O	B-problem	O
+.	O	O	O
+
+
+no	B-hpi.assocSignsAndSymptoms	O	O
+erythema	I-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+actually	O	O	O
+is	O	O	O
+doing	O	O	O
+better	O	O	O
+.	O	O	O
+her	O	B-problem	O
+diarrhea	B-hpi.assocSignsAndSymptoms	O	O
+now	O	O	B-temporal
+has	O	O	O
+settled	B-hpi.quality	O	O
+down	I-hpi.quality	O	O
+and	O	O	O
+she	O	O	O
+is	O	O	O
+having	O	O	O
+less	B-hpi.quality	O	O
+urinary	O	B-problem	B-bodyloc
+incontinence	O	I-problem	O
+,	O	O	O
+less	B-hpi.quality	O	O
+pedal	B-hpi.assocSignsAndSymptoms	B-problem	O
+edema	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+blood	B-hpi.assocSignsAndSymptoms	B-test	O
+sugars	I-hpi.assocSignsAndSymptoms	I-test	O
+seem	I-hpi.assocSignsAndSymptoms	O	O
+to	I-hpi.assocSignsAndSymptoms	O	O
+be	I-hpi.assocSignsAndSymptoms	O	O
+little	I-hpi.assocSignsAndSymptoms	O	O
+better	I-hpi.assocSignsAndSymptoms	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+also	O	O	O
+has	O	O	O
+gotten	O	O	O
+back	O	O	O
+on	O	O	O
+her	O	O	O
+zoloft	B-hpi.modifyingFactors	B-drug	O
+because	O	O	O
+she	O	O	O
+thinks	O	O	O
+she	O	O	O
+may	O	O	O
+be	O	O	O
+depressed	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+sleeping	B-hpi.assocSignsAndSymptoms	O	O
+all	I-hpi.assocSignsAndSymptoms	O	O
+the	I-hpi.assocSignsAndSymptoms	O	O
+time	I-hpi.assocSignsAndSymptoms	O	O
+,	O	O	O
+just	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+herself	I-hpi.assocSignsAndSymptoms	O	O
+and	I-hpi.assocSignsAndSymptoms	O	O
+really	I-hpi.assocSignsAndSymptoms	O	O
+is	I-hpi.assocSignsAndSymptoms	O	O
+disturbed	I-hpi.assocSignsAndSymptoms	O	O
+that	I-hpi.assocSignsAndSymptoms	O	O
+she	I-hpi.assocSignsAndSymptoms	O	O
+cannot	I-hpi.assocSignsAndSymptoms	O	O
+be	I-hpi.assocSignsAndSymptoms	O	O
+more	I-hpi.assocSignsAndSymptoms	O	O
+mobile	I-hpi.assocSignsAndSymptoms	O	O
+in	I-hpi.assocSignsAndSymptoms	O	O
+things	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+polyuria	O	B-problem	O
+,	O	O	O
+polydipsia	O	B-problem	O
+,	O	O	O
+or	O	O	O
+other	O	B-problem	O
+problems	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+recent	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+checks	O	I-test	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+little	O	O	O
+over	O	O	O
+a	O	O	O
+year	O	O	O
+ago	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+found	O	O	O
+to	O	O	O
+have	O	O	O
+lumbar	B-pastHistory	B-problem	B-bodyloc
+discitis	I-pastHistory	I-problem	O
+and	O	O	O
+was	O	O	O
+treated	O	O	O
+with	O	O	O
+antibiotics	O	B-drug	O
+and	O	O	O
+ended	O	O	O
+up	O	O	O
+having	O	O	O
+debridement	O	B-treatment	O
+and	O	B-treatment	O
+instrumentation	O	B-treatment	O
+with	O	O	O
+dr	O	O	O
+.	O	O	O
+xyz	O	O	O
+and	O	O	O
+is	O	O	O
+doing	O	O	O
+really	O	O	O
+quite	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+had	O	O	O
+a	O	O	O
+pulmonary	B-pastHistory	B-problem	B-bodyloc
+embolus	I-pastHistory	I-problem	O
+with	O	O	O
+that	O	O	O
+hospitalization	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+also	O	O	O
+had	O	O	O
+a	O	B-treatment	O
+hysterectomy	B-pastHistory	I-treatment	O
+,	O	O	O
+salpingoophorectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+appendectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+tonsillectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+two	O	O	O
+carpal	B-pastHistory	B-treatment	O
+tunnel	I-pastHistory	I-treatment	O
+releases	I-pastHistory	I-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+has	O	O	O
+had	O	O	O
+a	O	O	O
+parathyroidectomy	B-pastHistory	B-treatment	O
+but	O	O	O
+still	O	O	O
+has	O	O	O
+had	O	O	O
+some	O	B-problem	O
+borderline	O	I-problem	O
+elevated	O	I-problem	O
+calcium	O	O	O
+.	O	O	O
+
+
+also	O	O	O
+,	O	O	O
+hypertension	B-pastHistory	B-problem	O
+,	O	O	O
+hyperlipidemia	B-pastHistory	B-problem	O
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+diabetes	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+has	O	O	O
+osteoporosis	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+still	O	O	O
+smokes	B-socialHistory	O	O
+about	I-socialHistory	O	O
+a	I-socialHistory	O	O
+third	I-socialHistory	O	O
+of	I-socialHistory	O	O
+a	I-socialHistory	O	O
+pack	I-socialHistory	O	O
+a	I-socialHistory	O	O
+day	I-socialHistory	O	O
+,	O	O	O
+also	O	O	O
+drinks	B-socialHistory	O	O
+only	I-socialHistory	O	O
+occasional	I-socialHistory	O	O
+alcoholic	I-socialHistory	O	O
+drinks	I-socialHistory	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+married	B-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+three	B-socialHistory	O	O
+grown	I-socialHistory	O	O
+sons	I-socialHistory	O	O
+,	O	O	O
+all	O	O	O
+of	O	O	O
+which	O	O	O
+are	O	O	O
+very	O	O	O
+successful	O	O	O
+in	O	O	O
+professional	O	O	O
+positions	O	O	O
+.	O	O	O
+
+
+one	O	O	O
+son	O	O	O
+is	O	O	O
+a	O	O	O
+gastroenterologist	O	O	O
+in	O	O	O
+san	O	O	O
+diego	O	O	O
+,	O	O	O
+california	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+nifedipine	B-pastHistory	B-treatment	O
+-	I-pastHistory	O	O
+xr	I-pastHistory	O	O
+90	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+furosemide	B-pastHistory	B-drug	O
+20	O	O	O
+mg	O	O	O
+half	O	O	O
+tablet	O	O	O
+b	O	O	O
+.	O	O	O
+i	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+lisinopril	B-pastHistory	B-drug	O
+20	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+gemfibrozil	B-pastHistory	B-drug	O
+600	O	O	O
+mg	O	O	O
+b	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+,	O	O	O
+synthroid	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+1	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+miacalcin	B-pastHistory	B-drug	O
+one	O	O	O
+spray	O	O	O
+in	O	O	O
+alternate	O	O	O
+nostrils	O	O	O
+daily	O	O	O
+,	O	O	O
+ogen	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+625	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+daypro	B-pastHistory	B-drug	O
+600	O	O	O
+mg	O	O	O
+t	O	O	O
+.	O	O	O
+i	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+also	O	O	O
+lortab	B-pastHistory	B-treatment	O
+7	O	O	O
+.	O	O	O
+5	O	O	O
+two	O	O	O
+or	O	O	O
+three	O	O	O
+a	O	O	O
+day	O	O	O
+,	O	O	O
+also	O	O	O
+flexeril	B-pastHistory	B-drug	O
+occasionally	O	O	O
+,	O	O	O
+also	O	O	O
+other	O	B-treatment	O
+vitamin	B-pastHistory	I-treatment	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+she	O	O	O
+had	O	O	O
+some	O	O	O
+adverse	O	B-problem	O
+reactions	O	I-problem	O
+to	O	O	O
+penicillin	B-pastHistory	B-drug	O
+,	O	O	O
+sulfa	B-pastHistory	B-drug	O
+,	O	O	O
+perhaps	O	O	O
+contrast	B-pastHistory	B-drug	O
+medium	I-pastHistory	O	O
+,	O	O	O
+and	O	O	O
+some	O	O	O
+mycins	B-pastHistory	B-treatment	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+as	O	O	O
+far	O	O	O
+as	O	O	O
+heart	B-familyHistory	B-problem	B-bodyloc
+disease	I-familyHistory	I-problem	O
+there	O	O	O
+is	O	O	O
+none	O	O	O
+in	O	O	O
+the	O	O	O
+family	O	O	O
+.	O	O	O
+
+
+as	O	O	O
+far	O	O	O
+as	O	O	O
+cancer	O	B-problem	O
+two	O	O	O
+cousins	O	O	O
+had	O	O	O
+breast	B-familyHistory	B-problem	B-bodyloc
+cancer	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+as	O	O	O
+far	O	O	O
+as	O	O	O
+diabetes	O	B-problem	O
+father	O	O	O
+and	O	O	O
+grandfather	O	O	O
+had	O	O	O
+type	B-familyHistory	B-problem	O
+ii	I-familyHistory	I-problem	O
+diabetes	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+son	O	O	O
+has	O	O	O
+type	B-familyHistory	B-problem	O
+i	I-familyHistory	I-problem	O
+diabetes	I-familyHistory	I-problem	O
+and	O	O	O
+is	O	O	O
+struggling	O	O	O
+with	O	O	O
+that	O	O	O
+at	O	O	O
+the	O	O	O
+moment	O	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+no	O	O	O
+fever	O	B-problem	O
+,	O	O	O
+chills	O	B-problem	O
+,	O	O	O
+or	O	O	O
+night	O	B-problem	B-temporal
+sweats	O	I-problem	O
+.	O	O	O
+
+
+weight	O	B-test	O
+stable	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+no	O	O	O
+sudden	O	B-problem	O
+blindness	O	I-problem	O
+,	O	O	O
+diplopia	O	B-problem	O
+,	O	O	O
+loss	O	B-problem	O
+of	O	I-problem	O
+vision	O	I-problem	O
+,	O	O	O
+i	O	O	O
+.	O	O	O
+e	O	O	O
+.	O	O	O
+,	O	O	O
+in	O	O	O
+one	O	O	O
+eye	O	O	O
+or	O	O	O
+other	O	O	O
+visual	O	B-problem	O
+changes	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+hearing	O	B-problem	O
+changes	O	I-problem	O
+or	O	O	O
+ear	O	B-problem	B-bodyloc
+problems	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+swallowing	O	B-problem	O
+problems	O	I-problem	O
+or	O	O	O
+mouth	O	B-problem	B-bodyloc
+lesions	O	I-problem	O
+.	O	O	O
+
+
+endocrine	O	O	O
+:	O	O	O
+hypothyroidism	O	B-problem	O
+but	O	O	O
+no	O	O	O
+polyuria	O	B-problem	O
+or	O	O	O
+polydipsia	O	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+watches	O	O	O
+her	O	O	O
+blood	O	B-test	O
+sugars	O	I-test	O
+.	O	O	O
+
+
+they	O	O	O
+have	O	O	O
+been	O	O	O
+doing	O	O	O
+quite	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+respiratory	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+,	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+sputum	O	B-problem	B-bodyloc
+production	O	I-problem	O
+,	O	O	O
+hemoptysis	O	B-problem	O
+or	O	O	O
+breathing	O	B-problem	O
+problems	O	I-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+no	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+or	O	O	O
+chest	O	B-problem	B-bodyloc
+discomfort	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+paroxysmal	O	B-problem	O
+nocturnal	O	I-problem	O
+dyspnea	O	I-problem	O
+,	O	O	O
+orthopnea	O	B-problem	O
+,	O	O	O
+palpitations	O	B-problem	O
+,	O	O	O
+or	O	O	O
+heart	O	B-problem	B-bodyloc
+attacks	O	I-problem	O
+.	O	O	O
+
+
+gi	O	O	O
+:	O	O	O
+as	O	O	O
+mentioned	O	O	O
+,	O	O	O
+has	O	O	O
+had	O	O	O
+diarrhea	O	B-problem	O
+though	O	O	O
+thought	O	O	O
+to	O	O	O
+be	O	O	O
+possibly	O	O	O
+due	O	O	O
+to	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+colitis	O	I-problem	O
+that	O	O	O
+now	O	O	B-temporal
+has	O	O	O
+gotten	O	O	O
+better	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+some	O	B-problem	O
+irritable	O	I-problem	O
+bowel	O	I-problem	B-bodyloc
+syndrome	O	I-problem	O
+and	O	O	O
+bowel	O	B-problem	B-bodyloc
+abnormalities	O	I-problem	O
+for	O	O	O
+years	O	O	O
+.	O	O	O
+
+
+gu	O	O	O
+:	O	O	O
+no	O	O	O
+urinary	O	B-problem	B-bodyloc
+problems	O	I-problem	O
+,	O	O	O
+dysuria	O	B-problem	O
+,	O	O	O
+polyuria	O	B-problem	O
+or	O	O	O
+polydipsia	O	B-problem	O
+,	O	O	O
+kidney	O	B-problem	B-bodyloc
+stones	O	I-problem	O
+,	O	O	O
+or	O	O	O
+recent	O	B-problem	O
+infections	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+vaginal	O	B-problem	B-bodyloc
+bleeding	O	I-problem	O
+or	O	O	O
+discharge	O	B-problem	O
+.	O	O	O
+
+
+musculoskeletal	O	O	O
+:	O	O	O
+as	O	O	O
+above	O	O	O
+.	O	O	O
+
+
+hematological	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+some	O	B-problem	O
+anemia	O	I-problem	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+.	O	O	O
+
+
+neurological	O	O	O
+:	O	O	O
+no	O	O	O
+blackouts	O	B-problem	O
+,	O	O	O
+convulsions	O	B-problem	O
+,	O	O	O
+seizures	O	B-problem	O
+,	O	O	O
+paralysis	O	B-problem	O
+,	O	O	O
+strokes	O	B-problem	O
+,	O	O	O
+or	O	O	O
+headaches	O	B-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+weight	O	B-test	O
+is	O	O	O
+164	O	O	O
+pounds	O	O	O
+.	O	O	O
+
+
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+140	O	O	O
+/	O	O	O
+64	O	O	O
+.	O	O	O
+
+
+pulse	O	B-test	O
+:	O	O	O
+72	O	O	O
+.	O	O	O
+
+
+blood	O	B-test	O
+pressure	O	I-test	O
+repeated	O	O	O
+by	O	O	O
+me	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+sitting	O	O	O
+taken	O	O	O
+on	O	O	O
+the	O	O	O
+right	O	O	O
+arm	O	O	O
+is	O	O	O
+148	O	O	O
+/	O	O	O
+60	O	O	O
+,	O	O	O
+left	O	O	O
+arm	O	O	O
+136	O	O	O
+/	O	O	O
+58	O	O	O
+;	O	O	O
+these	O	O	O
+are	O	O	O
+while	O	O	O
+sitting	O	O	O
+on	O	O	O
+the	O	O	O
+exam	O	O	O
+table	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+a	O	O	O
+well	O	O	O
+-	O	O	O
+developed	O	O	O
+pleasant	O	O	O
+female	O	O	O
+who	O	O	O
+is	O	O	O
+comfortable	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+otherwise	O	O	O
+but	O	O	O
+she	O	O	O
+does	O	O	O
+move	O	O	O
+slowly	O	O	O
+.	O	O	O
+heent	O	O	O
+:	O	O	O
+skull	O	O	O
+is	O	O	O
+normocephalic	O	O	O
+.	O	O	O
+
+
+tms	O	O	O
+intact	O	O	O
+and	O	O	O
+shiny	O	O	O
+with	O	O	O
+good	O	O	O
+auditory	O	B-test	O
+acuity	O	I-test	O
+to	O	O	O
+finger	O	B-test	O
+rub	O	I-test	O
+.	O	O	O
+
+
+pupils	O	O	O
+equal	O	O	O
+,	O	O	O
+round	O	O	O
+,	O	O	O
+reactive	O	O	O
+to	O	O	O
+light	O	O	O
+and	O	O	O
+accommodation	O	O	O
+with	O	O	O
+extraocular	O	B-test	O
+movements	O	I-test	O
+intact	O	O	O
+.	O	O	O
+
+
+fundi	O	O	O
+benign	O	O	O
+.	O	O	O
+
+
+sclerae	O	O	O
+and	O	O	O
+conjunctivae	O	O	O
+were	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+thyromegaly	O	B-problem	O
+or	O	O	O
+cervical	O	B-problem	B-bodyloc
+lymphadenopathy	O	I-problem	O
+.	O	O	O
+
+
+carotids	O	B-test	B-bodyloc
+are	O	O	O
+2	O	O	O
++	O	O	O
+and	O	O	O
+equal	O	O	O
+bilaterally	O	O	O
+and	O	O	O
+no	O	O	O
+bruits	O	B-problem	O
+present	O	O	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+and	O	O	O
+percussion	O	B-test	O
+with	O	O	O
+good	O	O	O
+respiratory	O	O	O
+movement	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+bronchial	O	B-problem	B-bodyloc
+breath	O	I-problem	I-bodyloc
+sounds	O	I-problem	O
+,	O	O	O
+egophony	O	B-problem	O
+,	O	O	O
+or	O	O	O
+rales	O	B-problem	O
+are	O	O	O
+present	O	O	O
+.	O	O	O
+
+
+heart	O	O	B-bodyloc
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+and	O	O	O
+rate	O	B-test	O
+with	O	O	O
+no	O	O	O
+murmurs	O	B-problem	O
+,	O	O	O
+gallops	O	B-problem	O
+,	O	O	O
+rubs	O	B-problem	O
+,	O	O	O
+or	O	O	O
+enlargement	O	B-problem	O
+.	O	O	O
+
+
+pmi	O	O	O
+normal	O	O	O
+position	O	O	O
+.	O	O	O
+
+
+all	O	B-test	O
+pulses	O	I-test	O
+are	O	O	O
+2	O	O	O
++	O	O	O
+and	O	O	O
+equal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+abdomen	O	O	B-bodyloc
+:	O	O	O
+obese	O	B-problem	O
+,	O	O	O
+soft	O	O	O
+with	O	O	O
+no	O	O	O
+hepatosplenomegaly	O	B-problem	O
+or	O	O	O
+masses	O	B-problem	O
+.	O	O	O
+
+
+breasts	O	O	O
+:	O	O	O
+no	O	O	O
+predominant	O	B-problem	O
+masses	O	O	O
+,	O	O	O
+discharge	O	B-problem	O
+,	O	O	O
+or	O	O	O
+asymmetry	O	B-problem	O
+.	O	O	O
+
+
+pelvic	O	O	O
+exam	O	O	O
+:	O	O	O
+normal	O	O	O
+external	O	O	O
+genitalia	O	O	O
+,	O	O	O
+vagina	O	O	O
+and	O	O	O
+cervix	O	O	O
+.	O	O	O
+
+
+pap	O	B-test	O
+smear	O	I-test	O
+done	O	O	O
+.	O	O	O
+
+
+bimanual	O	B-test	O
+exam	O	O	O
+shows	O	O	O
+no	O	O	O
+uterine	O	B-problem	B-bodyloc
+enlargement	O	I-problem	O
+and	O	O	O
+is	O	O	O
+anteroflexed	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+adnexal	O	B-problem	B-bodyloc
+masses	O	I-problem	O
+or	O	O	O
+tenderness	O	B-problem	O
+.	O	O	O
+
+
+rectal	O	B-test	O
+exam	O	I-test	O
+is	O	O	O
+normal	O	O	O
+with	O	O	O
+soft	O	O	O
+brown	O	O	O
+stool	O	O	O
+hemoccult	O	B-test	O
+negative	O	O	O
+.	O	O	O
+
+
+extremities	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+appear	O	O	O
+to	O	O	O
+have	O	O	O
+some	O	B-problem	O
+doughiness	O	I-problem	O
+of	O	O	O
+all	O	O	O
+of	O	O	O
+the	O	O	O
+mcp	O	O	O
+joints	O	O	O
+of	O	O	O
+the	O	O	O
+hands	O	O	B-bodyloc
+and	O	O	O
+the	O	O	O
+wrists	O	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+real	O	B-problem	O
+erythema	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+real	O	O	O
+swelling	O	B-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+knees	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+no	O	O	O
+new	O	O	O
+pedal	O	B-problem	O
+edema	O	I-problem	O
+.	O	O	O
+
+
+lymph	O	O	O
+nodes	O	O	O
+:	O	O	O
+no	O	O	O
+cervical	O	O	O
+,	O	O	O
+axillary	O	O	O
+,	O	O	O
+or	O	O	O
+inguinal	O	B-problem	B-bodyloc
+adenopathy	O	I-problem	O
+.	O	O	O
+
+
+neurological	O	O	O
+:	O	O	O
+cranial	O	O	O
+nerves	O	O	O
+ii	O	O	O
+-	O	O	O
+xii	O	O	O
+are	O	O	O
+grossly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+deep	O	B-test	O
+tendon	O	I-test	O
+reflexes	O	I-test	O
+are	O	O	O
+2	O	O	O
++	O	O	O
+and	O	O	O
+equal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+cerebellar	O	B-test	O
+and	O	I-test	O
+motor	O	I-test	O
+function	O	I-test	O
+intact	O	O	O
+in	O	O	O
+all	O	O	O
+extremities	O	O	O
+.	O	O	O
+
+
+good	O	O	O
+vibratory	O	B-test	O
+and	O	I-test	O
+positional	O	I-test	O
+sense	O	I-test	O
+in	O	O	O
+all	O	O	O
+extremities	O	O	O
+and	O	O	O
+dermatomes	O	O	O
+.	O	O	O
+
+
+plantar	O	B-test	O
+reflexes	O	I-test	O
+are	O	O	O
+downgoing	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+laboratory	O	O	O
+:	O	O	O
+cbc	O	B-test	O
+shows	O	O	O
+a	O	B-test	O
+hemoglobin	O	I-test	O
+of	O	O	O
+10	O	O	O
+.	O	O	O
+5	O	O	O
+,	O	O	O
+hematocrit	O	B-test	O
+35	O	O	O
+.	O	O	O
+4	O	O	O
+,	O	O	O
+otherwise	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+urinalysis	O	B-test	O
+is	O	O	O
+within	O	O	O
+normal	O	O	O
+limits	O	O	O
+.	O	O	O
+
+
+chem	O	B-test	O
+profile	O	O	O
+showed	O	O	O
+a	O	O	O
+bun	O	B-test	O
+of	O	O	O
+54	O	O	O
+,	O	O	O
+creatinine	O	B-test	O
+1	O	O	O
+.	O	O	O
+4	O	O	O
+,	O	O	O
+glucose	O	B-test	O
+116	O	O	O
+,	O	O	O
+calcium	O	B-test	O
+was	O	O	O
+10	O	O	O
+.	O	O	O
+8	O	O	O
+,	O	O	O
+cholesterol	O	B-test	O
+198	O	O	O
+,	O	O	O
+triglycerides	O	B-test	O
+171	O	O	O
+,	O	O	O
+hdl	O	B-test	O
+43	O	O	O
+,	O	O	O
+ldl	O	B-test	O
+121	O	O	O
+,	O	O	O
+tsh	O	B-test	O
+is	O	O	O
+normal	O	O	O
+,	O	O	O
+hemoglobin	O	B-test	O
+a1c	O	I-test	O
+is	O	O	O
+5	O	O	O
+.	O	O	O
+3	O	O	O
+.	O	O	O
+
+
+assessment	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+arthralgias	O	B-problem	O
+that	O	O	O
+are	O	O	O
+suspicious	O	O	O
+for	O	O	O
+inflammatory	O	B-problem	O
+arthritis	O	I-problem	O
+,	O	O	O
+but	O	O	O
+certainly	O	O	O
+seems	O	O	O
+to	O	O	O
+be	O	O	O
+more	O	O	O
+active	O	O	O
+and	O	O	O
+bothersome	O	B-problem	O
+.	O	O	O
+
+
+i	O	O	O
+think	O	O	O
+we	O	O	O
+need	O	O	O
+to	O	O	O
+look	O	O	O
+at	O	O	O
+this	O	O	O
+more	O	O	O
+closely	O	O	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+diarrhea	O	B-problem	O
+that	O	O	O
+seems	O	O	O
+to	O	O	O
+have	O	O	O
+resolved	O	O	O
+.	O	O	O
+
+
+whether	O	O	O
+this	O	O	O
+is	O	O	O
+related	O	O	O
+to	O	O	O
+the	O	O	O
+above	O	O	O
+is	O	O	O
+unclear	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+diabetes	O	B-problem	O
+mellitus	O	I-problem	O
+type	O	I-problem	O
+ii	O	I-problem	O
+,	O	O	O
+really	O	O	O
+fairly	O	O	O
+well	O	O	O
+controlled	O	O	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+,	O	O	O
+fair	O	O	O
+.	O	O	O
+5	O	O	O
+.	O	O	O
+
+
+hypercholesterolemia	O	B-problem	O
+,	O	O	O
+could	O	O	O
+be	O	O	O
+a	O	O	O
+little	O	O	O
+better	O	O	O
+,	O	O	O
+particularly	O	O	O
+with	O	O	O
+the	O	B-problem	O
+diabetes	O	I-problem	O
+.	O	O	O
+
+
+we	O	O	O
+may	O	O	O
+need	O	O	O
+to	O	O	O
+address	O	O	O
+that	O	O	O
+further	O	O	O
+but	O	O	O
+at	O	O	O
+this	O	O	B-temporal
+point	O	O	O
+i	O	O	O
+want	O	O	O
+to	O	O	O
+work	O	O	O
+on	O	O	O
+some	O	O	O
+of	O	O	O
+the	O	O	O
+other	O	O	O
+things	O	O	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+hyperparathyroidism	O	B-problem	O
+that	O	O	O
+has	O	O	O
+been	O	O	O
+a	O	B-problem	O
+persistent	O	I-problem	O
+problem	O	I-problem	O
+despite	O	O	O
+having	O	O	O
+the	O	O	O
+parathyroidectomy	O	B-treatment	O
+.	O	O	O
+
+
+whether	O	O	O
+this	O	O	O
+has	O	O	O
+anything	O	O	O
+to	O	O	O
+do	O	O	O
+with	O	O	O
+the	O	B-problem	O
+arthralgias	O	I-problem	O
+is	O	O	O
+unclear	O	O	O
+.	O	O	O
+
+
+7	O	O	O
+.	O	O	O
+
+
+osteoporosis	O	B-problem	O
+,	O	O	O
+being	O	O	O
+treated	O	O	O
+.	O	O	O
+
+
+8	O	O	O
+.	O	O	O
+
+
+depression	O	B-problem	O
+,	O	O	O
+possibly	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+agree	O	O	O
+with	O	O	O
+going	O	O	O
+back	O	O	O
+on	O	O	O
+the	O	O	O
+zoloft	O	B-drug	O
+for	O	O	O
+which	O	O	O
+she	O	O	O
+is	O	O	O
+taking	O	O	O
+50	O	O	O
+mg	O	O	O
+daily	O	O	B-temporal
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+we	O	O	O
+will	O	O	O
+obtain	O	O	O
+an	O	B-test	O
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+of	O	O	O
+both	O	O	O
+hands	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+also	O	O	O
+obtain	O	O	O
+a	O	O	O
+sedimentation	O	B-test	O
+rate	O	I-test	O
+,	O	O	O
+rheumatoid	O	B-problem	O
+factor	O	I-problem	O
+,	O	O	O
+and	O	O	O
+have	O	O	O
+her	O	O	O
+see	O	O	O
+dr	O	O	O
+.	O	O	O
+mortensen	O	O	O
+.	O	O	O
+continue	O	O	O
+other	O	B-treatment	O
+medication	O	I-treatment	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+also	O	O	O
+have	O	O	O
+her	O	O	O
+return	O	O	O
+in	O	O	O
+three	O	O	B-temporal
+months	O	O	I-temporal
+and	O	O	O
+we	O	O	O
+will	O	O	O
+go	O	O	O
+from	O	O	O
+there	O	O	O
+.	O	O	O
+
+
+continue	O	O	O
+all	O	O	O
+of	O	O	O
+her	O	B-treatment	O
+other	O	O	O
+medications	O	O	O
+at	O	O	O
+this	O	O	B-temporal
+point	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+hemoglobin	O	B-test	O
+a1c	O	I-test	O
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+diabetes	O	B-problem	O
+mellitus	O	I-problem	O
+type	O	I-problem	O
+ii	O	I-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+hypercholesterolemia	O	B-problem	O
+,	O	O	O
+hyperparathyroidism	O	B-problem	O
+,	O	O	O
+osteoporosis	O	B-problem	O
+,	O	O	O
+depression	O	B-problem	O
+,	O	O	O
+polyuria	O	B-problem	O
+or	O	O	O
+polydipsia	O	B-problem	O
+,	O	O	O
+inflammatory	O	B-problem	O
+arthritis	O	I-problem	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+,	O	O	O
+inflammatory	O	O	O
+,	O	O	O
+arthralgias	O	B-problem	O
+,	O	O	O
+polyuria	O	B-problem	O
+,	O	O	O
+polydipsia	O	B-problem	O
+,	O	O	O
+extremities	O	O	O
+,	O	O	O
+joints	O	O	O
+,	O	O	O
+blood	O	O	O
+,	O	O	O
+diabetes	O	B-problem	O
+,	O	O	O
+
+

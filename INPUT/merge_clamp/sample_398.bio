@@ -1,0 +1,739 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+12	O	O	O
+description	O	O	O
+:	O	O	O
+feeling	O	O	O
+weak	O	B-problem	O
+and	O	O	O
+shaky	O	B-problem	O
+-	O	O	O
+dyspnea	O	B-problem	O
+on	O	O	O
+exertion	O	O	O
+and	O	O	O
+history	O	O	O
+of	O	O	O
+diabetes	O	B-problem	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+weak	B-cc	B-problem	O
+and	O	O	O
+shaky	B-cc	B-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+75	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+,	O	O	O
+caucasian	O	O	O
+female	O	O	O
+who	O	O	O
+comes	O	O	O
+in	O	O	O
+today	O	O	B-temporal
+with	O	O	O
+complaint	O	O	O
+of	O	O	O
+feeling	B-cc	O	O
+weak	I-cc	B-problem	O
+and	O	O	O
+shaky	B-cc	B-problem	O
+.	O	O	O
+
+
+when	O	O	O
+questioned	O	O	O
+further	O	O	O
+,	O	O	O
+she	O	O	O
+described	O	O	O
+shortness	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+breath	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+primarily	B-hpi.timing	O	O
+with	I-hpi.timing	O	O
+ambulation	I-hpi.timing	O	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+hemoptysis	O	B-problem	O
+,	O	O	O
+dyspnea	O	B-problem	O
+,	O	O	O
+and	O	O	O
+wheeze	O	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+denies	O	O	O
+syncope	O	B-problem	O
+,	O	O	O
+presyncope	O	B-problem	O
+,	O	O	O
+or	O	O	O
+palpitations	O	B-problem	O
+.	O	O	O
+
+
+her	O	B-problem	O
+symptoms	O	I-problem	O
+are	O	O	O
+fairly	O	O	O
+longstanding	B-hpi.duration	O	O
+but	O	O	O
+have	O	O	O
+been	O	O	O
+worsening	B-hpi.quality	O	O
+as	I-hpi.quality	O	O
+of	I-hpi.quality	O	O
+late	I-hpi.quality	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+a	O	O	O
+fairly	O	O	O
+extensive	O	O	O
+past	O	B-problem	O
+medical	O	I-problem	O
+history	O	I-problem	O
+but	O	O	O
+is	O	O	O
+a	O	O	O
+somewhat	O	O	O
+poor	O	O	O
+historian	O	O	O
+and	O	O	O
+is	O	O	O
+unable	O	O	O
+to	O	O	O
+provide	O	O	O
+details	O	O	O
+about	O	O	O
+her	O	O	O
+history	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+underlying	O	O	O
+history	O	O	O
+of	O	O	O
+heart	O	B-problem	B-bodyloc
+disease	O	I-problem	O
+but	O	O	O
+is	O	O	O
+not	O	O	O
+able	O	O	O
+to	O	O	O
+elaborate	O	O	O
+to	O	O	O
+any	O	O	O
+significant	O	O	O
+extent	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+has	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+hypertension	B-pastHistory	B-problem	O
+and	O	O	O
+type	B-pastHistory	B-problem	O
+ii	I-pastHistory	I-problem	O
+diabetes	I-pastHistory	I-problem	O
+but	O	O	O
+is	O	O	O
+not	O	O	O
+currently	O	O	B-temporal
+taking	O	O	O
+any	O	B-treatment	O
+medication	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+also	O	O	O
+had	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+pulmonary	B-pastHistory	B-problem	B-bodyloc
+embolism	I-pastHistory	I-problem	O
+approximately	O	O	O
+four	O	O	B-temporal
+years	O	O	I-temporal
+ago	O	O	O
+,	O	O	O
+hyperlipidemia	B-pastHistory	B-problem	O
+,	O	O	O
+peptic	B-pastHistory	B-problem	O
+ulcer	I-pastHistory	I-problem	O
+disease	I-pastHistory	I-problem	O
+,	O	O	O
+and	O	O	O
+recurrent	B-pastHistory	B-problem	O
+urinary	I-pastHistory	I-problem	B-bodyloc
+tract	I-pastHistory	I-problem	I-bodyloc
+infections	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+surgeries	O	B-treatment	O
+include	O	O	O
+an	O	O	O
+appendectomy	B-pastHistory	B-treatment	O
+,	O	O	O
+cesarean	B-pastHistory	B-treatment	O
+section	I-pastHistory	I-treatment	O
+,	O	O	O
+cataracts	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+hernia	B-pastHistory	B-treatment	O
+repair	I-pastHistory	I-treatment	O
+.	O	O	O
+
+
+current	O	O	B-temporal
+medications	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+on	O	O	O
+two	O	B-treatment	O
+different	O	I-treatment	O
+medications	O	I-treatment	O
+,	O	O	O
+neither	O	O	O
+of	O	O	O
+which	O	O	O
+she	O	O	O
+can	O	O	O
+remember	O	O	O
+the	O	O	O
+name	O	O	O
+and	O	O	O
+why	O	O	O
+she	O	O	O
+is	O	O	O
+taking	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+no	O	O	O
+known	O	B-problem	O
+medical	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+remarkable	O	O	O
+for	O	O	O
+coronary	B-familyHistory	B-problem	B-bodyloc
+artery	I-familyHistory	I-problem	I-bodyloc
+disease	I-familyHistory	I-problem	O
+,	O	O	O
+stroke	B-familyHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+congestive	B-familyHistory	B-problem	O
+heart	I-familyHistory	I-problem	B-bodyloc
+failure	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+a	B-socialHistory	O	O
+widow	I-socialHistory	O	O
+,	O	O	O
+lives	B-socialHistory	O	O
+alone	I-socialHistory	O	O
+.	O	O	O
+
+
+denies	B-socialHistory	O	O
+any	I-socialHistory	O	O
+tobacco	I-socialHistory	O	O
+or	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+use	I-socialHistory	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+dyspnea	O	B-problem	O
+on	O	O	O
+exertion	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+or	O	O	O
+tightness	O	B-problem	O
+,	O	O	O
+fever	O	B-problem	O
+,	O	O	O
+chills	O	B-problem	O
+,	O	O	O
+sweats	O	B-problem	O
+,	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+hemoptysis	O	B-problem	O
+,	O	O	O
+or	O	O	O
+wheeze	O	B-problem	O
+,	O	O	O
+or	O	O	O
+lower	O	B-problem	B-bodyloc
+extremity	O	I-problem	I-bodyloc
+swelling	O	I-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+alert	O	O	O
+but	O	O	O
+seems	O	O	O
+somewhat	O	B-problem	O
+confused	O	O	O
+and	O	O	O
+is	O	O	O
+not	O	O	O
+able	O	O	O
+to	O	O	O
+provide	O	O	O
+specific	O	O	O
+details	O	O	O
+about	O	O	O
+her	O	O	O
+past	O	O	O
+history	O	O	O
+.	O	O	O
+
+
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+146	O	O	O
+/	O	O	O
+80	O	O	O
+.	O	O	O
+
+
+pulse	O	B-test	O
+:	O	O	O
+68	O	O	O
+.	O	O	O
+
+
+weight	O	B-test	O
+:	O	O	O
+147	O	O	O
+pounds	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+neck	O	O	B-bodyloc
+:	O	O	O
+supple	O	O	O
+without	O	O	O
+jvd	O	B-problem	O
+,	O	O	O
+adenopathy	O	B-problem	O
+,	O	O	O
+or	O	O	O
+bruit	O	B-problem	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+soft	O	O	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+edema	O	B-problem	O
+.	O	O	O
+
+
+laboratory	O	O	O
+:	O	O	O
+o2	O	B-test	O
+sat	O	I-test	O
+100	O	O	O
+%	O	O	O
+at	O	O	O
+rest	O	O	O
+and	O	O	O
+with	O	O	O
+exertion	O	O	O
+.	O	O	O
+
+
+electrocardiogram	O	B-test	O
+was	O	O	O
+normal	O	O	O
+sinus	O	O	O
+rhythm	O	O	O
+.	O	O	O
+
+
+nonspecific	O	B-problem	O
+s	O	I-problem	O
+-	O	I-problem	O
+t	O	I-problem	O
+segment	O	I-problem	O
+changes	O	I-problem	O
+.	O	O	O
+
+
+chest	O	B-test	O
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+pending	O	O	O
+.	O	O	O
+
+
+assessment	O	O	O
+/	O	O	O
+plan	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+dyspnea	O	B-problem	O
+on	O	O	O
+exertion	O	O	O
+,	O	O	O
+uncertain	O	O	O
+etiology	O	O	O
+.	O	O	O
+
+
+mother	O	O	O
+would	O	O	O
+be	O	O	O
+concerned	O	O	O
+about	O	O	O
+the	O	O	O
+possibility	O	O	O
+of	O	O	O
+coronary	O	B-problem	B-bodyloc
+artery	O	I-problem	I-bodyloc
+disease	O	I-problem	O
+given	O	O	O
+the	O	O	O
+patients	O	O	O
+underlying	O	O	O
+risk	O	O	O
+factors	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+have	O	O	O
+the	O	O	O
+patient	O	O	O
+sign	O	O	O
+a	O	O	O
+release	O	O	O
+of	O	O	O
+records	O	O	O
+so	O	O	O
+that	O	O	O
+we	O	O	O
+can	O	O	O
+review	O	O	O
+her	O	O	O
+previous	O	O	O
+history	O	O	O
+.	O	O	O
+
+
+consider	O	O	O
+setting	O	O	O
+up	O	O	O
+for	O	O	O
+a	O	B-test	O
+stress	O	I-test	O
+test	O	I-test	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+is	O	O	O
+acceptable	O	O	O
+today	O	O	B-temporal
+.	O	O	O
+i	O	O	O
+am	O	O	B-temporal
+not	O	O	O
+certain	O	O	O
+as	O	O	O
+to	O	O	O
+what	O	O	O
+,	O	O	O
+if	O	O	O
+the	O	O	O
+patients	O	O	O
+is	O	O	O
+on	O	O	O
+any	O	O	O
+antihypertensive	O	B-drug	O
+agents	O	I-drug	O
+.	O	O	O
+
+
+we	O	O	O
+will	O	O	O
+need	O	O	O
+to	O	O	O
+have	O	O	O
+her	O	O	O
+call	O	O	O
+us	O	O	O
+what	O	O	O
+the	O	O	O
+names	O	O	O
+of	O	O	O
+her	O	B-treatment	O
+medications	O	O	O
+,	O	O	O
+so	O	O	O
+we	O	O	O
+can	O	O	O
+see	O	O	O
+exactly	O	O	O
+what	O	O	O
+she	O	O	O
+is	O	O	O
+taking	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+diabetes	O	B-problem	O
+.	O	O	O
+
+
+again	O	O	O
+,	O	O	O
+not	O	O	O
+certain	O	O	O
+as	O	O	O
+to	O	O	O
+whether	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+taking	O	O	O
+anything	O	O	O
+for	O	O	O
+this	O	O	O
+particular	O	O	O
+problem	O	O	O
+when	O	O	O
+she	O	O	O
+last	O	O	O
+had	O	O	O
+a	O	O	O
+hemoglobin	O	B-test	O
+a1c	O	I-test	O
+.	O	O	O
+
+
+i	O	O	O
+have	O	O	O
+to	O	O	O
+obtain	O	O	O
+some	O	O	O
+further	O	O	O
+history	O	O	O
+and	O	O	O
+review	O	O	O
+records	O	O	O
+before	O	O	O
+proceeding	O	O	O
+with	O	O	O
+treatment	O	B-treatment	O
+recommendations	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+history	O	O	O
+of	O	O	O
+diabetes	O	B-problem	O
+,	O	O	O
+dyspnea	O	B-problem	O
+on	O	O	O
+exertion	O	O	O
+,	O	O	O
+uncertain	O	O	O
+etiology	O	O	O
+,	O	O	O
+weak	O	B-problem	O
+,	O	O	O
+syncope	O	B-problem	O
+,	O	O	O
+presyncope	O	B-problem	O
+,	O	O	O
+palpitations	O	B-problem	O
+,	O	O	O
+coronary	O	B-problem	B-bodyloc
+artery	O	I-problem	I-bodyloc
+disease	O	I-problem	O
+,	O	O	O
+weak	O	B-problem	O
+and	O	O	O
+shaky	O	B-problem	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+,	O	O	O
+hemoptysis	O	B-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+pressure	O	B-problem	O
+,	O	O	O
+diabetes	O	B-problem	O
+,	O	O	O
+shaky	O	B-problem	O
+,	O	O	O
+dyspnea	O	B-problem	O
+,	O	O	O
+disease	O	B-problem	O
+,	O	O	O
+
+

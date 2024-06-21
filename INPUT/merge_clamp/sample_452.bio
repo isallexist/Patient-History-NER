@@ -1,0 +1,432 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+fifth	O	B-problem	O
+disease	O	I-problem	O
+-	O	O	O
+soap	O	O	O
+description	O	O	O
+:	O	O	O
+fifth	O	B-problem	B-bodyloc
+disease	O	I-problem	O
+with	O	O	O
+sinusitis	O	B-problem	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+subjective	O	O	O
+:	O	O	O
+grandfather	O	O	O
+brings	O	O	O
+the	O	O	O
+patient	O	O	O
+in	O	O	O
+today	O	O	B-temporal
+because	O	O	O
+of	O	O	O
+headaches	B-cc	B-problem	O
+,	O	O	O
+mostly	O	O	O
+in	O	O	O
+her	O	O	O
+face	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+feeling	O	B-problem	O
+pressure	O	I-problem	O
+there	O	O	O
+with	O	O	O
+a	O	O	O
+lot	O	O	O
+of	O	O	O
+sniffles	B-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+last	O	O	O
+night	O	O	O
+,	O	O	O
+she	O	O	O
+complained	O	O	O
+of	O	O	O
+sore	B-hpi.assocSignsAndSymptoms	B-problem	O
+throat	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+and	O	O	O
+a	O	O	O
+loose	B-hpi.assocSignsAndSymptoms	B-problem	O
+cough	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+over	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+three	I-hpi.duration	O	O
+days	I-hpi.duration	O	O
+,	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+a	O	O	O
+rash	B-hpi.assocSignsAndSymptoms	B-problem	O
+on	O	I-problem	O
+her	O	I-problem	O
+face	B-hpi.location	I-problem	B-bodyloc
+,	I-hpi.location	O	O
+back	I-hpi.location	O	B-bodyloc
+and	I-hpi.location	O	O
+arms	I-hpi.location	O	B-bodyloc
+.	O	O	O
+
+
+a	B-hpi.context	B-problem	O
+lot	I-hpi.context	I-problem	O
+of	I-hpi.context	O	O
+fifth	I-hpi.context	B-problem	O
+disease	I-hpi.context	I-problem	O
+at	I-hpi.context	O	O
+school	I-hpi.context	O	O
+.	O	O	O
+
+
+she	O	O	O
+says	O	O	O
+it	O	O	O
+itches	B-hpi.assocSignsAndSymptoms	O	O
+and	O	O	O
+they	O	O	O
+have	O	O	O
+been	O	O	O
+doing	O	O	O
+some	O	O	O
+benadryl	B-hpi.modifyingFactors	B-drug	O
+for	O	O	O
+this	O	O	O
+.	O	O	O
+she	O	O	O
+has	O	O	O
+not	O	O	O
+had	O	O	O
+any	O	O	O
+wheezing	O	B-problem	O
+lately	O	O	O
+and	O	O	O
+is	B-pastHistory	O	O
+not	I-pastHistory	O	O
+taking	I-pastHistory	O	O
+any	I-pastHistory	O	O
+ongoing	I-pastHistory	B-treatment	O
+medications	I-pastHistory	O	O
+for	O	O	O
+her	O	B-problem	O
+asthma	B-pastHistory	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+asthma	B-pastHistory	B-problem	O
+and	O	O	O
+allergies	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+sister	O	O	O
+is	O	O	O
+dizzy	B-familyHistory	B-problem	O
+but	O	O	O
+no	O	O	O
+other	O	O	O
+acute	O	B-problem	B-severity
+illnesses	O	I-problem	O
+.	O	O	O
+
+
+objective	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+an	O	O	O
+11	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+.	O	O	O
+
+
+alert	O	O	O
+and	O	O	O
+cooperative	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+supple	O	O	O
+without	O	O	O
+adenopathy	O	B-problem	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+ear	O	O	O
+canals	O	O	O
+clear	O	O	O
+.	O	O	O
+
+
+tms	O	O	O
+,	O	O	O
+bilaterally	O	O	O
+,	O	O	O
+gray	O	O	O
+in	O	O	O
+color	O	O	O
+and	O	O	O
+good	O	O	O
+light	O	B-test	O
+reflex	O	I-test	O
+.	O	O	O
+
+
+oropharynx	O	O	O
+is	O	O	O
+pink	O	O	O
+and	O	O	O
+moist	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+erythema	O	B-problem	O
+or	O	O	O
+exudates	O	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+postnasal	O	B-problem	O
+discharge	O	I-problem	O
+.	O	O	O
+
+
+nares	O	O	B-bodyloc
+are	O	O	O
+swollen	O	B-problem	O
+and	O	O	O
+red	O	B-problem	O
+.	O	O	O
+
+
+purulent	O	B-problem	O
+discharge	O	I-problem	O
+in	O	O	O
+the	O	O	O
+posterior	O	O	O
+turbinates	O	O	O
+.	O	O	O
+
+
+both	O	O	O
+maxillary	O	B-problem	B-bodyloc
+sinuses	O	I-problem	I-bodyloc
+are	O	I-problem	O
+tender	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+some	O	O	O
+mild	O	O	B-severity
+tenderness	O	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+left	O	I-problem	B-bodyloc
+frontal	O	I-problem	I-bodyloc
+sinus	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+eyes	O	O	B-bodyloc
+are	O	O	O
+puffy	O	B-problem	O
+and	O	O	O
+she	O	O	O
+has	O	O	O
+dark	O	B-problem	O
+circles	O	I-problem	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+respirations	O	O	O
+are	O	O	O
+regular	O	O	O
+and	O	O	O
+nonlabored	O	O	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+throughout	O	O	O
+.	O	O	O
+
+
+heart	O	O	B-bodyloc
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+without	O	O	O
+murmur	O	B-problem	O
+.	O	O	O
+
+
+skin	O	O	O
+:	O	O	O
+warm	O	O	O
+,	O	O	O
+dry	O	O	O
+and	O	O	O
+pink	O	O	O
+.	O	O	O
+
+
+moist	O	O	O
+mucous	O	O	O
+membranes	O	O	O
+.	O	O	O
+
+
+red	O	B-problem	O
+,	O	B-problem	O
+lacey	O	I-problem	O
+rash	O	I-problem	O
+from	O	O	O
+the	O	O	O
+wrists	O	O	O
+to	O	O	O
+the	O	O	O
+elbows	O	O	O
+,	O	O	O
+both	O	O	O
+sides	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+very	O	O	O
+faint	O	O	O
+on	O	O	O
+the	O	O	O
+lower	O	O	B-bodyloc
+back	O	O	I-bodyloc
+and	O	O	O
+she	O	O	O
+has	O	O	O
+reddened	O	B-problem	O
+cheeks	O	O	O
+,	O	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+assessment	O	O	O
+:	O	O	O
+fifth	O	B-problem	B-bodyloc
+disease	O	I-problem	O
+with	O	O	O
+sinusitis	O	B-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+omnicef	O	B-drug	O
+300	O	O	O
+mg	O	O	O
+daily	O	O	B-temporal
+for	O	O	O
+10	O	O	B-temporal
+days	O	O	I-temporal
+.	O	O	O
+
+
+may	O	O	O
+use	O	O	O
+some	O	O	O
+zyrtec	O	B-drug	O
+for	O	O	O
+the	O	B-problem	O
+itching	O	I-problem	O
+.	O	O	O
+
+
+samples	O	O	O
+are	O	O	O
+given	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+fifth	O	B-problem	O
+disease	O	I-problem	O
+,	O	O	O
+soap	O	O	O
+,	O	O	O
+asthma	O	B-problem	O
+,	O	O	O
+headaches	O	B-problem	O
+,	O	O	O
+sinusitis	O	B-problem	O
+,	O	O	O
+sore	O	B-problem	O
+throat	O	I-problem	B-bodyloc
+,	O	O	O
+oropharynx	O	O	O
+,	O	O	O
+
+

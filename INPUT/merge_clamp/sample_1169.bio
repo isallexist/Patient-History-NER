@@ -1,0 +1,450 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+consult	O	O	O
+-	O	O	O
+smoking	O	O	O
+cessation	O	O	O
+description	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+needs	O	O	O
+refills	O	O	O
+on	O	O	O
+her	O	O	O
+xanax	O	B-drug	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+i	O	O	O
+need	O	O	O
+refills	B-cc	O	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+presents	O	O	O
+today	O	O	B-temporal
+stating	O	O	O
+that	O	O	O
+she	O	O	O
+needs	O	O	O
+refills	B-cc	O	O
+on	I-cc	O	O
+her	I-cc	O	O
+xanax	I-cc	B-drug	O
+,	O	O	O
+and	O	O	O
+she	O	O	O
+would	O	O	O
+also	O	O	O
+like	O	O	O
+to	O	O	O
+get	O	O	O
+something	O	O	O
+to	O	O	O
+help	O	O	O
+her	O	O	O
+quit	B-socialHistory	O	O
+smoking	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+a	O	O	O
+new	O	O	O
+patient	O	O	O
+today	O	O	B-temporal
+.	O	O	O
+
+
+she	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+mesothelioma	B-hpi.assocSignsAndSymptoms	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+lining	B-hpi.location	I-problem	O
+of	I-hpi.location	I-problem	O
+her	I-hpi.location	O	O
+stomach	I-hpi.location	O	B-bodyloc
+and	O	O	O
+that	O	O	O
+it	O	O	O
+does	O	O	O
+cause	O	O	O
+her	O	O	O
+some	O	O	O
+problems	B-hpi.assocSignsAndSymptoms	B-problem	O
+with	I-hpi.assocSignsAndSymptoms	I-problem	O
+eating	I-hpi.assocSignsAndSymptoms	I-problem	O
+and	O	O	O
+it	O	O	O
+causes	O	O	O
+some	O	O	O
+chronic	B-hpi.assocSignsAndSymptoms	B-problem	O
+pain	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+is	O	O	O
+under	O	O	O
+the	O	O	O
+care	O	O	O
+of	O	O	O
+a	O	O	O
+cancer	O	O	O
+specialist	O	O	O
+;	O	O	O
+however	O	O	O
+,	O	O	O
+she	O	O	O
+just	O	O	O
+recently	O	O	O
+moved	O	O	O
+back	O	O	O
+to	O	O	O
+this	O	O	O
+area	O	O	O
+and	O	O	O
+is	O	O	O
+trying	O	O	O
+to	O	O	O
+find	O	O	O
+a	O	O	O
+doctor	O	O	O
+a	O	O	O
+little	O	O	O
+closer	O	O	O
+than	O	O	O
+his	O	O	O
+office	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+tried	O	O	O
+several	O	O	O
+different	O	O	O
+things	O	O	O
+to	O	O	O
+help	O	O	O
+her	O	O	O
+quit	B-hpi.assocSignsAndSymptoms	O	O
+smoking	I-hpi.assocSignsAndSymptoms	O	O
+and	I-hpi.assocSignsAndSymptoms	O	O
+she	I-hpi.assocSignsAndSymptoms	O	O
+has	I-hpi.assocSignsAndSymptoms	O	O
+failed	I-hpi.assocSignsAndSymptoms	O	O
+everything	I-hpi.assocSignsAndSymptoms	O	O
+and	O	O	O
+had	O	O	O
+heard	O	O	O
+good	O	O	O
+results	O	O	O
+about	O	O	O
+chantix	O	B-drug	O
+and	O	O	O
+wanted	O	O	O
+to	O	O	O
+give	O	O	O
+it	O	O	O
+a	O	O	O
+try	O	O	O
+.	O	O	O
+
+
+objective	O	O	O
+:	O	O	O
+well	O	O	O
+developed	O	O	O
+and	O	O	O
+well	O	O	O
+nourished	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+does	O	O	O
+not	O	O	O
+appear	O	O	O
+to	O	O	O
+be	O	O	O
+in	O	O	O
+any	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+no	O	O	O
+murmurs	O	B-problem	O
+,	O	O	O
+gallops	O	B-problem	O
+,	O	O	O
+or	O	O	O
+rubs	O	B-problem	O
+.	O	O	O
+
+
+capillary	O	B-test	O
+refill	O	I-test	O
+less	O	O	O
+than	O	O	O
+3	O	O	B-temporal
+seconds	O	O	I-temporal
+.	O	O	O
+
+
+peripheral	O	B-test	O
+pulses	O	I-test	O
+are	O	O	O
+2	O	O	O
++	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+respiratory	O	O	O
+:	O	O	O
+her	O	O	O
+lungs	O	O	O
+are	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+bilaterally	O	O	O
+with	O	O	O
+good	O	O	O
+effort	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+tenderness	O	B-problem	O
+to	O	O	O
+palpation	O	B-test	O
+over	O	O	O
+chest	O	O	B-bodyloc
+wall	O	O	I-bodyloc
+.	O	O	O
+
+
+musculoskeletal	O	O	O
+:	O	O	O
+she	O	O	O
+has	O	O	O
+full	O	O	O
+range	O	O	O
+of	O	O	O
+motion	O	O	O
+of	O	O	O
+all	O	O	O
+four	O	O	O
+extremities	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+tenderness	O	B-problem	O
+to	O	O	O
+palpation	O	B-test	O
+over	O	O	O
+long	O	O	O
+bones	O	O	O
+.	O	O	O
+
+
+skin	O	O	O
+:	O	O	O
+warm	O	O	O
+and	O	O	O
+dry	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+rashes	O	B-problem	O
+or	O	O	O
+lesions	O	B-problem	O
+.	O	O	O
+
+
+neuro	O	O	O
+:	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+x3	O	O	B-temporal
+.	O	O	O
+
+
+cranial	O	O	O
+nerves	O	O	O
+ii	O	O	O
+-	O	O	O
+xii	O	O	O
+are	O	O	O
+grossly	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+focal	O	B-problem	O
+deficits	O	I-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+i	O	O	O
+did	O	O	O
+refill	O	O	O
+her	O	B-treatment	O
+medications	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+have	O	O	O
+requested	O	O	O
+that	O	O	O
+she	O	O	O
+have	O	O	O
+her	O	O	O
+primary	O	O	O
+doctor	O	O	O
+forward	O	O	O
+her	O	O	O
+records	O	O	O
+to	O	O	O
+me	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+have	O	O	O
+discussed	O	O	O
+chantix	O	B-drug	O
+and	O	O	O
+its	O	O	O
+use	O	O	O
+and	O	O	O
+success	O	O	O
+rate	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+given	O	O	O
+a	O	O	O
+prescription	O	O	O
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+a	O	O	O
+coupon	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+to	O	O	O
+watch	O	O	O
+for	O	O	O
+any	O	O	O
+worsening	O	B-problem	O
+signs	O	I-problem	O
+or	O	I-problem	O
+symptoms	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+verbalized	O	O	O
+understanding	O	O	O
+of	O	O	O
+discharge	O	O	O
+instructions	O	O	O
+and	O	O	O
+prescriptions	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+would	O	O	O
+like	O	O	O
+to	O	O	O
+see	O	O	O
+her	O	O	O
+back	O	O	O
+to	O	O	O
+proceed	O	O	O
+with	O	O	O
+her	O	O	O
+preventive	O	O	O
+health	O	O	O
+measures	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+quit	O	O	O
+smoking	O	O	O
+,	O	O	O
+chantix	O	B-drug	O
+,	O	O	O
+mesothelioma	O	B-problem	O
+,	O	O	O
+smoking	O	O	O
+,	O	O	O
+xanax	O	B-drug	O
+,	O	O	O
+refills	O	O	O
+,	O	O	O
+
+

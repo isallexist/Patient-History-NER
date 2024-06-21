@@ -1,0 +1,557 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+progress	O	O	O
+note	O	O	O
+-	O	O	O
+2	O	O	O
+description	O	O	O
+:	O	O	O
+sample	O	O	O
+progress	O	O	O
+note	O	O	O
+-	O	O	O
+gen	O	O	O
+med	O	O	O
+.	O	O	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+followup	O	O	O
+on	O	O	O
+hypertension	B-cc	B-problem	O
+and	O	O	O
+hypercholesterolemia	B-cc	B-problem	O
+.	O	O	O
+
+
+subjective	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+78	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+who	O	O	O
+recently	O	O	O
+had	O	O	O
+his	O	O	O
+right	B-pastHistory	O	O
+knee	I-pastHistory	O	O
+replaced	I-pastHistory	O	O
+and	O	O	O
+also	O	O	O
+back	B-pastHistory	B-treatment	O
+surgery	I-pastHistory	I-treatment	O
+about	O	O	O
+a	O	O	O
+year	O	O	B-temporal
+and	O	O	I-temporal
+a	O	O	I-temporal
+half	O	O	I-temporal
+ago	O	O	I-temporal
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+done	O	O	O
+well	O	O	O
+with	O	O	O
+that	O	O	O
+.	O	O	O
+he	O	O	O
+does	O	O	O
+most	O	O	O
+of	O	O	O
+the	O	O	O
+things	O	O	O
+that	O	O	O
+he	O	O	O
+wants	O	O	O
+to	O	O	O
+do	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+travels	O	O	O
+at	O	O	O
+every	O	O	O
+chance	O	O	O
+he	O	O	O
+has	O	O	O
+,	O	O	O
+and	O	O	O
+he	O	O	O
+just	O	O	O
+got	B-socialHistory	O	O
+back	I-socialHistory	O	O
+from	I-socialHistory	O	O
+a	I-socialHistory	O	O
+cruise	I-socialHistory	O	O
+.	O	O	O
+he	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+type	O	I-problem	O
+of	O	I-problem	O
+chest	O	I-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+heaviness	O	B-problem	O
+,	O	O	O
+tightness	O	B-problem	O
+,	O	O	O
+pressure	O	B-problem	O
+,	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+with	O	O	O
+stairs	O	O	O
+only	O	O	O
+,	O	O	O
+cough	O	B-problem	O
+or	O	O	O
+palpitations	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+sees	O	O	O
+dr	O	O	O
+.	O	O	O
+ferguson	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+known	O	O	O
+to	O	O	O
+have	O	O	O
+crohn	B-pastHistory	B-problem	O
+'	I-pastHistory	I-problem	O
+s	I-pastHistory	I-problem	O
+and	O	O	O
+he	O	O	O
+takes	O	O	O
+care	O	O	O
+of	O	O	O
+that	O	O	O
+for	O	O	O
+him	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+sees	O	O	O
+dr	O	O	O
+.	O	O	O
+roszhart	O	O	O
+for	O	O	O
+his	O	O	O
+prostate	O	B-test	O
+check	O	I-test	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+a	O	O	O
+nonsmoker	B-socialHistory	O	O
+and	O	O	O
+denies	O	O	O
+swelling	O	B-problem	O
+in	O	I-problem	O
+his	O	I-problem	O
+ankles	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+refer	O	O	O
+to	O	O	O
+chart	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+refer	O	O	O
+to	O	O	O
+chart	O	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vitals	O	B-test	O
+:	O	O	O
+wt	O	B-test	O
+;	O	O	O
+172	O	O	O
+lbs	O	O	O
+,	O	O	O
+up	O	O	O
+2	O	O	O
+lbs	O	O	O
+,	O	O	O
+b	O	B-test	O
+/	O	I-test	O
+p	O	I-test	O
+;	O	O	O
+150	O	O	O
+/	O	O	O
+60	O	O	O
+,	O	O	O
+t	O	B-test	O
+;	O	O	O
+96	O	O	O
+.	O	O	O
+4	O	O	O
+,	O	O	O
+p	O	B-test	O
+;	O	O	O
+72	O	O	O
+and	O	O	O
+regular	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+a	O	O	O
+78	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+who	O	O	O
+does	O	O	O
+not	O	O	O
+appear	O	O	O
+to	O	O	O
+be	O	O	O
+in	O	O	O
+any	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+glasses	O	B-treatment	O
+.	O	O	O
+
+
+good	O	O	O
+dentition	O	O	O
+.	O	O	O
+
+
+cv	O	O	B-bodyloc
+:	O	O	O
+distant	O	O	O
+s1	O	O	O
+,	O	O	O
+s2	O	O	O
+without	O	O	O
+murmur	O	B-problem	O
+or	O	O	O
+gallop	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+carotid	O	B-problem	B-bodyloc
+bruits	O	I-problem	O
+.	O	O	O
+
+
+p	O	O	O
+:	O	O	O
+2	O	O	O
++	O	O	O
+all	O	O	O
+around	O	O	O
+.	O	O	O
+
+
+lungs	O	O	B-bodyloc
+:	O	O	O
+diminished	O	B-problem	O
+with	O	O	O
+increased	O	B-problem	O
+ap	O	I-problem	O
+diameter	O	I-problem	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+soft	O	O	O
+,	O	O	O
+bowel	O	O	O
+sounds	O	O	O
+active	O	O	O
+x	O	O	B-temporal
+4	O	O	I-temporal
+quadrants	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+tenderness	O	B-problem	O
+,	O	O	O
+no	O	O	O
+distention	O	B-problem	O
+,	O	O	O
+no	O	O	O
+masses	O	B-problem	O
+or	O	O	O
+organomegaly	O	B-problem	O
+noted	O	O	O
+.	O	O	O
+
+
+extremities	O	O	O
+:	O	O	O
+well	O	B-problem	O
+-	O	I-problem	O
+healed	O	I-problem	O
+surgical	O	I-problem	O
+scar	O	I-problem	O
+on	O	O	O
+the	O	O	O
+right	O	O	B-bodyloc
+knee	O	O	I-bodyloc
+.	O	O	O
+
+
+no	O	O	O
+edema	O	B-problem	O
+.	O	O	O
+
+
+hand	O	B-test	O
+grasps	O	I-test	O
+are	O	O	O
+strong	O	O	O
+and	O	O	O
+equal	O	O	O
+.	O	O	O
+
+
+back	O	O	B-bodyloc
+:	O	O	O
+surgical	O	B-problem	O
+scar	O	I-problem	O
+on	O	I-problem	O
+the	O	I-problem	O
+lower	O	I-problem	B-bodyloc
+back	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+neuro	O	O	O
+:	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+a	O	O	O
+&	O	O	O
+o	O	O	O
+.	O	O	O
+moves	O	O	O
+all	O	O	O
+four	O	O	O
+with	O	O	O
+no	O	O	O
+focal	O	B-problem	O
+motor	O	I-problem	O
+or	O	O	O
+sensory	O	B-problem	O
+deficits	O	I-problem	O
+.	O	O	O
+
+
+impression	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+hypercholesterolemia	O	B-problem	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+osteoarthritis	O	B-problem	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+fatigue	O	B-problem	O
+.	O	O	O
+plan	O	O	O
+:	O	O	O
+we	O	O	O
+will	O	O	O
+check	O	O	O
+a	O	O	O
+bmp	O	B-test	O
+,	O	O	O
+lipid	O	B-test	O
+,	O	O	O
+liver	O	B-test	O
+profile	O	I-test	O
+,	O	O	O
+cpk	O	B-test	O
+,	O	O	O
+and	O	O	O
+cbc	O	B-test	O
+.	O	O	O
+
+
+refill	O	O	O
+his	O	B-treatment	O
+medications	O	O	O
+x	O	O	O
+3	O	O	B-temporal
+months	O	O	I-temporal
+.	O	O	O
+
+
+i	O	O	O
+gave	O	O	O
+him	O	O	O
+a	O	O	O
+copy	O	O	O
+of	O	O	O
+partners	O	O	O
+in	O	O	O
+prevention	O	O	O
+.	O	O	O
+
+
+increase	O	O	O
+his	O	O	O
+altace	O	B-treatment	O
+to	O	O	O
+5	O	O	O
+mg	O	O	O
+day	O	O	O
+for	O	O	O
+better	O	O	O
+blood	O	B-treatment	O
+pressure	O	I-treatment	O
+control	O	I-treatment	O
+.	O	O	O
+
+
+diet	O	B-treatment	O
+,	O	O	O
+exercise	O	O	O
+,	O	O	O
+and	O	O	O
+weight	O	B-problem	O
+loss	O	I-problem	O
+,	O	O	O
+and	O	O	O
+we	O	O	O
+will	O	O	O
+see	O	O	O
+him	O	O	O
+back	O	O	O
+in	O	O	O
+three	O	O	B-temporal
+months	O	O	I-temporal
+and	O	O	O
+p	O	O	O
+.	O	O	O
+r	O	O	O
+.	O	O	O
+n	O	O	O
+.	O	O	O
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+progress	O	O	O
+note	O	O	O
+,	O	O	O
+fatigue	O	B-problem	O
+,	O	O	O
+osteoarthritis	O	B-problem	O
+,	O	O	O
+back	O	B-treatment	O
+surgery	O	I-treatment	O
+,	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+heaviness	O	B-problem	O
+,	O	O	O
+hypercholesterolemia	O	B-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+palpitations	O	B-problem	O
+,	O	O	O
+pressure	O	B-problem	O
+,	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+,	O	O	O
+tightness	O	B-problem	O
+,	O	O	O
+surgical	O	B-problem	O
+scar	O	I-problem	O
+,	O	O	O
+progress	O	O	O
+,	O	O	O
+
+

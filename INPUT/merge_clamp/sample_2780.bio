@@ -1,0 +1,1058 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+lesions	O	B-problem	O
+-	O	B-problem	O
+adrenal	O	I-problem	O
+and	O	O	O
+pancreatic	O	O	B-bodyloc
+description	O	O	O
+:	O	O	O
+pancreatic	O	O	O
+and	O	O	O
+left	O	O	B-bodyloc
+adrenal	O	B-problem	I-bodyloc
+lesions	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+adrenal	O	B-problem	B-bodyloc
+lesion	O	I-problem	O
+is	O	O	O
+a	O	O	O
+small	O	B-problem	O
+lesion	O	I-problem	O
+,	O	O	O
+appears	O	O	O
+as	O	O	O
+if	O	O	O
+probable	O	O	O
+benign	O	B-problem	O
+adenoma	O	I-problem	O
+,	O	O	O
+where	O	O	O
+as	O	O	O
+the	O	O	O
+pancreatic	O	B-problem	B-bodyloc
+lesion	O	I-problem	O
+is	O	O	O
+the	O	B-problem	O
+cystic	O	I-problem	O
+lesion	O	I-problem	O
+,	O	O	O
+and	O	O	O
+neoplasm	O	B-problem	O
+could	O	O	O
+not	O	O	O
+be	O	O	O
+excluded	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+both	O	B-problem	O
+pancreatic	B-cc	I-problem	O
+and	I-cc	I-problem	O
+left	I-cc	I-problem	B-bodyloc
+adrenal	I-cc	I-problem	I-bodyloc
+lesions	I-cc	O	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+60	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+white	O	O	O
+male	O	O	O
+is	O	O	O
+referred	O	O	O
+to	O	O	O
+us	O	O	O
+by	O	O	O
+his	O	O	O
+medical	O	O	O
+physician	O	O	O
+with	O	O	O
+a	O	O	O
+complaint	O	O	O
+of	O	O	O
+recent	O	O	O
+finding	O	O	O
+of	O	O	O
+a	O	O	O
+both	O	O	O
+pancreatic	B-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+lesion	O	I-problem	O
+and	O	O	O
+lesions	O	B-problem	O
+with	O	I-problem	O
+left	B-hpi.location	I-problem	B-bodyloc
+adrenal	I-hpi.location	I-problem	I-bodyloc
+gland	I-hpi.location	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+history	O	O	O
+dates	O	O	O
+back	O	O	O
+to	O	O	O
+at	O	O	O
+the	B-hpi.duration	O	O
+end	I-hpi.duration	O	O
+of	I-hpi.duration	O	O
+the	I-hpi.duration	O	O
+january	I-hpi.duration	O	O
+of	I-hpi.duration	O	O
+this	I-hpi.duration	O	O
+past	I-hpi.duration	O	O
+year	I-hpi.duration	O	O
+when	O	O	O
+he	O	O	O
+began	O	O	O
+experiencing	O	O	O
+symptoms	O	B-problem	O
+consistent	B-hpi.timing	O	O
+with	O	O	O
+difficulty	O	B-problem	O
+almost	O	O	O
+like	O	O	O
+a	O	O	O
+suffocating	B-hpi.quality	O	O
+feeling	O	O	O
+whenever	B-hpi.context	O	O
+he	I-hpi.context	O	O
+would	I-hpi.context	O	O
+lie	I-hpi.context	O	O
+flat	I-hpi.context	O	O
+on	I-hpi.context	O	O
+his	I-hpi.context	O	O
+back	I-hpi.context	O	O
+.	O	O	O
+
+
+he	O	O	O
+noticed	O	O	O
+whenever	O	O	O
+he	O	O	O
+would	O	O	O
+recline	B-hpi.context	O	O
+backwards	I-hpi.context	O	O
+,	O	O	O
+he	O	O	O
+would	O	O	O
+begin	O	O	O
+this	O	O	O
+feeling	O	O	O
+and	O	O	O
+it	O	O	O
+is	O	O	O
+so	O	O	O
+bad	O	O	O
+now	O	O	B-temporal
+that	O	O	O
+he	O	O	O
+can	O	O	O
+barely	B-hpi.assocSignsAndSymptoms	O	O
+recline	I-hpi.assocSignsAndSymptoms	O	O
+,	O	O	O
+very	O	O	O
+little	O	O	O
+before	O	O	O
+he	O	O	O
+has	O	O	O
+this	O	O	O
+feeling	O	O	O
+.	O	O	O
+he	O	O	O
+is	O	O	O
+now	O	O	B-temporal
+sleeping	B-hpi.assocSignsAndSymptoms	O	O
+in	I-hpi.assocSignsAndSymptoms	O	O
+an	I-hpi.assocSignsAndSymptoms	O	O
+upright	I-hpi.assocSignsAndSymptoms	O	O
+position	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	O	O	O
+sent	O	O	O
+for	O	O	O
+cat	O	B-test	O
+scan	O	I-test	O
+originally	O	O	O
+of	O	O	O
+his	O	O	O
+chest	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+cat	O	B-test	O
+scan	O	I-test	O
+of	O	O	O
+the	O	O	O
+chest	O	O	O
+reveals	O	O	O
+a	O	O	O
+pneumonitis	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+but	O	O	O
+also	O	O	O
+saw	O	O	O
+a	B-hpi.assocSignsAndSymptoms	O	O
+left	I-hpi.assocSignsAndSymptoms	O	B-bodyloc
+adrenal	I-hpi.assocSignsAndSymptoms	B-problem	I-bodyloc
+nodule	I-hpi.assocSignsAndSymptoms	I-problem	O
+and	O	O	O
+a	B-hpi.assocSignsAndSymptoms	O	O
+small	I-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+pancreatic	I-hpi.assocSignsAndSymptoms	I-problem	I-bodyloc
+lesion	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	O	O	O
+subsequently	O	O	O
+was	O	O	O
+sent	O	O	O
+for	O	O	O
+a	O	O	O
+dedicated	O	O	O
+abdominal	O	O	O
+cat	O	B-test	O
+scan	O	I-test	O
+and	O	O	O
+mri	O	B-test	O
+.	O	O	O
+
+
+the	O	O	O
+cat	O	B-test	O
+scan	O	I-test	O
+revealed	O	O	O
+1	B-hpi.assocSignsAndSymptoms	O	O
+.	I-hpi.assocSignsAndSymptoms	O	O
+8	I-hpi.assocSignsAndSymptoms	O	O
+-	I-hpi.assocSignsAndSymptoms	O	O
+cm	I-hpi.assocSignsAndSymptoms	B-problem	O
+lesion	I-hpi.assocSignsAndSymptoms	I-problem	O
+of	O	I-problem	O
+his	O	I-problem	O
+left	B-hpi.location	I-problem	B-bodyloc
+adrenal	I-hpi.location	I-problem	I-bodyloc
+gland	I-hpi.location	O	I-bodyloc
+,	O	O	O
+suspected	O	O	O
+to	O	O	O
+be	O	O	O
+a	O	O	O
+benign	B-hpi.assocSignsAndSymptoms	B-problem	O
+adenoma	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+pancreas	O	O	O
+showed	O	O	O
+pancreatic	B-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+lesion	I-hpi.assocSignsAndSymptoms	I-problem	O
+towards	O	O	O
+the	O	B-problem	O
+mid	B-hpi.location	I-problem	O
+body	I-hpi.location	I-problem	O
+tail	I-hpi.location	I-problem	O
+aspect	I-hpi.location	I-problem	O
+of	I-hpi.location	I-problem	O
+the	I-hpi.location	I-problem	O
+pancreas	I-hpi.location	I-problem	B-bodyloc
+,	O	O	O
+approximately	O	O	O
+1	B-hpi.severity	O	O
+cm	I-hpi.severity	O	O
+,	O	O	O
+most	B-hpi.assocSignsAndSymptoms	O	O
+likely	I-hpi.assocSignsAndSymptoms	O	O
+of	I-hpi.assocSignsAndSymptoms	O	O
+cystic	I-hpi.assocSignsAndSymptoms	O	O
+nature	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+neoplasm	O	B-problem	O
+could	O	O	O
+not	O	O	O
+be	O	O	O
+excluded	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	O	O	O
+referred	O	O	O
+to	O	O	O
+us	O	O	O
+for	O	O	O
+further	O	B-test	O
+assessment	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+denies	O	O	O
+any	O	O	O
+significant	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+any	O	O	O
+nausea	O	B-problem	O
+or	O	O	O
+vomiting	O	B-problem	O
+.	O	O	O
+
+
+his	O	O	O
+appetite	B-hpi.assocSignsAndSymptoms	O	O
+is	I-hpi.assocSignsAndSymptoms	O	O
+fine	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+had	O	O	O
+no	O	O	O
+significant	O	O	O
+changes	O	B-problem	O
+in	O	I-problem	O
+his	O	I-problem	O
+bowel	O	I-problem	B-bodyloc
+habits	O	I-problem	O
+or	O	O	O
+any	O	O	O
+rectal	O	B-problem	B-bodyloc
+bleeding	O	I-problem	O
+or	O	O	O
+melena	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+undergone	O	O	O
+a	O	B-test	O
+colonoscopy	O	I-test	O
+in	O	O	O
+september	O	O	B-temporal
+of	O	O	O
+last	O	O	O
+year	O	O	O
+and	O	O	O
+was	O	O	O
+found	O	O	O
+to	O	O	O
+have	O	O	O
+three	B-hpi.assocSignsAndSymptoms	O	O
+adenomatous	I-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+polyps	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+does	O	O	O
+have	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+frequent	B-pastHistory	B-problem	O
+urination	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+has	O	O	O
+been	O	O	O
+followed	O	O	O
+by	O	O	O
+urologist	O	O	O
+for	O	O	O
+this	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	B-familyHistory	O	O
+family	I-familyHistory	O	O
+history	I-familyHistory	O	O
+of	I-familyHistory	O	O
+pancreatic	I-familyHistory	B-problem	B-bodyloc
+cancer	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+gallstone	B-familyHistory	B-problem	O
+pancreatitis	I-familyHistory	I-problem	O
+in	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+sister	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+significant	O	O	O
+for	O	O	O
+hypertension	B-pastHistory	B-problem	O
+,	O	O	O
+type	B-pastHistory	B-problem	O
+2	I-pastHistory	I-problem	O
+diabetes	I-pastHistory	I-problem	O
+mellitus	I-pastHistory	I-problem	O
+,	O	O	O
+asthma	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+high	B-pastHistory	B-problem	O
+cholesterol	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+environmental	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+include	O	O	O
+glipizide	B-pastHistory	B-drug	O
+5	O	O	O
+mg	O	O	O
+b	O	O	O
+.	O	O	O
+i	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+metformin	B-pastHistory	B-drug	O
+500	O	O	O
+mg	O	O	O
+b	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+,	O	O	O
+atacand	B-pastHistory	B-drug	O
+16	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+metoprolol	B-pastHistory	B-drug	O
+25	O	O	O
+mg	O	O	O
+b	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+,	O	O	O
+lipitor	B-pastHistory	B-drug	O
+10	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+pantoprazole	B-pastHistory	B-drug	O
+40	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+flomax	B-pastHistory	B-drug	O
+0	O	O	O
+.	O	O	O
+4	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+detrol	B-pastHistory	B-drug	O
+4	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+zyrtec	B-pastHistory	B-drug	O
+10	O	O	O
+mg	O	O	O
+daily	O	O	O
+,	O	O	O
+advair	B-pastHistory	B-treatment	O
+diskus	O	I-treatment	O
+100	O	O	O
+/	O	O	O
+50	O	O	O
+mcg	O	O	O
+one	O	O	O
+puff	O	O	O
+b	O	O	O
+.	O	O	O
+i	O	O	O
+.	O	O	O
+d	O	O	O
+.	O	O	O
+,	O	O	O
+and	O	O	O
+fluticasone	B-pastHistory	B-treatment	O
+spray	O	I-treatment	O
+50	O	O	O
+mcg	O	O	O
+two	O	O	O
+sprays	O	O	O
+daily	O	O	B-temporal
+.	O	O	O
+
+
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+he	O	O	O
+has	O	O	O
+not	O	O	O
+had	O	O	O
+any	O	O	O
+previous	O	B-treatment	O
+surgery	O	I-treatment	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+his	O	O	O
+brothers	O	O	O
+had	O	O	O
+prostate	B-familyHistory	B-problem	B-bodyloc
+cancer	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+father	O	O	O
+had	O	O	O
+brain	B-familyHistory	B-problem	B-bodyloc
+cancer	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+heart	B-familyHistory	B-problem	B-bodyloc
+disease	I-familyHistory	I-problem	O
+in	O	O	O
+both	O	O	O
+sides	O	O	O
+of	O	O	O
+the	O	O	O
+family	O	O	O
+.	O	O	O
+
+
+has	O	O	O
+diabetes	B-familyHistory	B-problem	O
+in	O	O	O
+his	O	O	O
+brother	O	O	O
+and	O	O	O
+sister	O	O	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+he	O	O	O
+is	O	O	O
+a	B-socialHistory	O	O
+non	I-socialHistory	O	O
+-	I-socialHistory	O	O
+cigarette	I-socialHistory	O	O
+smoker	I-socialHistory	O	O
+and	O	O	O
+non	B-socialHistory	O	O
+-	I-socialHistory	O	O
+etoh	I-socialHistory	O	O
+user	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+single	B-socialHistory	O	O
+and	I-socialHistory	O	O
+he	I-socialHistory	O	O
+has	I-socialHistory	O	O
+no	I-socialHistory	O	O
+children	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+works	B-socialHistory	O	O
+as	I-socialHistory	O	O
+a	I-socialHistory	O	O
+payroll	I-socialHistory	O	O
+representative	I-socialHistory	O	O
+and	I-socialHistory	O	O
+previously	I-socialHistory	O	O
+did	I-socialHistory	O	O
+lot	I-socialHistory	O	O
+of	I-socialHistory	O	O
+work	I-socialHistory	O	O
+in	I-socialHistory	O	O
+jewelry	I-socialHistory	O	O
+business	I-socialHistory	O	O
+,	I-socialHistory	O	O
+working	I-socialHistory	O	O
+he	I-socialHistory	O	O
+states	I-socialHistory	O	O
+with	I-socialHistory	O	O
+chemical	I-socialHistory	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+he	O	O	O
+denies	O	O	O
+any	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+admits	O	O	O
+to	O	O	O
+exertional	O	B-problem	O
+shortness	O	I-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+he	O	O	O
+denies	O	O	O
+any	O	O	O
+gi	O	B-problem	B-bodyloc
+problems	O	I-problem	O
+as	O	O	O
+noted	O	O	O
+.	O	O	O
+
+
+has	O	O	O
+frequent	O	B-problem	O
+urination	O	I-problem	O
+as	O	O	O
+noted	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+bleeding	O	I-problem	O
+disorders	O	O	O
+or	O	O	O
+bleeding	O	B-problem	O
+history	O	I-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+presents	O	O	O
+as	O	O	O
+an	O	O	O
+obese	O	O	O
+60	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+white	O	O	O
+male	O	O	O
+,	O	O	O
+who	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+in	O	O	O
+no	O	O	O
+apparent	O	B-problem	O
+distress	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+
+
+neck	O	O	O
+:	O	O	O
+supple	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+mass	O	B-problem	O
+,	O	O	O
+adenopathy	O	B-problem	O
+or	O	O	O
+bruit	O	B-problem	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+normal	O	O	O
+excursion	O	O	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+and	O	O	O
+percussion	O	B-test	O
+.	O	O	O
+
+
+cor	O	O	O
+:	O	O	O
+regular	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+s3	O	B-problem	O
+or	O	O	O
+s4	O	B-problem	O
+gallop	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+obvious	O	B-problem	O
+murmur	O	O	O
+.	O	O	O
+
+
+heart	O	O	B-bodyloc
+:	O	O	O
+there	O	O	O
+is	O	O	O
+distant	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+sounds	O	I-problem	O
+.	O	O	O
+
+
+abdomen	O	O	B-bodyloc
+:	O	O	O
+obese	O	B-problem	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+soft	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+nontender	O	O	O
+.	O	O	O
+
+
+examination	O	B-test	O
+was	O	O	O
+done	O	O	O
+as	O	O	O
+relatively	O	O	O
+sitting	O	O	O
+up	O	O	O
+as	O	O	O
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+unable	O	O	O
+to	O	O	O
+recline	O	O	O
+.	O	O	O
+
+
+bowel	O	O	O
+sounds	O	O	O
+are	O	O	O
+present	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+obvious	O	B-problem	O
+mass	O	O	O
+or	O	O	O
+organomegaly	O	B-problem	O
+.	O	O	O
+
+
+genitalia	O	O	O
+:	O	O	O
+deferred	O	O	O
+.	O	O	O
+rectal	O	O	O
+:	O	O	O
+deferred	O	O	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+revealed	O	O	O
+about	O	O	O
+1	O	O	O
++	O	O	O
+pitting	O	B-problem	O
+edema	O	I-problem	O
+.	O	O	O
+
+
+bilateral	O	B-test	O
+peripheral	O	I-test	O
+pulses	O	I-test	O
+are	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+neurologic	O	O	B-bodyloc
+:	O	O	O
+without	O	O	O
+focal	O	B-problem	O
+deficits	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+.	O	O	O
+
+
+impression	O	O	O
+:	O	O	O
+both	O	O	O
+left	O	O	B-bodyloc
+adrenal	O	B-problem	I-bodyloc
+and	O	I-problem	O
+pancreatic	O	I-problem	B-bodyloc
+lesions	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+adrenal	O	B-problem	B-bodyloc
+lesion	O	I-problem	O
+is	O	O	O
+a	O	O	O
+small	O	B-problem	O
+lesion	O	I-problem	O
+,	O	O	O
+appears	O	O	O
+as	O	O	O
+if	O	O	O
+probable	O	O	O
+benign	O	B-problem	O
+adenoma	O	I-problem	O
+,	O	O	O
+where	O	O	O
+as	O	O	O
+the	O	O	O
+pancreatic	O	B-problem	B-bodyloc
+lesion	O	I-problem	O
+is	O	O	O
+the	O	B-problem	O
+cystic	O	I-problem	O
+lesion	O	I-problem	O
+,	O	O	O
+and	O	O	O
+neoplasm	O	B-problem	O
+could	O	O	O
+not	O	O	O
+be	O	O	O
+excluded	O	O	O
+.	O	O	O
+
+
+given	O	O	O
+the	O	O	O
+location	O	O	O
+of	O	O	O
+these	O	B-problem	O
+pancreatic	O	O	B-bodyloc
+lesions	O	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+mid	O	I-problem	O
+body	O	I-problem	O
+towards	O	O	O
+the	O	O	O
+tail	O	O	O
+and	O	O	O
+size	O	O	O
+of	O	O	O
+1	O	O	O
+cm	O	O	O
+,	O	O	O
+the	O	O	O
+likelihood	O	O	O
+is	O	O	O
+an	O	B-test	O
+ercp	O	I-test	O
+will	O	O	O
+be	O	O	O
+of	O	O	O
+no	O	O	O
+value	O	O	O
+and	O	O	O
+the	O	O	O
+likelihood	O	O	O
+is	O	O	O
+that	O	O	O
+it	O	O	O
+is	O	O	O
+too	O	O	O
+small	O	O	O
+to	O	O	O
+biopsy	O	B-test	O
+.	O	O	O
+
+
+we	O	O	O
+are	O	O	O
+going	O	O	O
+to	O	O	O
+review	O	O	O
+x	O	B-test	O
+-	O	I-test	O
+rays	O	I-test	O
+with	O	O	O
+radiology	O	O	O
+prior	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+probably	O	O	O
+at	O	O	O
+some	O	O	O
+point	O	O	O
+will	O	O	O
+present	O	O	O
+for	O	O	O
+operative	O	B-treatment	O
+intervention	O	I-treatment	O
+.	O	O	O
+
+
+prior	O	O	O
+to	O	O	O
+that	O	O	O
+the	O	O	O
+patient	O	O	O
+will	O	O	O
+undergo	O	O	O
+an	O	O	O
+esophagogastroduodenoscopy	O	B-test	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+pancreatic	O	O	O
+,	O	O	O
+adrenal	O	O	O
+,	O	O	O
+lesion	O	B-problem	O
+,	O	O	O
+ercp	O	B-test	O
+,	O	O	O
+esophagogastroduodenoscopy	O	B-test	O
+,	O	O	O
+
+
