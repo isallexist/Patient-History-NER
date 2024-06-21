@@ -1,0 +1,785 @@
+sample	O
+type	O
+/	O
+medical	O
+specialty	O
+:	O
+general	O
+medicine	O
+sample	O
+name	O
+:	O
+consult	O
+-	O
+syncope	O
+description	O
+:	O
+patient	O
+was	O
+brought	O
+in	O
+the	O
+emergency	O
+room	O
+following	O
+an	O
+episode	O
+of	O
+syncope	O
+.	O
+
+the	O
+patient	O
+relates	O
+that	O
+he	O
+may	O
+have	O
+had	O
+a	O
+seizure	O
+activity	O
+prior	O
+to	O
+that	O
+.	O
+
+prior	O
+to	O
+the	O
+episode	O
+,	O
+he	O
+denies	O
+having	O
+any	O
+symptoms	O
+of	O
+chest	O
+pain	O
+or	O
+shortness	O
+of	O
+breath	O
+.	O
+
+(	O
+medical	O
+transcription	O
+sample	O
+report	O
+)	O
+reason	O
+for	O
+consultation	O
+:	O
+syncope	B-cc
+.	O
+
+history	O
+of	O
+present	O
+illness	O
+:	O
+the	O
+patient	O
+is	O
+a	O
+69	O
+-	O
+year	O
+-	O
+old	O
+gentleman	O
+,	O
+a	O
+good	O
+historian	O
+,	O
+who	O
+relates	O
+that	O
+he	O
+was	O
+brought	O
+in	O
+the	O
+emergency	O
+room	O
+following	O
+an	O
+episode	O
+of	O
+syncope	B-cc
+.	O
+
+the	O
+patient	O
+relates	O
+that	O
+he	O
+may	O
+have	O
+had	O
+a	B-hpi.assocSignsAndSymptoms
+seizure	I-hpi.assocSignsAndSymptoms
+activity	I-hpi.assocSignsAndSymptoms
+prior	I-hpi.assocSignsAndSymptoms
+to	O
+that	O
+.	O
+
+prior	O
+to	O
+the	O
+episode	O
+,	O
+he	O
+denies	O
+having	O
+any	O
+symptoms	O
+of	O
+chest	O
+pain	O
+or	O
+shortness	O
+of	O
+breath	O
+.	O
+
+no	O
+palpitation	O
+.	O
+
+presently	O
+,	O
+he	O
+is	O
+comfortable	O
+,	O
+lying	O
+in	O
+the	O
+bed	O
+.	O
+
+as	O
+per	O
+the	O
+patient	O
+,	O
+no	B-pastHistory
+prior	I-pastHistory
+cardiac	I-pastHistory
+history	I-pastHistory
+.	O
+
+coronary	O
+risk	O
+factors	O
+:	O
+history	O
+of	O
+hypertension	B-pastHistory
+.	O
+
+no	B-pastHistory
+history	I-pastHistory
+of	I-pastHistory
+diabetes	I-pastHistory
+mellitus	I-pastHistory
+.	O
+
+nonsmoker	B-socialHistory
+.	O
+
+cholesterol	O
+status	O
+is	O
+borderline	O
+elevated	O
+.	O
+
+no	B-pastHistory
+history	I-pastHistory
+of	I-pastHistory
+established	I-pastHistory
+coronary	I-pastHistory
+artery	I-pastHistory
+disease	I-pastHistory
+.	O
+
+family	O
+history	O
+noncontributory	O
+.	O
+
+past	O
+medical	O
+history	O
+:	O
+hypertension	B-pastHistory
+,	O
+hyperlipidemia	B-pastHistory
+,	O
+recently	O
+diagnosed	O
+with	O
+parkinson	B-pastHistory
+'	I-pastHistory
+s	I-pastHistory
+,	O
+as	O
+a	O
+parkinson	O
+'	O
+s	O
+tremor	O
+,	O
+admitted	O
+for	O
+syncopal	O
+evaluation	O
+.	O
+
+past	O
+surgical	O
+history	O
+:	O
+back	B-pastHistory
+surgery	I-pastHistory
+,	O
+shoulder	B-pastHistory
+surgery	I-pastHistory
+,	O
+and	O
+appendicectomy	B-pastHistory
+.	O
+
+family	O
+history	O
+:	O
+nonsignificant	O
+.	O
+
+medications	O
+:	O
+1	O
+.	O
+
+pain	B-pastHistory
+medications	I-pastHistory
+.	O
+
+2	O
+.	O
+
+thyroid	B-pastHistory
+supplementation	I-pastHistory
+.	O
+
+3	O
+.	O
+
+lovastatin	B-pastHistory
+20	O
+mg	O
+daily	O
+.	O
+
+4	O
+.	O
+
+propranolol	B-pastHistory
+20	O
+b	O
+.	O
+i	O
+.	O
+d	O
+.	O
+
+5	O
+.	O
+
+protonix	B-pastHistory
+.	O
+
+6	O
+.	O
+
+flomax	B-pastHistory
+.	O
+allergies	O
+:	O
+none	O
+.	O
+
+personal	O
+history	O
+:	O
+he	O
+is	B-socialHistory
+married	I-socialHistory
+.	O
+
+nonsmoker	B-socialHistory
+.	O
+does	B-socialHistory
+not	I-socialHistory
+consume	I-socialHistory
+alcohol	I-socialHistory
+.	O
+
+no	B-socialHistory
+history	I-socialHistory
+of	I-socialHistory
+recreational	I-socialHistory
+drug	I-socialHistory
+use	I-socialHistory
+.	O
+
+review	O
+of	O
+systems	O
+constitutional	O
+:	O
+no	O
+weakness	O
+,	O
+fatigue	O
+,	O
+or	O
+tiredness	O
+.	O
+
+heent	O
+:	O
+no	O
+history	O
+of	O
+cataract	O
+or	O
+glaucoma	O
+.	O
+
+cardiovascular	O
+:	O
+no	O
+congestive	O
+heart	O
+failure	O
+.	O
+
+no	O
+arrhythmias	O
+.	O
+
+respiratory	O
+:	O
+no	O
+history	O
+of	O
+pneumonia	O
+or	O
+valley	O
+fever	O
+.	O
+
+gastrointestinal	O
+:	O
+no	O
+nausea	O
+,	O
+vomiting	O
+,	O
+hematemesis	O
+,	O
+or	O
+melena	O
+.	O
+
+urological	O
+:	O
+no	O
+frequency	O
+or	O
+urgency	O
+.	O
+
+musculoskeletal	O
+:	O
+arthritis	O
+and	O
+muscle	O
+weakness	O
+.	O
+
+skin	O
+:	O
+nonsignificant	O
+.	O
+
+neurologic	O
+:	O
+no	O
+tia	O
+or	O
+cva	O
+.	O
+
+no	O
+seizure	O
+disorder	O
+.	O
+
+endocrine	O
+/	O
+hematologic	O
+:	O
+nonsignificant	O
+.	O
+
+physical	O
+examination	O
+vital	O
+signs	O
+:	O
+pulse	O
+of	O
+93	O
+,	O
+blood	O
+pressure	O
+of	O
+158	O
+/	O
+93	O
+,	O
+afebrile	O
+,	O
+and	O
+respiratory	O
+rate	O
+16	O
+per	O
+minute	O
+.	O
+heent	O
+:	O
+atraumatic	O
+and	O
+normocephalic	O
+.	O
+
+neck	O
+:	O
+neck	O
+veins	O
+are	O
+flat	O
+.	O
+
+no	O
+significant	O
+carotid	O
+bruits	O
+.	O
+
+lungs	O
+:	O
+air	O
+entry	O
+is	O
+bilaterally	O
+decreased	O
+.	O
+
+heart	O
+:	O
+pmi	O
+is	O
+displaced	O
+.	O
+
+s1	O
+and	O
+s2	O
+are	O
+regular	O
+.	O
+
+abdomen	O
+:	O
+soft	O
+and	O
+nontender	O
+.	O
+
+bowel	O
+sounds	O
+are	O
+present	O
+.	O
+
+extremities	O
+:	O
+no	O
+edema	O
+.	O
+
+pulses	O
+are	O
+palpable	O
+.	O
+
+no	O
+clubbing	O
+or	O
+cyanosis	O
+.	O
+
+the	O
+patient	O
+is	O
+moving	O
+all	O
+extremities	O
+;	O
+however	O
+,	O
+the	O
+patient	O
+has	O
+tremors	O
+.	O
+
+radiological	O
+data	O
+:	O
+ekg	O
+reveals	O
+normal	O
+sinus	O
+rhythm	O
+with	O
+underlying	O
+nonspecific	O
+st	O
+-	O
+t	O
+changes	O
+secondary	O
+to	O
+tremors	O
+.	O
+
+laboratory	O
+data	O
+:	O
+h	O
+&	O
+h	O
+stable	O
+.	O
+
+white	O
+count	O
+of	O
+14	O
+.	O
+
+bun	O
+and	O
+creatinine	O
+are	O
+within	O
+normal	O
+limits	O
+.	O
+
+cardiac	O
+enzyme	O
+profile	O
+is	O
+negative	O
+.	O
+
+ammonia	O
+level	O
+is	O
+elevated	O
+at	O
+69	O
+.	O
+
+ct	O
+angiogram	O
+of	O
+the	O
+chest	O
+,	O
+no	O
+evidence	O
+of	O
+pulmonary	O
+embolism	O
+.	O
+
+chest	O
+x	O
+-	O
+ray	O
+is	O
+negative	O
+for	O
+acute	O
+changes	O
+.	O
+
+ct	O
+of	O
+the	O
+head	O
+,	O
+unremarkable	O
+,	O
+chronic	O
+skin	O
+changes	O
+.	O
+
+liver	O
+enzymes	O
+are	O
+within	O
+normal	O
+limits	O
+.	O
+
+impression	O
+:	O
+1	O
+.	O
+
+the	O
+patient	O
+is	O
+a	O
+69	O
+-	O
+year	O
+-	O
+old	O
+gentleman	O
+,	O
+admitted	O
+with	O
+syncopal	O
+episode	O
+and	O
+possible	O
+seizure	O
+disorder	O
+.	O
+
+2	O
+.	O
+
+elevated	O
+ammonia	O
+,	O
+unclear	O
+etiology	O
+,	O
+possible	O
+encephalopathy	O
+.	O
+
+3	O
+.	O
+
+cardiac	O
+risk	O
+factors	O
+of	O
+hypertension	O
+and	O
+borderline	O
+hyperlipidemia	O
+.	O
+
+no	O
+prior	O
+history	O
+of	O
+documented	O
+coronary	O
+artery	O
+disease	O
+.	O
+
+recommendations	O
+:	O
+1	O
+.	O
+
+from	O
+cardiac	O
+standpoint	O
+,	O
+echocardiogram	O
+with	O
+lv	O
+function	O
+.	O
+
+2	O
+.	O
+
+conservative	O
+treatment	O
+.	O
+
+3	O
+.	O
+
+neurological	O
+evaluation	O
+.	O
+
+keywords	O
+:	O
+general	O
+medicine	O
+,	O
+hypertension	O
+,	O
+hyperlipidemia	O
+,	O
+shortness	O
+of	O
+breath	O
+,	O
+coronary	O
+artery	O
+disease	O
+,	O
+seizure	O
+activity	O
+,	O
+seizure	O
+disorder	O
+,	O
+coronary	O
+,	O
+seizure	O
+,	O
+chest	O
+,	O
+cardiac	O
+,	O
+syncope	O
+,	O
+

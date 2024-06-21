@@ -1,0 +1,956 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+soap	O	O	O
+-	O	O	O
+substance	O	O	O
+abuse	O	O	O
+description	O	O	O
+:	O	O	O
+he	O	O	O
+got	O	O	O
+addicted	O	B-problem	O
+to	O	I-problem	O
+drugs	O	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+decided	O	O	O
+it	O	O	O
+would	O	O	O
+be	O	O	O
+a	O	O	O
+good	O	O	O
+idea	O	O	O
+to	O	O	O
+get	O	O	O
+away	O	O	O
+from	O	O	O
+the	O	O	O
+"	O	O	O
+bad	O	O	O
+crowd	O	O	O
+"	O	O	O
+and	O	O	O
+come	O	O	O
+up	O	O	O
+and	O	O	O
+live	O	O	O
+with	O	O	O
+his	O	O	O
+mom	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+subjective	O	O	O
+:	O	O	O
+this	O	O	O
+patient	O	O	O
+presents	O	O	O
+to	O	O	O
+the	O	O	O
+office	O	O	O
+today	O	O	B-temporal
+with	O	O	O
+his	O	O	O
+mom	O	O	O
+for	O	O	O
+checkup	B-cc	B-test	O
+.	O	O	O
+
+
+he	B-socialHistory	O	O
+used	I-socialHistory	O	O
+to	I-socialHistory	O	O
+live	I-socialHistory	O	O
+in	I-socialHistory	O	O
+the	I-socialHistory	O	O
+city	I-socialHistory	O	O
+.	O	O	O
+
+
+he	B-socialHistory	O	O
+used	I-socialHistory	O	O
+to	I-socialHistory	O	O
+go	I-socialHistory	O	O
+to	I-socialHistory	O	O
+college	I-socialHistory	O	O
+down	I-socialHistory	O	O
+in	I-socialHistory	O	O
+the	I-socialHistory	O	O
+city	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+got	B-cc	O	O
+addicted	I-cc	B-problem	O
+to	I-cc	I-problem	O
+drugs	I-cc	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+decided	O	O	O
+it	O	O	O
+would	O	O	O
+be	O	O	O
+a	O	O	O
+good	O	O	O
+idea	O	O	O
+to	O	O	O
+get	O	O	O
+away	O	O	O
+from	O	O	O
+the	O	O	O
+&	O	O	O
+quot	O	O	O
+;	O	O	O
+bad	O	O	O
+crowd	O	O	O
+&	O	O	O
+quot	O	O	O
+;	O	O	O
+and	O	O	O
+come	O	O	O
+up	O	O	O
+and	O	O	O
+live	B-socialHistory	O	O
+with	I-socialHistory	O	O
+his	I-socialHistory	O	O
+mom	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+doing	B-hpi.assocSignsAndSymptoms	O	O
+heroin	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	B-hpi.assocSignsAndSymptoms	O	O
+injecting	I-hpi.assocSignsAndSymptoms	O	O
+into	I-hpi.assocSignsAndSymptoms	O	O
+his	I-hpi.assocSignsAndSymptoms	O	O
+vein	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	O	O	O
+seeing	O	O	O
+a	O	O	O
+physician	O	O	O
+in	O	O	O
+the	O	O	O
+city	O	O	O
+.	O	O	O
+they	O	O	O
+were	O	O	O
+prescribing	O	O	O
+methadone	B-hpi.modifyingFactors	B-drug	O
+for	O	O	O
+some	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+says	O	O	O
+that	O	O	O
+did	O	O	O
+help	O	O	O
+.	O	O	O
+he	O	O	O
+was	O	O	O
+on	O	O	O
+10	O	B-treatment	O
+mg	O	I-treatment	O
+of	O	I-treatment	O
+methadone	O	I-treatment	O
+.	O	O	O
+
+
+he	O	O	O
+was	O	O	O
+on	O	O	O
+it	O	O	O
+for	O	O	O
+three	O	O	B-temporal
+to	O	O	I-temporal
+four	O	O	I-temporal
+months	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+tried	B-hpi.assocSignsAndSymptoms	O	O
+to	I-hpi.assocSignsAndSymptoms	O	O
+wean	I-hpi.assocSignsAndSymptoms	O	O
+down	I-hpi.assocSignsAndSymptoms	O	O
+on	I-hpi.assocSignsAndSymptoms	O	O
+the	I-hpi.assocSignsAndSymptoms	O	O
+methadone	I-hpi.assocSignsAndSymptoms	B-drug	O
+a	I-hpi.assocSignsAndSymptoms	O	O
+couple	I-hpi.assocSignsAndSymptoms	O	O
+of	I-hpi.assocSignsAndSymptoms	O	O
+different	I-hpi.assocSignsAndSymptoms	O	O
+times	I-hpi.assocSignsAndSymptoms	O	O
+,	I-hpi.assocSignsAndSymptoms	O	O
+but	I-hpi.assocSignsAndSymptoms	O	O
+failed	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+been	O	O	O
+intermittently	B-hpi.timing	O	O
+using	O	O	O
+heroin	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+says	O	O	O
+one	O	O	O
+of	O	O	O
+the	O	O	O
+big	O	O	O
+problems	O	O	O
+is	O	O	O
+that	O	O	O
+he	O	O	O
+lives	B-hpi.context	O	O
+in	I-hpi.context	O	O
+a	I-hpi.context	O	O
+household	I-hpi.context	O	O
+full	I-hpi.context	O	O
+of	I-hpi.context	O	O
+drug	I-hpi.context	O	O
+users	I-hpi.context	O	O
+and	O	O	O
+he	O	O	O
+could	O	O	O
+not	O	O	O
+get	O	O	O
+away	O	O	O
+from	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+all	O	O	O
+that	O	O	O
+changed	O	O	O
+now	O	O	B-temporal
+that	O	O	O
+he	O	O	O
+is	O	O	O
+living	O	O	O
+with	O	O	O
+his	O	O	O
+mom	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+last	O	O	O
+time	O	O	O
+he	O	O	O
+did	O	O	O
+heroin	O	B-problem	O
+was	O	O	O
+about	O	O	O
+seven	B-hpi.duration	O	O
+to	I-hpi.duration	O	O
+eight	I-hpi.duration	O	O
+days	I-hpi.duration	O	B-temporal
+ago	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+had	I-hpi.assocSignsAndSymptoms	O	O
+any	I-hpi.assocSignsAndSymptoms	O	O
+methadone	I-hpi.assocSignsAndSymptoms	B-drug	O
+in	O	O	O
+about	O	O	O
+a	B-hpi.duration	O	O
+week	I-hpi.duration	O	O
+either	O	O	O
+.	O	O	O
+he	O	O	O
+is	O	O	O
+coming	O	O	O
+in	O	O	O
+today	O	O	B-temporal
+specifically	O	O	O
+requesting	O	O	O
+methadone	O	B-drug	O
+.	O	O	O
+
+
+he	O	O	O
+also	O	O	O
+admits	O	O	O
+to	O	O	O
+being	B-hpi.assocSignsAndSymptoms	O	O
+depressed	I-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+sad	B-hpi.assocSignsAndSymptoms	O	O
+a	I-hpi.assocSignsAndSymptoms	O	O
+lot	I-hpi.assocSignsAndSymptoms	O	O
+and	I-hpi.assocSignsAndSymptoms	O	O
+down	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+does	B-hpi.assocSignsAndSymptoms	O	O
+not	I-hpi.assocSignsAndSymptoms	O	O
+have	I-hpi.assocSignsAndSymptoms	O	O
+much	I-hpi.assocSignsAndSymptoms	O	O
+energy	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+does	B-hpi.assocSignsAndSymptoms	O	O
+not	I-hpi.assocSignsAndSymptoms	O	O
+have	I-hpi.assocSignsAndSymptoms	O	O
+the	I-hpi.assocSignsAndSymptoms	O	O
+enthusiasm	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+he	O	O	O
+denies	O	O	O
+any	O	O	O
+suicidal	O	B-problem	O
+or	O	I-problem	O
+homicidal	O	I-problem	O
+ideations	O	I-problem	O
+at	O	O	O
+the	O	O	O
+present	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+questioned	O	O	O
+him	O	O	O
+on	O	O	O
+the	O	O	O
+symptoms	O	O	O
+of	O	O	O
+bipolar	O	B-problem	O
+disorder	O	I-problem	O
+and	O	O	O
+he	O	O	O
+does	O	O	O
+not	O	O	O
+seem	O	O	O
+to	O	O	O
+have	O	O	O
+those	O	B-problem	O
+symptoms	O	I-problem	O
+.	O	O	O
+
+
+his	O	O	O
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+is	O	O	O
+significant	O	O	O
+for	O	O	O
+no	O	O	O
+medical	O	B-problem	O
+problems	O	I-problem	O
+.	O	O	O
+
+
+surgical	O	O	O
+history	O	O	O
+,	O	O	O
+he	O	O	O
+voluntarily	O	O	O
+donated	B-pastHistory	O	O
+his	I-pastHistory	O	O
+left	I-pastHistory	O	O
+kidney	I-pastHistory	O	O
+.	O	O	O
+
+
+family	O	O	O
+and	O	O	O
+social	O	O	O
+history	O	O	O
+were	O	O	O
+reviewed	O	O	O
+per	O	O	O
+the	O	O	O
+nursing	O	O	O
+notes	O	O	O
+.	O	O	O
+
+
+his	O	B-problem	O
+allergies	O	O	O
+are	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+medications	O	B-treatment	O
+,	O	O	O
+he	O	O	O
+takes	O	O	O
+no	O	O	O
+medications	O	B-treatment	O
+regularly	O	O	O
+.	O	O	O
+
+
+objective	O	O	O
+:	O	O	O
+his	O	B-test	O
+weight	O	O	O
+is	O	O	O
+164	O	O	O
+pounds	O	O	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+108	O	O	O
+/	O	O	O
+60	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+88	O	O	O
+,	O	O	O
+respirations	O	B-test	O
+16	O	O	O
+,	O	O	O
+and	O	O	O
+temperature	O	B-test	O
+was	O	O	O
+not	O	O	O
+taken	O	O	O
+.	O	O	O
+
+
+general	O	O	O
+:	O	O	O
+he	O	O	O
+is	O	O	O
+nontoxic	O	O	O
+and	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+psychiatric	O	O	O
+:	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+times	O	O	B-temporal
+3	O	O	I-temporal
+.	O	O	O
+skin	O	O	O
+:	O	O	O
+i	O	O	O
+examined	O	O	O
+his	O	O	O
+upper	O	O	O
+extremities	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+showed	O	O	O
+me	O	O	O
+his	O	O	O
+injection	O	B-problem	O
+sites	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+can	O	O	O
+see	O	O	O
+marks	O	O	O
+,	O	O	O
+but	O	O	O
+they	O	O	O
+seem	O	O	O
+to	O	O	O
+be	O	O	O
+healing	O	O	O
+up	O	O	O
+nicely	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+see	O	O	O
+any	O	O	O
+evidence	O	O	O
+of	O	O	O
+cellulitis	O	B-problem	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+necrotizing	O	B-problem	O
+fasciitis	O	I-problem	O
+.	O	O	O
+
+
+assessment	O	O	O
+:	O	O	O
+substance	O	B-problem	O
+abuse	O	I-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+i	O	O	O
+had	O	O	O
+a	O	O	O
+long	O	O	O
+talk	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+and	O	O	O
+his	O	O	O
+mom	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+am	O	O	B-temporal
+not	O	O	O
+prescribing	O	O	O
+him	O	O	O
+any	O	B-treatment	O
+narcotics	O	I-treatment	O
+or	O	O	O
+controlled	O	O	O
+substances	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+am	O	O	B-temporal
+not	O	O	O
+in	O	O	O
+the	O	O	O
+practice	O	O	O
+of	O	O	O
+trading	O	O	O
+one	O	O	O
+addiction	O	O	O
+for	O	O	O
+another	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+has	O	O	O
+been	O	O	O
+one	O	O	B-temporal
+week	O	O	I-temporal
+without	O	O	O
+any	O	O	O
+sort	O	O	O
+of	O	O	O
+drugs	O	B-treatment	O
+at	O	O	O
+all	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+think	O	O	O
+he	O	O	O
+needs	O	O	O
+weaning	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+think	O	O	O
+right	O	O	O
+now	O	O	B-temporal
+it	O	O	O
+is	O	O	O
+mostly	O	O	O
+psychological	O	O	O
+,	O	O	O
+although	O	O	O
+there	O	O	O
+still	O	O	O
+could	O	O	O
+be	O	O	O
+some	O	O	O
+residual	O	O	O
+physical	O	B-problem	O
+addiction	O	I-problem	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+once	O	O	O
+again	O	O	O
+i	O	O	O
+do	O	O	O
+not	O	O	O
+believe	O	O	O
+it	O	O	O
+to	O	O	O
+be	O	O	O
+necessary	O	O	O
+to	O	O	O
+prescribe	O	O	O
+him	O	O	O
+any	O	O	O
+sort	O	O	O
+of	O	O	O
+controlled	O	O	O
+substance	O	O	O
+at	O	O	O
+the	O	O	O
+present	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+believe	O	O	O
+that	O	O	O
+his	O	B-problem	O
+depression	O	O	O
+needs	O	O	O
+to	O	O	O
+be	O	O	O
+treated	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+gave	O	O	O
+him	O	O	O
+fluoxetine	O	B-drug	O
+20	O	O	O
+mg	O	O	O
+one	O	O	O
+tablet	O	O	O
+daily	O	O	B-temporal
+.	O	O	O
+
+
+i	O	O	O
+discussed	O	O	O
+the	O	O	O
+side	O	B-problem	O
+effects	O	I-problem	O
+in	O	O	O
+detail	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+did	O	O	O
+also	O	O	O
+warn	O	O	O
+him	O	O	O
+that	O	O	O
+all	O	O	O
+antidepressant	O	B-treatment	O
+medications	O	I-treatment	O
+carry	O	O	O
+an	O	O	O
+increased	O	O	O
+risk	O	O	O
+of	O	O	O
+suicide	O	B-problem	O
+.	O	O	O
+
+
+if	O	O	O
+he	O	O	O
+should	O	O	O
+start	O	O	O
+to	O	O	O
+feel	O	O	O
+any	O	O	O
+of	O	O	O
+these	O	B-problem	O
+symptoms	O	O	O
+,	O	O	O
+he	O	O	O
+should	O	O	O
+call	O	O	O
+#	O	O	O
+911	O	O	O
+or	O	O	O
+go	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+immediately	O	O	O
+.	O	O	O
+
+
+if	O	O	O
+he	O	O	O
+has	O	O	O
+any	O	B-problem	O
+problems	O	I-problem	O
+or	O	O	O
+side	O	B-problem	O
+effects	O	I-problem	O
+,	O	O	O
+he	O	O	O
+was	O	O	O
+also	O	O	O
+directed	O	O	O
+to	O	O	O
+call	O	O	O
+me	O	O	O
+here	O	O	O
+at	O	O	O
+the	O	O	O
+office	O	O	O
+.	O	O	O
+
+
+after	O	O	O
+-	O	O	O
+hours	O	O	O
+,	O	O	O
+he	O	O	O
+can	O	O	O
+go	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+or	O	O	O
+call	O	O	O
+#	O	O	O
+911	O	O	O
+.	O	O	O
+i	O	O	O
+am	O	O	B-temporal
+going	O	O	O
+to	O	O	O
+see	O	O	O
+him	O	O	O
+back	O	O	O
+in	O	O	O
+three	O	O	B-temporal
+weeks	O	O	I-temporal
+for	O	O	O
+the	O	B-problem	O
+depression	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+gave	O	O	O
+him	O	O	O
+the	O	O	O
+name	O	O	O
+and	O	O	O
+phone	O	O	O
+number	O	O	O
+of	O	O	O
+behavioral	O	O	O
+health	O	O	O
+and	O	O	O
+i	O	O	O
+told	O	O	O
+him	O	O	O
+to	O	O	O
+call	O	O	O
+so	O	O	O
+that	O	O	O
+he	O	O	O
+can	O	O	O
+get	O	O	O
+into	O	O	O
+rehabilitation	O	O	O
+program	O	O	O
+or	O	O	O
+at	O	O	O
+least	O	O	O
+a	O	O	O
+support	O	O	O
+group	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+are	O	O	O
+unable	O	O	O
+to	O	O	O
+make	O	O	O
+a	O	O	O
+referral	O	O	O
+for	O	O	O
+him	O	O	O
+to	O	O	O
+do	O	O	O
+that	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+to	O	O	O
+call	O	O	O
+on	O	O	O
+his	O	O	O
+own	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+no	O	O	O
+insurance	O	O	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+i	O	O	O
+think	O	O	O
+fluoxetine	O	B-drug	O
+is	O	O	O
+very	O	O	O
+affordable	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+can	O	O	O
+get	O	O	O
+it	O	O	O
+for	O	O	O
+$	O	O	O
+4	O	O	O
+per	O	O	O
+month	O	O	O
+at	O	O	O
+wal	O	O	O
+-	O	O	O
+mart	O	O	O
+.	O	O	O
+
+
+his	O	O	O
+mom	O	O	O
+is	O	O	O
+going	O	O	O
+to	O	O	O
+keep	O	O	O
+an	O	O	O
+eye	O	O	O
+on	O	O	O
+him	O	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+he	O	O	O
+is	O	O	O
+going	O	O	O
+to	O	O	O
+be	O	O	O
+staying	O	O	O
+there	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+sounds	O	O	O
+like	O	O	O
+he	O	O	O
+is	O	O	O
+looking	O	O	O
+for	O	O	O
+a	O	O	O
+job	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+addicted	O	B-problem	O
+to	O	I-problem	O
+drugs	O	I-problem	O
+,	O	O	O
+substance	O	O	O
+abuse	O	O	O
+,	O	O	O
+abuse	O	O	O
+,	O	O	O
+heroin	O	B-problem	O
+,	O	O	O
+methadone	O	B-drug	O
+,	O	O	O
+
+

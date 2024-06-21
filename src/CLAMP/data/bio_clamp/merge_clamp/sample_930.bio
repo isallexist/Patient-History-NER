@@ -1,0 +1,909 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+cough	O	B-problem	O
+&	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+description	O	O	O
+:	O	O	O
+consult	O	O	O
+for	O	O	O
+generalized	O	B-problem	O
+body	O	I-problem	B-bodyloc
+aches	O	I-problem	O
+,	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+nausea	O	B-problem	O
+,	O	O	O
+and	O	O	O
+right	O	B-problem	B-bodyloc
+-	O	I-problem	I-bodyloc
+sided	O	I-problem	I-bodyloc
+abdominal	O	I-problem	I-bodyloc
+pain	O	I-problem	O
+for	O	O	B-temporal
+two	O	O	I-temporal
+days	O	O	I-temporal
+-	O	O	O
+bronchitis	O	B-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+cough	B-cc	B-problem	O
+and	O	O	O
+abdominal	B-cc	B-problem	B-bodyloc
+pain	I-cc	I-problem	O
+for	O	O	B-temporal
+two	B-hpi.duration	O	I-temporal
+days	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+76	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+who	O	O	O
+has	O	O	O
+a	O	O	O
+history	O	O	O
+of	O	O	O
+previous	O	B-problem	O
+pneumonia	B-pastHistory	O	O
+,	O	O	O
+also	O	O	O
+hypertension	B-pastHistory	B-problem	O
+and	O	O	O
+macular	B-pastHistory	B-problem	B-bodyloc
+degeneration	I-pastHistory	I-problem	O
+,	O	O	O
+who	O	O	O
+presents	O	O	O
+with	O	O	O
+generalized	B-cc	B-problem	O
+body	I-cc	I-problem	O
+aches	I-cc	I-problem	O
+,	O	O	O
+cough	B-cc	B-problem	O
+,	O	O	O
+nausea	B-cc	B-problem	O
+,	O	O	O
+and	O	O	O
+right	B-hpi.location	B-problem	B-bodyloc
+-	I-hpi.location	I-problem	I-bodyloc
+sided	I-hpi.location	I-problem	I-bodyloc
+abdominal	I-hpi.location	I-problem	I-bodyloc
+pain	O	I-problem	O
+for	O	O	B-temporal
+two	B-hpi.duration	O	I-temporal
+days	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+stated	O	O	O
+that	O	O	O
+the	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+was	O	O	O
+only	B-hpi.context	O	O
+associated	I-hpi.context	O	O
+with	I-hpi.context	O	O
+coughing	I-hpi.context	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+reported	O	O	O
+that	O	O	O
+the	O	O	O
+cough	O	B-problem	O
+is	O	O	O
+dry	B-hpi.quality	O	O
+in	O	O	O
+nature	O	O	O
+and	O	O	O
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+subjective	O	B-problem	O
+fevers	O	I-problem	O
+and	O	O	O
+chills	O	B-problem	O
+at	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+significant	O	O	O
+for	O	O	O
+pneumonia	B-pastHistory	B-problem	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+,	O	O	O
+pleurisy	B-pastHistory	B-problem	O
+,	O	O	O
+macular	B-pastHistory	B-problem	B-bodyloc
+degeneration	I-pastHistory	I-problem	O
+,	O	O	O
+hypertension	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+phlebitis	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+bilateral	B-pastHistory	B-problem	O
+cataract	I-pastHistory	I-problem	O
+extractions	I-pastHistory	I-problem	O
+in	O	O	O
+2007	O	O	O
+,	O	O	O
+appendectomy	B-pastHistory	B-treatment	O
+as	O	O	O
+a	O	O	O
+child	O	O	O
+,	O	O	O
+and	O	O	O
+three	O	O	O
+d	B-pastHistory	B-treatment	O
+&	I-pastHistory	I-treatment	O
+cs	I-pastHistory	I-treatment	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+secondary	O	O	O
+to	O	O	O
+miscarriages	O	B-problem	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+on	O	O	O
+presentation	O	O	O
+included	O	O	O
+hydrochlorothiazide	B-pastHistory	B-drug	O
+12	O	O	O
+.	O	O	O
+5	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	O
+,	O	O	O
+aspirin	B-pastHistory	B-drug	O
+81	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	O
+,	O	O	O
+and	O	O	O
+propranolol	B-pastHistory	B-drug	O
+40	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+daily	O	O	B-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+also	O	O	O
+takes	O	O	O
+multivitamin	B-pastHistory	B-drug	O
+and	O	O	O
+lutein	B-pastHistory	B-treatment	O
+over	O	B-treatment	O
+-	O	I-treatment	O
+the	O	I-treatment	O
+-	O	I-treatment	O
+counter	O	I-treatment	O
+for	O	O	O
+macular	B-pastHistory	B-problem	O
+degeneration	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+mother	O	O	O
+died	O	O	O
+at	O	O	O
+the	O	O	O
+age	O	O	O
+of	O	O	O
+59	O	O	O
+due	O	O	O
+to	O	O	O
+stomach	B-familyHistory	B-problem	B-bodyloc
+cancer	I-familyHistory	I-problem	O
+and	O	O	O
+father	O	O	O
+died	O	O	O
+at	O	O	O
+the	O	O	O
+age	O	O	O
+of	O	O	O
+91	O	O	O
+years	O	O	B-temporal
+old	O	O	I-temporal
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+quit	B-socialHistory	O	O
+smoking	I-socialHistory	O	O
+17	I-socialHistory	O	B-temporal
+years	I-socialHistory	O	I-temporal
+ago	I-socialHistory	O	O
+;	O	O	O
+prior	B-socialHistory	O	O
+to	I-socialHistory	O	O
+that	I-socialHistory	O	O
+had	I-socialHistory	O	O
+smoked	I-socialHistory	O	O
+one	I-socialHistory	O	O
+pack	I-socialHistory	O	O
+per	I-socialHistory	O	B-temporal
+day	I-socialHistory	O	I-temporal
+for	I-socialHistory	O	O
+44	I-socialHistory	O	B-temporal
+years	I-socialHistory	O	I-temporal
+.	O	O	O
+
+
+denies	B-socialHistory	O	O
+any	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+use	I-socialHistory	O	O
+.	O	O	O
+
+
+denies	B-socialHistory	O	O
+any	I-socialHistory	O	O
+iv	I-socialHistory	O	O
+drug	I-socialHistory	O	O
+use	I-socialHistory	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+76	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+,	O	O	O
+well	O	O	O
+nourished	O	O	O
+.	O	O	O
+
+
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+on	O	O	O
+presentation	O	O	O
+included	O	O	O
+a	O	B-test	O
+temperature	O	I-test	O
+of	O	O	O
+100	O	O	O
+.	O	O	O
+1	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+of	O	O	O
+144	O	O	O
+with	O	O	O
+a	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+of	O	O	O
+126	O	O	O
+/	O	O	O
+77	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+saturating	O	O	O
+at	O	O	O
+95	O	O	O
+%	O	O	O
+on	O	O	O
+room	O	O	O
+air	O	O	O
+,	O	O	O
+and	O	O	O
+has	O	O	O
+respiratory	O	B-test	O
+rate	O	I-test	O
+of	O	O	O
+20	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+anicteric	O	O	O
+sclerae	O	O	O
+.	O	O	O
+
+
+conjunctivae	O	O	O
+pink	O	O	O
+.	O	O	O
+
+
+throat	O	O	O
+was	O	O	O
+clear	O	O	O
+.	O	O	O
+
+
+mucosal	O	O	B-bodyloc
+membranes	O	O	I-bodyloc
+were	O	O	O
+dry	O	B-problem	O
+.	O	O	O
+
+
+chest	O	O	O
+:	O	O	O
+coarse	O	O	O
+breath	O	B-problem	B-bodyloc
+sounds	O	I-problem	O
+bilaterally	O	I-problem	O
+at	O	I-problem	O
+the	O	I-problem	O
+bases	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+cardiac	O	O	O
+:	O	O	O
+s1	O	O	O
+and	O	O	O
+s2	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+murmurs	O	B-problem	O
+,	O	O	O
+rubs	O	B-problem	O
+or	O	O	O
+gallops	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+carotid	O	B-problem	B-bodyloc
+bruits	O	I-problem	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+positive	O	O	O
+bowel	O	O	O
+sounds	O	O	O
+,	O	O	O
+presence	O	O	O
+of	O	O	O
+soreness	O	B-problem	O
+on	O	O	O
+examination	O	B-test	O
+in	O	O	O
+the	O	O	O
+abdomen	O	B-test	B-bodyloc
+on	O	I-test	O
+palpation	O	I-test	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+rebound	O	B-problem	O
+or	O	O	O
+guarding	O	B-problem	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+clubbing	O	B-problem	O
+,	O	O	O
+cyanosis	O	B-problem	O
+or	O	O	O
+edema	O	B-problem	O
+.	O	O	O
+
+
+hospital	O	O	O
+course	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+a	O	B-test	O
+chest	O	I-test	O
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+,	O	O	O
+which	O	O	O
+showed	O	O	O
+increased	O	B-problem	O
+markings	O	I-problem	O
+present	O	O	O
+bilaterally	O	O	O
+likely	O	O	O
+consistent	O	O	O
+with	O	O	O
+chronic	O	B-problem	O
+lung	O	I-problem	B-bodyloc
+changes	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+effusion	O	B-problem	O
+or	O	O	O
+consolidation	O	B-problem	O
+.	O	O	O
+
+
+degenerative	O	B-problem	O
+changes	O	I-problem	O
+were	O	O	O
+seen	O	O	O
+in	O	O	O
+the	O	O	O
+shoulder	O	O	B-bodyloc
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+also	O	O	O
+had	O	O	O
+an	O	O	O
+abdominal	O	B-test	O
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+,	O	O	O
+which	O	O	O
+showed	O	O	O
+nonspecific	O	O	O
+bowel	O	B-problem	B-bodyloc
+gas	O	I-problem	O
+pattern	O	I-problem	O
+.	O	O	O
+
+
+urinalysis	O	B-test	O
+showed	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+infection	O	B-problem	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+her	O	O	O
+influenza	O	B-test	O
+a	O	I-test	O
+&	O	I-test	O
+b	O	I-test	O
+were	O	O	O
+negative	O	O	O
+.	O	O	O
+
+
+preliminary	O	B-test	O
+blood	O	O	O
+cultures	O	O	O
+have	O	O	O
+been	O	O	O
+with	O	O	O
+no	O	O	O
+growth	O	B-problem	O
+to	O	O	O
+date	O	O	O
+status	O	O	O
+post	O	O	O
+48	O	O	B-temporal
+hours	O	O	I-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+started	O	O	O
+on	O	O	O
+cefepime	O	B-drug	O
+1	O	O	O
+g	O	O	O
+iv	O	O	O
+q	O	O	O
+.	O	O	O
+12h	O	O	B-temporal
+.	O	O	O
+and	O	O	O
+given	O	O	O
+iv	O	B-treatment	O
+hydration	O	I-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+also	O	O	O
+been	O	O	O
+on	O	O	O
+xopenex	O	B-drug	O
+nebs	O	O	O
+q	O	O	O
+.	O	O	O
+8h	O	O	B-temporal
+.	O	O	O
+
+
+round	O	O	O
+the	O	O	O
+clock	O	O	O
+and	O	O	O
+in	O	O	O
+regards	O	O	O
+to	O	O	O
+her	O	B-problem	O
+hypertension	O	O	O
+,	O	O	O
+she	O	O	O
+was	O	O	O
+continued	O	O	O
+on	O	O	O
+her	O	B-treatment	O
+hydrochlorothiazide	O	B-drug	O
+and	O	O	O
+propranolol	O	B-drug	O
+.	O	O	O
+
+
+in	O	O	O
+terms	O	O	O
+of	O	O	O
+prophylactic	O	B-treatment	O
+measures	O	I-treatment	O
+,	O	O	O
+she	O	O	O
+received	O	O	O
+lovenox	O	B-drug	O
+subcutaneously	O	O	O
+for	O	O	O
+dvt	O	B-treatment	O
+prophylaxis	O	I-treatment	O
+.	O	O	O
+
+
+currently	O	O	B-temporal
+today	O	O	O
+,	O	O	O
+she	O	O	O
+feels	O	O	O
+much	O	O	O
+improved	O	O	O
+with	O	O	O
+still	O	O	O
+only	O	O	O
+a	O	O	O
+mild	O	B-problem	B-severity
+cough	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+been	O	O	O
+afebrile	O	B-problem	O
+for	O	O	O
+two	O	O	O
+days	O	O	O
+,	O	O	O
+saturating	O	O	O
+at	O	O	O
+97	O	O	O
+%	O	O	O
+on	O	O	O
+room	O	O	O
+air	O	O	O
+with	O	O	O
+a	O	O	O
+respiratory	O	B-test	O
+rate	O	I-test	O
+of	O	O	O
+18	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+white	O	B-test	O
+count	O	I-test	O
+on	O	O	O
+presentation	O	O	O
+was	O	O	O
+13	O	O	O
+.	O	O	O
+6	O	O	O
+and	O	O	O
+yesterday	O	O	O
+'	O	O	O
+s	O	O	O
+white	O	B-test	O
+count	O	I-test	O
+was	O	O	O
+10	O	O	O
+.	O	O	O
+3	O	O	O
+.	O	O	O
+
+
+final	O	O	O
+diagnosis	O	O	O
+:	O	O	O
+bronchitis	O	B-problem	O
+.	O	O	O
+
+
+disposition	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+will	O	O	O
+be	O	O	O
+going	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+hydrochlorothiazide	O	B-drug	O
+12	O	O	O
+.	O	O	O
+5	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	O
+,	O	O	O
+propranolol	O	B-drug	O
+40	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	B-temporal
+.	O	O	O
+
+
+also	O	O	O
+,	O	O	O
+avelox	O	B-drug	O
+400	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	B-temporal
+x10	O	O	B-temporal
+days	O	O	O
+,	O	O	O
+guaifenesin	O	B-drug	O
+10	O	O	O
+cc	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+q	O	O	B-temporal
+.	O	O	I-temporal
+6h	O	O	I-temporal
+.	O	O	O
+
+
+p	O	O	O
+.	O	O	O
+r	O	O	O
+.	O	O	O
+n	O	O	O
+.	O	O	O
+for	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+and	O	O	O
+aspirin	O	B-drug	O
+81	O	O	O
+mg	O	O	O
+p	O	O	O
+.	O	O	O
+o	O	O	O
+.	O	O	O
+
+
+daily	O	O	B-temporal
+.	O	O	O
+
+
+diet	O	O	O
+:	O	O	O
+to	O	O	O
+follow	O	O	O
+a	O	O	O
+low	O	B-treatment	O
+-	O	I-treatment	O
+salt	O	I-treatment	O
+diet	O	I-treatment	O
+.	O	O	O
+
+
+activity	O	O	O
+:	O	O	O
+as	O	O	O
+tolerated	O	O	O
+.	O	O	O
+
+
+followup	O	O	O
+:	O	O	O
+to	O	O	O
+follow	O	O	O
+up	O	O	O
+with	O	O	O
+dr	O	O	O
+.	O	O	O
+abc	O	O	O
+in	O	O	O
+two	O	O	B-temporal
+weeks	O	O	I-temporal
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+cough	O	B-problem	O
+,	O	O	O
+pneumonia	O	B-problem	O
+,	O	O	O
+body	O	B-problem	B-bodyloc
+aches	O	I-problem	O
+,	O	O	O
+bronchitis	O	B-problem	O
+,	O	O	O
+low	O	B-treatment	O
+-	O	I-treatment	O
+salt	O	I-treatment	O
+diet	O	I-treatment	O
+,	O	O	O
+generalized	O	B-problem	O
+body	O	I-problem	B-bodyloc
+aches	O	I-problem	O
+,	O	O	O
+macular	O	B-problem	B-bodyloc
+degeneration	O	I-problem	O
+,	O	O	O
+
+

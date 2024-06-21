@@ -1,0 +1,2201 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+-	O	O	O
+er	O	O	O
+visit	O	O	O
+description	O	O	O
+:	O	O	O
+a	O	O	O
+93	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+called	O	O	O
+up	O	O	O
+her	O	O	O
+next	O	O	O
+-	O	O	O
+door	O	O	O
+neighbor	O	O	O
+to	O	O	O
+say	O	O	O
+that	O	O	O
+she	O	O	O
+was	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+given	O	O	O
+discharge	O	O	O
+instructions	O	O	O
+on	O	O	O
+dementia	O	B-problem	O
+and	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+and	O	O	O
+asked	O	O	O
+to	O	O	O
+return	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+should	O	O	O
+she	O	O	O
+have	O	O	O
+any	O	O	O
+new	O	B-problem	O
+problems	O	I-problem	O
+or	O	O	O
+symptoms	O	B-problem	O
+of	O	O	O
+concern	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+not	O	O	O
+have	O	O	O
+any	O	O	O
+chief	O	B-problem	O
+complaint	O	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+93	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+who	O	O	O
+called	O	O	O
+up	O	O	O
+her	O	O	O
+next	O	O	O
+-	O	O	O
+door	O	O	O
+neighbor	O	O	O
+to	O	O	O
+say	O	O	O
+that	O	O	O
+she	O	O	O
+was	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+next	O	O	O
+-	O	O	O
+door	O	O	O
+neighbor	O	O	O
+came	O	O	O
+over	O	O	O
+and	O	O	O
+decided	O	O	O
+that	O	O	O
+she	O	O	O
+should	O	O	O
+go	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+to	O	O	O
+be	O	O	O
+check	O	O	O
+out	O	O	O
+for	O	O	O
+her	O	O	O
+generalized	O	B-problem	O
+complaint	O	I-problem	O
+of	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+neighbor	O	O	O
+suspects	O	O	O
+that	O	O	O
+this	O	O	O
+may	O	O	O
+have	O	O	O
+been	O	O	O
+due	O	O	O
+to	O	O	O
+the	O	O	O
+patient	O	O	O
+taking	B-hpi.context	O	O
+too	I-hpi.context	O	O
+many	I-hpi.context	O	O
+of	I-hpi.context	O	O
+her	I-hpi.context	O	O
+tylenol	I-hpi.context	B-drug	O
+pm	I-hpi.context	B-treatment	O
+,	O	O	O
+which	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+been	O	O	O
+known	O	O	O
+to	O	O	O
+do	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+a	O	O	O
+little	O	O	O
+somnolent	B-hpi.assocSignsAndSymptoms	B-problem	O
+early	O	O	O
+this	O	O	O
+morning	O	O	B-temporal
+and	O	O	O
+was	O	O	O
+found	O	O	O
+only	O	O	O
+to	O	O	O
+be	O	O	O
+oriented	O	O	O
+x1	O	O	B-temporal
+with	O	O	O
+ems	O	O	O
+upon	O	O	O
+their	O	O	O
+arrival	O	O	O
+to	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+house	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+just	O	O	O
+simply	O	O	O
+felt	O	O	O
+funny	O	B-problem	O
+and	O	O	O
+does	O	O	O
+not	O	O	O
+give	O	O	O
+any	O	O	O
+more	O	O	O
+specific	O	O	O
+details	O	O	O
+than	O	O	O
+this	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+pain	O	O	O
+at	O	O	O
+any	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+did	O	O	O
+not	O	O	O
+have	O	O	O
+any	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+no	O	O	O
+nausea	O	B-problem	O
+or	O	O	O
+vomiting	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+generalized	O	B-problem	O
+weakness	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+states	O	O	O
+that	O	O	O
+all	O	O	O
+that	O	O	O
+has	O	O	O
+gone	B-hpi.quality	O	O
+away	I-hpi.quality	O	O
+since	O	O	O
+arrival	O	O	O
+here	O	O	O
+in	O	O	O
+the	O	O	O
+hospital	O	O	O
+,	O	O	O
+that	O	O	O
+she	O	O	O
+feels	O	O	O
+at	O	O	O
+her	O	O	O
+usual	O	O	O
+self	O	O	O
+,	O	O	O
+is	O	O	O
+not	O	O	O
+sure	O	O	O
+why	O	O	O
+she	O	O	O
+is	O	O	O
+here	O	O	O
+in	O	O	O
+the	O	O	O
+hospital	O	O	O
+,	O	O	O
+and	O	O	O
+thinks	O	O	O
+she	O	O	O
+should	O	O	O
+go	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+,	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+reports	O	O	O
+that	O	O	O
+the	O	O	O
+patient	O	O	O
+spoke	O	O	O
+with	O	O	O
+him	O	O	O
+yesterday	O	O	B-temporal
+and	O	O	O
+had	O	O	O
+complained	O	O	O
+of	O	O	O
+shortness	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+breath	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+,	O	O	O
+nausea	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+dizziness	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+generalized	B-hpi.assocSignsAndSymptoms	B-problem	O
+weakness	I-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+but	O	O	O
+the	O	O	O
+patient	O	O	O
+states	O	O	O
+that	O	O	O
+all	O	O	O
+this	O	O	O
+has	O	O	O
+resolved	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+actually	O	O	O
+seen	O	O	O
+here	O	O	O
+two	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+for	O	O	O
+those	O	O	O
+same	O	B-problem	O
+symptoms	O	O	O
+and	O	O	O
+was	O	O	O
+found	O	O	O
+to	O	O	O
+have	O	O	O
+exacerbation	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	O	O
+her	I-hpi.assocSignsAndSymptoms	O	O
+copd	I-hpi.assocSignsAndSymptoms	B-problem	O
+and	O	O	O
+chf	B-hpi.assocSignsAndSymptoms	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+discharged	O	O	O
+home	O	O	O
+after	O	O	O
+evaluation	O	B-test	O
+in	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+use	B-hpi.modifyingFactors	O	O
+home	I-hpi.modifyingFactors	O	O
+o2	I-hpi.modifyingFactors	B-problem	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+constitutional	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+complained	O	O	O
+of	O	O	O
+generalized	O	B-problem	O
+fatigue	O	I-problem	O
+and	O	O	O
+weakness	O	B-problem	O
+two	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+in	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+and	O	O	O
+yesterday	O	O	B-temporal
+to	O	O	O
+her	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+having	O	O	O
+any	O	B-problem	O
+other	O	I-problem	O
+symptoms	O	O	O
+today	O	O	B-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+fever	O	I-problem	O
+or	O	O	O
+chills	O	B-problem	O
+.	O	O	O
+
+
+has	O	O	O
+not	O	O	O
+had	O	O	O
+any	O	O	O
+recent	O	B-problem	O
+weight	O	I-problem	O
+change	O	I-problem	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+headache	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+neck	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+rhinorrhea	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+sinus	O	B-problem	B-bodyloc
+congestion	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+sore	O	B-problem	O
+throat	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+no	O	O	O
+any	O	B-problem	O
+vision	O	I-problem	O
+or	O	I-problem	O
+hearing	O	I-problem	O
+change	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+eye	O	O	O
+or	O	B-problem	O
+ear	O	I-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	B-bodyloc
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+chest	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+respirations	O	O	O
+:	O	O	O
+no	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+no	O	O	O
+cough	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+wheeze	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+did	O	O	O
+report	O	O	O
+having	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+and	O	O	O
+wheeze	O	B-problem	O
+with	O	O	O
+her	O	O	O
+presentation	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+two	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+and	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+to	O	O	O
+her	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+yesterday	O	O	O
+,	O	O	O
+but	O	O	O
+the	O	O	O
+patient	O	O	O
+states	O	O	O
+that	O	O	O
+all	O	O	O
+this	O	O	O
+has	O	O	O
+resolved	O	O	O
+.	O	O	O
+
+
+gastrointestinal	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+nausea	O	B-problem	O
+or	O	O	O
+vomiting	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+change	O	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+bowel	O	I-problem	B-bodyloc
+movements	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+has	O	O	O
+not	O	O	O
+been	O	O	O
+any	O	O	O
+diarrhea	O	B-problem	O
+or	O	O	O
+constipation	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+melena	O	B-problem	O
+or	O	O	O
+hematochezia	O	B-problem	O
+.	O	O	O
+
+
+genitourinary	O	O	O
+:	O	O	O
+no	O	O	O
+dysuria	O	B-problem	O
+,	O	O	O
+hematuria	O	B-problem	O
+,	O	O	O
+urgency	O	B-problem	O
+,	O	O	O
+or	O	O	O
+frequency	O	B-problem	O
+.	O	O	O
+
+
+musculoskeletal	O	O	O
+:	O	O	O
+no	O	O	O
+back	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+muscle	O	B-problem	O
+or	O	I-problem	O
+joint	O	I-problem	B-bodyloc
+aches	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+pain	O	B-problem	O
+or	O	O	O
+abnormalities	O	B-problem	O
+to	O	O	O
+any	O	O	O
+portion	O	O	O
+of	O	O	O
+the	O	O	O
+body	O	O	B-bodyloc
+.	O	O	O
+skin	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+rashes	O	B-problem	O
+or	O	O	O
+lesions	O	B-problem	O
+.	O	O	O
+
+
+neurologic	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+reported	O	O	O
+dizziness	O	B-problem	O
+to	O	O	O
+her	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+yesterday	O	O	B-temporal
+over	O	O	O
+the	O	O	O
+phone	O	O	O
+,	O	O	O
+but	O	O	O
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+having	O	O	O
+any	O	B-problem	O
+problems	O	I-problem	O
+with	O	O	O
+dizziness	O	B-problem	O
+over	O	O	O
+the	O	O	O
+past	O	O	O
+few	O	O	B-temporal
+days	O	O	I-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+dizziness	O	B-problem	O
+at	O	O	O
+this	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+syncope	O	B-problem	O
+or	O	O	O
+no	O	O	O
+near	O	B-problem	O
+-	O	I-problem	O
+syncope	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+focal	O	B-problem	O
+weakness	O	I-problem	O
+or	O	O	O
+numbness	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+speech	O	B-problem	O
+change	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+difficulty	O	B-problem	O
+with	O	I-problem	O
+ambulation	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+not	O	O	O
+had	O	O	O
+any	O	B-problem	O
+vision	O	I-problem	O
+or	O	I-problem	O
+hearing	O	I-problem	O
+change	O	I-problem	O
+.	O	O	O
+
+
+psychiatric	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	O	O
+depression	O	B-problem	O
+.	O	O	O
+
+
+endocrine	O	O	O
+:	O	O	O
+no	O	O	O
+heat	O	B-problem	O
+or	O	I-problem	O
+cold	O	I-problem	O
+intolerance	O	I-problem	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+copd	B-pastHistory	B-problem	O
+,	O	O	O
+chf	B-pastHistory	B-problem	O
+,	O	O	O
+hypertension	B-pastHistory	B-problem	O
+,	O	O	O
+migraines	B-pastHistory	B-problem	O
+,	O	O	O
+previous	O	O	O
+history	O	O	O
+of	O	O	O
+depression	B-pastHistory	B-problem	O
+,	O	O	O
+anxiety	B-pastHistory	B-problem	O
+,	O	O	O
+diverticulitis	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+atrial	B-pastHistory	B-problem	B-bodyloc
+fibrillation	I-pastHistory	I-problem	O
+.	O	O	O
+
+
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+placement	B-pastHistory	B-treatment	O
+of	I-pastHistory	B-treatment	O
+pacemaker	I-pastHistory	I-treatment	O
+and	O	O	O
+hysterectomy	B-pastHistory	B-treatment	O
+.	O	O	O
+
+
+current	O	O	B-temporal
+medications	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+takes	O	O	O
+tylenol	B-pastHistory	B-treatment	O
+pm	O	I-treatment	B-temporal
+for	O	O	O
+insomnia	O	B-problem	O
+,	O	O	O
+lasix	B-pastHistory	B-drug	O
+,	O	O	O
+coumadin	B-pastHistory	B-drug	O
+,	O	O	O
+norvasc	B-pastHistory	B-drug	O
+,	O	O	O
+lanoxin	B-pastHistory	B-drug	O
+,	O	O	O
+diovan	B-pastHistory	B-drug	O
+,	O	O	O
+atenolol	B-pastHistory	B-drug	O
+,	O	O	O
+and	O	O	O
+folic	B-pastHistory	B-drug	O
+acid	I-pastHistory	I-drug	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+used	B-socialHistory	O	O
+to	I-socialHistory	O	O
+smoke	I-socialHistory	O	O
+,	I-socialHistory	O	O
+but	I-socialHistory	O	O
+quit	I-socialHistory	O	O
+approximately	I-socialHistory	O	B-temporal
+30	I-socialHistory	O	I-temporal
+years	I-socialHistory	O	O
+ago	I-socialHistory	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	B-socialHistory	O	O
+any	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+or	I-socialHistory	O	O
+drug	I-socialHistory	O	O
+use	I-socialHistory	O	O
+although	O	O	O
+her	O	O	O
+son	O	O	O
+reports	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+a	O	O	O
+long	O	O	O
+history	O	O	O
+of	O	O	O
+this	O	O	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+and	O	O	O
+the	B-socialHistory	O	O
+patient	I-socialHistory	O	O
+has	I-socialHistory	O	O
+abused	I-socialHistory	O	O
+prescription	I-socialHistory	B-treatment	O
+medication	I-socialHistory	I-treatment	O
+in	I-socialHistory	O	O
+the	I-socialHistory	O	O
+past	I-socialHistory	O	O
+as	O	O	O
+well	O	O	O
+according	O	O	O
+to	O	O	O
+her	O	O	O
+son	O	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+temperature	O	B-test	O
+99	O	O	O
+.	O	O	O
+1	O	O	O
+oral	O	O	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+139	O	O	O
+/	O	O	O
+65	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+is	O	O	O
+72	O	O	O
+,	O	O	O
+respirations	O	B-test	O
+18	O	O	O
+,	O	O	O
+and	O	O	O
+oxygen	O	B-test	O
+saturation	O	I-test	O
+is	O	O	O
+92	O	O	O
+%	O	O	O
+on	O	O	O
+room	O	O	O
+air	O	O	O
+and	O	O	O
+interpreted	O	O	O
+as	O	O	O
+low	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+constitutional	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+well	O	O	O
+nourished	O	O	O
+and	O	O	O
+well	O	O	O
+developed	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+healthy	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+calm	O	O	O
+,	O	O	O
+comfortable	O	O	O
+,	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+,	O	O	O
+and	O	O	O
+looks	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+pleasant	O	O	O
+and	O	O	O
+cooperative	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+head	O	O	O
+is	O	O	O
+atraumatic	O	O	O
+,	O	O	O
+normocephalic	O	O	O
+,	O	O	O
+and	O	O	O
+nontender	O	O	O
+.	O	O	O
+eyes	O	O	O
+are	O	O	O
+normal	O	O	O
+with	O	O	O
+clear	O	O	O
+sclerae	O	O	O
+and	O	O	O
+cornea	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+nose	O	O	B-bodyloc
+is	O	O	O
+normal	O	O	O
+without	O	O	O
+rhinorrhea	O	B-problem	O
+or	O	O	O
+audible	O	B-problem	O
+congestion	O	O	O
+.	O	O	O
+
+
+mouth	O	O	B-bodyloc
+and	O	O	O
+oropharynx	O	O	B-bodyloc
+are	O	O	O
+normal	O	O	O
+without	O	O	O
+any	O	O	O
+sign	O	B-problem	O
+of	O	I-problem	O
+infection	O	I-problem	O
+.	O	O	O
+
+
+mucous	O	O	O
+membranes	O	O	O
+are	O	O	O
+moist	O	O	O
+.	O	O	O
+
+
+neck	O	O	O
+:	O	O	O
+supple	O	O	O
+and	O	O	O
+nontender	O	O	O
+.	O	O	O
+
+
+full	O	O	O
+range	O	O	O
+of	O	O	O
+motion	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+jvd	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+cervical	O	B-problem	B-bodyloc
+lymphadenopathy	O	I-problem	O
+.	O	O	O
+
+
+no	O	O	O
+carotid	O	B-problem	B-bodyloc
+artery	O	I-problem	I-bodyloc
+or	O	I-problem	O
+vertebral	O	I-problem	B-bodyloc
+artery	O	I-problem	I-bodyloc
+bruits	O	I-problem	O
+.	O	O	O
+
+
+cardiovascular	O	O	B-bodyloc
+:	O	O	O
+heart	O	O	B-bodyloc
+is	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+without	O	O	O
+murmur	O	B-problem	O
+,	O	O	O
+rub	O	B-problem	O
+or	O	O	O
+gallop	O	B-problem	O
+.	O	O	O
+
+
+peripheral	O	B-test	O
+pulses	O	I-test	O
+are	O	O	O
++	O	O	O
+2	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+have	O	O	O
++	O	O	O
+1	O	O	O
+bilateral	O	O	O
+lower	O	B-problem	B-bodyloc
+extremity	O	I-problem	I-bodyloc
+edema	O	I-problem	O
+.	O	O	O
+
+
+respirations	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+coarse	O	B-problem	O
+breath	O	I-problem	B-bodyloc
+sounds	O	I-problem	O
+bilaterally	O	O	O
+,	O	O	O
+but	O	O	O
+no	O	O	O
+dyspnea	O	B-problem	O
+.	O	O	O
+
+
+good	O	O	O
+air	O	O	O
+movement	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+wheeze	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+crackles	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+speaks	O	O	O
+in	O	O	O
+full	O	O	O
+sentences	O	O	O
+without	O	O	O
+any	O	B-problem	O
+difficulty	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+not	O	O	O
+exhibit	O	O	O
+any	O	O	O
+retractions	O	B-problem	O
+,	O	O	O
+accessory	O	B-problem	O
+muscle	O	I-problem	B-bodyloc
+use	O	I-problem	O
+or	O	I-problem	O
+abdominal	O	I-problem	B-bodyloc
+breathing	O	I-problem	O
+.	O	O	O
+
+
+gastrointestinal	O	O	B-bodyloc
+:	O	O	O
+abdomen	O	O	B-bodyloc
+is	O	O	O
+soft	O	O	O
+,	O	O	O
+nontender	O	B-problem	O
+,	O	O	O
+and	O	O	O
+nondistended	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+rebound	O	B-problem	O
+or	O	O	O
+guarding	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+hepatosplenomegaly	O	B-problem	O
+.	O	O	O
+
+
+normal	O	O	O
+bowel	O	O	O
+sounds	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+bruits	O	B-problem	O
+,	O	O	O
+no	O	O	O
+mass	O	B-problem	O
+,	O	O	O
+no	O	O	O
+pulsatile	O	B-problem	O
+mass	O	I-problem	O
+,	O	O	O
+and	O	O	O
+no	O	O	O
+inguinal	O	B-problem	B-bodyloc
+lymphadenopathy	O	I-problem	O
+.	O	O	O
+
+
+musculoskeletal	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+abnormalities	O	B-problem	O
+noted	O	O	O
+to	O	O	O
+the	O	O	O
+back	O	O	B-bodyloc
+,	O	O	O
+arms	O	O	O
+or	O	O	O
+legs	O	O	O
+.	O	O	O
+
+
+skin	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+rashes	O	B-problem	O
+or	O	O	O
+lesions	O	B-problem	O
+.	O	O	O
+
+
+neurological	O	O	O
+:	O	O	O
+cranial	O	O	O
+nerves	O	O	O
+ii	O	O	O
+through	O	O	O
+xii	O	O	O
+are	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+motor	O	B-test	O
+is	O	O	O
+5	O	O	B-temporal
+/	O	O	I-temporal
+5	O	O	I-temporal
+and	O	O	O
+equal	O	O	O
+to	O	O	O
+bilateral	O	O	O
+arms	O	O	O
+and	O	O	O
+legs	O	O	O
+.	O	O	O
+
+
+sensory	O	O	O
+is	O	O	O
+intact	O	O	O
+to	O	O	O
+light	O	B-test	O
+touch	O	I-test	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+normal	O	O	O
+speech	O	O	O
+and	O	O	O
+normal	O	O	O
+ambulation	O	O	O
+.	O	O	O
+
+
+psychiatric	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+awake	O	O	O
+,	O	O	O
+alert	O	O	O
+,	O	O	O
+and	O	O	O
+oriented	O	O	O
+x3	O	O	B-temporal
+although	O	O	O
+the	O	O	O
+patient	O	O	O
+first	O	O	O
+stated	O	O	O
+that	O	O	O
+the	O	O	B-temporal
+year	O	O	I-temporal
+was	O	O	O
+1908	O	O	O
+,	O	O	O
+but	O	O	O
+did	O	O	O
+manage	O	O	O
+to	O	O	O
+correct	O	O	O
+herself	O	O	O
+up	O	O	O
+on	O	O	O
+addressing	O	O	O
+this	O	O	O
+with	O	O	O
+her	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+normal	O	O	O
+mood	O	O	O
+and	O	O	O
+affect	O	O	O
+.	O	O	O
+
+
+hematologic	O	O	O
+and	O	O	O
+lymphatic	O	O	O
+:	O	O	O
+there	O	O	O
+is	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+lymphadenopathy	O	B-problem	O
+.	O	O	O
+
+
+emergency	O	O	O
+department	O	O	O
+testing	O	O	O
+:	O	O	O
+ekg	O	B-test	O
+is	O	O	O
+a	O	O	O
+rate	O	O	O
+of	O	O	O
+72	O	O	O
+with	O	O	O
+evidence	O	O	O
+of	O	O	O
+a	O	O	O
+pacemaker	O	B-treatment	O
+that	O	O	O
+has	O	O	O
+good	O	O	O
+capture	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+acute	O	O	B-severity
+cardiac	O	B-problem	B-bodyloc
+disease	O	I-problem	O
+on	O	O	O
+the	O	O	O
+ekg	O	B-test	O
+and	O	O	O
+there	O	O	O
+is	O	O	O
+no	O	O	O
+apparent	O	O	O
+change	O	O	O
+in	O	O	O
+the	O	O	O
+ekg	O	B-test	O
+from	O	O	O
+03	O	O	B-temporal
+/	O	O	I-temporal
+17	O	O	I-temporal
+/	O	O	I-temporal
+08	O	O	I-temporal
+.	O	O	O
+
+
+cbc	O	B-test	O
+has	O	O	O
+no	O	O	O
+specific	O	B-problem	O
+abnormalities	O	I-problem	O
+of	O	O	O
+issue	O	B-problem	O
+.	O	O	O
+
+
+chemistry	O	B-test	O
+has	O	O	O
+a	O	O	O
+bun	O	B-test	O
+of	O	O	O
+46	O	O	O
+and	O	O	O
+creatinine	O	B-test	O
+of	O	O	O
+2	O	O	O
+.	O	O	O
+25	O	O	O
+,	O	O	O
+glucose	O	B-test	O
+is	O	O	O
+135	O	O	O
+,	O	O	O
+and	O	O	O
+an	O	O	O
+estimated	O	B-test	O
+gfr	O	I-test	O
+is	O	O	O
+20	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+rest	O	B-test	O
+of	O	I-test	O
+the	O	I-test	O
+values	O	I-test	O
+are	O	O	O
+normal	O	O	O
+and	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+
+
+lfts	O	B-test	O
+are	O	O	O
+all	O	O	O
+within	O	O	O
+normal	O	O	O
+limits	O	O	O
+.	O	O	O
+
+
+cardiac	O	B-test	O
+enzymes	O	I-test	O
+are	O	O	O
+all	O	O	O
+within	O	O	O
+normal	O	O	O
+limits	O	O	O
+.	O	O	O
+
+
+digoxin	O	B-test	O
+level	O	I-test	O
+is	O	O	O
+therapeutic	O	O	O
+at	O	O	O
+1	O	O	O
+.	O	O	O
+6	O	O	O
+.	O	O	O
+
+
+chest	O	B-test	B-bodyloc
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+noted	O	O	O
+cardiomegaly	O	B-problem	O
+and	O	O	O
+evidence	O	O	O
+of	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+but	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+change	O	I-problem	O
+from	O	O	O
+her	O	O	O
+chest	O	B-test	B-bodyloc
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+done	O	O	O
+two	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+.	O	O	O
+
+
+cat	O	B-test	O
+scan	O	I-test	O
+of	O	I-test	O
+the	O	I-test	O
+head	O	I-test	O
+did	O	O	O
+not	O	O	O
+identify	O	O	O
+any	O	O	O
+acute	O	B-problem	B-severity
+abnormalities	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+spoke	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+,	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+who	O	O	O
+stated	O	O	O
+that	O	O	O
+he	O	O	O
+would	O	O	O
+be	O	O	O
+able	O	O	O
+to	O	O	O
+follow	O	O	O
+up	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+within	O	O	O
+the	O	O	O
+next	O	O	B-temporal
+day	O	O	I-temporal
+.	O	O	O
+
+
+i	O	O	O
+spoke	O	O	O
+with	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+neighbor	O	O	O
+who	O	O	O
+contacted	O	O	O
+the	O	O	O
+ambulance	O	O	O
+service	O	O	O
+who	O	O	O
+stated	O	O	O
+that	O	O	O
+the	O	O	O
+patient	O	O	O
+just	O	O	O
+reported	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+and	O	O	O
+appeared	O	O	O
+to	O	O	O
+be	O	O	O
+a	O	O	O
+little	O	O	O
+somnolent	O	B-problem	O
+and	O	O	O
+confused	O	B-problem	O
+at	O	O	O
+the	O	O	O
+time	O	O	O
+,	O	O	O
+but	O	O	O
+suspected	O	O	O
+that	O	O	O
+she	O	O	O
+may	O	O	O
+have	O	O	O
+taken	O	O	O
+too	O	O	O
+many	O	O	O
+of	O	O	O
+her	O	O	O
+tylenol	O	B-drug	O
+pm	O	B-treatment	B-temporal
+as	O	O	O
+she	O	O	O
+often	O	O	O
+has	O	O	O
+done	O	O	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+neighbor	O	O	O
+is	O	O	O
+xyz	O	O	O
+and	O	O	O
+he	O	O	O
+says	O	O	O
+that	O	O	O
+he	O	O	O
+checks	O	O	O
+on	O	O	O
+her	O	O	O
+three	O	O	B-temporal
+times	O	O	I-temporal
+a	O	O	I-temporal
+day	O	O	I-temporal
+every	O	O	I-temporal
+day	O	O	I-temporal
+.	O	O	O
+
+
+abc	O	O	O
+is	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+son	O	O	O
+and	O	O	O
+although	O	O	O
+he	O	O	O
+lives	O	O	O
+out	O	O	O
+of	O	O	O
+town	O	O	O
+he	O	O	O
+calls	O	O	O
+and	O	O	O
+checks	O	O	O
+on	O	O	O
+her	O	O	O
+every	O	O	B-temporal
+day	O	O	I-temporal
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+states	O	O	O
+that	O	O	O
+he	O	O	O
+spoke	O	O	O
+to	O	O	O
+her	O	O	O
+yesterday	O	O	B-temporal
+.	O	O	O
+
+
+she	O	O	O
+sounded	O	O	O
+fine	O	O	O
+,	O	O	O
+did	O	O	O
+not	O	O	O
+express	O	O	O
+any	O	O	O
+other	O	B-problem	O
+problems	O	I-problem	O
+that	O	O	O
+she	O	O	O
+had	O	O	O
+apparently	O	O	O
+been	O	O	O
+in	O	O	O
+contact	O	O	O
+with	O	O	O
+her	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+sounded	O	O	O
+her	O	O	O
+usual	O	O	O
+self	O	O	O
+to	O	O	O
+him	O	O	O
+.	O	O	O
+mr	O	O	O
+.	O	O	O
+abc	O	O	O
+also	O	O	O
+spoke	O	O	O
+to	O	O	O
+the	O	O	O
+patient	O	O	O
+while	O	O	O
+she	O	O	O
+was	O	O	O
+here	O	O	O
+in	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+and	O	O	O
+she	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+her	O	O	O
+usual	O	O	O
+self	O	O	O
+and	O	O	O
+has	O	O	O
+her	O	O	O
+normal	O	O	O
+baseline	O	O	O
+mental	O	O	O
+status	O	O	O
+to	O	O	O
+him	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+states	O	O	O
+that	O	O	O
+he	O	O	O
+will	O	O	O
+be	O	O	O
+able	O	O	O
+to	O	O	O
+check	O	O	O
+on	O	O	O
+her	O	O	O
+tomorrow	O	O	B-temporal
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+although	O	O	O
+it	O	O	O
+is	O	O	O
+of	O	O	O
+some	O	O	O
+concern	O	O	O
+that	O	O	O
+there	O	O	O
+may	O	O	O
+be	O	O	O
+problems	O	O	O
+with	O	O	O
+development	O	O	O
+of	O	O	O
+some	O	O	O
+early	O	B-problem	O
+dementia	O	I-problem	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+adamant	O	O	O
+about	O	O	O
+not	O	O	O
+going	O	O	O
+to	O	O	O
+a	O	O	O
+nursing	O	O	O
+home	O	O	O
+and	O	O	O
+has	O	O	O
+been	O	O	O
+placed	O	O	O
+in	O	O	O
+a	O	O	O
+nursing	O	O	O
+home	O	O	O
+in	O	O	O
+the	O	O	O
+past	O	O	O
+,	O	O	O
+but	O	O	O
+dr	O	O	O
+.	O	O	O
+y	O	O	O
+states	O	O	O
+that	O	O	O
+she	O	O	O
+has	O	O	O
+managed	O	O	O
+to	O	O	O
+be	O	O	O
+discharged	O	O	O
+after	O	O	O
+two	O	O	O
+previous	O	O	O
+nursing	O	O	O
+home	O	O	O
+placements	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+have	O	O	O
+home	O	O	O
+health	O	O	O
+that	O	O	O
+checks	O	O	O
+on	O	O	O
+her	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+housing	O	O	O
+care	O	O	O
+in	O	O	O
+between	O	O	O
+the	O	O	O
+two	O	O	O
+services	O	O	O
+they	O	O	O
+share	O	O	O
+visits	O	O	O
+every	O	O	O
+single	O	O	O
+day	O	O	O
+by	O	O	O
+them	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+the	O	O	O
+neighbor	O	O	O
+who	O	O	O
+checks	O	O	O
+on	O	O	O
+her	O	O	O
+three	O	O	B-temporal
+times	O	O	I-temporal
+a	O	O	I-temporal
+day	O	O	I-temporal
+and	O	O	O
+her	O	O	O
+son	O	O	O
+who	O	O	O
+calls	O	O	O
+her	O	O	O
+each	O	O	B-temporal
+day	O	O	I-temporal
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+although	O	O	O
+she	O	O	O
+lives	O	O	O
+alone	O	O	O
+,	O	O	O
+does	O	O	O
+appear	O	O	O
+to	O	O	O
+have	O	O	O
+good	O	O	O
+followup	O	O	O
+and	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+adamant	O	O	O
+that	O	O	O
+she	O	O	O
+wishes	O	O	O
+to	O	O	O
+return	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+diagnoses	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+early	O	B-problem	O
+dementia	O	I-problem	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+chronic	O	B-problem	O
+obstructive	O	I-problem	O
+pulmonary	O	I-problem	B-bodyloc
+disease	O	I-problem	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+5	O	O	O
+.	O	O	O
+
+
+atrial	O	B-problem	B-bodyloc
+fibrillation	O	I-problem	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+chronic	O	B-problem	O
+renal	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+7	O	O	O
+.	O	O	O
+
+
+pacemaker	O	B-treatment	O
+with	O	O	O
+good	O	O	O
+normal	O	O	O
+function	O	O	O
+and	O	O	O
+good	O	O	O
+capture	O	O	O
+.	O	O	O
+
+
+condition	O	O	O
+upon	O	O	O
+disposition	O	O	O
+:	O	O	O
+stable	O	O	O
+.	O	O	O
+
+
+disposition	O	O	O
+:	O	O	O
+to	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+we	O	O	O
+will	O	O	O
+have	O	O	O
+the	O	O	O
+patient	O	O	O
+follow	O	O	O
+up	O	O	O
+with	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+within	O	O	O
+the	O	O	O
+next	O	O	O
+two	O	O	B-temporal
+days	O	O	I-temporal
+for	O	O	O
+reevaluation	O	B-test	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+given	O	O	O
+discharge	O	O	O
+instructions	O	O	O
+on	O	O	O
+dementia	O	B-problem	O
+and	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+and	O	O	O
+asked	O	O	O
+to	O	O	O
+return	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+should	O	O	O
+she	O	O	O
+have	O	O	O
+any	O	O	O
+new	O	B-problem	O
+problems	O	I-problem	O
+or	O	O	O
+symptoms	O	B-problem	O
+of	O	O	O
+concern	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+cautioned	O	O	O
+against	O	O	O
+using	O	O	O
+tylenol	O	B-treatment	O
+pm	O	I-treatment	B-temporal
+for	O	O	O
+insomnia	O	B-problem	O
+,	O	O	O
+as	O	O	O
+she	O	O	O
+seems	O	O	O
+to	O	O	O
+overdo	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+neighbor	O	O	O
+,	O	O	O
+mr	O	O	O
+.	O	O	O
+xyz	O	O	O
+came	O	O	O
+and	O	O	O
+picked	O	O	O
+her	O	O	O
+up	O	O	O
+from	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+not	O	O	O
+feeling	O	O	O
+well	O	O	O
+,	O	O	O
+emergency	O	O	O
+room	O	O	O
+,	O	O	O
+early	O	B-problem	O
+dementia	O	I-problem	O
+,	O	O	O
+chronic	O	B-problem	O
+obstructive	O	I-problem	O
+pulmonary	O	I-problem	B-bodyloc
+disease	O	I-problem	O
+,	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+atrial	O	B-problem	B-bodyloc
+fibrillation	O	I-problem	O
+,	O	O	O
+chronic	O	B-problem	O
+renal	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+,	O	O	O
+primary	O	O	O
+care	O	O	O
+physician	O	O	O
+,	O	O	O
+nursing	O	O	O
+home	O	O	O
+,	O	O	O
+heart	O	O	O
+,	O	O	O
+breath	O	O	O
+,	O	O	O
+emergency	O	O	O
+,	O	O	O
+
+

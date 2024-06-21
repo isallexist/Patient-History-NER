@@ -1,0 +1,874 @@
+sample	O
+type	O
+/	O
+medical	O
+specialty	O
+:	O
+general	O
+medicine	O
+sample	O
+name	O
+:	O
+sepsis	O
+-	O
+consult	O
+description	O
+:	O
+sepsis	O
+.	O
+
+the	O
+patient	O
+was	O
+found	O
+to	O
+have	O
+a	O
+ct	O
+scan	O
+with	O
+dilated	O
+bladder	O
+with	O
+thick	O
+wall	O
+suggesting	O
+an	O
+outlet	O
+obstruction	O
+as	O
+well	O
+as	O
+bilateral	O
+hydronephrosis	O
+and	O
+hydroureter	O
+.	O
+
+(	O
+medical	O
+transcription	O
+sample	O
+report	O
+)	O
+reason	O
+for	O
+admission	O
+:	O
+sepsis	B-cc
+.	O
+
+history	O
+of	O
+present	O
+illness	O
+:	O
+the	O
+patient	O
+is	O
+a	O
+pleasant	O
+but	O
+demented	B-hpi.assocSignsAndSymptoms
+80	O
+-	O
+year	O
+-	O
+old	O
+male	O
+,	O
+who	O
+lives	B-socialHistory
+in	I-socialHistory
+board	I-socialHistory
+and	I-socialHistory
+care	I-socialHistory
+,	O
+who	O
+presented	O
+with	O
+acute	O
+onset	O
+of	O
+abdominal	B-cc
+pain	I-cc
+.	O
+
+in	O
+the	O
+emergency	O
+room	O
+,	O
+the	O
+patient	O
+was	O
+found	O
+to	O
+have	O
+a	O
+ct	O
+scan	O
+with	O
+dilated	B-hpi.assocSignsAndSymptoms
+bladder	I-hpi.assocSignsAndSymptoms
+with	I-hpi.assocSignsAndSymptoms
+thick	I-hpi.assocSignsAndSymptoms
+wall	I-hpi.assocSignsAndSymptoms
+suggesting	O
+an	O
+outlet	B-hpi.assocSignsAndSymptoms
+obstruction	I-hpi.assocSignsAndSymptoms
+as	O
+well	O
+as	O
+bilateral	B-hpi.assocSignsAndSymptoms
+hydronephrosis	I-hpi.assocSignsAndSymptoms
+and	O
+hydroureter	B-hpi.assocSignsAndSymptoms
+.	O
+
+the	O
+patient	O
+is	O
+unable	O
+to	O
+provide	O
+further	O
+history	O
+.	O
+
+the	O
+patient	O
+'	O
+s	O
+son	O
+is	O
+at	O
+the	O
+bedside	O
+and	O
+confirmed	O
+his	O
+history	O
+.	O
+
+the	O
+patient	O
+was	O
+given	O
+iv	B-hpi.modifyingFactors
+antibiotics	I-hpi.modifyingFactors
+in	O
+the	O
+emergency	O
+room	O
+.	O
+
+he	O
+was	O
+also	O
+given	O
+some	O
+hydration	B-hpi.modifyingFactors
+.	O
+
+past	O
+medical	O
+history	O
+:	O
+1	O
+.	O
+
+history	O
+of	O
+cad	B-pastHistory
+.	O
+
+2	O
+.	O
+
+history	O
+of	O
+dementia	B-pastHistory
+.	O
+
+3	O
+.	O
+
+history	O
+of	O
+cva	B-pastHistory
+.	O
+
+4	O
+.	O
+
+history	O
+of	O
+nephrolithiasis	B-pastHistory
+.	O
+
+allergies	O
+:	O
+none	O
+.	O
+
+medications	O
+:	O
+1	O
+.	O
+
+ambien	B-pastHistory
+.	O
+
+2	O
+.	O
+
+milk	B-pastHistory
+of	I-pastHistory
+magnesia	I-pastHistory
+.	O
+
+3	O
+.	O
+
+tylenol	B-pastHistory
+.	O
+
+4	O
+.	O
+
+tramadol	B-pastHistory
+.	O
+
+5	O
+.	O
+
+soma	B-pastHistory
+.	O
+
+6	O
+.	O
+
+coumadin	B-pastHistory
+.	O
+
+7	O
+.	O
+
+zoloft	B-pastHistory
+.	O
+
+8	O
+.	O
+
+allopurinol	B-pastHistory
+.	O
+
+9	O
+.	O
+
+digoxin	B-pastHistory
+.	O
+
+10	O
+.	O
+
+namenda	B-pastHistory
+.	O
+
+11	O
+.	O
+
+zocor	B-pastHistory
+.	O
+
+12	O
+.	O
+
+buspar	B-pastHistory
+.	O
+
+13	O
+.	O
+
+detrol	B-pastHistory
+.	O
+
+14	O
+.	O
+
+coreg	B-pastHistory
+.	O
+
+15	O
+.	O
+
+colace	B-pastHistory
+.	O
+
+16	O
+.	O
+
+calcium	B-pastHistory
+.	O
+17	O
+.	O
+
+zantac	B-pastHistory
+.	O
+
+18	O
+.	O
+
+lasix	B-pastHistory
+.	O
+
+19	O
+.	O
+
+seroquel	B-pastHistory
+.	O
+
+20	O
+.	O
+
+aldactone	B-pastHistory
+.	O
+21	O
+.	O
+
+amoxicillin	B-pastHistory
+.	O
+
+family	O
+history	O
+:	O
+noncontributory	O
+.	O
+
+social	O
+history	O
+:	O
+the	O
+patient	O
+lives	B-socialHistory
+in	I-socialHistory
+a	I-socialHistory
+board	I-socialHistory
+and	I-socialHistory
+care	I-socialHistory
+.	O
+
+no	B-socialHistory
+tobacco	I-socialHistory
+,	O
+alcohol	B-socialHistory
+or	I-socialHistory
+iv	I-socialHistory
+drug	I-socialHistory
+use	I-socialHistory
+.	O
+
+review	O
+of	O
+systems	O
+:	O
+as	O
+per	O
+the	O
+history	O
+of	O
+present	O
+illness	O
+,	O
+otherwise	O
+unremarkable	O
+.	O
+
+physical	O
+examination	O
+:	O
+vital	O
+signs	O
+:	O
+the	O
+patient	O
+is	O
+currently	O
+afebrile	O
+.	O
+
+pulse	O
+52	O
+,	O
+respirations	O
+20	O
+,	O
+blood	O
+pressure	O
+104	O
+/	O
+41	O
+,	O
+and	O
+saturating	O
+98	O
+%	O
+on	O
+room	O
+air	O
+.	O
+
+general	O
+:	O
+the	O
+patient	O
+is	O
+awake	O
+.	O
+
+not	O
+oriented	O
+x3	O
+,	O
+in	O
+no	O
+acute	O
+distress	O
+.	O
+
+heent	O
+:	O
+pupils	O
+are	O
+equal	O
+,	O
+round	O
+,	O
+and	O
+reactive	O
+to	O
+light	O
+and	O
+accommodation	O
+.	O
+
+extraocular	O
+movements	O
+are	O
+intact	O
+.	O
+
+mucous	O
+membranes	O
+are	O
+dry	O
+.	O
+
+neck	O
+:	O
+supple	O
+.	O
+
+no	O
+thyromegaly	O
+.	O
+
+no	O
+jugular	O
+venous	O
+distention	O
+.	O
+
+heart	O
+:	O
+irregularly	O
+irregular	O
+,	O
+brady	O
+.	O
+
+lungs	O
+:	O
+clear	O
+to	O
+auscultation	O
+bilaterally	O
+anteriorly	O
+.	O
+
+abdomen	O
+:	O
+positive	O
+normoactive	O
+bowel	O
+sounds	O
+.	O
+
+soft	O
+.	O
+
+tenderness	O
+in	O
+the	O
+suprapubic	O
+region	O
+without	O
+rebound	O
+.	O
+
+extremities	O
+:	O
+no	O
+clubbing	O
+,	O
+cyanosis	O
+or	O
+edema	O
+in	O
+upper	O
+and	O
+lower	O
+extremities	O
+.	O
+
+neurologic	O
+:	O
+as	O
+mentioned	O
+above	O
+.	O
+
+no	O
+focality	O
+is	O
+noted	O
+.	O
+
+laboratory	O
+studies	O
+:	O
+ct	O
+of	O
+the	O
+abdomen	O
+shows	O
+left	O
+inguinal	O
+hernia	O
+with	O
+greater	O
+than	O
+10	O
+cm	O
+of	O
+colon	O
+in	O
+sac	O
+,	O
+no	O
+sbo	O
+,	O
+dilated	O
+bladder	O
+with	O
+thick	O
+wall	O
+,	O
+possible	O
+outlet	O
+obstruction	O
+,	O
+bilateral	O
+hydronephrosis	O
+and	O
+hydroureter	O
+,	O
+and	O
+2	O
+.	O
+7	O
+cm	O
+right	O
+adrenal	O
+gland	O
+mass	O
+.	O
+
+white	O
+count	O
+30	O
+.	O
+8	O
+,	O
+hemoglobin	O
+10	O
+.	O
+9	O
+,	O
+and	O
+platelet	O
+count	O
+413	O
+.	O
+
+ua	O
+shows	O
+greater	O
+than	O
+100	O
+wbcs	O
+,	O
+greater	O
+than	O
+100	O
+rbcs	O
+with	O
+500	O
+leukocyte	O
+esterase	O
+.	O
+
+sodium	O
+149	O
+,	O
+potassium	O
+4	O
+.	O
+1	O
+,	O
+chloride	O
+116	O
+,	O
+co2	O
+19	O
+,	O
+bun	O
+89	O
+,	O
+and	O
+creatinine	O
+2	O
+.	O
+1	O
+.	O
+
+ekg	O
+shows	O
+atrial	O
+fibrillation	O
+at	O
+a	O
+very	O
+slow	O
+rate	O
+of	O
+55	O
+.	O
+
+problem	O
+list	O
+:	O
+1	O
+.	O
+
+urinary	O
+tract	O
+infection	O
+with	O
+sepsis	O
+.	O
+
+2	O
+.	O
+
+obstructive	O
+uropathy	O
+.	O
+
+3	O
+.	O
+
+dementia	O
+.	O
+
+4	O
+:	O
+atrial	O
+fibrillation	O
+.	O
+
+5	O
+.	O
+
+anemia	O
+.	O
+
+6	O
+.	O
+
+adrenal	O
+gland	O
+mass	O
+.	O
+
+recommendations	O
+:	O
+1	O
+.	O
+
+obtain	O
+urology	O
+consult	O
+with	O
+dr	O
+.	O
+x	O
+.	O
+2	O
+.	O
+
+obtain	O
+renal	O
+consult	O
+dr	O
+.	O
+y	O
+.	O
+3	O
+.	O
+
+place	O
+the	O
+patient	O
+on	O
+levaquin	O
+renally	O
+dosed	O
+.	O
+
+4	O
+.	O
+
+give	O
+one	O
+dose	O
+of	O
+gentamicin	O
+for	O
+synergy	O
+n	O
+the	O
+urine	O
+.	O
+
+5	O
+.	O
+
+iv	O
+fluids	O
+with	O
+hypertonic	O
+-	O
+hypotonic	O
+.	O
+
+6	O
+.	O
+
+hold	O
+anticoagulation	O
+and	O
+put	O
+the	O
+patient	O
+on	O
+scd	O
+and	O
+ted	O
+hose	O
+bilateral	O
+lower	O
+extremities	O
+.	O
+
+7	O
+.	O
+
+the	O
+patient	O
+is	O
+currently	O
+in	O
+slow	O
+atrial	O
+fibrillation	O
+.	O
+
+hold	O
+all	O
+rate	O
+control	O
+medications	O
+and	O
+check	O
+digoxin	O
+level	O
+.	O
+
+8	O
+.	O
+
+continue	O
+dementia	O
+medications	O
+.	O
+
+9	O
+.	O
+
+ppi	O
+for	O
+pud	O
+prophylaxis	O
+.	O
+
+keywords	O
+:	O
+general	O
+medicine	O
+,	O
+abdominal	O
+pain	O
+,	O
+hydronephrosis	O
+,	O
+hydroureter	O
+,	O
+urology	O
+,	O
+urinary	O
+tract	O
+infection	O
+with	O
+sepsis	O
+,	O
+ct	O
+scan	O
+,	O
+adrenal	O
+gland	O
+,	O
+dilated	O
+bladder	O
+,	O
+bilateral	O
+hydronephrosis	O
+,	O
+atrial	O
+fibrillation	O
+,	O
+sepsis	O
+,	O
+

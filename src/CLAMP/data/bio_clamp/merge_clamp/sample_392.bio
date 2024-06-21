@@ -1,0 +1,1059 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+progress	O	O	O
+note	O	O	O
+-	O	O	O
+8	O	O	O
+description	O	O	O
+:	O	O	O
+short	O	O	O
+-	O	O	O
+term	O	O	O
+followup	O	O	O
+-	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+depression	O	B-problem	O
+,	O	O	O
+osteoporosis	O	B-problem	O
+,	O	O	O
+and	O	O	O
+osteoarthritis	O	B-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+subjective	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+an	O	O	O
+89	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+lady	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+actually	O	O	O
+turns	O	O	O
+90	O	O	O
+later	O	O	O
+this	O	O	O
+month	O	O	O
+,	O	O	O
+seen	O	O	O
+today	O	O	B-temporal
+for	O	O	O
+a	O	O	O
+short	O	O	O
+-	O	O	O
+term	O	O	O
+followup	O	O	O
+.	O	O	O
+
+
+actually	O	O	O
+,	O	O	O
+the	O	O	O
+main	O	O	O
+reasons	O	O	O
+we	O	O	O
+are	O	O	O
+seeing	O	O	O
+her	O	O	O
+back	O	O	O
+so	O	O	O
+soon	O	O	O
+which	O	O	O
+are	O	O	O
+elevated	B-cc	B-problem	O
+blood	I-cc	I-problem	B-bodyloc
+pressure	I-cc	I-problem	O
+and	O	O	O
+her	O	O	O
+right	B-cc	B-problem	B-bodyloc
+arm	I-cc	I-problem	I-bodyloc
+symptoms	I-cc	I-problem	O
+are	O	O	O
+basically	B-hpi.quality	O	O
+resolved	I-hpi.quality	O	O
+.	O	O	O
+
+
+blood	B-hpi.quality	B-test	O
+pressure	I-hpi.quality	I-test	O
+is	I-hpi.quality	O	O
+better	I-hpi.quality	O	O
+even	O	O	O
+though	O	O	O
+she	O	O	O
+is	O	O	O
+not	O	O	O
+currently	O	O	B-temporal
+on	O	O	O
+the	O	O	O
+higher	O	O	O
+dose	O	O	O
+mavik	O	B-treatment	O
+likely	O	O	O
+recommended	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+apparently	O	O	O
+did	B-hpi.assocSignsAndSymptoms	O	O
+not	I-hpi.assocSignsAndSymptoms	O	O
+feel	I-hpi.assocSignsAndSymptoms	O	O
+well	I-hpi.assocSignsAndSymptoms	O	O
+with	I-hpi.assocSignsAndSymptoms	O	O
+the	I-hpi.assocSignsAndSymptoms	O	O
+higher	I-hpi.assocSignsAndSymptoms	O	O
+dose	I-hpi.assocSignsAndSymptoms	O	O
+,	O	O	O
+so	O	O	O
+she	O	O	O
+just	O	O	O
+went	O	O	O
+back	O	O	O
+to	O	O	O
+her	O	O	O
+previous	O	O	O
+dose	O	O	O
+of	O	O	O
+1	O	O	O
+mg	O	O	O
+daily	O	O	B-temporal
+.	O	O	O
+
+
+she	O	O	O
+thinks	O	O	O
+,	O	O	O
+she	O	O	O
+also	O	O	O
+has	O	O	O
+an	O	O	O
+element	O	O	O
+of	O	O	O
+office	B-hpi.assocSignsAndSymptoms	B-problem	O
+hypertension	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+also	O	O	O
+,	O	O	O
+since	O	O	O
+she	O	O	O
+is	O	O	O
+on	O	O	O
+mavik	B-hpi.modifyingFactors	B-drug	O
+plus	O	O	O
+verapamil	B-hpi.modifyingFactors	B-drug	O
+,	O	O	O
+she	O	O	O
+could	O	O	O
+switch	O	O	O
+over	O	O	O
+to	O	O	O
+the	O	O	O
+combined	O	O	O
+drug	O	O	O
+tarka	O	O	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+when	O	O	O
+we	O	O	O
+gave	O	O	O
+her	O	O	O
+samples	O	O	O
+of	O	O	O
+that	O	O	O
+she	O	O	O
+thought	O	O	O
+they	O	O	O
+were	O	O	O
+too	O	O	O
+big	O	O	O
+for	O	O	O
+her	O	O	O
+to	O	O	O
+swallow	O	O	O
+.	O	O	O
+
+
+basically	O	O	O
+,	O	O	O
+she	O	O	O
+is	O	O	O
+just	O	O	O
+back	O	O	O
+on	O	O	O
+her	O	O	O
+previous	O	B-treatment	O
+blood	O	I-treatment	O
+pressure	O	I-treatment	O
+regimen	O	O	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+her	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+seems	O	O	O
+to	O	O	O
+be	O	O	O
+better	B-hpi.quality	O	O
+today	O	O	B-temporal
+.	O	O	O
+her	O	O	O
+daughter	O	O	O
+says	O	O	O
+that	O	O	O
+they	O	O	O
+do	O	O	O
+check	O	O	O
+it	O	O	O
+periodically	O	O	O
+and	O	O	O
+it	O	O	O
+is	O	O	O
+similar	O	O	O
+to	O	O	O
+todays	O	O	O
+reading	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+right	O	B-problem	B-bodyloc
+arm	O	I-problem	I-bodyloc
+symptoms	O	I-problem	O
+are	O	O	O
+basically	B-hpi.quality	O	O
+resolved	I-hpi.quality	O	O
+and	O	O	O
+she	O	O	O
+attributed	O	O	O
+that	O	O	O
+to	O	O	O
+her	O	B-problem	O
+muscle	B-hpi.assocSignsAndSymptoms	O	B-bodyloc
+problem	I-hpi.assocSignsAndSymptoms	O	O
+back	I-hpi.assocSignsAndSymptoms	O	O
+in	I-hpi.assocSignsAndSymptoms	O	O
+the	I-hpi.assocSignsAndSymptoms	O	O
+right	I-hpi.assocSignsAndSymptoms	O	O
+shoulder	I-hpi.assocSignsAndSymptoms	O	B-bodyloc
+blade	I-hpi.assocSignsAndSymptoms	O	I-bodyloc
+.	O	O	O
+
+
+we	O	O	O
+did	O	O	O
+do	O	O	O
+a	O	O	O
+c	O	B-test	O
+-	O	I-test	O
+spine	O	I-test	O
+and	O	O	O
+right	O	B-test	O
+shoulder	O	I-test	O
+x	O	I-test	O
+-	O	I-test	O
+ray	O	I-test	O
+and	O	O	O
+those	O	O	O
+just	O	O	O
+mainly	O	O	O
+showed	O	O	O
+some	O	O	O
+degenerative	B-hpi.assocSignsAndSymptoms	B-problem	O
+changes	I-hpi.assocSignsAndSymptoms	I-problem	O
+and	O	O	O
+possibly	O	O	O
+some	O	O	O
+rotator	B-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+cuff	I-hpi.assocSignsAndSymptoms	I-problem	I-bodyloc
+injury	I-hpi.assocSignsAndSymptoms	I-problem	O
+with	O	O	O
+the	O	O	O
+humeral	B-hpi.location	O	O
+head	I-hpi.location	O	O
+quite	I-hpi.location	O	O
+high	I-hpi.location	O	O
+up	I-hpi.location	O	O
+in	I-hpi.location	O	O
+the	I-hpi.location	O	O
+glenoid	I-hpi.location	O	O
+in	I-hpi.location	O	O
+the	I-hpi.location	O	O
+right	I-hpi.location	O	O
+shoulder	I-hpi.location	O	O
+,	O	O	O
+but	O	O	O
+this	O	O	O
+does	O	O	O
+not	O	O	O
+seem	O	O	O
+to	O	O	O
+cause	O	O	O
+her	O	B-problem	O
+any	O	B-problem	O
+problems	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+some	O	O	O
+vague	B-hpi.assocSignsAndSymptoms	O	O
+stomach	I-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+problems	I-hpi.assocSignsAndSymptoms	I-problem	O
+,	O	O	O
+although	O	O	O
+apparently	O	O	O
+it	O	O	O
+is	O	O	O
+improved	B-hpi.quality	O	O
+when	O	O	O
+she	O	O	O
+stopped	O	O	O
+aleve	B-hpi.modifyingFactors	B-drug	O
+and	O	O	O
+she	O	O	O
+does	O	O	O
+not	O	O	O
+have	O	O	O
+any	O	O	O
+more	O	O	O
+aches	O	B-problem	O
+or	O	O	O
+pains	O	B-problem	O
+off	O	O	O
+aleve	O	B-drug	O
+.	O	O	O
+
+
+she	O	O	O
+takes	O	O	O
+tylenol	B-hpi.modifyingFactors	B-drug	O
+p	O	O	O
+.	O	O	O
+r	O	O	O
+.	O	O	O
+n	O	O	O
+.	O	O	O
+,	O	O	O
+which	O	O	O
+seems	O	O	O
+to	O	O	O
+be	O	O	O
+enough	O	O	O
+for	O	O	O
+her	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+does	O	O	O
+not	O	O	O
+think	O	O	O
+she	O	O	O
+has	O	O	O
+any	O	O	O
+acid	O	B-problem	O
+reflux	O	I-problem	O
+symptoms	O	O	O
+or	O	O	O
+heartburn	O	B-problem	O
+.	O	O	O
+
+
+she	O	O	O
+does	O	O	O
+take	O	O	O
+tums	B-hpi.modifyingFactors	B-drug	O
+t	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+and	O	O	O
+also	O	O	O
+mylanta	B-hpi.modifyingFactors	B-drug	O
+at	O	O	B-temporal
+night	O	O	I-temporal
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+had	O	O	O
+dentures	O	B-treatment	O
+for	O	O	O
+many	O	O	O
+,	O	O	O
+many	O	O	B-temporal
+years	O	O	O
+and	O	O	O
+just	O	O	O
+recently	O	O	O
+i	O	O	O
+guess	O	O	O
+in	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+few	I-hpi.duration	O	O
+months	I-hpi.duration	O	O
+,	O	O	O
+although	O	O	O
+she	O	O	O
+was	O	O	O
+somewhat	O	O	O
+vague	O	O	O
+on	O	O	O
+this	O	O	O
+,	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+some	O	O	O
+sores	B-hpi.assocSignsAndSymptoms	B-problem	O
+in	I-hpi.assocSignsAndSymptoms	I-problem	O
+her	I-hpi.assocSignsAndSymptoms	I-problem	O
+mouth	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+.	O	O	O
+
+
+they	B-hpi.timing	O	O
+do	I-hpi.timing	O	O
+heal	I-hpi.timing	O	O
+up	I-hpi.timing	O	O
+,	I-hpi.timing	O	O
+but	I-hpi.timing	O	O
+then	I-hpi.timing	O	O
+she	I-hpi.timing	O	O
+will	I-hpi.timing	O	O
+get	I-hpi.timing	O	O
+another	I-hpi.timing	O	O
+one	I-hpi.timing	O	O
+.	O	O	O
+she	O	O	O
+also	O	O	O
+thinks	O	O	O
+since	B-hpi.context	O	O
+she	I-hpi.context	O	O
+has	I-hpi.context	O	O
+been	I-hpi.context	O	O
+on	I-hpi.context	O	O
+the	I-hpi.context	O	O
+lexapro	I-hpi.context	B-drug	O
+,	O	O	O
+she	O	O	O
+has	O	O	O
+somewhat	O	O	O
+of	O	O	O
+a	O	B-problem	O
+tremor	B-hpi.assocSignsAndSymptoms	I-problem	O
+of	O	O	O
+her	O	O	O
+basically	B-hpi.location	O	O
+whole	I-hpi.location	O	O
+body	I-hpi.location	O	O
+at	I-hpi.location	O	O
+least	I-hpi.location	O	O
+upper	I-hpi.location	O	O
+body	I-hpi.location	O	O
+including	I-hpi.location	O	O
+the	I-hpi.location	O	O
+torso	I-hpi.location	O	O
+and	I-hpi.location	O	O
+arms	I-hpi.location	O	B-bodyloc
+and	O	O	O
+had	O	O	O
+all	O	O	O
+of	O	O	O
+the	O	O	O
+daughters	O	O	O
+who	O	O	O
+i	O	O	O
+not	O	O	O
+noticed	O	O	O
+to	O	O	O
+speak	O	O	O
+of	O	O	O
+and	O	O	O
+it	O	O	O
+is	O	O	O
+certainly	O	O	O
+difficult	O	O	O
+to	O	O	O
+tell	O	O	O
+her	O	O	O
+today	O	O	B-temporal
+that	O	O	O
+she	O	O	O
+has	O	O	O
+much	O	O	O
+tremor	O	B-problem	O
+.	O	O	O
+
+
+they	O	O	O
+do	O	O	O
+think	O	O	O
+the	O	O	O
+lexapro	B-hpi.modifyingFactors	B-drug	O
+has	O	O	O
+helped	O	O	O
+to	O	O	O
+some	O	O	O
+extent	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+none	O	O	O
+.	O	O	O
+
+
+medication	O	O	O
+:	O	O	O
+verapamil	B-pastHistory	B-drug	O
+240	O	O	O
+mg	O	O	O
+a	O	O	O
+day	O	O	O
+,	O	O	O
+mavik	B-pastHistory	B-drug	O
+1	O	O	O
+mg	O	O	O
+a	O	O	O
+day	O	O	O
+,	O	O	O
+lipitor	O	B-drug	O
+10	O	O	O
+mg	O	O	O
+one	O	O	O
+and	O	O	O
+half	O	O	O
+daily	O	O	O
+,	O	O	O
+vitamins	B-pastHistory	B-drug	O
+daily	O	O	O
+,	O	O	O
+ocuvite	B-pastHistory	B-drug	O
+daily	O	O	O
+,	O	O	O
+tums	B-pastHistory	B-drug	O
+t	O	O	B-temporal
+.	O	O	I-temporal
+i	O	O	I-temporal
+.	O	O	I-temporal
+d	O	O	I-temporal
+.	O	O	O
+,	O	O	O
+tylenol	B-pastHistory	B-drug	O
+2	O	O	B-temporal
+-	O	O	I-temporal
+3	O	O	I-temporal
+daily	O	O	I-temporal
+p	O	O	O
+.	O	O	O
+r	O	O	O
+.	O	O	O
+n	O	O	O
+.	O	O	O
+,	O	O	O
+and	O	O	O
+mylanta	B-pastHistory	B-drug	O
+at	O	O	B-temporal
+night	O	O	I-temporal
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+mostly	O	O	O
+otherwise	O	O	O
+as	O	O	O
+above	O	O	O
+.	O	O	O
+
+
+objective	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+a	O	O	O
+pleasant	O	O	O
+elderly	O	O	O
+lady	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+,	O	O	O
+accompanied	O	O	O
+by	O	O	O
+daughter	O	O	O
+.	O	O	O
+
+
+vital	O	B-test	O
+signs	O	I-test	O
+:	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+128	O	O	O
+/	O	O	O
+82	O	O	O
+.	O	O	O
+
+
+pulse	O	B-test	O
+:	O	O	O
+68	O	O	O
+.	O	O	O
+
+
+weight	O	B-test	O
+:	O	O	O
+143	O	O	O
+pounds	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+changes	O	I-problem	O
+.	O	O	O
+
+
+atraumatic	O	B-problem	O
+,	O	O	O
+normocephalic	O	O	O
+.	O	O	O
+
+
+on	O	O	O
+mouth	O	B-test	O
+exam	O	I-test	O
+,	O	O	O
+she	O	O	O
+does	O	O	O
+have	O	O	O
+dentures	O	B-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+removed	O	O	O
+her	O	O	O
+upper	O	B-treatment	O
+denture	O	I-treatment	O
+.	O	O	O
+
+
+i	O	O	O
+really	O	O	O
+do	O	O	O
+not	O	O	O
+see	O	O	O
+any	O	O	O
+sores	O	B-problem	O
+at	O	O	O
+all	O	O	O
+.	O	O	O
+her	O	O	O
+mouth	O	B-test	O
+exam	O	I-test	O
+was	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+adenopathy	O	B-problem	O
+,	O	O	O
+tenderness	O	B-problem	O
+,	O	O	O
+jvd	O	B-problem	O
+,	O	O	O
+bruits	O	B-problem	O
+,	O	O	O
+or	O	O	O
+mass	O	B-problem	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+.	O	O	O
+heart	O	O	O
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+extremities	O	O	B-bodyloc
+:	O	O	O
+no	O	O	O
+significant	O	B-problem	O
+edema	O	I-problem	O
+.	O	O	O
+
+
+reasonable	O	O	O
+pulses	O	B-test	O
+.	O	O	O
+
+
+no	O	O	O
+clubbing	O	B-problem	O
+or	O	O	O
+cyanosis	O	B-problem	O
+,	O	O	O
+may	O	O	O
+be	O	O	O
+just	O	O	O
+a	O	O	O
+minimal	O	O	B-severity
+tremor	O	B-problem	O
+in	O	I-problem	O
+head	O	I-problem	B-bodyloc
+and	O	I-problem	O
+hands	O	I-problem	B-bodyloc
+,	O	O	O
+but	O	O	O
+it	O	O	O
+is	O	O	O
+very	O	O	O
+subtle	O	O	O
+and	O	O	O
+hardly	O	O	O
+noticeable	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+other	O	O	O
+focal	O	B-problem	O
+or	O	I-problem	O
+neurological	O	I-problem	O
+deficits	O	I-problem	O
+grossly	O	O	O
+.	O	O	O
+
+
+impression	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+hypertension	O	B-problem	O
+,	O	O	O
+better	O	O	O
+reading	O	O	O
+today	O	O	B-temporal
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+right	O	B-problem	B-bodyloc
+arm	O	I-problem	I-bodyloc
+symptoms	O	I-problem	O
+,	O	O	O
+resolved	O	O	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+depression	O	B-problem	O
+probably	O	O	O
+somewhat	O	O	O
+improved	O	O	O
+with	O	O	O
+lexapro	O	B-drug	O
+and	O	O	O
+she	O	O	O
+will	O	O	O
+just	O	O	O
+continue	O	O	O
+that	O	O	O
+.	O	O	O
+she	O	O	O
+only	O	O	O
+got	O	O	O
+up	O	O	O
+to	O	O	O
+the	O	O	O
+full	O	O	O
+dose	O	O	O
+10	O	O	O
+mg	O	O	O
+pill	O	O	O
+about	O	O	O
+a	O	O	O
+week	O	O	O
+ago	O	O	O
+and	O	O	O
+apparently	O	O	O
+some	O	O	O
+days	O	O	O
+does	O	O	O
+not	O	O	O
+need	O	O	O
+to	O	O	O
+take	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+perhaps	O	O	O
+a	O	B-problem	O
+very	O	I-problem	O
+subtle	O	I-problem	O
+tremor	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+will	O	O	O
+just	O	O	O
+watch	O	O	O
+that	O	O	O
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+
+
+osteoporosis	O	B-problem	O
+.	O	O	O
+
+
+6	O	O	O
+.	O	O	O
+
+
+osteoarthritis	O	B-problem	O
+.	O	O	O
+plan	O	O	O
+:	O	O	O
+i	O	O	O
+think	O	O	O
+i	O	O	O
+will	O	O	O
+just	O	O	O
+watch	O	O	O
+everything	O	O	O
+for	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+i	O	O	O
+would	O	O	O
+continue	O	O	O
+the	O	O	O
+lexapro	O	B-drug	O
+,	O	O	O
+we	O	O	O
+gave	O	O	O
+her	O	O	O
+more	O	O	O
+samples	O	O	O
+plus	O	O	O
+a	O	O	O
+prescription	O	O	O
+for	O	O	O
+the	O	O	O
+20	O	O	O
+mg	O	O	O
+that	O	O	O
+she	O	O	O
+can	O	O	O
+cut	O	O	O
+in	O	O	O
+half	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+offered	O	O	O
+to	O	O	O
+see	O	O	O
+her	O	O	O
+for	O	O	O
+again	O	O	O
+short	O	O	O
+-	O	O	O
+term	O	O	O
+followup	O	O	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+they	O	O	O
+both	O	O	O
+preferred	O	O	O
+just	O	O	O
+to	O	O	O
+wait	O	O	O
+until	O	O	O
+the	O	O	O
+annual	O	O	O
+check	O	O	O
+up	O	O	O
+already	O	O	O
+set	O	O	O
+up	O	O	O
+for	O	O	O
+next	O	O	O
+april	O	O	O
+and	O	O	O
+they	O	O	O
+know	O	O	O
+they	O	O	O
+can	O	O	O
+call	O	O	O
+sooner	O	O	O
+.	O	O	O
+she	O	O	O
+might	O	O	O
+get	O	O	O
+a	O	O	O
+flu	O	B-treatment	O
+shot	O	I-treatment	O
+here	O	O	O
+in	O	O	O
+the	O	O	O
+next	O	O	O
+few	O	O	O
+weeks	O	O	O
+.	O	O	O
+
+
+daughter	O	O	O
+mentioned	O	O	O
+here	O	O	O
+today	O	O	B-temporal
+that	O	O	O
+she	O	O	O
+thinks	O	O	O
+her	O	O	O
+mom	O	O	O
+is	O	O	O
+doing	O	O	O
+pretty	O	O	O
+well	O	O	O
+,	O	O	O
+especially	O	O	O
+given	O	O	O
+that	O	O	O
+she	O	O	O
+is	O	O	O
+turning	O	O	O
+90	O	O	O
+here	O	O	O
+later	O	O	O
+this	O	O	B-temporal
+month	O	O	I-temporal
+and	O	O	O
+i	O	O	O
+would	O	O	O
+tend	O	O	O
+to	O	O	O
+agree	O	O	O
+with	O	O	O
+that	O	O	O
+.	O	O	O
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+osteoporosis	O	B-problem	O
+,	O	O	O
+osteoarthritis	O	B-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+depression	O	B-problem	O
+,	O	O	O
+short	O	O	O
+term	O	O	O
+followup	O	O	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+,	O	O	O
+progress	O	O	O
+,	O	O	O
+blood	O	O	O
+,	O	O	O
+pressure	O	O	O
+,	O	O	O
+dose	O	O	O
+,	O	O	O
+
+

@@ -1,0 +1,867 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+cut	O	B-problem	O
+on	O	I-problem	O
+foot	O	I-problem	B-bodyloc
+-	O	O	O
+er	O	O	O
+visit	O	O	O
+description	O	O	O
+:	O	O	O
+patient	O	O	O
+had	O	O	O
+a	O	O	O
+piece	O	O	O
+of	O	O	O
+glass	O	O	O
+fall	O	O	O
+on	O	O	O
+to	O	O	O
+his	O	O	O
+right	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+a	O	O	O
+4	O	O	O
+-	O	O	O
+mm	O	B-problem	O
+laceration	O	I-problem	O
+.	O	O	O
+
+
+acute	O	B-problem	B-severity
+foot	O	I-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+now	O	O	B-temporal
+resolved	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+given	O	O	O
+discharge	O	O	O
+instructions	O	O	O
+on	O	O	O
+wound	O	B-treatment	O
+care	O	I-treatment	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+cut	B-cc	B-problem	O
+on	I-cc	I-problem	O
+foot	I-cc	I-problem	B-bodyloc
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+32	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+who	O	O	O
+had	B-hpi.context	O	O
+a	I-hpi.context	O	O
+piece	I-hpi.context	B-problem	O
+of	I-hpi.context	I-problem	O
+glass	I-hpi.context	I-problem	O
+fall	I-hpi.context	O	O
+on	I-hpi.context	O	O
+to	I-hpi.context	O	O
+his	I-hpi.context	O	O
+right	I-hpi.context	O	B-bodyloc
+foot	I-hpi.context	O	I-bodyloc
+today	B-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+concerned	O	O	O
+because	O	O	O
+of	O	O	O
+the	O	B-problem	O
+amount	O	I-problem	O
+of	O	I-problem	O
+bleeding	B-hpi.assocSignsAndSymptoms	I-problem	O
+that	O	O	O
+occurred	O	O	O
+with	O	O	O
+it	O	O	O
+.	O	O	O
+
+
+the	O	B-problem	O
+bleeding	B-hpi.quality	I-problem	O
+has	I-hpi.quality	O	O
+been	I-hpi.quality	O	O
+stopped	I-hpi.quality	O	O
+and	O	O	O
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+have	I-hpi.assocSignsAndSymptoms	O	O
+any	I-hpi.assocSignsAndSymptoms	B-problem	O
+pain	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+normal	B-hpi.assocSignsAndSymptoms	O	O
+use	I-hpi.assocSignsAndSymptoms	O	O
+of	I-hpi.assocSignsAndSymptoms	O	O
+his	I-hpi.assocSignsAndSymptoms	O	O
+foot	I-hpi.assocSignsAndSymptoms	O	O
+,	O	O	O
+there	O	O	O
+is	O	O	O
+no	B-hpi.assocSignsAndSymptoms	O	O
+numbness	I-hpi.assocSignsAndSymptoms	B-problem	O
+or	O	O	O
+weakness	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+able	O	O	O
+to	O	O	O
+ambulate	B-hpi.assocSignsAndSymptoms	O	O
+well	I-hpi.assocSignsAndSymptoms	O	O
+without	O	O	O
+any	O	O	O
+discomfort	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+denies	O	O	O
+any	O	B-problem	O
+injuries	O	I-problem	O
+to	O	O	O
+any	O	O	O
+other	O	O	O
+portion	O	B-problem	O
+of	O	I-problem	O
+his	O	I-problem	O
+body	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+not	O	O	O
+had	O	O	O
+any	O	O	O
+recent	O	B-problem	O
+illness	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+no	O	O	O
+other	O	B-problem	O
+problems	O	I-problem	O
+or	O	O	O
+complaints	O	B-problem	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+asthma	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+current	O	O	B-temporal
+medication	O	O	O
+:	O	O	O
+albuterol	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	B-socialHistory	O	O
+smoker	I-socialHistory	O	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+temperature	O	B-test	O
+98	O	O	O
+.	O	O	O
+8	O	O	O
+oral	O	O	O
+,	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+132	O	O	O
+/	O	O	O
+86	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+is	O	O	O
+76	O	O	O
+,	O	O	O
+and	O	O	O
+respirations	O	B-test	O
+16	O	O	O
+.	O	O	O
+
+
+oxygen	O	B-test	O
+saturation	O	I-test	O
+is	O	O	O
+100	O	O	O
+%	O	O	O
+on	O	O	O
+room	O	O	O
+air	O	O	O
+and	O	O	O
+interpreted	O	O	O
+as	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+constitutional	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+well	O	O	O
+-	O	O	O
+nourished	O	O	O
+,	O	O	O
+well	O	O	O
+-	O	O	O
+developed	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+healthy	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+calm	O	O	O
+and	O	O	O
+comfortable	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+and	O	O	O
+looks	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+pleasant	O	O	O
+and	O	O	O
+cooperative	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+head	O	O	O
+is	O	O	O
+atraumatic	O	O	O
+,	O	O	O
+normocephalic	O	O	O
+,	O	O	O
+and	O	O	O
+nontender	O	O	O
+.	O	O	O
+eyes	O	O	O
+are	O	O	O
+normal	O	O	O
+with	O	O	O
+clear	O	O	O
+conjunctiva	O	O	O
+and	O	O	O
+cornea	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+neck	O	O	O
+:	O	O	O
+supple	O	O	O
+with	O	O	O
+full	O	O	O
+range	O	O	O
+of	O	O	O
+motion	O	O	O
+.	O	O	O
+
+
+cardiovascular	O	O	O
+:	O	O	O
+peripheral	O	B-test	O
+pulse	O	I-test	O
+is	O	O	O
++	O	O	O
+2	O	O	O
+to	O	O	O
+the	O	O	O
+right	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+capillary	O	B-test	O
+refills	O	I-test	O
+less	O	O	O
+than	O	O	O
+two	O	O	B-temporal
+seconds	O	O	I-temporal
+to	O	O	O
+all	O	O	O
+the	O	O	O
+digits	O	O	O
+of	O	O	O
+the	O	O	O
+right	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+respirations	O	O	O
+:	O	O	O
+no	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+.	O	O	O
+
+
+musculoskeletal	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+a	O	O	O
+4	O	O	O
+-	O	O	O
+mm	O	O	O
+partial	O	B-problem	O
+thickness	O	I-problem	O
+laceration	O	I-problem	O
+to	O	I-problem	O
+the	O	I-problem	O
+top	O	I-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+right	O	I-problem	B-bodyloc
+foot	O	I-problem	I-bodyloc
+and	O	O	O
+about	O	O	O
+the	O	O	O
+area	O	O	O
+of	O	O	O
+the	O	O	O
+mid	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+palpable	O	B-problem	O
+foreign	O	O	O
+body	O	O	O
+,	O	O	O
+no	O	O	O
+foreign	O	B-problem	O
+body	O	I-problem	B-bodyloc
+is	O	O	O
+visualized	O	O	O
+.	O	O	O
+
+
+there	O	O	O
+is	O	O	O
+no	O	O	O
+active	O	B-problem	O
+bleeding	O	I-problem	O
+,	O	O	O
+there	O	O	O
+is	O	O	O
+no	O	O	O
+exposed	O	O	O
+deeper	O	B-problem	O
+tissues	O	O	O
+and	O	O	O
+certainly	O	O	O
+no	O	O	O
+exposed	O	B-problem	O
+tendons	O	I-problem	O
+,	O	I-problem	O
+bone	O	I-problem	O
+,	O	I-problem	O
+muscle	O	I-problem	O
+,	O	I-problem	O
+nerves	O	I-problem	O
+,	O	I-problem	O
+or	O	I-problem	O
+vessels	O	O	O
+.	O	O	O
+
+
+it	O	O	O
+appears	O	O	O
+that	O	O	O
+the	O	B-problem	O
+laceration	O	I-problem	O
+may	O	O	O
+have	O	O	O
+nicked	O	O	O
+a	O	O	O
+small	O	O	O
+varicose	O	B-problem	B-bodyloc
+vein	O	I-problem	I-bodyloc
+,	O	O	O
+which	O	O	O
+would	O	O	O
+have	O	O	O
+accounted	O	O	O
+for	O	O	O
+the	O	O	O
+heavier	O	B-problem	O
+than	O	O	O
+usual	O	B-problem	B-bodyloc
+bleeding	O	I-problem	O
+that	O	O	O
+currently	O	O	B-temporal
+occurred	O	O	O
+at	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+does	O	O	O
+not	O	O	O
+have	O	O	O
+any	O	B-problem	O
+tenderness	O	I-problem	O
+to	O	O	O
+the	O	O	O
+foot	O	O	B-bodyloc
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+full	O	O	O
+range	O	O	O
+of	O	O	O
+motion	O	O	O
+to	O	O	O
+all	O	O	O
+the	O	O	O
+joints	O	O	O
+,	O	O	O
+all	O	O	O
+the	O	O	O
+toes	O	O	O
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+the	O	O	O
+ankles	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+ambulates	O	O	O
+well	O	O	O
+without	O	O	O
+any	O	B-problem	O
+difficulty	O	I-problem	O
+or	O	O	O
+discomfort	O	B-problem	O
+.	O	O	O
+
+
+there	O	O	O
+are	O	O	O
+no	O	O	O
+other	O	B-problem	O
+injuries	O	I-problem	O
+noted	O	O	O
+to	O	O	O
+the	O	O	O
+rest	O	O	O
+of	O	O	O
+the	O	O	O
+body	O	O	O
+.	O	O	O
+
+
+skin	O	O	O
+:	O	O	O
+the	O	O	O
+4	O	O	O
+-	O	O	O
+mm	O	B-problem	O
+partial	O	I-problem	O
+thickness	O	I-problem	O
+laceration	O	I-problem	O
+to	O	I-problem	O
+the	O	I-problem	O
+right	O	I-problem	B-bodyloc
+foot	O	I-problem	I-bodyloc
+as	O	O	O
+previously	O	O	O
+described	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+other	O	B-problem	O
+injuries	O	I-problem	O
+are	O	O	O
+noted	O	O	O
+.	O	O	O
+
+
+neurologic	O	O	O
+:	O	O	O
+motor	O	B-test	O
+is	O	O	O
+5	O	O	B-temporal
+/	O	O	I-temporal
+5	O	O	I-temporal
+to	O	O	O
+all	O	O	O
+the	O	O	O
+muscle	O	O	O
+groups	O	O	O
+of	O	O	O
+the	O	O	O
+right	O	O	O
+lower	O	O	O
+extremity	O	O	O
+.	O	O	O
+
+
+sensory	O	O	O
+is	O	O	O
+intact	O	O	O
+to	O	O	O
+light	O	B-test	O
+touch	O	I-test	O
+to	O	O	O
+all	O	O	O
+the	O	O	O
+dermatomes	O	O	O
+of	O	O	O
+the	O	O	O
+right	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+normal	O	O	O
+speech	O	O	O
+and	O	O	O
+normal	O	O	O
+ambulation	O	O	O
+.	O	O	O
+
+
+psychiatric	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+x4	O	O	B-temporal
+.	O	O	O
+
+
+normal	O	O	O
+mood	O	O	O
+and	O	O	O
+affect	O	O	O
+.	O	O	O
+
+
+hematologic	O	O	O
+/	O	O	O
+lymphatic	O	O	O
+:	O	O	O
+no	O	O	O
+active	O	B-problem	O
+bleeding	O	I-problem	O
+is	O	O	O
+occurring	O	O	O
+at	O	O	O
+this	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+bruising	O	B-problem	O
+is	O	O	O
+noted	O	O	O
+to	O	O	O
+the	O	O	O
+body	O	O	O
+.	O	O	O
+
+
+emergency	O	O	O
+department	O	O	O
+course	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+antibiotic	O	B-treatment	O
+ointment	O	I-treatment	O
+and	O	O	O
+a	O	B-treatment	O
+bandage	O	I-treatment	O
+applied	O	O	O
+to	O	O	O
+his	O	O	O
+foot	O	O	O
+.	O	O	O
+
+
+diagnoses	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+a	O	O	O
+4	O	O	O
+-	O	O	O
+mm	O	B-problem	O
+laceration	O	I-problem	O
+to	O	I-problem	O
+the	O	I-problem	O
+right	O	I-problem	B-bodyloc
+foot	O	I-problem	I-bodyloc
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+acute	O	B-problem	B-severity
+right	O	I-problem	B-bodyloc
+foot	O	I-problem	I-bodyloc
+pain	O	O	O
+,	O	O	O
+now	O	O	B-temporal
+resolved	O	O	O
+.	O	O	O
+
+
+condition	O	O	O
+upon	O	O	O
+disposition	O	O	O
+:	O	O	O
+stable	O	O	O
+.	O	O	O
+
+
+disposition	O	O	O
+:	O	O	O
+to	O	O	O
+home	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+given	O	O	O
+discharge	O	O	O
+instructions	O	O	O
+on	O	O	O
+wound	O	B-treatment	O
+care	O	I-treatment	O
+and	O	O	O
+asked	O	O	O
+to	O	O	O
+return	O	O	O
+to	O	O	O
+emergency	O	O	O
+room	O	O	O
+should	O	O	O
+he	O	O	O
+have	O	O	O
+any	O	O	O
+evidence	O	O	O
+or	O	O	O
+signs	O	O	O
+and	O	O	O
+symptoms	O	O	O
+of	O	O	O
+infection	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+precautioned	O	O	O
+that	O	O	O
+there	O	O	O
+may	O	O	O
+still	O	O	O
+be	O	O	O
+a	O	O	O
+small	O	O	O
+piece	O	O	O
+of	O	O	O
+glass	O	B-problem	O
+retained	O	I-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+foot	O	I-problem	B-bodyloc
+and	O	O	O
+that	O	O	O
+there	O	O	O
+is	O	O	O
+a	O	O	O
+possibility	O	O	O
+of	O	O	O
+infection	O	B-problem	O
+or	O	O	O
+that	O	O	O
+the	O	O	O
+piece	O	O	O
+of	O	O	O
+glass	O	O	O
+may	O	O	O
+be	O	O	O
+extruded	O	O	O
+later	O	O	O
+on	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+foot	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+,	O	O	O
+cut	O	O	O
+on	O	O	O
+foot	O	O	O
+,	O	O	O
+piece	O	O	O
+of	O	O	O
+glass	O	O	O
+,	O	O	O
+foreign	O	B-problem	O
+body	O	I-problem	B-bodyloc
+,	O	O	O
+active	O	B-problem	O
+bleeding	O	I-problem	O
+,	O	O	O
+foot	O	O	O
+,	O	O	O
+injuries	O	B-problem	O
+,	O	O	O
+atraumatic	O	O	O
+,	O	O	O
+laceration	O	B-problem	O
+,	O	O	O
+bleeding	O	B-problem	O
+,	O	O	O
+body	O	O	O
+,	O	O	O
+
+

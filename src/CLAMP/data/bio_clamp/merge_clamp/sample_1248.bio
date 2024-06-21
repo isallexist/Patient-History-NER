@@ -1,0 +1,974 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+recurrent	O	B-problem	O
+abscesses	O	I-problem	O
+-	O	O	O
+consult	O	O	O
+description	O	O	O
+:	O	O	O
+recurrent	O	B-problem	O
+abscesses	O	I-problem	O
+in	O	O	O
+the	O	O	O
+thigh	O	O	B-bodyloc
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+the	O	O	O
+pubic	O	O	O
+area	O	O	O
+for	O	O	O
+at	O	O	O
+least	O	O	O
+about	O	O	B-temporal
+2	O	O	I-temporal
+years	O	O	I-temporal
+.	O	O	O
+
+
+in	O	O	O
+the	O	O	O
+past	O	O	O
+,	O	O	O
+accutane	O	B-treatment	O
+has	O	O	O
+been	O	O	O
+used	O	O	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+reason	O	O	O
+for	O	O	O
+consultation	O	O	O
+:	O	O	O
+recurrent	B-hpi.timing	B-problem	O
+abscesses	B-cc	I-problem	O
+in	O	O	O
+the	O	O	O
+thigh	B-hpi.location	O	B-bodyloc
+,	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+the	O	O	O
+pubic	B-hpi.location	O	O
+area	I-hpi.location	O	O
+for	O	O	O
+at	O	O	O
+least	O	O	O
+about	O	O	B-temporal
+2	B-hpi.duration	O	I-temporal
+years	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+a	O	O	O
+23	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+female	O	O	O
+who	O	O	O
+is	O	O	O
+approximately	O	O	O
+5	B-socialHistory	O	O
+months	I-socialHistory	O	O
+'	I-socialHistory	O	O
+pregnant	I-socialHistory	O	O
+,	O	O	O
+who	O	O	O
+has	O	O	O
+had	O	O	O
+recurrent	B-hpi.timing	B-problem	O
+abscesses	B-cc	I-problem	O
+in	O	O	O
+the	O	O	O
+above	O	O	O
+-	O	O	O
+mentioned	O	O	O
+areas	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+would	O	O	O
+usually	O	O	O
+have	O	O	O
+pustular	O	B-problem	O
+type	O	I-problem	O
+of	O	I-problem	O
+lesion	B-hpi.assocSignsAndSymptoms	I-problem	O
+that	O	O	O
+would	O	O	O
+eventually	O	O	O
+break	B-hpi.assocSignsAndSymptoms	O	O
+and	O	O	O
+would	O	O	O
+be	O	O	O
+quite	B-hpi.severity	B-problem	O
+painful	B-hpi.quality	O	O
+.	O	O	O
+
+
+the	O	B-problem	O
+drainage	B-hpi.assocSignsAndSymptoms	I-problem	O
+would	O	O	O
+be	O	O	O
+malodorous	B-hpi.quality	B-problem	O
+.	O	O	O
+
+
+it	O	O	O
+would	O	O	O
+initially	O	O	O
+not	O	O	O
+be	O	O	O
+infected	O	B-problem	O
+as	O	O	O
+far	O	O	O
+as	O	O	O
+she	O	O	O
+knows	O	O	O
+,	O	O	O
+but	O	O	O
+then	O	O	O
+could	O	O	O
+eventually	B-hpi.assocSignsAndSymptoms	O	O
+become	I-hpi.assocSignsAndSymptoms	B-problem	O
+infected	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+stated	O	O	O
+that	O	O	O
+this	O	O	O
+first	O	O	O
+started	O	O	O
+after	O	O	O
+she	O	O	O
+had	O	O	O
+her	B-socialHistory	O	O
+first	I-socialHistory	O	O
+born	I-socialHistory	O	O
+about	O	O	B-temporal
+2	B-hpi.duration	O	I-temporal
+years	I-hpi.duration	O	I-temporal
+ago	I-hpi.duration	O	O
+.	O	O	O
+
+
+she	O	O	O
+had	O	O	O
+recurrences	B-hpi.timing	B-problem	O
+of	O	I-problem	O
+these	O	I-problem	O
+abscesses	O	I-problem	O
+and	O	O	O
+had	O	O	O
+pain	O	B-problem	O
+,	O	O	O
+actually	O	O	O
+hospitalized	O	O	O
+at	O	O	O
+hospital	O	O	O
+approximately	O	O	O
+a	O	O	O
+year	O	O	B-temporal
+and	O	O	I-temporal
+a	O	O	I-temporal
+half	O	O	I-temporal
+ago	O	O	I-temporal
+for	O	O	O
+about	O	O	O
+1	O	O	B-temporal
+-	O	O	I-temporal
+1	O	O	I-temporal
+/	O	O	I-temporal
+2	O	O	I-temporal
+months	O	O	I-temporal
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+treated	O	O	O
+with	O	O	O
+multiple	O	B-treatment	O
+courses	O	I-treatment	O
+of	O	I-treatment	O
+antibiotics	B-hpi.modifyingFactors	I-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+had	O	O	O
+biopsies	O	B-test	O
+done	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+seen	O	O	O
+by	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+.	O	O	O
+reportedly	O	O	O
+,	O	O	O
+she	O	O	O
+had	O	O	O
+a	O	O	O
+hiv	B-hpi.assocSignsAndSymptoms	B-test	O
+test	I-hpi.assocSignsAndSymptoms	I-test	O
+done	I-hpi.assocSignsAndSymptoms	O	O
+that	I-hpi.assocSignsAndSymptoms	O	O
+was	I-hpi.assocSignsAndSymptoms	O	O
+negative	I-hpi.assocSignsAndSymptoms	O	O
+.	O	O	O
+
+
+she	O	O	O
+had	O	O	O
+been	O	O	O
+seen	O	O	O
+by	O	O	O
+a	O	O	O
+dermatologist	O	O	O
+who	O	O	O
+said	O	O	O
+that	O	O	O
+she	O	O	O
+had	O	O	O
+a	O	O	O
+problem	B-hpi.assocSignsAndSymptoms	B-problem	O
+with	I-hpi.assocSignsAndSymptoms	I-problem	O
+her	I-hpi.assocSignsAndSymptoms	I-problem	O
+sweat	I-hpi.assocSignsAndSymptoms	I-problem	O
+glands	I-hpi.assocSignsAndSymptoms	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+been	O	O	O
+on	O	O	O
+multiple	O	B-treatment	O
+courses	O	I-treatment	O
+of	O	I-treatment	O
+antibiotics	O	I-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+never	O	O	O
+had	O	O	O
+any	O	B-problem	O
+fevers	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+pain	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+drainage	B-hpi.assocSignsAndSymptoms	B-problem	O
+,	O	O	O
+and	O	O	O
+reportedly	O	O	O
+there	O	O	O
+was	O	O	O
+some	O	O	O
+bleeding	B-hpi.assocSignsAndSymptoms	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+area	O	I-problem	O
+of	O	I-problem	O
+the	O	I-problem	O
+perineum	B-hpi.location	I-problem	O
+/	I-hpi.location	O	O
+vaginal	I-hpi.location	O	B-bodyloc
+area	I-hpi.location	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+recurrent	B-pastHistory	O	O
+abscesses	I-pastHistory	B-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+perineum	O	I-problem	B-bodyloc
+,	O	I-problem	O
+upper	O	I-problem	O
+medial	O	I-problem	B-bodyloc
+thigh	O	I-problem	I-bodyloc
+,	O	O	O
+and	O	O	O
+the	O	O	O
+vulva	O	O	O
+area	O	O	O
+for	O	O	O
+about	O	O	B-temporal
+2	O	O	I-temporal
+years	O	O	I-temporal
+.	O	O	O
+
+
+per	O	O	O
+her	O	O	O
+report	O	O	O
+,	O	O	O
+a	O	O	O
+dermatologist	O	O	O
+had	O	O	O
+told	O	O	O
+her	O	O	O
+that	O	O	O
+she	O	O	O
+had	O	O	O
+an	O	O	O
+overactive	O	B-problem	O
+sweat	O	I-problem	O
+gland	O	I-problem	B-bodyloc
+,	O	O	O
+and	O	O	O
+i	O	O	O
+believe	O	O	O
+she	O	O	O
+probably	O	O	O
+has	O	O	O
+hidradenitis	O	B-problem	O
+suppurativa	O	I-problem	O
+.	O	O	O
+
+
+probably	O	O	O
+,	O	O	O
+she	O	O	O
+has	O	O	O
+had	O	O	O
+staphylococcus	O	B-problem	O
+infection	O	I-problem	O
+associated	O	O	O
+with	O	O	O
+it	O	O	O
+as	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+reported	O	O	O
+history	O	O	O
+of	O	O	O
+asthma	B-pastHistory	B-problem	O
+.	O	O	O
+
+
+gynecologic	O	O	O
+history	O	O	O
+:	O	O	O
+g3	O	O	O
+,	O	O	O
+p1	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+currently	O	O	B-temporal
+5	O	O	O
+months	O	O	O
+'	O	O	O
+pregnant	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+none	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+her	O	B-treatment	O
+medication	O	O	O
+had	O	O	O
+been	O	O	O
+augmentin	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+she	O	O	O
+is	O	O	O
+followed	O	O	O
+by	O	O	O
+a	O	O	O
+gynecologist	O	O	O
+in	O	O	O
+bartow	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+not	B-socialHistory	O	O
+an	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+or	I-socialHistory	O	O
+tobacco	I-socialHistory	O	O
+user	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+is	O	O	O
+not	B-socialHistory	O	O
+married	I-socialHistory	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	B-socialHistory	O	O
+a	I-socialHistory	O	O
+2	I-socialHistory	O	O
+-	I-socialHistory	O	O
+year	I-socialHistory	O	O
+-	I-socialHistory	O	O
+old	I-socialHistory	O	O
+child	I-socialHistory	O	O
+.	O	O	O
+
+
+family	O	O	O
+history	O	O	O
+:	O	O	O
+noncontributory	O	O	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+been	O	O	O
+complaining	O	O	O
+of	O	O	O
+diarrhea	O	B-problem	O
+about	O	O	O
+5	O	O	O
+or	O	O	O
+6	O	O	B-temporal
+times	O	O	I-temporal
+a	O	O	I-temporal
+day	O	O	I-temporal
+for	O	O	O
+several	O	O	O
+weeks	O	O	O
+now	O	O	B-temporal
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+general	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+pleasant	O	O	O
+female	O	O	O
+lying	O	O	O
+in	O	O	O
+bed	O	O	O
+in	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+temperature	O	B-test	O
+97	O	O	O
+.	O	O	O
+4	O	O	O
+,	O	O	O
+pulse	O	B-test	O
+78	O	O	O
+,	O	O	O
+respirations	O	B-test	O
+18	O	O	O
+,	O	O	O
+and	O	O	O
+blood	O	B-treatment	O
+pressure	O	I-treatment	O
+81	O	O	O
+/	O	O	O
+49	O	O	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+.	O	O	O
+
+
+heart	O	O	O
+:	O	O	O
+regular	O	O	O
+rhythm	O	B-test	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+soft	O	O	O
+.	O	O	O
+
+
+genital	O	O	O
+area	O	O	O
+:	O	O	O
+there	O	O	O
+are	O	O	O
+some	O	B-problem	O
+multiple	O	I-problem	O
+scars	O	I-problem	O
+and	O	O	O
+some	O	O	O
+tender	O	O	O
+indurated	O	O	O
+areas	O	B-problem	O
+in	O	I-problem	O
+her	O	I-problem	O
+pubic	O	I-problem	O
+area	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+appears	O	O	O
+to	O	O	O
+be	O	O	O
+a	O	O	O
+tender	O	B-problem	O
+area	O	I-problem	O
+in	O	I-problem	O
+the	O	I-problem	O
+right	O	I-problem	B-bodyloc
+inguinal	O	I-problem	I-bodyloc
+/	O	I-problem	O
+perineal	O	I-problem	B-bodyloc
+area	O	O	O
+that	O	O	O
+is	O	O	O
+draining	O	O	O
+clear	O	O	O
+fluid	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+see	O	O	O
+any	O	B-problem	O
+obvious	O	I-problem	O
+blood	O	I-problem	O
+.	O	O	O
+
+
+there	O	O	O
+are	O	O	O
+multiple	O	O	O
+scars	O	O	O
+in	O	O	O
+the	O	O	O
+inguinal	O	B-problem	B-bodyloc
+fold	O	I-problem	I-bodyloc
+area	O	O	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+the	O	O	O
+upper	O	O	O
+medial	O	O	O
+thigh	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+see	O	O	O
+any	O	O	O
+obvious	O	O	O
+active	O	O	O
+fluctuant	O	B-problem	O
+lesion	O	I-problem	O
+.	O	O	O
+
+
+laboratory	O	O	O
+data	O	O	O
+:	O	O	O
+wbc	O	B-test	O
+count	O	I-test	O
+is	O	O	O
+13	O	O	O
+.	O	O	O
+9	O	O	O
+,	O	O	O
+hemoglobin	O	B-test	O
+11	O	O	O
+.	O	O	O
+1	O	O	O
+,	O	O	O
+and	O	O	O
+platelets	O	B-test	O
+291	O	O	O
+,	O	O	O
+000	O	O	O
+.	O	O	O
+
+
+bun	O	B-test	O
+7	O	O	O
+,	O	O	O
+creatinine	O	B-test	O
+0	O	O	O
+.	O	O	O
+7	O	O	O
+,	O	O	O
+and	O	O	O
+glucose	O	B-test	O
+80	O	O	O
+.	O	O	O
+
+
+impression	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+recurrent	O	O	O
+hidradenitis	O	B-problem	O
+suppurativa	O	I-problem	O
+,	O	O	O
+which	O	O	O
+sometimes	O	O	O
+may	O	O	O
+become	O	O	O
+superinfected	O	B-problem	O
+with	O	O	O
+skin	O	B-problem	B-bodyloc
+organisms	O	I-problem	O
+when	O	O	O
+it	O	O	O
+ruptures	O	O	O
+and	O	O	O
+drains	O	B-treatment	O
+.	O	O	O
+
+
+it	O	O	O
+is	O	O	O
+essentially	O	O	O
+overactive	O	B-problem	O
+sebaceous	O	I-problem	O
+glands	O	I-problem	O
+that	O	O	O
+become	O	O	O
+abscess	O	B-problem	O
+.	O	O	O
+
+
+in	O	O	O
+the	O	O	O
+past	O	O	O
+,	O	O	O
+accutane	O	B-treatment	O
+has	O	O	O
+been	O	O	O
+used	O	O	O
+.	O	O	O
+
+
+obviously	O	O	O
+,	O	O	O
+she	O	O	O
+cannot	O	O	O
+get	O	O	O
+this	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+know	O	O	O
+what	O	O	O
+new	O	B-treatment	O
+treatments	O	I-treatment	O
+are	O	O	O
+available	O	O	O
+by	O	O	O
+dermatologist	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+usually	O	O	O
+refer	O	O	O
+these	O	O	O
+patients	O	O	O
+to	O	O	O
+dermatologist	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+do	O	O	O
+not	O	O	O
+think	O	O	O
+she	O	O	O
+has	O	O	O
+an	O	B-problem	O
+obvious	O	I-problem	O
+current	O	I-problem	B-temporal
+abscessed	O	I-problem	O
+lesion	O	O	O
+,	O	O	O
+although	O	O	O
+there	O	O	O
+is	O	O	O
+some	O	B-problem	O
+drainage	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+has	O	O	O
+been	O	O	O
+on	O	O	O
+augmentin	O	B-drug	O
+for	O	O	O
+1	O	O	B-temporal
+month	O	O	I-temporal
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+diarrhea	O	B-problem	O
+in	O	O	O
+a	O	O	O
+patient	O	O	O
+who	O	O	O
+had	O	O	O
+been	O	O	O
+on	O	O	O
+augmentin	O	B-drug	O
+for	O	O	O
+1	O	O	B-temporal
+month	O	O	I-temporal
+.	O	O	O
+need	O	O	O
+to	O	O	O
+rule	O	O	O
+out	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+colitis	O	I-problem	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+mild	O	O	B-severity
+leukocytosis	O	B-problem	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+intrauterine	O	B-problem	O
+pregnancy	O	I-problem	O
+,	O	O	O
+5	O	O	O
+months	O	O	O
+'	O	O	O
+pregnant	O	O	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+would	O	O	O
+not	O	O	O
+continue	O	O	O
+antibiotics	O	B-drug	O
+when	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+discharged	O	O	O
+since	O	O	O
+the	O	O	O
+patient	O	O	O
+would	O	O	O
+be	O	O	O
+at	O	O	O
+increased	O	O	O
+risk	O	O	O
+for	O	O	O
+developing	O	O	O
+resistant	O	B-problem	O
+organisms	O	I-problem	O
+as	O	O	O
+well	O	O	O
+as	O	O	O
+developing	O	O	O
+side	O	B-problem	O
+effects	O	I-problem	O
+such	O	O	O
+as	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+colitis	O	I-problem	O
+.	O	O	O
+
+
+check	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+toxin	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+agree	O	O	O
+about	O	O	O
+trying	O	O	O
+to	O	O	O
+arrange	O	O	O
+for	O	O	O
+whirlpool	O	B-treatment	O
+therapy	O	I-treatment	O
+as	O	O	O
+an	O	O	O
+outpatient	O	O	O
+since	O	O	O
+plain	O	O	O
+sitz	O	B-treatment	O
+bath	O	I-treatment	O
+is	O	O	O
+not	O	O	O
+working	O	O	O
+currently	O	O	B-temporal
+.	O	O	O
+
+
+refer	O	O	O
+to	O	O	O
+dermatologist	O	O	O
+as	O	O	O
+an	O	O	O
+outpatient	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+accutane	O	B-treatment	O
+,	O	O	O
+abscesses	O	B-problem	O
+,	O	O	O
+hidradenitis	O	B-problem	O
+,	O	O	O
+hidradenitis	O	B-problem	O
+suppurativa	O	I-problem	O
+,	O	O	O
+leukocytosis	O	B-problem	O
+,	O	O	O
+intrauterine	O	B-problem	O
+pregnancy	O	I-problem	O
+,	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+colitis	O	I-problem	O
+,	O	O	O
+clostridium	O	B-problem	O
+difficile	O	I-problem	O
+,	O	O	O
+recurrent	O	B-problem	O
+abscesses	O	I-problem	O
+,	O	O	O
+augmentin	O	B-drug	O
+,	O	O	O
+dermatologist	O	O	O
+,	O	O	O
+told	O	O	O
+,	O	O	O
+
+

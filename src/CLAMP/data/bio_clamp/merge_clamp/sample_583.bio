@@ -1,0 +1,981 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+consult	O	O	O
+-	O	O	O
+37	O	O	O
+description	O	O	O
+:	O	O	O
+patient	O	O	O
+with	O	O	O
+complaint	O	O	O
+of	O	O	O
+dark	O	B-problem	O
+urine	O	I-problem	B-bodyloc
+and	O	O	O
+generalized	O	B-problem	O
+weakness	O	I-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+chief	O	O	O
+complaint	O	O	O
+:	O	O	O
+dark	B-cc	B-problem	O
+urine	I-cc	I-problem	B-bodyloc
+and	O	O	O
+generalized	B-cc	B-problem	O
+weakness	I-cc	I-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+40	O	O	B-temporal
+year	O	O	I-temporal
+old	O	O	I-temporal
+hispanic	O	O	O
+male	O	O	O
+presented	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+complaining	O	O	O
+of	O	O	O
+generalized	B-cc	B-problem	O
+weakness	I-cc	I-problem	O
+,	O	O	O
+fatigue	B-cc	B-problem	O
+and	O	O	O
+dark	B-cc	B-problem	O
+urine	I-cc	I-problem	B-bodyloc
+for	O	O	O
+one	B-hpi.duration	O	B-temporal
+week	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+in	O	O	O
+addition	O	O	O
+,	O	O	O
+he	O	O	O
+stated	O	O	O
+that	O	O	O
+his	O	O	O
+family	O	O	O
+had	O	O	O
+noticed	O	O	O
+yellowing	B-hpi.assocSignsAndSymptoms	B-problem	O
+of	I-hpi.assocSignsAndSymptoms	I-problem	O
+his	I-hpi.assocSignsAndSymptoms	I-problem	O
+skin	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+and	I-hpi.assocSignsAndSymptoms	I-problem	O
+eyes	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+,	O	O	O
+though	O	O	O
+he	O	O	O
+himself	O	O	O
+had	O	O	O
+not	O	O	O
+noticed	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+did	O	O	O
+complain	O	O	O
+of	O	O	O
+subjective	O	B-problem	O
+fever	B-hpi.assocSignsAndSymptoms	I-problem	O
+and	O	O	O
+chills	B-hpi.assocSignsAndSymptoms	B-problem	O
+along	O	O	O
+with	O	O	O
+occasional	B-hpi.timing	O	O
+night	B-hpi.assocSignsAndSymptoms	B-problem	B-temporal
+sweats	I-hpi.assocSignsAndSymptoms	I-problem	O
+during	O	O	O
+the	O	O	O
+prior	B-hpi.duration	O	O
+week	I-hpi.duration	O	O
+or	O	O	O
+so	O	O	O
+and	O	O	O
+he	O	O	O
+noted	O	O	O
+anorexia	O	B-problem	O
+for	O	O	O
+3	B-hpi.duration	O	B-temporal
+-	I-hpi.duration	O	I-temporal
+4	I-hpi.duration	O	I-temporal
+weeks	I-hpi.duration	O	I-temporal
+leading	O	O	O
+to	O	O	O
+26	B-hpi.assocSignsAndSymptoms	O	O
+pound	I-hpi.assocSignsAndSymptoms	B-problem	O
+weight	I-hpi.assocSignsAndSymptoms	I-problem	O
+loss	I-hpi.assocSignsAndSymptoms	I-problem	O
+(	O	O	O
+213	O	O	O
+lbs	O	O	O
+.	O	O	O
+
+
+to	O	O	O
+187	O	O	O
+lbs	O	O	O
+.	O	O	O
+)	O	O	O
+.	O	O	O
+he	O	O	O
+was	O	O	O
+nauseated	B-hpi.assocSignsAndSymptoms	B-problem	O
+but	O	O	O
+denied	O	O	O
+vomiting	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+did	O	O	O
+admit	O	O	O
+to	O	O	O
+intermittent	B-hpi.timing	O	O
+abdominal	B-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+discomfort	I-hpi.assocSignsAndSymptoms	I-problem	O
+which	O	O	O
+he	O	O	O
+could	O	O	O
+not	O	O	O
+localize	O	O	O
+.	O	O	O
+
+
+in	O	O	O
+addition	O	O	O
+,	O	O	O
+he	O	O	O
+denied	B-pastHistory	O	O
+any	I-pastHistory	O	O
+history	I-pastHistory	O	O
+of	I-pastHistory	O	O
+liver	I-pastHistory	B-problem	B-bodyloc
+disease	I-pastHistory	I-problem	O
+,	O	O	O
+but	O	O	O
+had	O	O	O
+undergone	O	O	O
+cholecystectomy	B-pastHistory	B-problem	O
+many	O	O	B-temporal
+years	O	O	O
+previous	O	O	O
+.	O	O	O
+
+
+past	O	O	O
+medical	O	O	O
+history	O	O	O
+:	O	O	O
+dm	B-pastHistory	B-problem	O
+ii	O	I-problem	O
+-	O	O	O
+hba1c	O	B-test	O
+unknown	O	O	O
+past	O	O	O
+surgical	O	O	O
+history	O	O	O
+:	O	O	O
+cholecystectomy	B-pastHistory	B-treatment	O
+without	O	O	O
+complication	O	B-problem	O
+family	O	O	O
+history	O	O	O
+:	O	O	O
+mother	O	O	O
+with	O	O	O
+diabetes	B-familyHistory	B-problem	O
+and	O	O	O
+hypertension	B-familyHistory	B-problem	O
+.	O	O	O
+
+
+father	O	O	O
+with	O	O	O
+diabetes	B-familyHistory	B-problem	O
+.	O	O	O
+
+
+brother	O	O	O
+with	O	O	O
+cirrhosis	B-familyHistory	B-problem	O
+(	O	O	O
+etiology	O	O	O
+not	O	O	O
+documented	O	O	O
+)	O	O	O
+.	O	O	O
+
+
+social	O	O	O
+history	O	O	O
+:	O	O	O
+he	O	O	O
+was	O	O	O
+unemployed	B-socialHistory	O	O
+and	O	O	O
+denied	B-socialHistory	O	O
+any	I-socialHistory	O	O
+alcohol	I-socialHistory	O	O
+or	I-socialHistory	O	O
+drug	I-socialHistory	O	O
+use	I-socialHistory	O	O
+.	O	O	O
+
+
+he	O	O	O
+was	B-socialHistory	O	O
+a	I-socialHistory	O	O
+prior	I-socialHistory	O	O
+mild	I-socialHistory	O	O
+smoker	I-socialHistory	O	O
+,	I-socialHistory	O	O
+but	I-socialHistory	O	O
+quit	I-socialHistory	O	O
+10	I-socialHistory	O	B-temporal
+years	I-socialHistory	O	I-temporal
+previous	I-socialHistory	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+insulin	B-pastHistory	B-drug	O
+(	O	O	O
+unknown	O	O	O
+dosage	O	O	O
+)	O	O	O
+allergies	O	O	O
+:	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+exam	O	O	O
+:	O	O	O
+temperature	O	B-test	O
+:	O	O	O
+98	O	O	O
+.	O	O	O
+2	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+118	O	O	O
+/	O	O	O
+80	O	O	O
+heart	O	B-test	O
+rate	O	I-test	O
+:	O	O	O
+95	O	O	O
+respiratory	O	B-test	O
+rate	O	I-test	O
+:	O	O	O
+18	O	O	O
+gen	O	O	O
+:	O	O	O
+middle	O	O	O
+age	O	O	O
+latin	O	O	O
+-	O	O	O
+american	O	O	O
+male	O	O	O
+,	O	O	O
+jaundice	O	B-problem	O
+,	O	O	O
+alert	O	O	O
+and	O	O	O
+oriented	O	O	O
+to	O	O	O
+person	O	O	O
+/	O	O	O
+place	O	O	O
+/	O	O	O
+time	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+normocephalic	O	O	O
+,	O	O	O
+atraumatic	O	B-problem	O
+.	O	O	O
+
+
+icteric	O	O	O
+sclerae	O	O	O
+,	O	O	O
+pupils	O	O	O
+equal	O	O	O
+,	O	O	O
+round	O	O	O
+and	O	O	O
+reactive	O	O	O
+to	O	O	O
+light	O	O	O
+.	O	O	O
+
+
+clear	O	O	O
+oropharynx	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+supple	O	O	O
+,	O	O	O
+without	O	O	O
+jugular	O	B-problem	B-bodyloc
+venous	O	I-problem	I-bodyloc
+distension	O	I-problem	O
+,	O	O	O
+lymphadenopathy	O	B-problem	O
+,	O	O	O
+thyromegaly	O	B-problem	O
+or	O	O	O
+carotid	O	B-problem	B-bodyloc
+bruits	O	I-problem	O
+.	O	O	O
+
+
+cv	O	O	O
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	O	O
+,	O	O	O
+normal	O	O	O
+s1	O	O	O
+and	O	O	O
+s2	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+murmurs	O	B-problem	O
+,	O	O	O
+gallops	O	B-problem	O
+or	O	O	O
+rubs	O	B-problem	O
+pulm	O	O	B-bodyloc
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+bilaterally	O	O	O
+without	O	O	O
+rhonchi	O	B-problem	O
+,	O	O	O
+rales	O	B-problem	O
+or	O	O	O
+wheezes	O	B-problem	O
+abd	O	O	B-bodyloc
+:	O	O	O
+soft	O	O	O
+with	O	O	O
+mild	O	O	B-severity
+ruq	O	B-problem	B-bodyloc
+tenderness	O	I-problem	O
+to	O	O	O
+deep	O	B-test	O
+palpation	O	I-test	O
+,	O	O	O
+murphys	O	B-test	O
+sign	O	I-test	O
+absent	O	O	O
+.	O	O	O
+
+
+bowel	O	O	O
+sounds	O	O	O
+present	O	O	O
+.	O	O	O
+
+
+hepatomegaly	O	B-problem	O
+with	O	O	O
+liver	O	O	O
+edge	O	O	O
+3	O	O	O
+cm	O	O	O
+below	O	O	O
+costal	O	O	O
+margin	O	O	O
+.	O	O	O
+
+
+splenic	O	O	O
+tip	O	O	O
+palpable	O	O	O
+.	O	O	O
+
+
+rectal	O	O	O
+:	O	O	O
+guaiac	O	B-test	O
+negative	O	O	O
+ext	O	O	O
+:	O	O	O
+shotty	O	B-problem	O
+inguinal	O	I-problem	B-bodyloc
+lymphadenopathy	O	I-problem	O
+bilaterally	O	O	O
+,	O	O	O
+largest	O	O	O
+node	O	O	O
+2cm	O	O	O
+neuro	O	O	O
+:	O	O	O
+strength	O	B-test	O
+5	O	O	B-temporal
+/	O	O	I-temporal
+5	O	O	I-temporal
+throughout	O	O	O
+,	O	O	O
+sensation	O	B-test	O
+intact	O	O	O
+,	O	O	O
+reflexes	O	B-test	O
+symmetric	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+focal	O	B-problem	O
+abnormality	O	I-problem	O
+identified	O	O	O
+.	O	O	O
+
+
+no	O	O	O
+asterixis	O	B-problem	O
+skin	O	O	B-bodyloc
+:	O	O	O
+jaundice	O	B-problem	O
+,	O	O	O
+no	O	O	O
+rash	O	B-problem	O
+.	O	O	O
+
+
+no	O	O	O
+petechiae	O	B-problem	O
+,	O	O	O
+gynecomastia	O	B-problem	O
+or	O	O	O
+spider	O	B-problem	O
+angiomata	O	I-problem	O
+.	O	O	O
+
+
+hospital	O	O	O
+course	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+admitted	O	O	O
+to	O	O	O
+the	O	O	O
+hospital	O	O	O
+to	O	O	O
+begin	O	O	O
+workup	O	B-test	O
+of	O	O	O
+liver	O	B-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+initial	O	O	O
+labs	O	B-test	O
+were	O	O	O
+considered	O	O	O
+to	O	O	O
+be	O	O	O
+consistent	O	O	O
+with	O	O	O
+an	O	O	O
+obstructive	O	B-problem	O
+pattern	O	I-problem	O
+,	O	O	O
+so	O	O	O
+further	O	B-test	O
+imaging	O	O	O
+was	O	O	O
+obtained	O	O	O
+.	O	O	O
+
+
+a	O	O	O
+ct	O	B-test	O
+scan	O	I-test	O
+of	O	I-test	O
+the	O	I-test	O
+abdomen	O	I-test	O
+and	O	I-test	O
+pelvis	O	I-test	O
+revealed	O	O	O
+lymphadenopathy	O	B-problem	O
+and	O	O	O
+a	O	O	O
+markedly	O	B-problem	B-severity
+enlarged	O	I-problem	O
+liver	O	O	B-bodyloc
+.	O	O	O
+
+
+his	O	O	O
+abdominal	O	B-problem	B-bodyloc
+pain	O	I-problem	O
+was	O	O	O
+controlled	O	O	O
+with	O	O	O
+mild	O	O	O
+narcotics	O	B-drug	O
+and	O	O	O
+he	O	O	O
+was	O	O	O
+noted	O	O	O
+to	O	O	O
+have	O	O	O
+decreasing	O	O	O
+jaundice	O	B-problem	O
+by	O	O	O
+hospital	O	O	B-temporal
+day	O	O	I-temporal
+4	O	O	O
+.	O	O	O
+
+
+an	O	O	O
+us	O	O	O
+guided	O	B-test	O
+liver	O	I-test	O
+biopsy	O	I-test	O
+revealed	O	O	O
+only	O	O	O
+acute	O	O	B-severity
+granulomatous	O	B-problem	O
+inflammation	O	I-problem	O
+and	O	O	O
+fibrosis	O	B-problem	O
+.	O	O	O
+
+
+the	O	O	O
+overall	O	O	O
+architecture	O	O	O
+of	O	O	O
+the	O	O	O
+liver	O	O	O
+was	O	O	O
+noted	O	O	O
+to	O	O	O
+be	O	O	O
+well	O	O	O
+preserved	O	O	O
+.	O	O	O
+
+
+gastroenterology	O	O	O
+was	O	O	O
+consulted	O	O	O
+for	O	O	O
+egd	O	B-test	O
+and	O	O	O
+ercp	O	B-test	O
+.	O	O	O
+
+
+the	O	O	O
+egd	O	B-test	O
+was	O	O	O
+normal	O	O	O
+and	O	O	O
+the	O	O	O
+ercp	O	B-test	O
+showed	O	O	O
+normal	O	O	O
+biliary	O	O	O
+anatomy	O	O	O
+without	O	O	O
+evidence	O	O	O
+of	O	O	O
+obstruction	O	B-problem	O
+.	O	O	O
+
+
+in	O	O	O
+addition	O	O	O
+,	O	O	O
+they	O	O	O
+performed	O	O	O
+an	O	O	O
+endoscopic	O	B-test	O
+ultrasound	O	I-test	O
+-	O	I-test	O
+guided	O	I-test	O
+fine	O	I-test	O
+needle	O	I-test	O
+aspiration	O	I-test	O
+of	O	O	O
+two	O	O	O
+lymph	O	O	O
+-	O	O	O
+nodes	O	O	O
+,	O	O	O
+one	O	O	O
+in	O	O	O
+the	O	O	O
+subcarinal	O	O	O
+region	O	O	O
+and	O	O	O
+one	O	O	O
+near	O	O	O
+the	O	O	O
+celiac	O	O	O
+plexus	O	O	O
+.	O	O	O
+
+
+again	O	O	O
+,	O	O	O
+pathologic	O	O	O
+results	O	O	O
+were	O	O	O
+insufficient	O	O	O
+to	O	O	O
+make	O	O	O
+a	O	O	O
+tissue	O	O	O
+diagnosis	O	O	O
+.	O	O	O
+
+
+by	O	O	O
+the	O	O	O
+second	O	O	O
+week	O	O	O
+of	O	O	O
+hospitalization	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+was	O	O	O
+having	O	O	O
+intermittent	O	O	O
+low	O	B-problem	O
+-	O	I-problem	O
+grade	O	I-problem	O
+fevers	O	I-problem	O
+and	O	O	O
+again	O	O	O
+experiencing	O	O	O
+night	O	B-problem	O
+-	O	I-problem	O
+sweats	O	I-problem	O
+.	O	O	O
+
+
+he	O	O	O
+remained	O	O	O
+jaundice	O	B-problem	O
+.	O	O	O
+
+
+given	O	O	O
+the	O	O	O
+previous	O	O	O
+negative	O	O	O
+biopsies	O	B-test	O
+,	O	O	O
+surgery	O	B-treatment	O
+was	O	O	O
+consulted	O	O	O
+to	O	O	O
+perform	O	O	O
+an	O	O	O
+excisional	O	B-test	O
+biopsy	O	I-test	O
+of	O	I-test	O
+the	O	I-test	O
+right	O	I-test	O
+groin	O	I-test	O
+lymph	O	I-test	O
+node	O	I-test	O
+,	O	O	O
+which	O	O	O
+revealed	O	O	O
+no	O	O	O
+evidence	O	O	O
+of	O	O	O
+carcinoma	O	B-problem	O
+,	O	O	O
+negative	O	O	O
+afb	O	B-test	O
+and	O	O	O
+gms	O	B-test	O
+stains	O	I-test	O
+and	O	O	O
+a	O	O	O
+single	O	O	O
+noncaseating	O	B-problem	O
+granuloma	O	I-problem	O
+.	O	O	O
+
+
+by	O	O	O
+his	O	O	O
+fourth	O	O	O
+week	O	O	O
+of	O	O	O
+hospitalization	O	O	O
+,	O	O	O
+he	O	O	O
+remained	O	O	O
+ill	O	B-problem	O
+with	O	O	O
+evidence	O	O	O
+of	O	O	O
+ongoing	O	O	O
+liver	O	B-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+surgery	O	B-treatment	O
+performed	O	O	O
+an	O	B-test	O
+open	O	I-test	O
+liver	O	I-test	O
+biopsy	O	I-test	O
+and	O	O	O
+lymph	O	B-treatment	O
+node	O	I-treatment	O
+resection	O	I-treatment	O
+.	O	O	O
+
+
+studies	O	O	O
+(	O	O	O
+historical	O	O	O
+)	O	O	O
+:	O	O	O
+ct	O	B-test	O
+abdomen	O	I-test	O
+:	O	O	O
+multiple	O	B-problem	O
+enlarged	O	I-problem	O
+lymph	O	I-problem	B-bodyloc
+nodes	O	I-problem	I-bodyloc
+near	O	I-problem	O
+the	O	I-problem	O
+porta	O	I-problem	O
+hepatis	O	I-problem	O
+and	O	O	O
+peri	O	B-problem	O
+-	O	O	O
+pancreatic	O	O	B-bodyloc
+regions	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+largest	O	O	O
+node	O	O	O
+measures	O	O	O
+3	O	O	O
+.	O	O	O
+5	O	O	O
+x	O	O	O
+3	O	O	O
+.	O	O	O
+0	O	O	O
+cm	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+liver	O	O	B-bodyloc
+is	O	O	O
+markedly	O	B-problem	B-severity
+enlarged	O	I-problem	O
+(	O	O	O
+23cm	O	O	O
+)	O	O	O
+with	O	O	O
+a	O	O	O
+heterogenous	O	O	O
+pattern	O	B-problem	O
+of	O	I-problem	O
+enhancement	O	I-problem	O
+.	O	O	O
+
+
+the	O	O	O
+spleen	O	O	O
+size	O	O	O
+is	O	O	O
+at	O	O	O
+the	O	O	O
+upper	O	O	O
+limit	O	O	O
+of	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+pancreas	O	O	O
+,	O	O	O
+adrenal	O	O	O
+glands	O	O	O
+and	O	O	O
+kidneys	O	O	O
+are	O	O	O
+within	O	O	O
+normal	O	O	O
+limits	O	O	O
+.	O	O	O
+
+
+visualized	O	O	O
+portions	O	O	O
+of	O	O	O
+the	O	O	O
+lung	O	O	O
+parenchyma	O	O	O
+are	O	O	O
+grossly	O	O	O
+normal	O	O	O
+.	O	O	O
+
+
+ct	O	B-test	O
+neck	O	I-test	B-bodyloc
+:	O	O	O
+no	O	O	O
+abnormalities	O	B-problem	O
+noted	O	O	O
+ct	O	B-test	O
+head	O	I-test	O
+:	O	O	O
+no	O	O	O
+intracranial	O	B-problem	B-bodyloc
+abnormalities	O	I-problem	O
+ruq	O	I-test	O
+us	O	I-test	O
+(	O	O	O
+for	O	O	O
+biopsy	O	B-test	O
+)	O	O	O
+:	O	O	O
+heterogenous	O	B-problem	O
+liver	O	O	B-bodyloc
+with	O	O	O
+lymphadenopathy	O	B-problem	O
+.	O	O	O
+
+
+ercp	O	B-test	O
+:	O	O	O
+no	O	O	O
+filling	O	B-problem	O
+defect	O	I-problem	O
+noted	O	O	O
+;	O	O	O
+normal	O	O	O
+pancreatic	O	O	O
+duct	O	O	O
+visualized	O	O	O
+.	O	O	O
+
+
+normal	O	O	O
+visualization	O	O	O
+of	O	O	O
+the	O	O	O
+biliary	O	O	B-bodyloc
+tree	O	O	I-bodyloc
+,	O	O	O
+no	O	O	O
+strictures	O	B-problem	O
+.	O	O	O
+
+
+normal	O	B-test	O
+exam	O	I-test	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+liver	O	B-test	O
+biopsy	O	I-test	O
+,	O	O	O
+dark	O	B-problem	O
+urine	O	I-problem	B-bodyloc
+,	O	O	O
+generalized	O	B-problem	O
+weakness	O	I-problem	O
+,	O	O	O
+lymph	O	B-problem	B-bodyloc
+nodes	O	I-problem	I-bodyloc
+,	O	O	O
+granulomatous	O	O	O
+,	O	O	O
+pancreatic	O	O	O
+,	O	O	O
+heterogenous	O	O	O
+,	O	O	O
+abnormalities	O	B-problem	O
+,	O	O	O
+jaundice	O	B-problem	O
+,	O	O	O
+node	O	O	O
+,	O	O	O
+biopsy	O	B-test	O
+,	O	O	O
+lymphadenopathy	O	B-problem	O
+,	O	O	O
+
+

@@ -1,0 +1,511 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+discharge	O	O	O
+summary	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+death	O	O	O
+summary	O	O	O
+-	O	O	O
+2	O	O	O
+description	O	O	O
+:	O	O	O
+cardiac	O	B-problem	B-bodyloc
+arrest	O	I-problem	O
+,	O	O	O
+severe	O	O	B-severity
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+acute	O	O	B-severity
+on	O	O	O
+chronic	O	B-problem	O
+respiratory	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+osteoporosis	O	B-problem	O
+,	O	O	O
+and	O	O	O
+depression	O	B-problem	O
+.	O	O	O
+
+
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+final	O	O	O
+diagnoses	O	O	O
+:	O	O	O
+1	O	O	O
+.	O	O	O
+
+
+cardiac	O	B-problem	B-bodyloc
+arrest	O	I-problem	O
+.	O	O	O
+
+
+2	O	O	O
+.	O	O	O
+
+
+severe	O	O	B-severity
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+3	O	O	O
+.	O	O	O
+
+
+acute	O	O	B-severity
+on	O	O	O
+chronic	O	B-problem	O
+respiratory	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+4	O	O	O
+.	O	O	O
+
+
+osteoporosis	O	B-problem	O
+.	O	O	O
+
+
+5	O	O	O
+.	O	O	O
+depression	O	B-problem	O
+.	O	O	O
+
+
+history	O	O	O
+of	O	O	O
+present	O	O	O
+illness	O	O	O
+:	O	O	O
+this	O	O	O
+92	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+lady	O	O	O
+with	O	O	O
+history	O	O	O
+of	O	O	O
+depression	B-pastHistory	B-problem	O
+and	O	O	O
+chronic	B-pastHistory	B-problem	O
+low	I-pastHistory	I-problem	B-bodyloc
+back	I-pastHistory	I-problem	I-bodyloc
+pain	I-pastHistory	I-problem	O
+,	O	O	O
+osteoporosis	B-pastHistory	B-problem	O
+,	O	O	O
+and	O	O	O
+congestive	B-pastHistory	B-problem	O
+heart	I-pastHistory	I-problem	B-bodyloc
+failure	I-pastHistory	I-problem	O
+,	O	O	O
+was	O	O	O
+diagnosed	O	O	O
+having	O	O	O
+pneumonia	B-pastHistory	B-problem	O
+approximately	O	O	O
+for	O	O	O
+at	O	O	O
+least	O	O	O
+10	O	O	B-temporal
+days	O	O	I-temporal
+prior	O	O	O
+to	O	O	O
+admission	O	O	O
+.	O	O	O
+
+
+in	O	O	O
+the	O	O	O
+er	O	O	O
+,	O	O	O
+she	O	O	O
+was	O	O	O
+given	O	O	O
+oral	B-pastHistory	B-treatment	O
+antibiotics	I-pastHistory	I-treatment	O
+.	O	O	O
+
+
+she	O	O	O
+also	O	O	O
+saw	O	O	O
+me	O	O	O
+few	O	O	B-temporal
+days	O	O	I-temporal
+before	O	O	O
+admission	O	O	O
+coming	O	O	O
+for	O	O	O
+a	O	O	O
+followup	O	B-test	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+doing	O	O	O
+fairly	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+thought	O	O	O
+to	O	O	O
+have	O	O	O
+congestive	B-pastHistory	B-problem	O
+heart	I-pastHistory	I-problem	B-bodyloc
+failure	I-pastHistory	I-problem	O
+and	O	O	O
+she	O	O	O
+was	O	O	O
+advised	O	O	O
+to	O	O	O
+continue	O	O	O
+with	O	O	O
+her	O	B-treatment	O
+diuretics	B-pastHistory	B-drug	O
+.	O	O	O
+
+
+for	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+few	I-hpi.duration	O	O
+days	I-hpi.duration	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+started	O	O	O
+to	O	O	O
+have	O	O	O
+anorexia	B-cc	B-problem	O
+,	O	O	O
+she	O	O	O
+did	O	O	O
+not	O	O	O
+eat	O	O	O
+well	O	O	O
+,	O	O	O
+and	O	O	O
+she	O	O	O
+did	O	O	O
+not	O	O	O
+drink	O	O	O
+well	O	O	O
+.	O	O	O
+
+
+her	O	O	O
+family	O	O	O
+could	O	O	O
+not	O	O	O
+take	O	O	O
+care	O	O	O
+of	O	O	O
+her	O	O	O
+.	O	O	O
+
+
+so	O	O	O
+,	O	O	O
+she	O	O	O
+was	O	O	O
+brought	O	O	O
+to	O	O	O
+the	O	O	O
+emergency	O	O	O
+room	O	O	O
+,	O	O	O
+where	O	O	O
+she	O	O	O
+was	O	O	O
+found	O	O	O
+to	O	O	O
+have	O	O	O
+rapid	B-hpi.assocSignsAndSymptoms	B-problem	O
+heart	I-hpi.assocSignsAndSymptoms	I-problem	B-bodyloc
+rate	I-hpi.assocSignsAndSymptoms	I-problem	O
+with	O	O	O
+a	O	O	O
+sinus	B-hpi.assocSignsAndSymptoms	B-problem	B-bodyloc
+tachycardia	I-hpi.assocSignsAndSymptoms	I-problem	O
+around	O	O	O
+112	B-hpi.severity	O	O
+to	I-hpi.severity	O	O
+130s	I-hpi.severity	O	O
+.	O	O	O
+
+
+the	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+_	O	O	O
+was	O	O	O
+found	O	O	O
+to	O	O	O
+be	O	O	O
+dry	O	O	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+given	O	O	O
+1	O	O	O
+l	O	O	O
+of	O	B-treatment	O
+iv	B-hpi.modifyingFactors	I-treatment	O
+fluids	I-hpi.modifyingFactors	I-treatment	O
+and	O	O	O
+she	O	O	O
+was	O	O	O
+subsequently	O	O	O
+admitted	O	O	O
+in	O	O	O
+the	O	O	O
+hospital	O	O	O
+for	O	O	O
+further	O	B-treatment	O
+management	O	O	O
+.	O	O	O
+
+
+course	O	O	O
+in	O	O	O
+the	O	O	O
+hospital	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+stayed	O	O	O
+in	O	O	O
+the	O	O	O
+telemetry	O	B-test	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+had	O	O	O
+significant	O	O	O
+shortness	O	B-problem	O
+of	O	I-problem	O
+breath	O	I-problem	B-bodyloc
+secondary	O	O	O
+to	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+with	O	O	O
+bilateral	O	B-problem	O
+basilar	O	I-problem	O
+crackles	O	I-problem	O
+.	O	O	O
+
+
+she	O	O	O
+was	O	O	O
+continued	O	O	O
+on	O	O	O
+iv	O	B-treatment	O
+antibiotics	O	I-treatment	O
+and	O	O	O
+general	O	O	O
+iv	O	B-treatment	O
+hydration	O	I-drug	O
+was	O	O	O
+started	O	O	O
+initially	O	O	O
+because	O	O	O
+of	O	O	O
+low	O	B-problem	O
+blood	O	I-problem	O
+pressure	O	I-problem	O
+and	O	O	O
+low	O	O	O
+perfusion	O	B-problem	O
+status	O	I-problem	O
+.	O	O	O
+
+
+on	O	O	O
+subsequently	O	O	O
+improved	O	O	O
+and	O	O	O
+stopped	O	O	O
+and	O	O	O
+lasix	O	B-drug	O
+was	O	O	O
+started	O	O	O
+;	O	O	O
+dr	O	O	O
+.	O	O	O
+x	O	O	O
+,	O	O	O
+cardiologist	O	O	O
+was	O	O	O
+also	O	O	O
+placed	O	O	O
+.	O	O	O
+
+
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+family	O	O	O
+wanted	O	O	O
+her	O	O	O
+to	O	O	O
+be	O	O	O
+a	O	O	O
+dnr	O	B-treatment	O
+and	O	O	O
+dni	O	B-treatment	O
+.	O	O	O
+
+
+they	O	O	O
+were	O	O	O
+allowing	O	O	O
+us	O	O	O
+to	O	O	O
+treat	O	O	O
+her	O	O	O
+aggressively	O	O	O
+medically	O	O	O
+for	O	O	O
+pneumonia	O	B-problem	O
+and	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+.	O	O	O
+
+
+however	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+became	O	O	O
+extremely	O	B-problem	O
+weak	O	I-problem	O
+,	O	O	O
+mostly	O	O	O
+unresponsive	O	B-problem	O
+.	O	O	O
+
+
+at	O	O	O
+this	O	O	O
+time	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+family	O	O	O
+wanted	O	O	O
+a	O	O	O
+hospice	O	O	O
+consult	O	O	O
+,	O	O	O
+which	O	O	O
+was	O	O	O
+requested	O	O	O
+.	O	O	O
+
+
+by	O	O	O
+the	O	O	O
+time	O	O	O
+the	O	O	O
+hospice	O	O	O
+could	O	O	O
+evaluate	O	O	O
+her	O	O	O
+,	O	O	O
+the	O	O	O
+patient	O	O	O
+'	O	O	O
+s	O	O	O
+condition	O	O	O
+got	O	O	O
+deteriorated	O	B-problem	O
+,	O	O	O
+she	O	O	O
+went	O	O	O
+into	O	O	O
+more	O	O	O
+bradycardiac	O	B-problem	O
+and	O	O	O
+hypertension	O	B-problem	O
+and	O	O	O
+subsequently	O	O	O
+expired	O	B-problem	O
+.	O	O	O
+
+
+please	O	O	O
+see	O	O	O
+the	O	O	O
+hospital	O	O	O
+notes	O	O	O
+for	O	O	O
+complete	O	O	O
+details	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+discharge	O	O	O
+summary	O	O	O
+,	O	O	O
+bradycardiac	O	B-problem	O
+,	O	O	O
+hypertension	O	B-problem	O
+,	O	O	O
+hospice	O	B-treatment	O
+,	O	O	O
+congestive	O	B-problem	O
+heart	O	I-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+cardiac	O	B-problem	B-bodyloc
+arrest	O	I-problem	O
+,	O	O	O
+respiratory	O	B-problem	B-bodyloc
+failure	O	I-problem	O
+,	O	O	O
+
+

@@ -1,0 +1,657 @@
+sample	O	O	O
+type	O	O	O
+/	O	O	O
+medical	O	O	O
+specialty	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+sample	O	O	O
+name	O	O	O
+:	O	O	O
+gen	O	O	O
+med	O	O	O
+progress	O	O	O
+note	O	O	O
+-	O	O	O
+7	O	O	O
+description	O	O	O
+:	O	O	O
+patient	O	O	O
+with	O	O	O
+a	O	O	O
+three	O	O	B-temporal
+-	O	O	I-temporal
+day	O	O	I-temporal
+history	O	O	O
+of	O	O	O
+emesis	O	B-problem	O
+and	O	O	O
+a	O	O	O
+four	O	O	B-temporal
+-	O	O	I-temporal
+day	O	O	I-temporal
+history	O	O	O
+of	O	O	O
+diarrhea	O	B-problem	O
+(	O	O	O
+medical	O	O	O
+transcription	O	O	O
+sample	O	O	O
+report	O	O	O
+)	O	O	O
+subjective	O	O	O
+:	O	O	O
+the	O	O	O
+patient	O	O	O
+is	O	O	O
+a	O	O	O
+7	O	O	O
+-	O	O	O
+year	O	O	O
+-	O	O	O
+old	O	O	O
+male	O	O	O
+who	O	O	O
+comes	O	O	O
+in	O	O	O
+today	O	O	B-temporal
+with	O	O	O
+a	O	O	O
+three	B-hpi.duration	O	B-temporal
+-	I-hpi.duration	O	I-temporal
+day	I-hpi.duration	O	I-temporal
+history	O	O	O
+of	O	O	O
+emesis	B-cc	B-problem	O
+and	O	O	O
+a	O	O	O
+four	B-hpi.duration	O	B-temporal
+-	I-hpi.duration	O	I-temporal
+day	I-hpi.duration	O	I-temporal
+history	O	O	O
+of	O	O	O
+diarrhea	B-cc	B-problem	O
+.	O	O	O
+
+
+apparently	O	O	O
+,	O	O	O
+his	B-familyHistory	O	O
+brother	I-familyHistory	O	O
+had	I-familyHistory	O	O
+similar	I-familyHistory	B-problem	O
+symptoms	I-familyHistory	I-problem	O
+.	O	O	O
+
+
+they	O	O	O
+had	O	O	O
+eaten	O	O	O
+some	O	O	O
+chicken	O	O	O
+and	O	O	O
+then	O	O	O
+ate	O	O	O
+some	O	O	O
+more	O	O	O
+of	O	O	O
+it	O	O	O
+the	O	O	O
+next	O	O	O
+day	O	O	O
+,	O	O	O
+and	O	O	O
+i	O	O	O
+could	O	O	O
+not	O	O	O
+quite	O	O	O
+understand	O	O	O
+what	O	O	O
+the	O	B-problem	O
+problem	O	I-problem	O
+was	O	O	O
+because	O	O	O
+there	O	O	O
+is	O	O	O
+a	O	O	O
+little	O	O	O
+bit	O	O	O
+of	O	O	O
+language	O	O	O
+barrier	O	O	O
+,	O	O	O
+although	O	O	O
+dad	O	O	O
+was	O	O	O
+trying	O	O	O
+very	O	O	O
+hard	O	O	O
+to	O	O	O
+explain	O	O	O
+to	O	O	O
+me	O	O	O
+what	O	O	O
+had	O	O	O
+happened	O	O	O
+.	O	O	O
+
+
+but	O	O	O
+any	O	O	O
+way	O	O	O
+,	O	O	O
+after	B-hpi.context	O	O
+he	I-hpi.context	O	O
+and	I-hpi.context	O	O
+his	I-hpi.context	O	O
+brother	I-hpi.context	O	O
+got	I-hpi.context	O	O
+done	I-hpi.context	O	O
+eating	I-hpi.context	O	O
+with	I-hpi.context	O	O
+chicken	I-hpi.context	O	O
+,	I-hpi.context	O	O
+they	I-hpi.context	O	O
+both	I-hpi.context	O	O
+felt	I-hpi.context	O	O
+bad	I-hpi.context	O	O
+and	I-hpi.context	O	O
+have	I-hpi.context	O	O
+continued	I-hpi.context	O	O
+to	I-hpi.context	O	O
+feel	I-hpi.context	O	O
+bad	I-hpi.context	O	O
+.	O	O	O
+the	O	O	O
+patient	O	O	O
+has	O	O	O
+had	O	O	O
+diarrhea	B-cc	B-problem	O
+five	B-hpi.severity	O	O
+to	I-hpi.severity	O	O
+six	I-hpi.severity	O	B-temporal
+times	I-hpi.severity	O	I-temporal
+a	I-hpi.severity	O	I-temporal
+day	I-hpi.severity	O	I-temporal
+for	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+four	I-hpi.duration	O	B-temporal
+days	I-hpi.duration	O	I-temporal
+and	O	O	O
+then	O	O	O
+he	O	O	O
+had	O	O	O
+emesis	B-cc	B-problem	O
+pretty	B-hpi.severity	O	O
+frequently	I-hpi.severity	O	O
+three	O	O	O
+days	O	O	B-temporal
+ago	O	O	I-temporal
+and	O	O	O
+then	O	O	O
+has	O	O	O
+just	O	O	O
+had	O	O	O
+a	B-hpi.severity	O	O
+couple	I-hpi.severity	O	O
+of	I-hpi.severity	O	O
+it	I-hpi.severity	O	O
+each	I-hpi.severity	O	B-temporal
+day	I-hpi.severity	O	I-temporal
+in	O	O	O
+the	O	O	O
+last	B-hpi.duration	O	O
+two	I-hpi.duration	O	B-temporal
+days	I-hpi.duration	O	I-temporal
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+not	B-hpi.assocSignsAndSymptoms	O	O
+had	I-hpi.assocSignsAndSymptoms	O	O
+any	I-hpi.assocSignsAndSymptoms	O	O
+emesis	I-hpi.assocSignsAndSymptoms	B-problem	O
+today	I-hpi.assocSignsAndSymptoms	O	B-temporal
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+urinated	B-hpi.assocSignsAndSymptoms	O	O
+this	I-hpi.assocSignsAndSymptoms	O	O
+morning	I-hpi.assocSignsAndSymptoms	O	B-temporal
+.	O	O	O
+
+
+his	O	O	O
+parents	O	O	O
+are	O	O	O
+both	O	O	O
+concerned	O	O	O
+because	O	O	O
+he	O	O	O
+had	O	O	O
+a	O	B-problem	O
+fever	B-hpi.assocSignsAndSymptoms	I-problem	O
+of	O	O	O
+103	B-hpi.severity	O	O
+last	O	O	O
+night	O	O	B-temporal
+.	O	O	O
+
+
+also	O	O	O
+,	O	O	O
+he	O	O	O
+ate	O	O	O
+half	O	O	O
+of	O	O	O
+a	O	O	O
+hamburger	O	O	O
+yesterday	O	O	B-temporal
+and	O	O	O
+he	O	O	O
+tried	O	O	O
+drinking	O	O	O
+some	O	O	O
+milk	O	O	O
+and	O	O	O
+that	O	O	O
+is	O	O	O
+when	O	O	O
+he	O	O	O
+had	O	O	O
+an	O	O	O
+emesis	O	B-problem	O
+.	O	O	O
+
+
+he	O	O	O
+has	O	O	O
+been	O	O	O
+drinking	O	O	O
+pedialyte	O	O	O
+,	O	O	O
+gatorade	O	O	O
+,	O	O	O
+white	O	O	O
+grape	O	O	O
+juice	O	O	O
+,	O	O	O
+and	O	O	O
+7up	O	O	O
+,	O	O	O
+otherwise	O	O	O
+he	O	O	O
+has	O	O	O
+not	O	O	O
+been	O	O	O
+eating	O	O	O
+anything	O	O	O
+.	O	O	O
+
+
+medications	O	O	O
+:	O	O	O
+none	O	O	O
+.	O	O	O
+
+
+allergies	O	O	O
+:	O	O	O
+he	O	O	O
+has	O	O	O
+no	O	O	O
+known	O	B-problem	O
+drug	O	I-problem	O
+allergies	O	I-problem	O
+.	O	O	O
+
+
+review	O	O	O
+of	O	O	O
+systems	O	O	O
+:	O	O	O
+negative	O	O	O
+as	O	O	O
+far	O	O	O
+as	O	O	O
+sore	O	B-problem	O
+throat	O	I-problem	B-bodyloc
+,	O	O	O
+earache	O	B-problem	O
+,	O	O	O
+or	O	O	O
+cough	O	B-problem	O
+.	O	O	O
+
+
+physical	O	O	O
+examination	O	O	O
+:	O	O	O
+general	O	O	O
+:	O	O	O
+he	O	O	O
+is	O	O	O
+awake	O	O	O
+and	O	O	O
+alert	O	O	O
+,	O	O	O
+no	O	O	O
+acute	O	B-problem	B-severity
+distress	O	I-problem	O
+.	O	O	O
+
+
+vital	O	O	O
+signs	O	O	O
+:	O	O	O
+blood	O	B-test	O
+pressure	O	I-test	O
+:	O	O	O
+106	O	O	O
+/	O	O	O
+75	O	O	O
+.	O	O	O
+
+
+temperature	O	B-test	O
+:	O	O	O
+99	O	O	O
+.	O	O	O
+pulse	O	B-test	O
+:	O	O	O
+112	O	O	O
+.	O	O	O
+
+
+weight	O	B-test	O
+is	O	O	O
+54	O	O	O
+pounds	O	O	O
+.	O	O	O
+
+
+heent	O	O	O
+:	O	O	O
+his	O	O	O
+tms	O	O	O
+are	O	O	O
+normal	O	O	O
+bilaterally	O	O	O
+.	O	O	O
+
+
+posterior	O	O	O
+pharynx	O	O	O
+is	O	O	O
+unremarkable	O	O	O
+.	O	O	O
+
+
+neck	O	O	B-bodyloc
+:	O	O	O
+without	O	O	O
+adenopathy	O	B-problem	O
+or	O	O	O
+thyromegaly	O	B-problem	O
+.	O	O	O
+
+
+lungs	O	O	O
+:	O	O	O
+clear	O	O	O
+to	O	O	O
+auscultation	O	B-test	O
+.	O	O	O
+
+
+heart	O	O	B-bodyloc
+:	O	O	O
+regular	O	O	O
+rate	O	B-test	O
+and	O	O	O
+rhythm	O	B-test	O
+without	O	O	O
+murmur	O	B-problem	O
+.	O	O	O
+
+
+abdomen	O	O	O
+:	O	O	O
+benign	O	O	O
+.	O	O	O
+
+
+skin	O	O	O
+:	O	O	O
+turgor	O	B-test	O
+is	O	O	O
+intact	O	O	O
+.	O	O	O
+
+
+his	O	O	O
+capillary	O	B-test	O
+refill	O	I-test	O
+is	O	O	O
+less	O	O	O
+than	O	O	O
+3	O	O	B-temporal
+seconds	O	O	I-temporal
+.	O	O	O
+
+
+laboratory	O	O	O
+:	O	O	O
+white	O	B-test	O
+blood	O	I-test	O
+cell	O	I-test	O
+count	O	I-test	O
+is	O	O	O
+5	O	O	O
+.	O	O	O
+3	O	O	O
+with	O	O	O
+69	O	O	O
+segs	O	B-test	O
+,	O	O	O
+15	O	O	O
+lymphs	O	B-test	O
+,	O	O	O
+and	O	O	O
+13	O	O	O
+monos	O	B-test	O
+.	O	O	O
+
+
+his	O	O	O
+platelet	O	B-test	O
+count	O	I-test	O
+on	O	O	O
+his	O	O	O
+cbc	O	B-test	O
+is	O	O	O
+215	O	O	O
+.	O	O	O
+
+
+assessment	O	O	O
+:	O	O	O
+viral	O	B-problem	O
+gastroenteritis	O	I-problem	O
+.	O	O	O
+
+
+plan	O	O	O
+:	O	O	O
+the	O	O	O
+parents	O	O	O
+did	O	O	O
+point	O	O	O
+out	O	O	O
+to	O	O	O
+me	O	O	O
+a	O	B-problem	O
+rash	O	I-problem	O
+that	O	O	O
+he	O	O	O
+had	O	O	O
+on	O	O	O
+his	O	O	O
+buttock	O	O	B-bodyloc
+.	O	O	O
+
+
+there	O	O	O
+were	O	O	O
+some	O	O	O
+small	O	O	O
+almost	O	O	O
+pinpoint	O	O	O
+erythematous	O	B-problem	O
+patches	O	I-problem	O
+of	O	I-problem	O
+papules	O	I-problem	O
+that	O	O	O
+have	O	O	O
+a	O	O	O
+scab	O	B-problem	O
+on	O	O	O
+them	O	O	O
+.	O	O	O
+
+
+i	O	O	O
+did	O	O	O
+not	O	O	O
+see	O	O	O
+any	O	O	O
+evidence	O	O	O
+of	O	O	O
+petechiae	O	B-problem	O
+.	O	O	O
+
+
+therefore	O	O	O
+,	O	O	O
+i	O	O	O
+just	O	O	O
+reassured	O	O	O
+them	O	O	O
+that	O	O	O
+this	O	O	O
+is	O	O	O
+a	O	O	O
+viral	O	B-problem	O
+gastroenteritis	O	I-problem	O
+.	O	O	O
+
+
+i	O	O	O
+recommended	O	O	O
+that	O	O	O
+they	O	O	O
+stop	O	O	O
+giving	O	O	O
+him	O	O	O
+juice	O	O	O
+and	O	O	O
+just	O	O	O
+go	O	O	O
+with	O	O	O
+the	O	O	O
+gatorade	O	O	O
+and	O	O	O
+water	O	O	O
+.	O	O	O
+
+
+he	O	O	O
+is	O	O	O
+to	O	O	O
+stay	O	O	O
+away	O	O	O
+from	O	O	O
+milk	O	B-drug	O
+products	O	I-drug	O
+until	O	O	O
+his	O	B-problem	O
+diarrhea	O	O	O
+and	O	O	O
+stomach	O	B-problem	B-bodyloc
+upset	O	I-problem	O
+have	O	O	O
+calmed	O	O	O
+down	O	O	O
+.	O	O	O
+
+
+we	O	O	O
+talked	O	O	O
+about	O	O	O
+brat	O	B-treatment	O
+diet	O	I-treatment	O
+and	O	O	O
+slowly	O	O	O
+advancing	O	O	O
+his	O	O	O
+diet	O	O	O
+as	O	O	O
+he	O	O	O
+tolerates	O	O	O
+.	O	O	O
+
+
+they	O	O	O
+have	O	O	O
+used	O	O	O
+some	O	O	O
+kaopectate	O	B-drug	O
+,	O	O	O
+which	O	O	O
+did	O	O	O
+not	O	O	O
+really	O	O	O
+help	O	O	O
+with	O	O	O
+the	O	O	O
+diarrhea	O	B-problem	O
+.	O	O	O
+
+
+otherwise	O	O	O
+follow	O	O	O
+up	O	O	O
+as	O	O	O
+needed	O	O	O
+.	O	O	O
+
+
+keywords	O	O	O
+:	O	O	O
+general	O	O	O
+medicine	O	O	O
+,	O	O	O
+diarrhea	O	B-problem	O
+,	O	O	O
+emesis	O	B-problem	O
+,	O	O	O
+history	O	O	O
+of	O	O	O
+,	O	O	O
+gastroenteritis	O	B-problem	O
+,	O	O	O
+viral	O	B-problem	O
+,	O	O	O
+brat	O	B-treatment	O
+diet	O	I-treatment	O
+,	O	O	O
+progress	O	O	O
+note	O	O	O
+,	O	O	O
+
+

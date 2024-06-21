@@ -1,0 +1,785 @@
+sample	O	O
+type	O	O
+/	O	O
+medical	O	O
+specialty	O	O
+:	O	O
+general	O	O
+medicine	O	O
+sample	O	O
+name	O	O
+:	O	O
+consult	O	O
+-	O	O
+syncope	O	B-problem
+description	O	O
+:	O	O
+patient	O	O
+was	O	O
+brought	O	O
+in	O	O
+the	O	O
+emergency	O	O
+room	O	O
+following	O	O
+an	O	O
+episode	O	B-problem
+of	O	I-problem
+syncope	O	I-problem
+.	O	O
+
+the	O	O
+patient	O	O
+relates	O	O
+that	O	O
+he	O	O
+may	O	O
+have	O	O
+had	O	O
+a	O	O
+seizure	O	B-problem
+activity	O	I-problem
+prior	O	O
+to	O	O
+that	O	O
+.	O	O
+
+prior	O	O
+to	O	O
+the	O	O
+episode	O	O
+,	O	O
+he	O	O
+denies	O	O
+having	O	O
+any	O	O
+symptoms	O	O
+of	O	O
+chest	O	B-problem
+pain	O	I-problem
+or	O	O
+shortness	O	B-problem
+of	O	I-problem
+breath	O	I-problem
+.	O	O
+
+(	O	O
+medical	O	O
+transcription	O	O
+sample	O	O
+report	O	O
+)	O	O
+reason	O	O
+for	O	O
+consultation	O	O
+:	O	O
+syncope	B-cc	B-problem
+.	O	O
+
+history	O	O
+of	O	O
+present	O	O
+illness	O	O
+:	O	O
+the	O	O
+patient	O	O
+is	O	O
+a	O	O
+69	O	O
+-	O	O
+year	O	O
+-	O	O
+old	O	O
+gentleman	O	O
+,	O	O
+a	O	O
+good	O	O
+historian	O	O
+,	O	O
+who	O	O
+relates	O	O
+that	O	O
+he	O	O
+was	O	O
+brought	O	O
+in	O	O
+the	O	O
+emergency	O	O
+room	O	O
+following	O	O
+an	O	O
+episode	O	B-problem
+of	O	I-problem
+syncope	B-cc	I-problem
+.	O	O
+
+the	O	O
+patient	O	O
+relates	O	O
+that	O	O
+he	O	O
+may	O	O
+have	O	O
+had	O	O
+a	B-hpi.assocSignsAndSymptoms	O
+seizure	I-hpi.assocSignsAndSymptoms	B-problem
+activity	I-hpi.assocSignsAndSymptoms	I-problem
+prior	I-hpi.assocSignsAndSymptoms	O
+to	O	O
+that	O	O
+.	O	O
+
+prior	O	O
+to	O	O
+the	O	O
+episode	O	O
+,	O	O
+he	O	O
+denies	O	O
+having	O	O
+any	O	O
+symptoms	O	O
+of	O	O
+chest	O	B-problem
+pain	O	I-problem
+or	O	O
+shortness	O	B-problem
+of	O	I-problem
+breath	O	I-problem
+.	O	O
+
+no	O	O
+palpitation	O	B-problem
+.	O	O
+
+presently	O	O
+,	O	O
+he	O	O
+is	O	O
+comfortable	O	O
+,	O	O
+lying	O	O
+in	O	O
+the	O	O
+bed	O	O
+.	O	O
+
+as	O	O
+per	O	O
+the	O	O
+patient	O	O
+,	O	O
+no	B-pastHistory	O
+prior	I-pastHistory	O
+cardiac	I-pastHistory	O
+history	I-pastHistory	O
+.	O	O
+
+coronary	O	O
+risk	O	O
+factors	O	O
+:	O	O
+history	O	O
+of	O	O
+hypertension	B-pastHistory	B-problem
+.	O	O
+
+no	B-pastHistory	O
+history	I-pastHistory	O
+of	I-pastHistory	O
+diabetes	I-pastHistory	B-problem
+mellitus	I-pastHistory	I-problem
+.	O	O
+
+nonsmoker	B-socialHistory	O
+.	O	O
+
+cholesterol	O	B-test
+status	O	I-test
+is	O	O
+borderline	O	B-problem
+elevated	O	I-problem
+.	O	O
+
+no	B-pastHistory	O
+history	I-pastHistory	O
+of	I-pastHistory	O
+established	I-pastHistory	O
+coronary	I-pastHistory	B-problem
+artery	I-pastHistory	I-problem
+disease	I-pastHistory	I-problem
+.	O	O
+
+family	O	O
+history	O	O
+noncontributory	O	O
+.	O	O
+
+past	O	O
+medical	O	O
+history	O	O
+:	O	O
+hypertension	B-pastHistory	B-problem
+,	O	O
+hyperlipidemia	B-pastHistory	B-problem
+,	O	O
+recently	O	O
+diagnosed	O	O
+with	O	O
+parkinson	B-pastHistory	B-problem
+'	I-pastHistory	I-problem
+s	I-pastHistory	I-problem
+,	O	O
+as	O	O
+a	O	O
+parkinson	O	B-problem
+'	O	I-problem
+s	O	I-problem
+tremor	O	I-problem
+,	O	O
+admitted	O	O
+for	O	O
+syncopal	O	B-test
+evaluation	O	I-test
+.	O	O
+
+past	O	O
+surgical	O	O
+history	O	O
+:	O	O
+back	B-pastHistory	B-treatment
+surgery	I-pastHistory	I-treatment
+,	O	O
+shoulder	B-pastHistory	B-treatment
+surgery	I-pastHistory	I-treatment
+,	O	O
+and	O	O
+appendicectomy	B-pastHistory	B-treatment
+.	O	O
+
+family	O	O
+history	O	O
+:	O	O
+nonsignificant	O	O
+.	O	O
+
+medications	O	O
+:	O	O
+1	O	O
+.	O	O
+
+pain	B-pastHistory	B-drug
+medications	I-pastHistory	I-drug
+.	O	O
+
+2	O	O
+.	O	O
+
+thyroid	B-pastHistory	B-treatment
+supplementation	I-pastHistory	I-treatment
+.	O	O
+
+3	O	O
+.	O	O
+
+lovastatin	B-pastHistory	B-drug
+20	O	O
+mg	O	O
+daily	O	O
+.	O	O
+
+4	O	O
+.	O	O
+
+propranolol	B-pastHistory	B-drug
+20	O	O
+b	O	O
+.	O	O
+i	O	O
+.	O	O
+d	O	O
+.	O	O
+
+5	O	O
+.	O	O
+
+protonix	B-pastHistory	B-drug
+.	O	O
+
+6	O	O
+.	O	O
+
+flomax	B-pastHistory	B-drug
+.	O	O
+allergies	O	O
+:	O	O
+none	O	O
+.	O	O
+
+personal	O	O
+history	O	O
+:	O	O
+he	O	O
+is	B-socialHistory	O
+married	I-socialHistory	O
+.	O	O
+
+nonsmoker	B-socialHistory	O
+.	O	O
+does	B-socialHistory	O
+not	I-socialHistory	O
+consume	I-socialHistory	O
+alcohol	I-socialHistory	O
+.	O	O
+
+no	B-socialHistory	O
+history	I-socialHistory	O
+of	I-socialHistory	O
+recreational	I-socialHistory	O
+drug	I-socialHistory	O
+use	I-socialHistory	O
+.	O	O
+
+review	O	O
+of	O	O
+systems	O	O
+constitutional	O	O
+:	O	O
+no	O	O
+weakness	O	B-problem
+,	O	O
+fatigue	O	B-problem
+,	O	O
+or	O	O
+tiredness	O	B-problem
+.	O	O
+
+heent	O	O
+:	O	O
+no	O	O
+history	O	O
+of	O	O
+cataract	O	B-problem
+or	O	O
+glaucoma	O	B-problem
+.	O	O
+
+cardiovascular	O	O
+:	O	O
+no	O	O
+congestive	O	B-problem
+heart	O	I-problem
+failure	O	I-problem
+.	O	O
+
+no	O	O
+arrhythmias	O	B-problem
+.	O	O
+
+respiratory	O	O
+:	O	O
+no	O	O
+history	O	O
+of	O	O
+pneumonia	O	B-problem
+or	O	O
+valley	O	B-problem
+fever	O	I-problem
+.	O	O
+
+gastrointestinal	O	O
+:	O	O
+no	O	O
+nausea	O	B-problem
+,	O	O
+vomiting	O	B-problem
+,	O	O
+hematemesis	O	B-problem
+,	O	O
+or	O	O
+melena	O	B-problem
+.	O	O
+
+urological	O	O
+:	O	O
+no	O	O
+frequency	O	B-problem
+or	O	O
+urgency	O	B-problem
+.	O	O
+
+musculoskeletal	O	O
+:	O	O
+arthritis	O	B-problem
+and	O	O
+muscle	O	B-problem
+weakness	O	I-problem
+.	O	O
+
+skin	O	O
+:	O	O
+nonsignificant	O	O
+.	O	O
+
+neurologic	O	O
+:	O	O
+no	O	O
+tia	O	B-problem
+or	O	O
+cva	O	B-problem
+.	O	O
+
+no	O	O
+seizure	O	B-problem
+disorder	O	I-problem
+.	O	O
+
+endocrine	O	O
+/	O	O
+hematologic	O	O
+:	O	O
+nonsignificant	O	O
+.	O	O
+
+physical	O	O
+examination	O	O
+vital	O	O
+signs	O	O
+:	O	O
+pulse	O	B-test
+of	O	O
+93	O	O
+,	O	O
+blood	O	B-test
+pressure	O	I-test
+of	O	O
+158	O	O
+/	O	O
+93	O	O
+,	O	O
+afebrile	O	B-problem
+,	O	O
+and	O	O
+respiratory	O	B-test
+rate	O	I-test
+16	O	O
+per	O	O
+minute	O	O
+.	O	O
+heent	O	O
+:	O	O
+atraumatic	O	O
+and	O	O
+normocephalic	O	O
+.	O	O
+
+neck	O	O
+:	O	O
+neck	O	O
+veins	O	O
+are	O	O
+flat	O	O
+.	O	O
+
+no	O	O
+significant	O	O
+carotid	O	B-problem
+bruits	O	I-problem
+.	O	O
+
+lungs	O	O
+:	O	O
+air	O	O
+entry	O	O
+is	O	O
+bilaterally	O	O
+decreased	O	O
+.	O	O
+
+heart	O	O
+:	O	O
+pmi	O	O
+is	O	O
+displaced	O	B-problem
+.	O	O
+
+s1	O	O
+and	O	O
+s2	O	O
+are	O	O
+regular	O	O
+.	O	O
+
+abdomen	O	O
+:	O	O
+soft	O	O
+and	O	O
+nontender	O	O
+.	O	O
+
+bowel	O	O
+sounds	O	O
+are	O	O
+present	O	O
+.	O	O
+
+extremities	O	O
+:	O	O
+no	O	O
+edema	O	B-problem
+.	O	O
+
+pulses	O	B-test
+are	O	O
+palpable	O	O
+.	O	O
+
+no	O	O
+clubbing	O	B-problem
+or	O	O
+cyanosis	O	B-problem
+.	O	O
+
+the	O	O
+patient	O	O
+is	O	O
+moving	O	O
+all	O	O
+extremities	O	O
+;	O	O
+however	O	O
+,	O	O
+the	O	O
+patient	O	O
+has	O	O
+tremors	O	B-problem
+.	O	O
+
+radiological	O	O
+data	O	O
+:	O	O
+ekg	O	B-test
+reveals	O	O
+normal	O	O
+sinus	O	O
+rhythm	O	O
+with	O	O
+underlying	O	O
+nonspecific	O	B-problem
+st	O	I-problem
+-	O	I-problem
+t	O	I-problem
+changes	O	I-problem
+secondary	O	O
+to	O	O
+tremors	O	B-problem
+.	O	O
+
+laboratory	O	O
+data	O	O
+:	O	O
+h	O	B-test
+&	O	I-test
+h	O	I-test
+stable	O	O
+.	O	O
+
+white	O	B-test
+count	O	I-test
+of	O	O
+14	O	O
+.	O	O
+
+bun	O	B-test
+and	O	O
+creatinine	O	B-test
+are	O	O
+within	O	O
+normal	O	O
+limits	O	O
+.	O	O
+
+cardiac	O	B-test
+enzyme	O	I-test
+profile	O	I-test
+is	O	O
+negative	O	O
+.	O	O
+
+ammonia	O	B-test
+level	O	I-test
+is	O	O
+elevated	O	B-problem
+at	O	O
+69	O	O
+.	O	O
+
+ct	O	B-test
+angiogram	O	I-test
+of	O	I-test
+the	O	O
+chest	O	O
+,	O	O
+no	O	O
+evidence	O	O
+of	O	O
+pulmonary	O	B-problem
+embolism	O	I-problem
+.	O	O
+
+chest	O	B-test
+x	O	I-test
+-	O	I-test
+ray	O	I-test
+is	O	O
+negative	O	O
+for	O	O
+acute	O	B-problem
+changes	O	I-problem
+.	O	O
+
+ct	O	B-test
+of	O	I-test
+the	O	I-test
+head	O	I-test
+,	O	O
+unremarkable	O	O
+,	O	O
+chronic	O	B-problem
+skin	O	I-problem
+changes	O	I-problem
+.	O	O
+
+liver	O	B-test
+enzymes	O	I-test
+are	O	O
+within	O	O
+normal	O	O
+limits	O	O
+.	O	O
+
+impression	O	O
+:	O	O
+1	O	O
+.	O	O
+
+the	O	O
+patient	O	O
+is	O	O
+a	O	O
+69	O	O
+-	O	O
+year	O	O
+-	O	O
+old	O	O
+gentleman	O	O
+,	O	O
+admitted	O	O
+with	O	O
+syncopal	O	B-problem
+episode	O	I-problem
+and	O	O
+possible	O	O
+seizure	O	B-problem
+disorder	O	I-problem
+.	O	O
+
+2	O	O
+.	O	O
+
+elevated	O	B-problem
+ammonia	O	I-problem
+,	O	O
+unclear	O	O
+etiology	O	O
+,	O	O
+possible	O	O
+encephalopathy	O	B-problem
+.	O	O
+
+3	O	O
+.	O	O
+
+cardiac	O	O
+risk	O	O
+factors	O	O
+of	O	O
+hypertension	O	B-problem
+and	O	O
+borderline	O	O
+hyperlipidemia	O	B-problem
+.	O	O
+
+no	O	O
+prior	O	O
+history	O	O
+of	O	O
+documented	O	O
+coronary	O	B-problem
+artery	O	I-problem
+disease	O	I-problem
+.	O	O
+
+recommendations	O	O
+:	O	O
+1	O	O
+.	O	O
+
+from	O	O
+cardiac	O	O
+standpoint	O	O
+,	O	O
+echocardiogram	O	B-test
+with	O	O
+lv	O	B-test
+function	O	I-test
+.	O	O
+
+2	O	O
+.	O	O
+
+conservative	O	B-treatment
+treatment	O	I-treatment
+.	O	O
+
+3	O	O
+.	O	O
+
+neurological	O	B-test
+evaluation	O	I-test
+.	O	O
+
+keywords	O	O
+:	O	O
+general	O	O
+medicine	O	O
+,	O	O
+hypertension	O	B-problem
+,	O	O
+hyperlipidemia	O	B-problem
+,	O	O
+shortness	O	B-problem
+of	O	I-problem
+breath	O	I-problem
+,	O	O
+coronary	O	B-problem
+artery	O	I-problem
+disease	O	I-problem
+,	O	O
+seizure	O	B-problem
+activity	O	I-problem
+,	O	O
+seizure	O	B-problem
+disorder	O	I-problem
+,	O	O
+coronary	O	O
+,	O	O
+seizure	O	B-problem
+,	O	O
+chest	O	O
+,	O	O
+cardiac	O	O
+,	O	O
+syncope	O	B-problem
+,	O	O
+
