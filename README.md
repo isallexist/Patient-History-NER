@@ -15,3 +15,5 @@ Transformer-based clinical language models for recognizing patient historical en
   + CLAMP contains CLMs with CLAMP output support
   + train.py and cross_evaluation.py to train and evaluate the model(s)
   + The model .bin file are not uploaded because of storage consumption
+
+Medical transcription samples and reports used as our training and benchmark dataset are available on [MTSamples.com](https://www.mtsamples.com )
