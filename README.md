@@ -11,6 +11,7 @@ Transformer-based clinical language models for recognizing patient historical en
   + "Section tag" indicates the start and the end of the section, for example 'hpi-s' indicates that the HPI section start from this word, and 'hpi-end' indicates that the HPI section end at this word.
 
 - The source code is in src folder:
+  + GPT4o jupyter notebook is for the baseline model
   + nonCLAMP contains CLMs without CLAMP output
   + CLAMP contains CLMs with CLAMP output support
   + train.py and cross_evaluation.py to train and evaluate the model(s)
